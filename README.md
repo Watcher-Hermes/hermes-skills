@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Hermes Skills" width="500">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://hermes-agent.nousresearch.com/img/hermes-og-image-blue.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://hermes-agent.nousresearch.com/img/hermes-og-image-blue.png">
+    <img src="https://hermes-agent.nousresearch.com/img/hermes-og-image-blue.png" alt="Hermes Agent" width="600">
+  </picture>
 </p>
 
 <p align="center">

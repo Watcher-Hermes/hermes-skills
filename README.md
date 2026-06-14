@@ -126,7 +126,7 @@ skills_list(category='windows-automation')
 
 ## 📄 Lisans
 
-**MIT** — Al, kullan, fork'la, değiştir, paylaş. Ticari kullanım dahil her şey serbest.
+**Unlicense (Public Domain)** — Herkes ne isterse onu yapabilir. Kullan, çoğalt, değiştir, sat, fork'la, kendi projene koy. Hiçbir şart, hiçbir kısıtlama yok.
 
-**Tek şart:** Bu yazılım "OLDUĞU GİBİ" sunulur, hiçbir garanti İÇERMEZ. Kullanımından doğacak hiçbir sorundan yazarlar sorumlu tutulamaz. Detay: [LICENSE](LICENSE)
+**Garanti YOK.** "OLDUĞU GİBİ" sunulur. Hiçbir sorundan yazarlar sorumlu tutulamaz. Detay: [LICENSE](LICENSE)
 

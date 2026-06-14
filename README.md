@@ -123,8 +123,3 @@ skills_list(category='windows-automation')
 | [obsidian-vault](https://github.com/Watcher-Hermes/obsidian-vault) | Obsidian vault yedekleri |
 | [hermes-memory-backup](https://github.com/Watcher-Hermes/hermes-memory-backup) | Memory yedekleri |
 
----
-
-## 📄 Lisans
-
-MIT — her skill kendi `SKILL.md` frontmatter'ında lisans bilgisi taşır.

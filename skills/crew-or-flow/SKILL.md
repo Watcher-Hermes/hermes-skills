@@ -1,6 +1,7 @@
 ---
 name: crew-or-flow
 description: Pick CrewAI Crew or Flow for a given task, and scaffold the minimal implementation.
+title: "Crew Or Flow"
 version: 1.0.0
 phase: 14
 lesson: 15

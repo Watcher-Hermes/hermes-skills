@@ -1,9 +1,12 @@
 ---
 name: enter
 description: Vurgulanan düğmeyi onayla — Windows klavye kısayolu
+title: "Enter"
 trigger: "Enter"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # enter
 

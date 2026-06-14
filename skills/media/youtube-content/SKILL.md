@@ -1,9 +1,12 @@
 ---
 name: youtube-content
 description: "YouTube transcripts to summaries, threads, blogs."
+title: "Youtube Content"
 platforms: [linux, macos, windows]
 
-audience: user---
+audience: user
+tags: [audio, media, video]
+category: media---
 
 # YouTube Content Tool
 

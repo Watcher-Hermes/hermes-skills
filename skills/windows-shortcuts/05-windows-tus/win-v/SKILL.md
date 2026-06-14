@@ -1,9 +1,12 @@
 ---
 name: win-v
 description: Pano geçmişi — Windows klavye kısayolu
+title: "Win V"
 trigger: "Win + V"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-v
 

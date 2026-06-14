@@ -1,8 +1,11 @@
 ---
 name: skill-obsidian-first-check
 description: Her görevde ilk olarak Hermes skill listesi ve Obsidian vault taraması yap. Eğer konu zaten kayıtlıysa yeni dokümantasyon oluşturma, mevcut kayda devam et. Bu, tekrar kaydetme zaman kaybını önler.
+title: "Skill Obsidian First Check"
 
-audience: user---
+audience: user
+tags: [automation, obsidian, windows]
+category: windows-automation---
 
 # Skill + Obsidian Ön Kontrol Kuralı
 

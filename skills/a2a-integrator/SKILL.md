@@ -1,6 +1,7 @@
 ---
 name: a2a-integrator
 description: Design an A2A integration between two agents — Agent Card, task schemas, auth, streaming or polling.
+title: "A2A Integrator"
 version: 1.0.0
 phase: 16
 lesson: 12

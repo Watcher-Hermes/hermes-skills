@@ -1,6 +1,7 @@
 ---
 name: skill-concept-prompt-designer
 description: Turn user utterances into well-formed SAM 3 concept prompts with splitting, disambiguation, and fallbacks
+title: "Skill Concept PRompt Designer"
 version: 1.0.0
 phase: 4
 lesson: 24

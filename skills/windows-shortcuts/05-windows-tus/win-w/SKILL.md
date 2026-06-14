@@ -1,9 +1,12 @@
 ---
 name: win-w
 description: Widget'lar — Windows klavye kısayolu
+title: "Win W"
 trigger: "Win + W"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-w
 

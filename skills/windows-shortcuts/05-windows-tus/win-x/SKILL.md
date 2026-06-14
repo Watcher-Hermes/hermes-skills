@@ -1,9 +1,12 @@
 ---
 name: win-x
 description: Hızlı Bağlantı menüsü — Windows klavye kısayolu
+title: "Win X"
 trigger: "Win + X"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-x
 

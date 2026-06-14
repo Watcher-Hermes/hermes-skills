@@ -1,9 +1,12 @@
 ---
 name: ctrl-w
 description: Geçerli pencereyi kapat — Windows klavye kısayolu
+title: "Ctrl W"
 trigger: "Ctrl + W"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-w
 

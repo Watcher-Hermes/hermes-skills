@@ -1,9 +1,12 @@
 ---
 name: automation-audit-ops
 description: Evidence-first automation inventory and overlap audit workflow for ECC. Use when the user wants to know which jobs, hooks, connectors, MCP servers, or wrappers are live, broken, redundant, or missing before fixing anything.
+title: "Automation Audit Ops"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Automation Audit Ops
 

@@ -1,6 +1,7 @@
 ---
 name: codebase-rag
 description: Build a cross-repo semantic search system with AST-aware chunking, hybrid retrieval, incremental re-index, and cited answers.
+title: "Codebase RAG"
 version: 1.0.0
 phase: 19
 lesson: 02

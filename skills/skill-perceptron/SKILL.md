@@ -1,6 +1,7 @@
 ---
 name: skill-perceptron
 description: Understand the perceptron pattern and when to use single-layer vs multi-layer architectures
+title: "Skill Perceptron"
 version: 1.0.0
 phase: 3
 lesson: 1

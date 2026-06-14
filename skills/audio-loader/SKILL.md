@@ -1,6 +1,7 @@
 ---
 name: audio-loader
 description: Validate a raw audio file against a target model's expectations and resample it safely.
+title: "Audio Loader"
 version: 1.0.0
 phase: 6
 lesson: 01

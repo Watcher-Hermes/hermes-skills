@@ -1,9 +1,12 @@
 ---
 name: ctrl-eksi
 description: Uzaklaştır — Windows klavye kısayolu
+title: "Ctrl Eksi"
 trigger: "Ctrl + -"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-eksi
 

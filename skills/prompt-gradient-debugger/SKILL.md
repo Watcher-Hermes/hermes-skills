@@ -1,6 +1,7 @@
 ---
 name: prompt-gradient-debugger
 description: Diagnose and fix gradient problems in neural networks -- vanishing gradients, exploding gradients, and NaN values
+title: "PRompt Gradient Debugger"
 phase: 03
 lesson: 03
 

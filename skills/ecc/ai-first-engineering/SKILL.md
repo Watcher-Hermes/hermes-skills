@@ -1,9 +1,12 @@
 ---
 name: ai-first-engineering
 description: Engineering operating model for teams where AI agents generate a large share of implementation output.
+title: "AI First Engineering"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # AI-First Engineering
 

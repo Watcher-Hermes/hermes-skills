@@ -1,6 +1,7 @@
 ---
 name: vllm-scheduler-reader
 description: Diagnose a vLLM serving config by reading the scheduler-level knobs and identifying which of PagedAttention, continuous batching, and chunked prefill is the bottleneck.
+title: "Vllm Scheduler Reader"
 version: 1.0.0
 phase: 17
 lesson: 04

@@ -1,6 +1,7 @@
 ---
 name: prompt-3d-task-router
 description: Route to the right 3D representation (point cloud, mesh, voxel, NeRF, Gaussian splat) based on task and input
+title: "PRompt 3D Task Router"
 phase: 4
 lesson: 13
 

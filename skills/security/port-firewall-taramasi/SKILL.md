@@ -1,12 +1,14 @@
 ---
 name: port-firewall-taramasi
 description: >-
+title: "Port Firewall Taramasi"
   Açık port tespiti ve firewall analizi — netstat + güvenlik duvarı kontrolü,
   risk değerlendirmesi. TETİKLEYİCİ: "güvenlik taraması", "açık port",
   "firewall kontrol", "port tara", "hangi portlar açık"
 version: 1.0.0
 author: marko
 tags: [guvenlik, windows, port, firewall, tarama, nmap]
+category: security
 audience: user
 ---
 

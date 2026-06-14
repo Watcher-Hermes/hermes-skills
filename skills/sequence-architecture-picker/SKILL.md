@@ -1,6 +1,7 @@
 ---
 name: sequence-architecture-picker
 description: Pick sequence architecture (RNN, transformer, SSM, hybrid) given length, throughput, and training budget.
+title: "Sequence Architecture Picker"
 version: 1.0.0
 phase: 7
 lesson: 1

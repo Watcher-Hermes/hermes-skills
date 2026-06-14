@@ -1,6 +1,7 @@
 ---
 name: vlm-recipe-picker
 description: Pick an open-weight VLM recipe (encoder, connector, LLM, data mix, resolution schedule) with ablation-table citations for every choice.
+title: "Vlm Recipe Picker"
 version: 1.0.0
 phase: 12
 lesson: 07

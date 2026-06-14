@@ -1,8 +1,11 @@
 ---
 name: ai-video-content-pipeline
 description: Automate AI-powered short video creation. Covers MoneyPrinterTurbo setup, Pexels API integration, LLM configuration (DeepSeek/Gemini), TTS voice setup, local video fallback, and failure recovery patterns. NOT for manual video editing workflows (Adobe Premiere, DaVinci Resolve).
+title: "AI Video Content Pipeline"
 
-audience: user---
+audience: user
+tags: [content, creative, video]
+category: content-creation---
 
 # AI Video Content Pipeline
 

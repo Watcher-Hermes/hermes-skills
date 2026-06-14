@@ -1,6 +1,7 @@
 ---
 name: skill-inference-optimization
 description: Diagnose and optimize LLM inference serving throughput, latency, and cost
+title: "Skill Inference Optimization"
 version: 1.0.0
 phase: 10
 lesson: 12

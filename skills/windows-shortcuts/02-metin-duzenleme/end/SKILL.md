@@ -1,9 +1,12 @@
 ---
 name: end
 description: Satır sonuna git — Windows klavye kısayolu
+title: "End"
 trigger: "End"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # end
 

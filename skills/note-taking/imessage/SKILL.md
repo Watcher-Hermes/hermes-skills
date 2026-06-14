@@ -1,6 +1,7 @@
 ---
 name: imessage
 description: Send and receive iMessages/SMS via the imsg CLI on macOS.
+title: "Imessage"
 version: 1.0.0
 author: Hermes Agent
 license: MIT
@@ -8,7 +9,9 @@ platforms: [macos]
 metadata:
   hermes:
     tags: [iMessage, SMS, messaging, macOS, Apple]
+category: note-taking
 audience: user
+tags: [note-taking, obsidian, productivity]
 prerequisites:
   commands: [imsg]
 ---

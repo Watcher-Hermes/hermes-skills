@@ -1,9 +1,12 @@
 ---
 name: skill-stocktake
 description: "Use when auditing Claude skills and commands for quality. Supports Quick Scan (changed skills only) and Full Stocktake modes with sequential subagent batch evaluation."
+title: "Skill Stocktake"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # skill-stocktake
 

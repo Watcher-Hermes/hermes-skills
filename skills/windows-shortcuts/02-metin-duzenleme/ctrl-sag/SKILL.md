@@ -1,9 +1,12 @@
 ---
 name: ctrl-sag
 description: Bir kelime sağa atla — Windows klavye kısayolu
+title: "Ctrl Sag"
 trigger: "Ctrl + Sağ Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-sag
 

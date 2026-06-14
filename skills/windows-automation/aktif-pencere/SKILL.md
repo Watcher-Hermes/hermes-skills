@@ -1,7 +1,10 @@
 ---
 name: aktif-pencere
+title: "Aktif Pencere"
 title: ""
 audience: user
+tags: [automation, windows]
+category: windows-automation
 tags: []
 ---
 

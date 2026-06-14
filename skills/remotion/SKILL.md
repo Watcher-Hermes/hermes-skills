@@ -1,6 +1,7 @@
 ---
 name: remotion
 description: "Create editable AI video projects with Remotion and React, then preview and render them to MP4. Use for vertical short videos, product demos, story-driven animations, HUD/tech visuals, feed ads, tutorial videos, subtitles, voiceover, sound effects, and code-based video iteration."
+title: "Remotion"
 version: 1.0.0
 author: Ekko
 license: MIT

@@ -1,9 +1,12 @@
 ---
 name: ctrl-0
 description: Yakınlaştırmayı sıfırla — Windows klavye kısayolu
+title: "Ctrl 0"
 trigger: "Ctrl + 0"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-0
 

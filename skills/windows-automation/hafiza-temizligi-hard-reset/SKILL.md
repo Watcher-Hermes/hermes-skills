@@ -1,8 +1,10 @@
 ---
 name: hafiza-temizligi-hard-reset
 description: "Hermes Agent cache/session/state temizligi. IKI MOD: 'konusma gecmisimi sil' (sadece state.db + sessions) veya 'hard reset' (cache, history, log + her sey)."
+title: "Hafiza Temizligi Hard Reset"
 category: windows-automation
 audience: user
+tags: [automation, windows]
 ---
 
 # Hafıza Temizliği — Hard Reset

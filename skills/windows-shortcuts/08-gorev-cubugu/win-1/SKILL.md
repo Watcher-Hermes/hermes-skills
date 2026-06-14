@@ -1,9 +1,12 @@
 ---
 name: win-1
 description: Görev çubuğundaki uygulamayı aç / geç — Windows klavye kısayolu
+title: "Win 1"
 trigger: "Win + 1...9"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-1
 

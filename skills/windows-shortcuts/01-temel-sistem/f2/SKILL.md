@@ -1,9 +1,12 @@
 ---
 name: f2
 description: Seçili öğeyi yeniden adlandır — Windows klavye kısayolu
+title: "F2"
 trigger: "F2"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # f2
 

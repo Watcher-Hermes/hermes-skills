@@ -1,10 +1,13 @@
 ---
 name: tor-kore-siteleri-bypass
 description: Kore sitelerine Tor üzerinden erişim. Bing KR ve Naver çalışır. BoanNews SOCKS bloklu.
+title: "Tor Kore Siteleri Bypass"
 version: 1.0.0
 platforms: [windows]
 
-audience: user---
+audience: user
+tags: [automation, tor, windows]
+category: windows-automation---
 
 # Kore Siteleri Tor Bypass Çözümü
 

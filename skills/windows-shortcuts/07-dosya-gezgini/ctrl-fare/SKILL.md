@@ -1,9 +1,12 @@
 ---
 name: ctrl-fare
 description: Simge boyutunu değiştir — Windows klavye kısayolu
+title: "Ctrl Fare"
 trigger: "Ctrl + Fare tekerleği"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-fare
 

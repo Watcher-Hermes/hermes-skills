@@ -1,6 +1,7 @@
 ---
 name: skill-function-calling-patterns
 description: Decision framework for implementing function calling in production -- tool design, error handling, security, and provider patterns
+title: "Skill Function Calling Patterns"
 version: 1.0.0
 phase: 11
 lesson: 09

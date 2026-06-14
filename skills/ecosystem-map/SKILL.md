@@ -1,6 +1,7 @@
 ---
 name: ecosystem-map
 description: Map an alignment claim or evaluation to the organisation, methodology, and cross-checks.
+title: "Ecosystem Map"
 version: 1.0.0
 phase: 18
 lesson: 28

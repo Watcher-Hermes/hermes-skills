@@ -1,9 +1,12 @@
 ---
 name: ctrl-backspace
 description: Soldaki kelimeyi sil — Windows klavye kısayolu
+title: "Ctrl Backspace"
 trigger: "Ctrl + Backspace"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-backspace
 

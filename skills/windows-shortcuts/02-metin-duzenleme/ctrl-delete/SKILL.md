@@ -1,9 +1,12 @@
 ---
 name: ctrl-delete
 description: Sağdaki kelimeyi sil — Windows klavye kısayolu
+title: "Ctrl Delete"
 trigger: "Ctrl + Delete"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-delete
 

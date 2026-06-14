@@ -1,9 +1,12 @@
 ---
 name: obsidian
 description: Read, search, create, and edit notes in the Obsidian vault.
+title: "Obsidian"
 platforms: [linux, macos, windows]
 
-audience: user---
+audience: user
+tags: [note-taking, obsidian, productivity]
+category: note-taking---
 
 # Obsidian Vault
 

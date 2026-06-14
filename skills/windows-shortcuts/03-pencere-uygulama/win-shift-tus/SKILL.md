@@ -1,9 +1,12 @@
 ---
 name: win-shift-tus
 description: Pencereyi diğer monitöre taşı — Windows klavye kısayolu
+title: "Win Shift Tus"
 trigger: "Win + Shift + Sol/Sağ Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-shift-tus
 

@@ -1,6 +1,7 @@
 ---
 name: skill-latency-profiler
 description: Write a complete latency-benchmarking script with warmup, synchronisation, percentiles, and memory tracking
+title: "Skill Latency PRofiler"
 version: 1.0.0
 phase: 4
 lesson: 15

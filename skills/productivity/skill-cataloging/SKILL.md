@@ -1,13 +1,16 @@
 ---
 name: skill-cataloging
 description: Export and maintain a browsable catalog of all Hermes skills in an Obsidian vault. Enumerates skill definitions, copies their documentation, and generates a refreshed index.
+title: "Skill Cataloging"
 version: 1.0.0
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [obsidian, skills, sync, export, documentation]
+category: productivity
 audience: user
+tags: [productivity, tools]
 ---
 
 # Skill Cataloging
@@ -169,22 +172,25 @@ INDEX
 ## Related
 
 - `obsidian` — vault write/sync conventions, wikilink format, idempotent index refreshes
+- `references/nemoclaw-repo-analysis.md` — NVIDIA NemoClaw repo incelemesi: skill pattern'i, AGENTS.md formatı, Hermes manifest
+- `references/github-repo-layout.md` — GitHub'daki skills/ altında repo yapısı, hermes-full-backup organizasyonu
 
 ## Audience Classification
 
-NemoClaw'dan esinlenen 3'lü audience sistemi ile skill'leri **user / maintainer / contributor** olarak sınıflandır.
+NemoClaw (NVIDIA/NemoClaw) pattern'iyle skill'ler **user / maintainer / contributor** olarak 3 audience'a ayrılır.
 
-Detaylı prosedür, Python scripti ve sınıflandırma tablosu:
+Detaylı prosedür, Python scripti, sınıflandırma listeleri ve güvenlik yedekleme talimatı:
 → `references/audience-classification.md`
 
-Kısaca:
-- **contributor** — kod geliştirme (software-development, github, testing)
-- **maintainer** — sistem bakımı (cron/backup, audit, vault maintenance)
-- **user** — günlük kullanım (AI araçları, windows otomasyonu, media, creative)
+**Dağılım (14 Haziran 2026):** user=848 / contributor=287 / maintainer=49 (toplam 1.184)
 
-Her SKILL.md frontmatter'ına `audience: user | maintainer | contributor` alanı eklenir.
-Audit skill'leri (isimde `audit`/`auditor`) otomatik maintainer olur.
-`software-development/`, `github/` kategorileri otomatik contributor olur.
+Kısaca:
+- **contributor** — kod geliştirme (software-development/, github/, ecc pattern'leri)
+- **maintainer** — sistem bakımı (devops/, *-audit/*-auditor, cron/backup)
+- **user** — günlük kullanım (geri kalan ~%72)
+
+Her SKILL.md frontmatter'ına `audience` alanı eklenir.
+Toplu güncelleme öncesi `.audience-backup/` dizinine SHA256 yedek alınması ZORUNLUDUR.
 
 ## Otomatik Sync
 

@@ -1,9 +1,12 @@
 ---
 name: agentic-engineering
 description: Operate as an agentic engineer using eval-first execution, decomposition, and cost-aware model routing.
+title: "Agentic Engineering"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Agentic Engineering
 

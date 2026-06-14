@@ -1,9 +1,12 @@
 ---
 name: ctrl-j
 description: İndirilenler — Windows klavye kısayolu
+title: "Ctrl J"
 trigger: "Ctrl + J"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-j
 

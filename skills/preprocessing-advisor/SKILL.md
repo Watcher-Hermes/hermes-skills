@@ -1,6 +1,7 @@
 ---
 name: preprocessing-advisor
 description: Recommends a tokenization, stemming, and lemmatization setup for an NLP task.
+title: "PReprocessing Advisor"
 phase: 5
 lesson: 01
 

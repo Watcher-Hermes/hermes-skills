@@ -1,9 +1,12 @@
 ---
 name: win-tab
 description: Görev görünümü — Windows klavye kısayolu
+title: "Win Tab"
 trigger: "Win + Tab"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-tab
 

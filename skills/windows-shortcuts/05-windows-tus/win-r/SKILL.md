@@ -1,9 +1,12 @@
 ---
 name: win-r
 description: Çalıştır penceresi — Windows klavye kısayolu
+title: "Win R"
 trigger: "Win + R"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-r
 

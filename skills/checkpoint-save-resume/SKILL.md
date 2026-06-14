@@ -1,6 +1,7 @@
 ---
 name: checkpoint-save-resume
 description: Atomic, sharded checkpoints with full RNG capture so a killed run resumes mid-epoch with the same loss trajectory.
+title: "Checkpoint Save Resume"
 version: 1.0.0
 phase: 19
 lesson: 47

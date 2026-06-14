@@ -1,9 +1,12 @@
 ---
 name: alt-sag
 description: İleri — Windows klavye kısayolu
+title: "Alt Sag"
 trigger: "Alt + Sağ Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # alt-sag
 

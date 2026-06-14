@@ -1,5 +1,6 @@
 ---
 tags: [hermes, skill, system, security]
+category: windows-automation
 audience: user
 shortcut: Ctrl + Alt + Delete
 function: Güvenlik ekranı (kilit, oturum değiştirme, görev yöneticisi)

@@ -1,9 +1,12 @@
 ---
 name: win-x-t
 description: Görev Yöneticisi (menü üzerinden) — Windows klavye kısayolu
+title: "Win X T"
 trigger: "Win + X + T"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-x-t
 

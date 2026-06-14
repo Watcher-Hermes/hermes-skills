@@ -1,8 +1,11 @@
 ---
 name: kali-vbox-klavye-iletimi
 description: VirtualBox VM icindeki Kali Linux terminaline klavye girisini VBoxManage keyboardputstring ile yapma + USB WiFi passthrough ve cevre ag taramasi.
+title: "Kali Vbox Klavye Iletimi"
 
-audience: user---
+audience: user
+tags: [automation, windows]
+category: windows-automation---
 
 # Kali VirtualBox Klavye Iletimi
 

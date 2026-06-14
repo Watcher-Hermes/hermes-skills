@@ -1,13 +1,16 @@
 ---
 name: telegram-approval-bridge
 description: Multi-model LLM bridge with file-based Telegram approval gates. Use when the user wants alternating Claude+Ollama reasoning with manual 'devam/dur' control between turns.
+title: "Telegram Approval Bridge"
 version: 1.0.0
 author: Hermes Agent + User
 license: MIT
 metadata:
   hermes:
     tags: [bridge, approval, claude, ollama, telegram, file-signal]
+category: autonomous-ai-agents
 audience: user
+tags: [agents, ai, automation, telegram]
 ---
 
 # Telegram-Onaylı LLM Köprü

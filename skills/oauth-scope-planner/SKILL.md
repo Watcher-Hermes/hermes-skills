@@ -1,6 +1,7 @@
 ---
 name: oauth-scope-planner
 description: Design the OAuth 2.1 scope set, pinning rules, and step-up policy for a remote MCP server.
+title: "Oauth Scope Planner"
 version: 1.0.0
 phase: 13
 lesson: 16

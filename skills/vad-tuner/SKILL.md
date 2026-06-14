@@ -1,6 +1,7 @@
 ---
 name: vad-tuner
 description: Pick VAD model, threshold, silence hangover, pre-roll, and turn-detection strategy for a voice agent.
+title: "Vad Tuner"
 version: 1.0.0
 phase: 6
 lesson: 14

@@ -1,6 +1,7 @@
 ---
 name: prompt-time-series-advisor
 description: Frame time series problems and recommend approaches
+title: "PRompt Time Series Advisor"
 phase: 2
 lesson: 15
 

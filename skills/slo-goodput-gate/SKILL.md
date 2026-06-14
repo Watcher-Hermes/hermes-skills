@@ -1,6 +1,7 @@
 ---
 name: slo-goodput-gate
 description: Produce a CI/CD-ready benchmark recipe that gates LLM deploys on goodput, not throughput, with P50/P90/P99 percentiles and a documented tool choice.
+title: "Slo Goodput Gate"
 version: 1.0.0
 phase: 17
 lesson: 08

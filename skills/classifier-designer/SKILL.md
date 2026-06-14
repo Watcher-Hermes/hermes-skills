@@ -1,6 +1,7 @@
 ---
 name: classifier-designer
 description: Pick architecture, augmentation, class-balance strategy, and eval metric for an audio classification task.
+title: "Classifier Designer"
 version: 1.0.0
 phase: 6
 lesson: 03

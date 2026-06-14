@@ -1,9 +1,12 @@
 ---
 name: ascii-video
 description: "ASCII video: convert video/audio to colored ASCII MP4/GIF."
+title: "Ascii Video"
 platforms: [linux, macos, windows]
 
-audience: user---
+audience: user
+tags: [creative, design, video]
+category: creative---
 
 # ASCII Video Production Pipeline
 

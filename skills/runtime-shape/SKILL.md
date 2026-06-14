@@ -1,6 +1,7 @@
 ---
 name: runtime-shape
 description: Pick a production runtime shape (request-response, streaming, queue, event, cron, durable) and wire observability.
+title: "Runtime Shape"
 version: 1.0.0
 phase: 14
 lesson: 29

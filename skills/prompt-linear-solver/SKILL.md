@@ -1,6 +1,7 @@
 ---
 name: prompt-linear-solver
 description: Recommend the right algorithm for solving a linear system Ax=b based on matrix properties
+title: "PRompt Linear Solver"
 phase: 1
 lesson: 17
 

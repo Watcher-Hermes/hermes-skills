@@ -1,6 +1,7 @@
 ---
 name: speculative-tuning
 description: Profile a decode workload and pick draft model, draft length K, temperature gate, and fallback policy for speculative decoding.
+title: "Speculative Tuning"
 version: 1.0.0
 phase: 10
 lesson: 25

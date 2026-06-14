@@ -1,8 +1,11 @@
 ---
 name: ag-taramasi-arp-vs-nmap
 description: Karsilastirmali ag tarama egitimi — arp-scan vs nmap -sn. Hangisi daha hizli, hangisi daha fazla cihaz bulur, nasil birlikte kullanilir.
+title: "Ag Taramasi Arp Vs Nmap"
 
-audience: user---
+audience: user
+tags: [automation, windows]
+category: windows-automation---
 
 # Ag Tarama Karsilastirmasi: arp-scan vs nmap -sn
 

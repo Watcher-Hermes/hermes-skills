@@ -1,6 +1,7 @@
 ---
 name: alm-picker
 description: Pick an audio-language model, benchmark subset, output modality (text vs speech), and guardrails for an audio-understanding task.
+title: "Alm Picker"
 version: 1.0.0
 phase: 6
 lesson: 10

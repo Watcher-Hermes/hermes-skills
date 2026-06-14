@@ -1,9 +1,12 @@
 ---
 name: ctrl-c
 description: Kopyala — Windows klavye kısayolu
+title: "Ctrl C"
 trigger: "Ctrl + C"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-c
 

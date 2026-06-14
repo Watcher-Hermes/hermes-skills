@@ -1,6 +1,7 @@
 ---
 name: prompt-context-optimizer
 description: Audit a context assembly strategy and recommend optimizations to reduce token waste and improve response quality
+title: "PRompt Context Optimizer"
 phase: 11
 lesson: 05
 

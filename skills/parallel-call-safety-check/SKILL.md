@@ -1,6 +1,7 @@
 ---
 name: parallel-call-safety-check
 description: Audit a tool registry for safe parallelization. Mark each tool parallel_safe, note ordering dependencies, and flag downstream rate-limit risk.
+title: "Parallel Call Safety Check"
 version: 1.0.0
 phase: 13
 lesson: 03

@@ -1,6 +1,7 @@
 ---
 name: transformer-review
 description: Review a transformer-from-scratch implementation against the 13 Phase 7 lessons.
+title: "Transformer Review"
 version: 1.0.0
 phase: 7
 lesson: 14

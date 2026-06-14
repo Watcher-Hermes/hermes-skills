@@ -3,6 +3,7 @@ name: self-contained-report-dashboard
 title: Self-Contained HTML Report Dashboard
 description: Build and edit single-file HTML data reporting dashboards with embedded Chart.js + SheetJS (xlsx.js). Excel-based data ingestion, pie/bar/line charts, tabular views, and auto-generated commentary.
 tags: [chartjs, sheetjs, xlsx, html-report, dashboard, data-visualization, turkish-defense]
+category: software-development
 audience: contributor
 ---
 

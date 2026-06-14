@@ -1,9 +1,12 @@
 ---
 name: win-ctrl-o
 description: Ekran klavyesi — Windows klavye kısayolu
+title: "Win Ctrl O"
 trigger: "Win + Ctrl + O"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-ctrl-o
 

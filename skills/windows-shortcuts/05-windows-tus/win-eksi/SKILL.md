@@ -1,9 +1,12 @@
 ---
 name: win-eksi
 description: Büyüteçte uzaklaştır — Windows klavye kısayolu
+title: "Win Eksi"
 trigger: "Win + - (eksi)"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-eksi
 

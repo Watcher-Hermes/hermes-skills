@@ -1,8 +1,11 @@
 ---
 name: android-api-apk-manager
 description: Android APK kontrolü yükleme yönetme. Mevcut varlıkları kontrol et, eksikleri indir/kur, yükleme olmayanları işle, tüm süreci doğrula.
+title: "Android API Apk Manager"
 
-audience: maintainer---
+audience: maintainer
+tags: [android, api, automation, devops, system]
+category: devops---
 
 # Android APK Manager Workflow
 

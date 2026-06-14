@@ -1,6 +1,7 @@
 ---
 name: skill-sampling-strategy
 description: Choose the right sampling method for generation, estimation, or inference
+title: "Skill SAMpling Strategy"
 version: 1.0.0
 phase: 1
 lesson: 16

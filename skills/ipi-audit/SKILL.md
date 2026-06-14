@@ -1,6 +1,7 @@
 ---
 name: ipi-audit
 description: Audit an agentic deployment for indirect prompt injection exposure and information-flow-control coverage.
+title: "IPi Audit"
 version: 1.0.0
 phase: 18
 lesson: 15

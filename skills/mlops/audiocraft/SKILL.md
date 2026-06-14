@@ -1,6 +1,7 @@
 ---
 name: audiocraft-audio-generation
 description: "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound."
+title: "Audiocraft Audio Generation"
 version: 1.0.0
 author: Orchestra Research
 license: MIT
@@ -9,7 +10,9 @@ platforms: [linux, macos]
 metadata:
   hermes:
     tags: [Multimodal, Audio Generation, Text-to-Music, Text-to-Audio, MusicGen]
+category: mlops
 audience: user
+tags: [ai, audio, machine-learning, mlops]
 
 ---
 

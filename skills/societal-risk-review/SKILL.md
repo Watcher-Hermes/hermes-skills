@@ -1,6 +1,7 @@
 ---
 name: societal-risk-review
 description: Review a deployment for societal-scale-risk posture using the CAIS four-risk framework and CAISI / SB-53 regulatory context.
+title: "Societal Risk Review"
 version: 1.0.0
 phase: 15
 lesson: 22

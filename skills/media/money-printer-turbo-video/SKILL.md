@@ -1,6 +1,7 @@
 ---
 name: money-printer-turbo-video
 description: MoneyPrinterTurbo ile otomatik video oluşturma — kurulum, yapılandırma, CLI ve WebUI kullanımı.
+title: "Money PRinter Turbo Video"
 triggers:
   - moneyprinter
   - video oluştur
@@ -8,7 +9,9 @@ triggers:
   - MoneyPrinterTurbo
   - deepseek video
 
-audience: user---
+audience: user
+tags: [audio, media, video]
+category: media---
 
 # MoneyPrinterTurbo Video Oluşturma
 

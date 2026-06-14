@@ -1,9 +1,12 @@
 ---
 name: ctrl-e
 description: Arama kutusuna odaklan — Windows klavye kısayolu
+title: "Ctrl E"
 trigger: "Ctrl + E"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-e
 

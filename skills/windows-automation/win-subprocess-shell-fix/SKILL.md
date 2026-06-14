@@ -1,9 +1,12 @@
 ---
 name: win-subprocess-shell-fix
 description: Windows'ta komutları subprocess.run ile çalıştırırken tam yol ve shell=True kullanma kuralı.
+title: "Win Subprocess Shell Fix"
 version: 1.0
 
-audience: user---
+audience: user
+tags: [automation, windows]
+category: windows-automation---
 # Windows'ta Subprocess Komut Çalıştırma Kuralı
 
 Windows'ta PATH'te olmayan komutları (npm ile kurulmuş `claude`, `ollama.exe` vb.) Python `subprocess.run` ile çalıştırırken:

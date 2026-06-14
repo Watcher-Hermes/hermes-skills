@@ -1,8 +1,10 @@
 ---
 name: youtube-video-isleme
 description: "YouTube URL islme merkezi. HIBRIT MOD (varsayilan): Pipeline + Rapor + Ogrenme Sorulari. 3 klasore dagitir. URL gelince dogrudan calisir."
+title: "Youtube Video Isleme"
 category: media
 audience: user
+tags: [audio, media, video]
 ---
 
 # YouTube Video İşleme — Hibrit Mod

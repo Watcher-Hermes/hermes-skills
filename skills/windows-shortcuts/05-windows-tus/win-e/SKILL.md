@@ -1,9 +1,12 @@
 ---
 name: win-e
 description: Dosya Gezgini — Windows klavye kısayolu
+title: "Win E"
 trigger: "Win + E"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-e
 

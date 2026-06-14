@@ -1,6 +1,7 @@
 ---
 name: multilingual-picker
 description: Pick source language, target model, and evaluation plan for a multilingual NLP task.
+title: "Multilingual Picker"
 version: 1.0.0
 phase: 5
 lesson: 18

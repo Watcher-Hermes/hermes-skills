@@ -1,6 +1,7 @@
 ---
 name: skill-end-to-end-safety-gate
 description: Three-checkpoint safety gate composing the input detector, streaming token filter, output classifier, and rules engine with a deterministic aggregation table and per-request trace
+title: "Skill End To End Safety Gate"
 version: 1.0.0
 phase: 19
 lesson: 87

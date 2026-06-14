@@ -1,6 +1,7 @@
 ---
 name: obsidian-vault-path-fix
 description: >
+title: "Obsidian Vault Path Fix"
   Windows'ta Obsidian vault yolunu düzeltir ve dosya konumunu doğrular.
   Varsayılan yanlış yol `C:\Users\marko\Documents\Obsidian Vault` yerine
   bu skill sadece ve sadece kullanıcıdan gelen kesin doğru yolu kullanır:
@@ -11,7 +12,9 @@ license: MIT
 metadata:
   hermes:
     tags: [obsidian, vault, path, windows, fix]
+category: note-taking
 audience: user
+tags: [note-taking, obsidian, productivity]
 ---
 
 # Obsidian Vault Path Fix

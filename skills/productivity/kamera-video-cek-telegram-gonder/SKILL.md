@@ -1,13 +1,16 @@
 ---
 name: kamera-video-cek-telegram-gonder
 description: Windows laptop kamerasından 10 sn video çekip Telegram'a gönder. OpenCV kurulumu, kamera indeksi taraması, kayıt doğrulama ve iletim adımlarını kapsar.
+title: "Kamera Video Cek Telegram Gonder"
 triggers:
   - kamera video çek
   - kamera kaydı gönder
   - webcam video telegram
   - video çek ilet
 
-audience: user---
+audience: user
+tags: [productivity, telegram, tools, video]
+category: productivity---
 
 # Kamera Video Çek ve Telegram Gönder
 

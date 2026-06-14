@@ -1,6 +1,7 @@
 ---
 name: asr-picker
 description: Pick ASR model, decoding strategy, chunking, and LM fusion for a given deployment target.
+title: "Asr Picker"
 version: 1.0.0
 phase: 6
 lesson: 04

@@ -1,6 +1,7 @@
 ---
 name: workbench-pack
 description: Generate a project-tuned drop-in agent workbench pack — rules sharpened to the team's history, scope globs matched to the repo, rubric dimensions extended with one domain-specific entry.
+title: "Workbench Pack"
 version: 1.0.0
 phase: 14
 lesson: 42

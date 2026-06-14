@@ -1,9 +1,12 @@
 ---
 name: win-shift-m
 description: Küçük pencereleri geri getir — Windows klavye kısayolu
+title: "Win Shift M"
 trigger: "Win + Shift + M"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-shift-m
 

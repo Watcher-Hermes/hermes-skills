@@ -1,6 +1,7 @@
 ---
 name: spring-boot-scaffold
 description: >-
+title: "Spring Boot Scaffold"
   Spring Boot projesi (JPA + JWT + H2) baştan sona scaffold. Entity → DTO →
   Repository → Service → Security → Controller sırası.  10 farklı proje tipini
   kapsayan şablon.
@@ -10,7 +11,9 @@ trigger: Spring Boot projesi oluşturulacaksa, JPA entity + JWT auth + REST
   varsa
 version: "1.0"
 
-audience: contributor---
+audience: contributor
+tags: [coding, development]
+category: software-development---
 
 # Spring Boot Scaffold Skill
 

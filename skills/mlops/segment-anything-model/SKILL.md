@@ -1,6 +1,7 @@
 ---
 name: segment-anything-model
 description: "SAM: zero-shot image segmentation via points, boxes, masks."
+title: "Segment Anything Model"
 version: 1.0.0
 author: Orchestra Research
 license: MIT
@@ -9,7 +10,9 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [Multimodal, Image Segmentation, Computer Vision, SAM, Zero-Shot]
+category: mlops
 audience: user
+tags: [ai, machine-learning, mlops, model]
 
 ---
 

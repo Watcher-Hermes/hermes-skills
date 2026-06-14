@@ -1,6 +1,7 @@
 ---
 name: compliance-gap
 description: Evaluate whether a safety report can detect alignment faking, via the monitored / unmonitored compliance gap.
+title: "Compliance Gap"
 version: 1.0.0
 phase: 18
 lesson: 9

@@ -1,9 +1,12 @@
 ---
 name: ctrl-yukari
 description: Bir paragraf yukarı atla — Windows klavye kısayolu
+title: "Ctrl Yukari"
 trigger: "Ctrl + Yukarı Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-yukari
 

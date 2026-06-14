@@ -3,6 +3,7 @@ name: windows-python-cli-installer
 title: Windows Python CLI Installer
 category: windows-automation
 audience: user
+tags: [automation, python, windows]
 description: Kullanıcının verdiği Python script'ini Windows'ta çalıştırılabilir CLI aracına dönüştürme workflow'u. Kurulum, PATH yapılandırması, config ayarları, non-interactive hale getirme ve test adımları.
 triggers:
   - kullanıcı ".py" dosyası gönderip "kur" dediğinde

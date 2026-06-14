@@ -1,6 +1,7 @@
 ---
 name: retrieval-picker
 description: Pick a retrieval stack for a given corpus and query pattern.
+title: "Retrieval Picker"
 version: 1.0.0
 phase: 5
 lesson: 14

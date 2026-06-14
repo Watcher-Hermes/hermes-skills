@@ -1,8 +1,10 @@
 ---
 name: vscode-python-dongusu
 description: VS Code + Python zorunlu akis dongusu. Kod yaz, terminalde calistir, HAM ciktiyi goster. Asla atlanamaz.
+title: "VS Code Python Dongusu"
 category: software-development
 audience: contributor
+tags: [coding, development, python]
 triggers: [kod yaz, python, vs code, terminal, calistir, ran]
 ---
 

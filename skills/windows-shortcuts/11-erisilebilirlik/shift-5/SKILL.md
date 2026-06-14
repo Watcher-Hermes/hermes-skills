@@ -1,9 +1,12 @@
 ---
 name: shift-5
 description: Yapışkan Tuşlar aç/kapat — Windows klavye kısayolu
+title: "Shift 5"
 trigger: "Shift 5 kez"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # shift-5
 

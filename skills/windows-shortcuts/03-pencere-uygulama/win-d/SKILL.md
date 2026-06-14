@@ -1,9 +1,12 @@
 ---
 name: win-d
 description: Masaüstünü göster / gizle — Windows klavye kısayolu
+title: "Win D"
 trigger: "Win + D"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-d
 

@@ -1,6 +1,7 @@
 ---
 name: scaling-advisor
 description: Advise on durable-execution choice for a multi-agent production system. Picks between FastAPI + Postgres, LangGraph runtime, Temporal, Restate, or custom based on concrete load and state-retention needs.
+title: "Scaling Advisor"
 version: 1.0.0
 phase: 16
 lesson: 22

@@ -1,9 +1,12 @@
 ---
 name: home
 description: Satır başına git — Windows klavye kısayolu
+title: "Home"
 trigger: "Home"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # home
 

@@ -1,9 +1,12 @@
 ---
 name: prtscn
 description: Tüm ekranı panoya kopyala — Windows klavye kısayolu (Print Screen / PrtScn)
+title: "PRtscn"
 trigger: "Print Screen (PrtScn)"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # prtscn
 

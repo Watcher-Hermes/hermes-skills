@@ -1,9 +1,12 @@
 ---
 name: win-ctrl-enter
 description: Anlatıcı (Narrator) aç / kapat — Windows klavye kısayolu
+title: "Win Ctrl Enter"
 trigger: "Win + Ctrl + Enter"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-ctrl-enter
 

@@ -1,9 +1,12 @@
 ---
 name: cisco-ios-patterns
 description: Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification.
+title: "CIsco iOS Patterns"
 origin: community
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development, ios]
+category: ecc---
 
 # Cisco IOS Patterns
 

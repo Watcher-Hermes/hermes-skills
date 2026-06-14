@@ -1,6 +1,7 @@
 ---
 name: nsa-integrator
 description: Integration plan for Native Sparse Attention in a long-context pre-training run.
+title: "Nsa Integrator"
 version: 1.0.0
 phase: 10
 lesson: 17

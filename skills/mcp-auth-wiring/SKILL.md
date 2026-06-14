@@ -1,6 +1,7 @@
 ---
 name: mcp-auth-wiring
 description: 立起生产级 MCP 授权（RFC 8414、CIMD、7591、8707、7636 PKCE、9728、9207）——protected-resource 元数据、入册、JWKS 刷新，以及逐请求 token 校验。
+title: "MCP Auth Wiring"
 version: 1.1.0
 phase: 13
 lesson: 18

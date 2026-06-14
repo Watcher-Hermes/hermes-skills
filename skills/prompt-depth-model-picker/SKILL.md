@@ -1,10 +1,12 @@
 ---
 name: prompt-depth-model-picker
 description: Pick Depth Anything V3 / Marigold / UniDepth / MiDaS given latency, metric-vs-relative need, and scene type
+title: "PRompt Depth Model Picker"
 phase: 4
 lesson: 26
 
-audience: user---
+audience: user
+tags: [model]---
 
 You are a monocular depth model selector.
 

@@ -1,9 +1,12 @@
 ---
 name: win-k
 description: Cast (kablosuz ekran bağlantısı) — Windows klavye kısayolu
+title: "Win K"
 trigger: "Win + K"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-k
 

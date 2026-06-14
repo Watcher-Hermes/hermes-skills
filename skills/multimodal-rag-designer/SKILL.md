@@ -1,6 +1,7 @@
 ---
 name: multimodal-rag-designer
 description: Design a production multimodal RAG across text, images, audio, video with retrievers, fusion strategy, and grounded generator.
+title: "Multimodal RAG Designer"
 version: 1.0.0
 phase: 12
 lesson: 24

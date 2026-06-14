@@ -1,6 +1,7 @@
 ---
 name: prompt-gpt-architecture-analyzer
 description: Analyze architecture choices in any GPT-style transformer model
+title: "PRompt GPT Architecture Analyzer"
 version: 1.0.0
 phase: 10
 lesson: 4

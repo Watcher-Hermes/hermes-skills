@@ -1,12 +1,15 @@
 ---
 name: ollama-baslat-ekran-goster
 description: Belirtilen Ollama exe yolunu başlatıp hemen ekran görüntüsü al.
+title: "Ollama Baslat Ekran Goster"
 triggers:
   - ollama exe başlat
   - ollama uygulamasını aç ve ekran görüntüsü al
   - ollama ekran kontrolü
 
-audience: user---
+audience: user
+tags: [automation, windows]
+category: windows-automation---
 
 # Ollama Başlat ve Ekran Göster
 

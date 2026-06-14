@@ -1,6 +1,7 @@
 ---
 name: computer-use-safety
 description: Build per-step safety classifier + confirmation gate for a computer-use agent, with allowlist navigation and injection-marker filtering.
+title: "Computer Use Safety"
 version: 1.0.0
 phase: 14
 lesson: 21

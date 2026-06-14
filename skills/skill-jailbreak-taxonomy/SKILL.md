@@ -1,6 +1,7 @@
 ---
 name: skill-jailbreak-taxonomy
 description: Shared vocabulary for attacks against LLM assistants, six categories with hand-built fixtures
+title: "Skill Jailbreak Taxonomy"
 version: 1.0.0
 phase: 19
 lesson: 82

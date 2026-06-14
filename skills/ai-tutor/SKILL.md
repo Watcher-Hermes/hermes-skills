@@ -1,6 +1,7 @@
 ---
 name: ai-tutor
 description: Ship an adaptive multimodal personal tutor for a specific subject with Bayesian knowledge tracing, a curriculum graph, safety filters, and a measured two-week efficacy study.
+title: "AI Tutor"
 version: 1.0.0
 phase: 19
 lesson: 17

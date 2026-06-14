@@ -1,6 +1,7 @@
 ---
 name: memory-auditor
 description: Audit a multi-agent system's shared-memory design for provenance, versioning, verifier separation, and projection schema. Flag memory-poisoning exposure before production.
+title: "Memory Auditor"
 version: 1.0.0
 phase: 16
 lesson: 13

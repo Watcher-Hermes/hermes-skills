@@ -1,6 +1,7 @@
 ---
 name: 3d-pipeline
 description: Choose a 3D generation or reconstruction pipeline given input type, output format, and use case.
+title: "3D Pipeline"
 version: 1.0.0
 phase: 8
 lesson: 12

@@ -1,9 +1,12 @@
 ---
 name: esc
 description: İşlemi iptal et / kapat — Windows klavye kısayolu
+title: "Esc"
 trigger: "Esc"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # esc
 

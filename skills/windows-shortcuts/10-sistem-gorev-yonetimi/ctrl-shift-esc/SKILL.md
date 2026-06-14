@@ -1,9 +1,12 @@
 ---
 name: ctrl-shift-esc
 description: Görev Yöneticisi (doğrudan) — Windows klavye kısayolu
+title: "Ctrl Shift Esc"
 trigger: "Ctrl + Shift + Esc"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-shift-esc
 

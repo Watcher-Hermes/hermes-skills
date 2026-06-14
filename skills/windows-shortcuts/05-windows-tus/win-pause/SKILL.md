@@ -1,9 +1,12 @@
 ---
 name: win-pause
 description: Sistem özellikleri — Windows klavye kısayolu
+title: "Win Pause"
 trigger: "Win + Pause"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-pause
 

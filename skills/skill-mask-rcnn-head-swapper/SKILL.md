@@ -1,6 +1,7 @@
 ---
 name: skill-mask-rcnn-head-swapper
 description: Generate the exact code for swapping box and mask heads on a torchvision Mask R-CNN for a custom num_classes
+title: "Skill Mask Rcnn Head Swapper"
 version: 1.0.0
 phase: 4
 lesson: 8

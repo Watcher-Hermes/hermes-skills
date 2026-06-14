@@ -1,9 +1,12 @@
 ---
 name: ctrl-sol
 description: Bir kelime sola atla — Windows klavye kısayolu
+title: "Ctrl Sol"
 trigger: "Ctrl + Sol Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-sol
 

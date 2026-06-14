@@ -1,6 +1,7 @@
 ---
 name: prompt-numerical-debugger
 description: Diagnoses NaN, Inf, and numerical stability issues in neural network training
+title: "PRompt Numerical Debugger"
 phase: 1
 lesson: 13
 

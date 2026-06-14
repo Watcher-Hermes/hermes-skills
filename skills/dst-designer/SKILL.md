@@ -1,6 +1,7 @@
 ---
 name: dst-designer
 description: Design a dialogue state tracker — schema, extractor, update policy, evaluation.
+title: "Dst Designer"
 version: 1.0.0
 phase: 5
 lesson: 29

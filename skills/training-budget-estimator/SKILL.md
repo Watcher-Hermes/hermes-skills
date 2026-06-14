@@ -1,6 +1,7 @@
 ---
 name: training-budget-estimator
 description: Estimate (N, D, hours, GPU count) for a new transformer training run given compute budget and deployment constraints.
+title: "Training Budget Estimator"
 version: 1.0.0
 phase: 7
 lesson: 13

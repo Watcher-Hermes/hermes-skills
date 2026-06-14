@@ -1,9 +1,12 @@
 ---
 name: num-star
 description: Seçili klasörün tüm alt klasörlerini göster — Windows klavye kısayolu
+title: "Num Star"
 trigger: "Num Lock + *"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # num-star
 

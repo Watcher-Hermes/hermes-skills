@@ -1,6 +1,7 @@
 ---
 name: skill-feature-selector
 description: Quick reference decision tree for choosing the right feature selection method
+title: "Skill Feature Selector"
 version: 1.0.0
 phase: 2
 lesson: 18

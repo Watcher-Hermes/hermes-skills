@@ -1,6 +1,7 @@
 ---
 name: stylegan-inversion
 description: Choose an inversion and editing pipeline for a pretrained StyleGAN over a real photo.
+title: "Stylegan Inversion"
 version: 1.0.0
 phase: 8
 lesson: 05

@@ -1,6 +1,7 @@
 ---
 name: wmdp-eval
 description: Audit a dual-use capability claim against WMDP, unlearning evaluation, and elicitation studies.
+title: "Wmdp Eval"
 version: 1.0.0
 phase: 18
 lesson: 17

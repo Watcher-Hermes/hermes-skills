@@ -1,6 +1,7 @@
 ---
 name: bias-eval
 description: Audit a bias evaluation report across metric categories, intersectionality, and debias mechanism.
+title: "Bias Eval"
 version: 1.0.0
 phase: 18
 lesson: 20

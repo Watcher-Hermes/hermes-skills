@@ -1,9 +1,12 @@
 ---
 name: win-home
 description: Aktif hariç tüm pencereleri küçült — Windows klavye kısayolu
+title: "Win Home"
 trigger: "Win + Home"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-home
 

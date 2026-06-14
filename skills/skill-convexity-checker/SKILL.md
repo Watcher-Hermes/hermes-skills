@@ -1,6 +1,7 @@
 ---
 name: skill-convexity-checker
 description: Determine if an optimization problem is convex and choose the right solver
+title: "Skill Convexity Checker"
 version: 1.0.0
 phase: 1
 lesson: 18

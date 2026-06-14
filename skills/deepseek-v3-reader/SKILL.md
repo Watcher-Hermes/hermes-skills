@@ -1,6 +1,7 @@
 ---
 name: deepseek-v3-reader
 description: Read a DeepSeek-family config and produce a component-by-component architecture analysis.
+title: "DeepSeek V3 Reader"
 version: 1.0.0
 phase: 10
 lesson: 20

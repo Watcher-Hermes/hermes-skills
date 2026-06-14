@@ -1,6 +1,7 @@
 ---
 name: prompt-nn-debugger
 description: Diagnose neural network training failures from symptoms -- loss curves, gradient stats, and activation patterns
+title: "PRompt Nn Debugger"
 phase: 03
 lesson: 13
 

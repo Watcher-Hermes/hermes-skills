@@ -1,9 +1,12 @@
 ---
 name: f11
 description: Tam ekran yap / çık — Windows klavye kısayolu
+title: "F11"
 trigger: "F11"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # f11
 

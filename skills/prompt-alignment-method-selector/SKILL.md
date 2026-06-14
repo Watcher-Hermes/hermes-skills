@@ -1,6 +1,7 @@
 ---
 name: prompt-alignment-method-selector
 description: Choose the right alignment method (SFT, RLHF, DPO, KTO, ORPO, SimPO) for your use case
+title: "PRompt Alignment Method Selector"
 version: 1.0.0
 phase: 10
 lesson: 8

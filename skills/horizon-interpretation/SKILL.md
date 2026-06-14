@@ -1,6 +1,7 @@
 ---
 name: horizon-interpretation
 description: Review a vendor's time-horizon claim and produce a gap analysis between benchmark claim and deployment reality.
+title: "Horizon Interpretation"
 version: 1.0.0
 phase: 15
 lesson: 21

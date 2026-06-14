@@ -4,6 +4,7 @@ id: model-startup-choice
 title: "Açılışta Model Seçimi"
 description: "Her oturum başında kullanıcıya model seçimi sorar: A) DeepSeek B) Dolphin (LM Studio)"
 tags: [startup, model, choice, always-active]
+category: user-preferences
 audience: user
 trigger: "Her oturum başlangıcında — kullanıcının ilk mesajından ÖNCE"
 ---

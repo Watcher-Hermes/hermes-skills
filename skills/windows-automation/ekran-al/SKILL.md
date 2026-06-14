@@ -1,7 +1,10 @@
 ---
 name: ekran-al
+title: "Ekran Al"
 title: ""
 audience: user
+tags: [automation, windows]
+category: windows-automation
 tags: []
 ---
 

@@ -1,9 +1,12 @@
 ---
 name: sol-alt-shift-prtscn
 description: Yüksek karşıtlık aç/kapat — Windows klavye kısayolu
+title: "Sol Alt Shift PRtscn"
 trigger: "Sol Alt + Sol Shift + PrtScn"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # sol-alt-shift-prtscn
 

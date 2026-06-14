@@ -1,9 +1,12 @@
 ---
 name: rust-testing
 description: Rust testing patterns including unit tests, integration tests, async testing, property-based testing, mocking, and coverage. Follows TDD methodology.
+title: "Rust Testing"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development, testing]
+category: ecc---
 
 # Rust Testing Patterns
 

@@ -1,8 +1,11 @@
 ---
 name: android-native-app-builder
 description: Sıfırdan native Android APK oluşturma — Java + Gradle + SpeechRecognizer. ADB, SDK, Gradle wrapper ile CLI üzerinden tam build.
+title: "Android Native App Builder"
 
-audience: contributor---
+audience: contributor
+tags: [android, coding, development]
+category: software-development---
 
 # Android Native App Builder
 

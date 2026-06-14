@@ -4,6 +4,7 @@ id: odysseus
 title: "Odysseus (FEDUS) — Lokal AI Platform"
 description: "Piebie/PewDiePie'nin 110M aboneye duyurduğu açık kaynak, lokal AI platformu. Docker üzerinde çalışır, 4 konteyner ile ayağa kalkar."
 tags: [fedus, piebie, local-ai, docker, odysseus]
+category: software-development
 audience: contributor
 ---
 

@@ -1,6 +1,7 @@
 ---
 name: video-brief
 description: Translate a video brief into a model + prompt + shot plan for a 2026 video generator.
+title: "Video Brief"
 version: 1.0.0
 phase: 8
 lesson: 10

@@ -1,9 +1,12 @@
 ---
 name: alt-sol
 description: Geri — Windows klavye kısayolu
+title: "Alt Sol"
 trigger: "Alt + Sol Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # alt-sol
 

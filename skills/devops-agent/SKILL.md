@@ -1,6 +1,7 @@
 ---
 name: devops-agent
 description: Build a Kubernetes troubleshooting agent that walks a cluster knowledge graph, ranks root causes, and gates every remediation through Slack.
+title: "DevOps Agent"
 version: 1.0.0
 phase: 19
 lesson: 06

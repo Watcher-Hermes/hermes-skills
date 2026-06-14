@@ -1,6 +1,7 @@
 ---
 name: bounded-loop-review
 description: Audit a proposed bounded self-improvement loop against the four-primitive stack (invariants, anchor, multi-objective, regression detection).
+title: "Bounded Loop Review"
 version: 1.0.0
 phase: 15
 lesson: 8

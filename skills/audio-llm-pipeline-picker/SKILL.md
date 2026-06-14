@@ -1,6 +1,7 @@
 ---
 name: audio-llm-pipeline-picker
 description: Pick cascaded (Whisper + LLM) or end-to-end (AF3 / Qwen-Audio) for an audio task, plus the encoder and bridge config.
+title: "Audio LLM Pipeline Picker"
 version: 1.0.0
 phase: 12
 lesson: 19

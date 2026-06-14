@@ -1,6 +1,7 @@
 ---
 name: prompt-rag-architect
 description: Design RAG systems for specific use cases with concrete architecture decisions
+title: "PRompt RAG Architect"
 phase: 11
 lesson: 6
 

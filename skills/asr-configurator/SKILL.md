@@ -1,6 +1,7 @@
 ---
 name: asr-configurator
 description: Pick an ASR model (Whisper variant / Moonshine / faster-whisper) and decoding parameters for a new speech pipeline.
+title: "Asr Configurator"
 version: 1.0.0
 phase: 7
 lesson: 10

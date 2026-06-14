@@ -1,6 +1,7 @@
 ---
 name: skill-eval-patterns
 description: Decision framework for choosing evaluation strategies -- when to use which method, how to size test suites, and how to integrate evals into CI/CD
+title: "Skill Eval Patterns"
 version: 1.0.0
 phase: 11
 lesson: 10

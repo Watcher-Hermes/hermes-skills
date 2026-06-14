@@ -1,8 +1,11 @@
 ---
 name: kali-usb-wifi-scan
 description: USB WiFi adaptörünü Kali VM'e passthrough yap, çevredeki ağları VBoxManage keyboardputstring ile tara ve Kali ekranında göster.
+title: "Kali Usb Wifi Scan"
 
-audience: user---
+audience: user
+tags: [automation, windows]
+category: windows-automation---
 
 # Kali USB WiFi ile Çevre Ağ Taraması
 

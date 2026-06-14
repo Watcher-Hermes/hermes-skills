@@ -1,9 +1,12 @@
 ---
 name: ito-data-atlas-agent
 description: Design background Data Atlas style agents for Itô basket research, market discovery, parameter drafting, and human-in-the-loop editing. Use for architecture and workflow planning, not live order execution.
+title: "Ito Data Atlas Agent"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Itô Data Atlas Agent
 

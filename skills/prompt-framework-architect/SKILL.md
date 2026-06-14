@@ -1,6 +1,7 @@
 ---
 name: prompt-framework-architect
 description: Design neural network architectures using framework abstractions -- modules, containers, losses, and optimizers
+title: "PRompt Framework Architect"
 phase: 03
 lesson: 10
 

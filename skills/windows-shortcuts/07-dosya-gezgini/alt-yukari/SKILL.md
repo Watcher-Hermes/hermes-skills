@@ -1,9 +1,12 @@
 ---
 name: alt-yukari
 description: Üst klasöre çık — Windows klavye kısayolu
+title: "Alt Yukari"
 trigger: "Alt + Yukarı Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # alt-yukari
 

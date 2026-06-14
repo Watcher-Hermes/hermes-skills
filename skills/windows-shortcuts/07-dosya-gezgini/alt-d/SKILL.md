@@ -1,9 +1,12 @@
 ---
 name: alt-d
 description: Adres çubuğuna odaklan — Windows klavye kısayolu
+title: "Alt D"
 trigger: "Alt + D"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # alt-d
 

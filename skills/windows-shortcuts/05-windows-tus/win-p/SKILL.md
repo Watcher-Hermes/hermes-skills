@@ -1,9 +1,12 @@
 ---
 name: win-p
 description: Sunum / projeksiyon modu — Windows klavye kısayolu
+title: "Win P"
 trigger: "Win + P"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-p
 

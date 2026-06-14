@@ -1,9 +1,12 @@
 ---
 name: ctrl-end
 description: Belge sonuna git — Windows klavye kısayolu
+title: "Ctrl End"
 trigger: "Ctrl + End"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-end
 

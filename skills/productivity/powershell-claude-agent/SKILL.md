@@ -3,6 +3,7 @@ name: powershell-claude-agent
 title: "PowerShell ile Claude Agent Başlatma"
 description: "Windows'ta PowerShell üzerinden Claude Code CLI'ını (agent modunda) başlatma ve doğrulama adımları."
 tags: [powershell, claude, windows, claude-code, agent]
+category: productivity
 audience: user
 triggers: [claude agent, claude code, claude baslat, Claude CLI]
 related_skills: [claude-agent-terminal-send-text]

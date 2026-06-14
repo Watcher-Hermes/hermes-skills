@@ -1,9 +1,12 @@
 ---
 name: win-shift-s
 description: Ekran kesme aracı (alan seçmeli) — Windows klavye kısayolu
+title: "Win Shift S"
 trigger: "Win + Shift + S"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-shift-s
 

@@ -1,6 +1,7 @@
 ---
 name: diff-attention-integrator
 description: Integration plan for adding Differential Attention V2 to a new pre-training run or LoRA fine-tune.
+title: "Diff Attention Integrator"
 version: 1.0.0
 phase: 10
 lesson: 16

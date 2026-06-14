@@ -1,6 +1,7 @@
 ---
 name: preference-loss-selector
 description: Recommend a direct-alignment-algorithm loss given dataset shape and target stage.
+title: "PReference Loss Selector"
 version: 1.0.0
 phase: 18
 lesson: 3

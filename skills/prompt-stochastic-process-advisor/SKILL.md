@@ -1,6 +1,7 @@
 ---
 name: prompt-stochastic-process-advisor
 description: Identify which stochastic process framework applies to a given problem and recommend implementation
+title: "PRompt Stochastic PRocess Advisor"
 phase: 1
 lesson: 22
 

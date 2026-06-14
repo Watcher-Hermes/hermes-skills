@@ -1,6 +1,7 @@
 ---
 name: skill-svd
 description: Apply SVD to real problems including compression, denoising, recommendations, and least-squares solving
+title: "Skill Svd"
 phase: 1
 lesson: 11
 

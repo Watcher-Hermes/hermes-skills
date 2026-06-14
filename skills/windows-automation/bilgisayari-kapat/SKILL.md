@@ -1,5 +1,6 @@
 ---
 tags: [hermes, skill, system, power]
+category: windows-automation
 audience: user
 shortcut: Win + X + U + U
 function: Bilgisayarı kapat

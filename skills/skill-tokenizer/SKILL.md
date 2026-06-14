@@ -1,6 +1,7 @@
 ---
 name: skill-tokenizer
 description: Choosing and building tokenizers for LLM projects
+title: "Skill Tokenizer"
 version: 1.0.0
 phase: 10
 lesson: 1

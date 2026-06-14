@@ -1,6 +1,7 @@
 ---
 name: scope-contract
 description: Generate per-task scope contracts with allowed/forbidden globs, acceptance criteria, and rollback plan, plus a CI-ready glob-aware checker that runs on every agent diff.
+title: "Scope Contract"
 version: 1.0.0
 phase: 14
 lesson: 36

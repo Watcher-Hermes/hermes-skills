@@ -1,9 +1,12 @@
 ---
 name: laravel-verification
 description: "Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness."
+title: "Laravel Verification"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Laravel Verification Loop
 

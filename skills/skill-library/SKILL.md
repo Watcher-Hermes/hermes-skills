@@ -1,6 +1,7 @@
 ---
 name: skill-library
 description: Generate a Voyager-shaped skill library with registration, retrieval by similarity, compositional execution, and failure-driven refinement.
+title: "Skill Library"
 version: 1.0.0
 phase: 14
 lesson: 10

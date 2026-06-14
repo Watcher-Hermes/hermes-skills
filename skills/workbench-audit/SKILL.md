@@ -1,6 +1,7 @@
 ---
 name: workbench-audit
 description: Audit a repo for the seven agent workbench surfaces and report which are missing, partial, or healthy before any agent work begins.
+title: "Workbench Audit"
 version: 1.0.0
 phase: 14
 lesson: 31

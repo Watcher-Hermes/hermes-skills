@@ -1,6 +1,7 @@
 ---
 name: managed-platform-picker
 description: Pick a managed LLM platform (Bedrock, Azure OpenAI, Vertex AI) and a second for redundancy, given workload, SLA, and compliance requirements — then produce a FinOps instrumentation plan.
+title: "Managed Platform Picker"
 version: 1.0.0
 phase: 17
 lesson: 01

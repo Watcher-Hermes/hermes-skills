@@ -1,6 +1,7 @@
 ---
 name: skill-cmer-monitor
 description: Instrument a production VLM endpoint with Cross-Modal Error Rate monitoring, dashboards, and alerts
+title: "Skill Cmer Monitor"
 version: 1.0.0
 phase: 4
 lesson: 25

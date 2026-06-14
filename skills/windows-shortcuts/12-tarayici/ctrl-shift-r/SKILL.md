@@ -1,9 +1,12 @@
 ---
 name: ctrl-shift-r
 description: Önbelleği yoksayarak yenile — Windows klavye kısayolu
+title: "Ctrl Shift R"
 trigger: "Ctrl + Shift + R"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-shift-r
 

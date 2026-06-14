@@ -1,6 +1,7 @@
 ---
 name: skill-prompt-injection-detector
 description: Layered detector pipeline that returns a category and confidence for any prompt, with measurable precision and recall
+title: "Skill PRompt Injection Detector"
 version: 1.0.0
 phase: 19
 lesson: 83

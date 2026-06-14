@@ -1,6 +1,7 @@
 ---
 name: skill-rag-pipeline
 description: Build and debug RAG pipelines from first principles
+title: "Skill RAG Pipeline"
 version: 1.0.0
 phase: 11
 lesson: 6

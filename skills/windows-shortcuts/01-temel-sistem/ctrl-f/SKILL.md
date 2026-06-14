@@ -1,9 +1,12 @@
 ---
 name: ctrl-f
 description: Bul / ara — Windows klavye kısayolu
+title: "Ctrl F"
 trigger: "Ctrl + F"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-f
 

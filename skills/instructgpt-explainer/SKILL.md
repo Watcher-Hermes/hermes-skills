@@ -1,6 +1,7 @@
 ---
 name: instructgpt-explainer
 description: Diagnose an RLHF-family paper or pipeline against the three-stage InstructGPT reference.
+title: "Instructgpt Explainer"
 version: 1.0.0
 phase: 18
 lesson: 1

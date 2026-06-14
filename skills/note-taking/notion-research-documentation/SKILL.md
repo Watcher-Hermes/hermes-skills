@@ -1,10 +1,13 @@
 ---
 name: notion-research-documentation
 description: Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.
+title: "Notion Research Documentation"
 metadata:
   short-description: Research Notion content and produce briefs/reports
 
-audience: user---
+audience: user
+tags: [note-taking, obsidian, productivity]
+category: note-taking---
 
 # Research & Documentation
 

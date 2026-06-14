@@ -1,6 +1,7 @@
 ---
 name: re-designer
 description: Design a relation extraction pipeline with provenance and canonicalization.
+title: "Re Designer"
 version: 1.0.0
 phase: 5
 lesson: 26

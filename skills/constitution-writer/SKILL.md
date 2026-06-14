@@ -1,6 +1,7 @@
 ---
 name: constitution-writer
 description: Draft a four-tier constitution for a domain-specific AI system.
+title: "Constitution Writer"
 version: 1.0.0
 phase: 18
 lesson: 5

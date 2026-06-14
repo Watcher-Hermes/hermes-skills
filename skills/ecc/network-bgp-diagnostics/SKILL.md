@@ -1,9 +1,12 @@
 ---
 name: network-bgp-diagnostics
 description: Diagnostics-only BGP troubleshooting patterns for neighbor state, route exchange, prefix policy, AS path inspection, and safe evidence collection.
+title: "Network Bgp Diagnostics"
 origin: community
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Network BGP Diagnostics
 

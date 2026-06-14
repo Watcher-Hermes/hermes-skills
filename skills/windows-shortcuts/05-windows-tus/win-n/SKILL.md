@@ -1,9 +1,12 @@
 ---
 name: win-n
 description: Bildirim Merkezi — Windows klavye kısayolu
+title: "Win N"
 trigger: "Win + N"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-n
 

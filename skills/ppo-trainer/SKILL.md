@@ -1,6 +1,7 @@
 ---
 name: ppo-trainer
 description: Produce a PPO training config and a diagnostic plan for a given environment.
+title: "Ppo Trainer"
 version: 1.0.0
 phase: 9
 lesson: 8

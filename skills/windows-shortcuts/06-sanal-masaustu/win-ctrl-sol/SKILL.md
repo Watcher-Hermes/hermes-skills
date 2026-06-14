@@ -1,9 +1,12 @@
 ---
 name: win-ctrl-sol
 description: Soldaki masaüstüne geç — Windows klavye kısayolu
+title: "Win Ctrl Sol"
 trigger: "Win + Ctrl + Sol Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-ctrl-sol
 

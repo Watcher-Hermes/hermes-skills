@@ -1,6 +1,7 @@
 ---
 name: skill-prompt-patterns
 description: Decision framework for choosing the right prompt pattern based on task type, reliability requirements, and target model
+title: "Skill PRompt Patterns"
 version: 1.0.0
 phase: 11
 lesson: 01

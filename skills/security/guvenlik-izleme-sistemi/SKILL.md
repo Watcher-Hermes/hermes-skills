@@ -1,8 +1,11 @@
 ---
 name: guvenlik-izleme-sistemi
 description: Windows Task Scheduler tabanli guvenlik izleme — bilinmeyen islem/USB/giris/pyautogui tespiti
+title: "Guvenlik Izleme Sistemi"
 
-audience: user---
+audience: user
+tags: [pentest, security]
+category: security---
 
 # Guvenlik Izleme Sistemi (Windows Task Scheduler)
 

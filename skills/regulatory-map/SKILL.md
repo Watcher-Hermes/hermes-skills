@@ -1,6 +1,7 @@
 ---
 name: regulatory-map
 description: Map a deployment's AI regulatory obligations across EU, US, UK, Korea.
+title: "Regulatory Map"
 version: 1.0.0
 phase: 18
 lesson: 24

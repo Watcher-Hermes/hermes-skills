@@ -1,6 +1,7 @@
 ---
 name: skill-cost-patterns
 description: Decision framework for LLM cost optimization -- caching strategies, rate limiting, model routing, and budget controls
+title: "Skill Cost Patterns"
 version: 1.0.0
 phase: 11
 lesson: 11

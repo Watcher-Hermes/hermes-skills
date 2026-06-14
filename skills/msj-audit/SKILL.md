@@ -1,6 +1,7 @@
 ---
 name: msj-audit
 description: Audit a long-context safety evaluation for many-shot jailbreaking coverage.
+title: "Msj Audit"
 version: 1.0.0
 phase: 18
 lesson: 13

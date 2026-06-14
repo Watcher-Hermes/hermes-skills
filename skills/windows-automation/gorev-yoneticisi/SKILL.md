@@ -1,5 +1,6 @@
 ---
 tags: [hermes, skill, system, task-manager]
+category: windows-automation
 audience: user
 shortcut: Ctrl + Shift + Esc
 function: Görev Yöneticisi (doğrudan)

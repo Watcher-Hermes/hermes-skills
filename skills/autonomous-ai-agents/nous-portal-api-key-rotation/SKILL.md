@@ -1,6 +1,7 @@
 ---
 name: nous-portal-api-key-rotation
 description: >
+title: "Nous Portal API Key Rotation"
   Nous Portal üzerinden API anahtarı üretme, iptal etme ve Hermes .env’e
   yazma kuralları; DeepSeek/Nous endpoint yapılandırmasındaki yaygın hatalar
   ve kalıcı notlar.
@@ -10,7 +11,9 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [nous, deepseek, api-key, rotation, portal, dotenv, config]
+category: autonomous-ai-agents
 audience: user
+tags: [agents, ai, api, automation]
 ---
 
 #Nous Portal API Key Rotation

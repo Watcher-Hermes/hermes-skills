@@ -1,9 +1,12 @@
 ---
 name: win-esc
 description: Büyüteci kapat — Windows klavye kısayolu
+title: "Win Esc"
 trigger: "Win + Esc"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-esc
 

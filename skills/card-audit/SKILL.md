@@ -1,6 +1,7 @@
 ---
 name: card-audit
 description: Audit a model card, datasheet, or system card for completeness and verifiability.
+title: "Card Audit"
 version: 1.0.0
 phase: 18
 lesson: 26

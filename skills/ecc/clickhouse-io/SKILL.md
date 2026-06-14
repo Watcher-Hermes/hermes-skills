@@ -1,9 +1,12 @@
 ---
 name: clickhouse-io
 description: ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
+title: "CLIckhouse Io"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # ClickHouse Analytics Patterns
 

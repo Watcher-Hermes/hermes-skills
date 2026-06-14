@@ -1,6 +1,7 @@
 ---
 name: game-rl-designer
 description: Design a game-RL or reasoning-RL training pipeline (AlphaZero / MuZero / GRPO) for a given domain.
+title: "Game Rl Designer"
 version: 1.0.0
 phase: 9
 lesson: 12

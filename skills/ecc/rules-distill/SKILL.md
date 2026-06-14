@@ -1,9 +1,12 @@
 ---
 name: rules-distill
 description: "Scan skills to extract cross-cutting principles and distill them into rules — append, revise, or create new rule files"
+title: "Rules Distill"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Rules Distill
 

@@ -1,8 +1,11 @@
 ---
 name: android-apk-repackaging
 description: APK repackaging pipeline — tek yön, geri dönüşsüz adımlar. Önbelge → Decompile → Yama (karar ağacı) → Rebuild → zipalign → İmzala → Doğrula+logcat.
+title: "Android Apk Repackaging"
 
-audience: contributor---
+audience: contributor
+tags: [android, coding, development]
+category: software-development---
 
 # Android APK Repackaging Pipeline
 

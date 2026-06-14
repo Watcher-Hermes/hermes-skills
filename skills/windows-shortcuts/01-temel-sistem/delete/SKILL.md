@@ -1,9 +1,12 @@
 ---
 name: delete
 description: Sil (Geri Dönüşüm Kutusu'na) — Windows klavye kısayolu (Delete veya Del)
+title: "Delete"
 trigger: "Delete veya Del"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # delete
 

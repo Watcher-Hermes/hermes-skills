@@ -1,9 +1,12 @@
 ---
 name: ctrl-b
 description: Kalın — Windows klavye kısayolu
+title: "Ctrl B"
 trigger: "Ctrl + B"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-b
 

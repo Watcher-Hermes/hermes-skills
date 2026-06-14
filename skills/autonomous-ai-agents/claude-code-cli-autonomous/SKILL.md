@@ -1,6 +1,7 @@
 ---
 name: claude-code-cli-autonomous
 description: "Claude Code CLI (print mode) ile otonom kodlama görevleri — Hermes → Claude Code delegasyonu, onay gerektirmez, planlı çalışma."
+title: "Claude Code CLI Autonomous"
 version: 1.0.0
 author: marko
 license: MIT
@@ -8,7 +9,9 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [claude-code, cli, agent, autonomous, coding, delegation]
+category: autonomous-ai-agents
 audience: user
+tags: [agents, ai, automation]
 ---
 
 # Claude Code CLI — Otonom Kodlama Görevleri

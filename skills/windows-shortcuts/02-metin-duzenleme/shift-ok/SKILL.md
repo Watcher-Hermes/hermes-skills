@@ -1,9 +1,12 @@
 ---
 name: shift-ok
 description: Yönde seçim yap — Windows klavye kısayolu
+title: "Shift Ok"
 trigger: "Shift + Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # shift-ok
 

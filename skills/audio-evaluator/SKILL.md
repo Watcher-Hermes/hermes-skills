@@ -1,6 +1,7 @@
 ---
 name: audio-evaluator
 description: Pick metrics, benchmarks, normalization rules, and reporting format for any audio model release.
+title: "Audio Evaluator"
 version: 1.0.0
 phase: 6
 lesson: 17

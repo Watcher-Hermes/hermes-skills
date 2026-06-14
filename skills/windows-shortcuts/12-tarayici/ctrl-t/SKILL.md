@@ -1,9 +1,12 @@
 ---
 name: ctrl-t
 description: Yeni sekme — Windows klavye kısayolu
+title: "Ctrl T"
 trigger: "Ctrl + T"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-t
 

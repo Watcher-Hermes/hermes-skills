@@ -1,6 +1,7 @@
 ---
 name: streamlit-setup
 description: >
+title: "Streamlit Setup"
   Install, configure, and run Streamlit data apps on Windows. Covers venv
   isolation, first-run email bypass, port/IP access configuration, and
   Streamlit 1.58.0+ breaking changes.
@@ -10,7 +11,9 @@ triggers:
   - user says "streamlit run" and gets connection refused
   - user wants to restrict access to a streamlit app
 
-audience: contributor---
+audience: contributor
+tags: [coding, development]
+category: software-development---
 
 # Streamlit Setup (Windows)
 

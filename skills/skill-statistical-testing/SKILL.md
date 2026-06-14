@@ -1,6 +1,7 @@
 ---
 name: skill-statistical-testing
 description: Choose the right statistical test for comparing ML models and evaluating experiments
+title: "Skill Statistical Testing"
 version: 1.0.0
 phase: 1
 lesson: 15

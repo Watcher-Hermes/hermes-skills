@@ -1,11 +1,14 @@
 ---
 name: repos-ve-mcp-koprusu
 description: Hermes-Obsidian MCP bridge kurulumu ve 6 yeni GitHub reposu. obsidian-pkm MCP server config, repo klonlama ve yapılandırma adımları.
+title: "Repos Ve MCP Koprusu"
 version: 1.0.0
 author: hermes
 platforms: [windows]
 
-audience: maintainer---
+audience: maintainer
+tags: [automation, devops, system]
+category: devops---
 
 # Repolar ve Obsidian MCP Köprüsü
 

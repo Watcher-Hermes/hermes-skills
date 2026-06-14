@@ -1,6 +1,7 @@
 ---
 name: ai-scientist-sandbox-review
 description: Two-gate review checklist for research-loop agent outputs before anything leaves the sandbox.
+title: "AI Scientist Sandbox Review"
 version: 1.0.0
 phase: 15
 lesson: 5

@@ -1,9 +1,12 @@
 ---
 name: ctrl-alt-tab
 description: Uygulama listesini sabit tut — Windows klavye kısayolu
+title: "Ctrl Alt Tab"
 trigger: "Ctrl + Alt + Tab"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-alt-tab
 

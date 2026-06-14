@@ -1,9 +1,12 @@
 ---
 name: win-z
 description: Snap Layout (Düzen) menüsü — Windows klavye kısayolu (Windows 11)
+title: "Win Z"
 trigger: "Win + Z"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-z
 

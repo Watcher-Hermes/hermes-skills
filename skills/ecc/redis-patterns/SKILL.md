@@ -1,9 +1,12 @@
 ---
 name: redis-patterns
 description: Redis data structure patterns, caching strategies, distributed locks, rate limiting, pub/sub, and connection management for production applications.
+title: "Redis Patterns"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Redis Patterns
 

@@ -1,6 +1,7 @@
 ---
 name: prompt-lora-advisor
 description: Decide LoRA rank, target modules, and hyperparameters for a specific fine-tuning task
+title: "PRompt Lora Advisor"
 phase: 11
 lesson: 8
 

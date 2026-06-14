@@ -1,9 +1,12 @@
 ---
 name: alt-prtscn
 description: Aktif pencereyi panoya kopyala — Windows klavye kısayolu
+title: "Alt PRtscn"
 trigger: "Alt + PrtScn"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # alt-prtscn
 

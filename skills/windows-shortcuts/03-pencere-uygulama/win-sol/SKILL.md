@@ -1,9 +1,12 @@
 ---
 name: win-sol
 description: Pencereyi sol yarıya yasla — Windows klavye kısayolu
+title: "Win Sol"
 trigger: "Win + Sol Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-sol
 

@@ -1,8 +1,11 @@
 ---
 name: wifi-network-tools
 description: Windows WiFi ağ tarama ve yerel ağ cihazı keşfi araçlarının kurulumu, bağımlılık kontrolü ve çalıştırılması. wifi-ag-tarayici repo'sunu klonlamak, bağımlılıkları yüklemek ve GUI/CLI modda çalıştırmak için.
+title: "Wifi Network Tools"
 
-audience: user---
+audience: user
+tags: [automation, windows]
+category: windows-automation---
 
 # WiFi Network Tools Setup
 

@@ -1,6 +1,7 @@
 ---
 name: framework-picker
 description: Pick LangGraph, CrewAI, AutoGen, Agno, or plain Python for an agent task by matching abstraction to problem shape.
+title: "Framework Picker"
 version: 1.0.0
 phase: 11
 lesson: 17

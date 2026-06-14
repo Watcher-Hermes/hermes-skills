@@ -1,6 +1,7 @@
 ---
 name: evaluating-llms-harness
 description: "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.)."
+title: "Evaluating LLMs Harness"
 version: 1.0.0
 author: Orchestra Research
 license: MIT
@@ -9,7 +10,9 @@ platforms: [linux, macos]
 metadata:
   hermes:
     tags: [Evaluation, LM Evaluation Harness, Benchmarking, MMLU, HumanEval, GSM8K, EleutherAI, Model Quality, Academic Benchmarks, Industry Standard]
+category: mlops
 audience: user
+tags: [ai, machine-learning, mlops]
 
 ---
 

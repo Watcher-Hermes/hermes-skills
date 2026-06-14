@@ -1,6 +1,7 @@
 ---
 name: apikey-image-gen
 description: "Generate or edit images through Hermes Web UI using the selected/requested profile's fun-codex provider from config.yaml."
+title: "APIkey Image Gen"
 version: 1.0.0
 author: Ekko
 license: MIT
@@ -9,6 +10,7 @@ metadata:
   hermes:
     tags: [api.apikey.fun, image-generation, image-editing, media]
 audience: user
+tags: [api, image]
 prerequisites:
   commands: [curl]
 ---

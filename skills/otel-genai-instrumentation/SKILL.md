@@ -1,6 +1,7 @@
 ---
 name: otel-genai-instrumentation
 description: Produce an instrumentation plan for an agent codebase to emit OTel GenAI spans end-to-end.
+title: "Otel Genai Instrumentation"
 version: 1.0.0
 phase: 13
 lesson: 19

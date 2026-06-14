@@ -1,6 +1,7 @@
 ---
 name: sentiment-baseline
 description: Design a sentiment analysis baseline for a new dataset.
+title: "Sentiment Baseline"
 phase: 5
 lesson: 05
 

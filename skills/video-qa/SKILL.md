@@ -1,6 +1,7 @@
 ---
 name: video-qa
 description: Build a video understanding pipeline with scene segmentation, multi-vector indexing, temporal grounding, and timestamped citations.
+title: "Video Qa"
 version: 1.0.0
 phase: 19
 lesson: 12

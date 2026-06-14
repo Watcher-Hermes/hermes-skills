@@ -1,9 +1,12 @@
 ---
 name: ctrl-v
 description: Yapıştır — Windows klavye kısayolu
+title: "Ctrl V"
 trigger: "Ctrl + V"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-v
 

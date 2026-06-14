@@ -1,6 +1,7 @@
 ---
 name: speaker-verifier
 description: Design a speaker verification or diarization pipeline with model choice, enrollment protocol, and threshold tuning.
+title: "Speaker Verifier"
 version: 1.0.0
 phase: 6
 lesson: 06

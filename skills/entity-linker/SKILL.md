@@ -1,6 +1,7 @@
 ---
 name: entity-linker
 description: Design an entity linking pipeline — KB, candidate generator, disambiguator, evaluation.
+title: "Entity Linker"
 version: 1.0.0
 phase: 5
 lesson: 25

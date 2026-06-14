@@ -1,6 +1,7 @@
 ---
 name: native-vs-posthoc-auditor
 description: Audit a proposed VLM training plan and recommend native multimodal pretraining or post-hoc adapter-on-LLM, with corpus-mix and alignment-debt analysis.
+title: "Native Vs Posthoc Auditor"
 version: 1.0.0
 phase: 12
 lesson: 10

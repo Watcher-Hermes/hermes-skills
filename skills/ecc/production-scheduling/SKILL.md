@@ -1,6 +1,7 @@
 ---
 name: production-scheduling
 description: >
+title: "PRoduction Scheduling"
   Codified expertise for production scheduling, job sequencing, line balancing,
   changeover optimization, and bottleneck resolution in discrete and batch
   manufacturing. Informed by production schedulers with 15+ years experience.
@@ -17,7 +18,9 @@ metadata:
   clawdbot:
     emoji: ""
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Production Scheduling
 

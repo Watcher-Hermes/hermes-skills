@@ -1,6 +1,7 @@
 ---
 name: prompt-transformation-visualizer
 description: Explain what a matrix transformation does geometrically given its entries
+title: "PRompt Transformation Visualizer"
 phase: 1
 lesson: 3
 

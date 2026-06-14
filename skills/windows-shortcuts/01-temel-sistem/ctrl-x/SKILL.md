@@ -1,9 +1,12 @@
 ---
 name: ctrl-x
 description: Kes — Windows klavye kısayolu
+title: "Ctrl X"
 trigger: "Ctrl + X"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-x
 

@@ -1,6 +1,7 @@
 ---
 name: logistics-exception-management
 description: >
+title: "Logistics Exception Management"
   Codified expertise for handling freight exceptions, shipment delays,
   damages, losses, and carrier disputes. Informed by logistics professionals
   with 15+ years operational experience. Includes escalation protocols,
@@ -16,7 +17,9 @@ metadata:
   clawdbot:
     emoji: ""
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Logistics Exception Management
 

@@ -1,6 +1,7 @@
 ---
 name: tts-designer
 description: Pick TTS model, voice, text-normalization scope, and evaluation plan for a given language, style, and latency target.
+title: "Tts Designer"
 version: 1.0.0
 phase: 6
 lesson: 07

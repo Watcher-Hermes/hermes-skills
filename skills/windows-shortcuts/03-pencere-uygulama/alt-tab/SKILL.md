@@ -1,9 +1,12 @@
 ---
 name: alt-tab
 description: Açık uygulamalar arasında geç — Windows klavye kısayolu
+title: "Alt Tab"
 trigger: "Alt + Tab"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # alt-tab
 

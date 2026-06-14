@@ -1,8 +1,11 @@
 ---
 name: adb-sdk-path-fix
 description: Windows'ta Android SDK Platform-Tools yolundaki boşluk nedeniyle ADB komutlarının çalışmaması durumunda PATH düzeltme ve tırnak kullanma rehberi.
+title: "Adb Sdk Path Fix"
 
-audience: user---
+audience: user
+tags: [automation, windows]
+category: windows-automation---
 
 # ADB/SDK Kurulum + PATH Boşluk Hatası Çözümü
 

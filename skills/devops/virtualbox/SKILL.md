@@ -1,6 +1,7 @@
 ---
 name: virtualbox
 description: Manage VirtualBox VMs from Windows host via Hermes. Use for VM status, start/stop, networking, and remote access.
+title: "Virtualbox"
 triggers:
   - virtualbox
   - vboxmanage
@@ -9,7 +10,9 @@ triggers:
   - ssh to vm
   - connect to vm
 
-audience: maintainer---
+audience: maintainer
+tags: [automation, devops, system]
+category: devops---
 
 # VirtualBox VM Management
 

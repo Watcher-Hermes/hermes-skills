@@ -1,7 +1,9 @@
 ---
 name: windows-shortcut-testing
 description: "Windows klavye kýsayolu otomasyon testi: pyautogui ile sistem seviyesi Win kombinasyonlarýný test etme, ekran görüntüsü doðrulama, hash tabanlı benzersizlik kontrolü ve klasik test döngüsü. Hem kullanýcýnýn 134 testli yolculuðu hem de gelecekteki benzer otomasyonlar için kalýcý kurallar içerir."
+title: "Windows Shortcut Testing"
 tags: [windows, keyboard, shortcuts, testing, automation, pyautogui, screenshot, hash-validation]
+category: productivity
 audience: user
 version: 1.0.0
 ---

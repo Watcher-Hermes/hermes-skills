@@ -1,9 +1,12 @@
 ---
 name: laravel-tdd
 description: Laravel testing strategies with PHPUnit, Pest, model factories, HTTP tests, Sanctum authentication testing, mocking, and coverage.
+title: "Laravel TDD"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Laravel Testing with TDD
 

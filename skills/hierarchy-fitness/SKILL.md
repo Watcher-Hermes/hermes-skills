@@ -1,6 +1,7 @@
 ---
 name: hierarchy-fitness
 description: Decide whether a multi-agent task fits hierarchical, flat supervisor, or sequential. Surface the failure modes that matter.
+title: "Hierarchy Fitness"
 version: 1.0.0
 phase: 16
 lesson: 06

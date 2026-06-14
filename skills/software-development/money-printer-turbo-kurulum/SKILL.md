@@ -1,8 +1,10 @@
 ---
 name: money-printer-turbo-kurulum
 description: MoneyPrinterTurbo kurulumu, yapılandırması ve video oluşturma iş akışı
+title: "Money PRinter Turbo Kurulum"
 category: software-development
 audience: contributor
+tags: [coding, development]
 ---
 
 # MoneyPrinterTurbo Kullanım Kılavuzu

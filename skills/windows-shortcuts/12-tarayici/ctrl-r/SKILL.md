@@ -1,9 +1,12 @@
 ---
 name: ctrl-r
 description: Sayfayı yenile — Windows klavye kısayolu
+title: "Ctrl R"
 trigger: "Ctrl + R"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-r
 

@@ -1,6 +1,7 @@
 ---
 name: ecosystem-blueprint
 description: Produce a full Phase 13 ecosystem architecture given a product need; name primitives, security posture, telemetry, and packaging.
+title: "Ecosystem Blueprint"
 version: 1.0.0
 phase: 13
 lesson: 22

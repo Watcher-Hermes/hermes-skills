@@ -1,9 +1,12 @@
 ---
 name: project-startup-check
 description: Proje açılış taraması — bağımlılık, araç, yapılandırma ve klasör kontrolleri ile eksiklikleri otomatik tamir et. Her oturum/çalışmada ilk adım.
+title: "PRoject Startup Check"
 platforms: [windows, macos, linux]
 
-audience: contributor---
+audience: contributor
+tags: [coding, development]
+category: software-development---
 
 # Project Startup Check
 

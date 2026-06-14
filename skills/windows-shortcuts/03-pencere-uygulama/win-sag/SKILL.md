@@ -1,9 +1,12 @@
 ---
 name: win-sag
 description: Pencereyi sağ yarıya yasla — Windows klavye kısayolu
+title: "Win Sag"
 trigger: "Win + Sağ Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-sag
 

@@ -1,6 +1,7 @@
 ---
 name: reward-hack-auditor
 description: Diagnose reward-hacking failure modes in a trained RLHF model from training logs and eval outputs.
+title: "Reward Hack Auditor"
 version: 1.0.0
 phase: 18
 lesson: 2

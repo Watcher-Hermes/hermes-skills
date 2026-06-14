@@ -1,6 +1,7 @@
 ---
 name: feature-extractor
 description: Pick feature type, mel count, frame/hop, and normalization to match a downstream audio model.
+title: "Feature Extractor"
 version: 1.0.0
 phase: 6
 lesson: 02

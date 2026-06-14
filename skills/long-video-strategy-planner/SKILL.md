@@ -1,6 +1,7 @@
 ---
 name: long-video-strategy-planner
 description: Pick brute-context, ring-attention, token-compression, or agentic-retrieval for a long-video understanding task and compute latency + recall expectations.
+title: "Long Video Strategy Planner"
 version: 1.0.0
 phase: 12
 lesson: 18

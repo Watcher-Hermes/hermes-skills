@@ -1,9 +1,12 @@
 ---
 name: shift-tab
 description: Önceki seçeneğe geç — Windows klavye kısayolu
+title: "Shift Tab"
 trigger: "Shift + Tab"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # shift-tab
 

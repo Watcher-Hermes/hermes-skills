@@ -1,9 +1,12 @@
 ---
 name: game-trainer-repo-workflow
 description: Find, evaluate, and apply external game trainer/tool repositories for single-player character enhancement. Use when the user asks about trainers, cheats, character power-ups, repo hunting for game modifications, or any GitHub-based trainer discovery workflow.
+title: "Game Trainer Repo Workflow"
 trigger: user asks for trainer, cheat, character enhancement, repo search for game tools, "repo" in gaming context, game modification discovery
 
-audience: user---
+audience: user
+tags: [gaming, training]
+category: gaming---
 
 # Game Trainer Repository Workflow
 

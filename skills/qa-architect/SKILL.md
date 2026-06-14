@@ -1,6 +1,7 @@
 ---
 name: qa-architect
 description: Choose QA architecture, retrieval strategy, and evaluation plan.
+title: "Qa Architect"
 version: 1.0.0
 phase: 5
 lesson: 13

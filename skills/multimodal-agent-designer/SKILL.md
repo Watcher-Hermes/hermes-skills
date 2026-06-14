@@ -1,6 +1,7 @@
 ---
 name: multimodal-agent-designer
 description: Design a multimodal agent (computer-use, GUI grounding, web or mobile) with action schema, memory strategy, and benchmark evaluation plan.
+title: "Multimodal Agent Designer"
 version: 1.0.0
 phase: 12
 lesson: 25

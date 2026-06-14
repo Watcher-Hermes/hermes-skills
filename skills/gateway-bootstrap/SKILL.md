@@ -1,6 +1,7 @@
 ---
 name: gateway-bootstrap
 description: Produce a gateway configuration spec given users, backends, and compliance constraints.
+title: "Gateway Bootstrap"
 version: 1.0.0
 phase: 13
 lesson: 17

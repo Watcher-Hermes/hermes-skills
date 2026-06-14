@@ -1,9 +1,12 @@
 ---
 name: alt-harf
 description: İlgili komutu çalıştır — Windows klavye kısayolu
+title: "Alt Harf"
 trigger: "Alt + altı çizili harf"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # alt-harf
 

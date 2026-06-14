@@ -1,11 +1,14 @@
 ---
 name: tor-arama-bypass-cozumu
 description: "Tamamlayici skill - Tor bypass teknikleri. Ana skil: tor-browser-arama"
+title: "Tor Arama Bypass Cozumu"
 version: 1.0.0
 author: hermes
 platforms: [windows]
 
-audience: user---
+audience: user
+tags: [automation, tor, windows]
+category: windows-automation---
 
 # Tor Arama Bypass Çözümü
 

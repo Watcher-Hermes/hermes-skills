@@ -1,9 +1,12 @@
 ---
 name: ctrl-shift-ok
 description: Kelime kelime seç — Windows klavye kısayolu
+title: "Ctrl Shift Ok"
 trigger: "Ctrl + Shift + Sol/Sağ Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-shift-ok
 

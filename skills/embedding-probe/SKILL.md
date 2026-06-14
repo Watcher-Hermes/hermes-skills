@@ -1,6 +1,7 @@
 ---
 name: embedding-probe
 description: Inspect a word2vec model. Run analogies, find neighbors, diagnose quality.
+title: "Embedding PRobe"
 version: 1.0.0
 phase: 5
 lesson: 03

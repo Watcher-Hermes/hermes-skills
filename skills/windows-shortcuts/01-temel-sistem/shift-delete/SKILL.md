@@ -1,9 +1,12 @@
 ---
 name: shift-delete
 description: Kalıcı sil — Windows klavye kısayolu
+title: "Shift Delete"
 trigger: "Shift + Delete"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # shift-delete
 

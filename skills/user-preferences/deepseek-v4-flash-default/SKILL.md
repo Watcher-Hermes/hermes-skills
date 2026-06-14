@@ -4,6 +4,7 @@ id: deepseek-v4-flash-default
 title: "DeepSeek V4 Flash — Varsayılan Model Profili"
 description: "DeepSeek V4 Flash modelini 1M context ile yapılandırır. Hermes başlangıcında bu model aktif olmalıdır."
 tags: [model, deepseek, config, default, always-active]
+category: user-preferences
 audience: user
 trigger: "session start, /model komutu çalıştırıldığında"
 ---

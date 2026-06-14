@@ -1,6 +1,7 @@
 ---
 name: state-graph
 description: Build a LangGraph-shaped state machine with typed state, conditional edges, per-node checkpointing, and durable resume.
+title: "State Graph"
 version: 1.0.0
 phase: 14
 lesson: 13

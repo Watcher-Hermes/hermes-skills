@@ -1,6 +1,7 @@
 ---
 name: mt-evaluator
 description: Evaluate a machine translation output for shipping.
+title: "Mt Evaluator"
 version: 1.0.0
 phase: 5
 lesson: 11

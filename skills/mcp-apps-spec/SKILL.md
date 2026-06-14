@@ -1,6 +1,7 @@
 ---
 name: mcp-apps-spec
 description: Produce the full MCP Apps contract for a tool that needs an interactive UI resource.
+title: "MCP Apps Spec"
 version: 1.0.0
 phase: 13
 lesson: 14

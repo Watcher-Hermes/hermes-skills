@@ -1,6 +1,7 @@
 ---
 name: codec-picker
 description: Pick a neural audio codec (EnCodec / DAC / SNAC / Mimi) for a given generative or compression task.
+title: "Codec Picker"
 version: 1.0.0
 phase: 6
 lesson: 13

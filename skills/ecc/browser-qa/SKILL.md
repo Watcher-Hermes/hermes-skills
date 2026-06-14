@@ -1,9 +1,12 @@
 ---
 name: browser-qa
 description: Use this skill to automate visual testing and UI interaction verification using browser automation after deploying features.
+title: "Browser Qa"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Browser QA — Automated Visual Testing & Interaction
 

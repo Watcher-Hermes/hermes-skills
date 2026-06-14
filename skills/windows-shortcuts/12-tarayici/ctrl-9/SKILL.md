@@ -1,9 +1,12 @@
 ---
 name: ctrl-9
 description: Son sekmeye git — Windows klavye kısayolu
+title: "Ctrl 9"
 trigger: "Ctrl + 9"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-9
 

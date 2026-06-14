@@ -1,6 +1,7 @@
 ---
 name: horizon-reality-check
 description: Given a task you want to hand to an agent, decide whether the current frontier's horizon covers it with enough margin.
+title: "Horizon Reality Check"
 version: 1.0.0
 phase: 15
 lesson: 1

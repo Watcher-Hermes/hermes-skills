@@ -1,6 +1,7 @@
 ---
 name: prompt-tokenizer-analyzer
 description: Analyze tokenization efficiency for a given text across different models and tokenizer types
+title: "PRompt Tokenizer Analyzer"
 phase: 10
 lesson: 01
 

@@ -1,9 +1,12 @@
 ---
 name: win
 description: Başlat menüsü — Windows klavye kısayolu
+title: "Win"
 trigger: "Win"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win
 

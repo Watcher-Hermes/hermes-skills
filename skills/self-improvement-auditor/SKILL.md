@@ -1,6 +1,7 @@
 ---
 name: self-improvement-auditor
 description: Audit a proposed self-improvement or constitutional AI pipeline before it runs at scale.
+title: "Self Improvement Auditor"
 version: 1.0.0
 phase: 10
 lesson: 9

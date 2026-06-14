@@ -1,6 +1,7 @@
 ---
 name: sd-toolkit-composer
 description: Compose ControlNets, LoRAs, and IP-Adapters on top of an SD / Flux base for a given set of inputs.
+title: "Sd Toolkit Composer"
 version: 1.0.0
 phase: 8
 lesson: 08

@@ -1,6 +1,7 @@
 ---
 name: safety-harness
 description: Wire a layered safety pipeline around a target LLM app, run a six-family red-team range, and run a constitutional self-critique for a measurable harmlessness delta.
+title: "Safety Harness"
 version: 1.0.0
 phase: 19
 lesson: 15

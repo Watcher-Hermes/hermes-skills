@@ -1,6 +1,7 @@
 ---
 name: skill-constitutional-rules-engine
 description: Declarative YAML rules engine for output constraints with severity, explanation, fixer operations, and structured diff
+title: "Skill Constitutional Rules Engine"
 version: 1.0.0
 phase: 19
 lesson: 86

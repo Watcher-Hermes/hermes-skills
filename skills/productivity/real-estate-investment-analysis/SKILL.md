@@ -4,7 +4,9 @@ title: Real Estate Investment Analysis
 description: Generate Excel investment templates and parse property listing data for urban regeneration (kentsel dönüşüm) analysis. Covers template creation, data parsing workflow, and blocked-scraping fallback patterns. Includes Playwright + Chrome profile/cookie transfer fallback to evade strict bot protection.</summary>
 triggers: real estate, urban regeneration, kentsel dönüşüm, investment template, Excel, openpyxl, property listing, arsa payı, emsal, inşaat maliyeti, data parser, dump veri
 
-audience: user---
+audience: user
+tags: [productivity, tools]
+category: productivity---
 
 # Real Estate Investment Analysis Skill
 

@@ -1,9 +1,12 @@
 ---
 name: win-l
 description: Bilgisayarı kilitle — Windows klavye kısayolu
+title: "Win L"
 trigger: "Win + L"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-l
 

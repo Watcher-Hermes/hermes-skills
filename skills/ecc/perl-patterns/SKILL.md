@@ -1,9 +1,12 @@
 ---
 name: perl-patterns
 description: Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications.
+title: "Perl Patterns"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Modern Perl Development Patterns
 

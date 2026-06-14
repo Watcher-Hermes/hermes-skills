@@ -1,9 +1,12 @@
 ---
 name: continuous-agent-loop
 description: Patterns for continuous autonomous agent loops with quality gates, evals, and recovery controls.
+title: "Continuous Agent Loop"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Continuous Agent Loop
 

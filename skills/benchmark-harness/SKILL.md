@@ -1,6 +1,7 @@
 ---
 name: benchmark-harness
 description: Build a SWE-bench-style harness for a codebase with FAIL_TO_PASS / PASS_TO_PASS gating, contamination checks, and step-count metrics.
+title: "Benchmark Harness"
 version: 1.0.0
 phase: 14
 lesson: 19

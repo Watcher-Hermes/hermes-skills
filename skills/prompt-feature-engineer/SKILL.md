@@ -1,6 +1,7 @@
 ---
 name: prompt-feature-engineer
 description: Systematic prompt for engineering features from raw tabular data
+title: "PRompt Feature Engineer"
 phase: 2
 lesson: 8
 

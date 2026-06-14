@@ -1,9 +1,12 @@
 ---
 name: product-lens
 description: Use this skill to validate the "why" before building, run product diagnostics, and pressure-test product direction before the request becomes an implementation contract.
+title: "PRoduct Lens"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Product Lens — Think Before You Build
 

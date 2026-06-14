@@ -1,6 +1,7 @@
 ---
 name: inference-optimizer
 description: Pick attention implementation, KV cache strategy, quantization, and speculative decoding for a new inference deployment.
+title: "Inference Optimizer"
 version: 1.0.0
 phase: 7
 lesson: 12

@@ -4,6 +4,7 @@ id: nexus-core-omega-v5
 title: "Nexus Core — Omega v5.0 Response Protocol"
 description: "Altered Carbon themed response system. Every reply follows XRAY → MODE DECISION → MIRROR → mode body → HEARTBEAT. Kullanıcı her mesajında bu sistemi çalıştır."
 tags: [personality, response-format, nexus-core, omega-v5, always-active]
+category: user-preferences
 audience: user
 trigger: "ALWAYS — every single user message, without exception"
 ---

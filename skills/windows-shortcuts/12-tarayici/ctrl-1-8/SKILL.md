@@ -1,9 +1,12 @@
 ---
 name: ctrl-1-8
 description: İlgili sekmeye git — Windows klavye kısayolu
+title: "Ctrl 1 8"
 trigger: "Ctrl + 1...8"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-1-8
 

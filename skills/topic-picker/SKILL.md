@@ -1,6 +1,7 @@
 ---
 name: topic-picker
 description: Pick LDA or BERTopic for a corpus. Specify library, knobs, evaluation.
+title: "Topic Picker"
 version: 1.0.0
 phase: 5
 lesson: 15

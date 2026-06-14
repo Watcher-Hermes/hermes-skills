@@ -1,9 +1,12 @@
 ---
 name: ctrl-z
 description: Geri al — Windows klavye kısayolu
+title: "Ctrl Z"
 trigger: "Ctrl + Z"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-z
 

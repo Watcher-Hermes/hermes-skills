@@ -1,6 +1,7 @@
 ---
 name: skill-dcgan-scaffold
 description: Write a complete DCGAN scaffold from z_dim, image_size, and num_channels, including training loop and sample saver
+title: "Skill Dcgan Scaffold"
 version: 1.0.0
 phase: 4
 lesson: 9

@@ -1,6 +1,7 @@
 ---
 name: ner-picker
 description: Pick the right NER approach for a given extraction task.
+title: "Ner Picker"
 version: 1.0.0
 phase: 5
 lesson: 06

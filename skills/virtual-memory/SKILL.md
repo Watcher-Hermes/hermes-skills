@@ -1,6 +1,7 @@
 ---
 name: virtual-memory
 description: Scaffold a MemGPT-shaped two-tier memory system (main context + archival store + memory tools) for any target runtime with correct eviction, citation, and untrusted-input handling.
+title: "Virtual Memory"
 version: 1.0.0
 phase: 14
 lesson: 07

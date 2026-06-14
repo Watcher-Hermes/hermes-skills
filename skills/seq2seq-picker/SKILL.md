@@ -1,6 +1,7 @@
 ---
 name: seq2seq-picker
 description: Choose encoder-decoder vs decoder-only for a new sequence-to-sequence task.
+title: "Seq2Seq Picker"
 version: 1.0.0
 phase: 7
 lesson: 8

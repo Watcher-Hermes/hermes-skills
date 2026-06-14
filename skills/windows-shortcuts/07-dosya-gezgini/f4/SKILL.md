@@ -1,9 +1,12 @@
 ---
 name: f4
 description: Adres çubuğu listesini aç — Windows klavye kısayolu
+title: "F4"
 trigger: "F4"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # f4
 

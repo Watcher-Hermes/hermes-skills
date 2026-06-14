@@ -1,6 +1,7 @@
 ---
 name: quality-nonconformance
 description: >
+title: "Quality Nonconformance"
   Codified expertise for quality control, non-conformance investigation, root
   cause analysis, corrective action, and supplier quality management in
   regulated manufacturing. Informed by quality engineers with 15+ years
@@ -17,7 +18,9 @@ metadata:
   clawdbot:
     emoji: ""
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Quality & Non-Conformance Management
 

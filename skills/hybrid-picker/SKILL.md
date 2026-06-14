@@ -1,6 +1,7 @@
 ---
 name: hybrid-picker
 description: Pick between pure Transformer, Jamba-style hybrid, and pure SSM for a given workload.
+title: "Hybrid Picker"
 version: 1.0.0
 phase: 10
 lesson: 21

@@ -1,6 +1,7 @@
 ---
 name: customs-trade-compliance
 description: >
+title: "Customs Trade Compliance"
   Codified expertise for customs documentation, tariff classification, duty
   optimization, restricted party screening, and regulatory compliance across
   multiple jurisdictions. Informed by trade compliance specialists with 15+
@@ -17,7 +18,9 @@ metadata:
   clawdbot:
     emoji: ""
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Customs & Trade Compliance
 

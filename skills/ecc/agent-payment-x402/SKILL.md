@@ -1,9 +1,12 @@
 ---
 name: agent-payment-x402
 description: Add x402 payment execution to AI agents with per-task budgets, spending controls, and non-custodial wallets. Supports Base through agentwallet-sdk and X Layer through OKX Payments / OKX Agent Payments Protocol.
+title: "Agent Payment X402"
 origin: community
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Agent Payment Execution (x402)
 

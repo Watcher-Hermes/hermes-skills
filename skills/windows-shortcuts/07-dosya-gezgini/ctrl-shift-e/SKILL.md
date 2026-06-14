@@ -1,9 +1,12 @@
 ---
 name: ctrl-shift-e
 description: Seçili klasörün tüm üst klasörlerini genişlet — Windows klavye kısayolu
+title: "Ctrl Shift E"
 trigger: "Ctrl + Shift + E"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-shift-e
 

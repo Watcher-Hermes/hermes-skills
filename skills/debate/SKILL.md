@@ -1,6 +1,7 @@
 ---
 name: debate
 description: Scaffold a multi-agent debate with N debaters, R rounds, configurable topology (full mesh, star, ring), and a convergence rule.
+title: "Debate"
 version: 1.0.0
 phase: 14
 lesson: 25

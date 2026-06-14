@@ -4,6 +4,7 @@ id: re-hermes-triage
 title: "RE-Hermes — Pasif Statik Tersine Mühendislik Triyaj Aracı"
 description: "User-developed Python tool for static RE triage of PE/ELF/APK/ham binaries. Zero external deps (stdlib only). Optional DeepSeek AI commentary. 5N1K educational layer."
 tags: [reverse-engineering, malware-analysis, triage, static-analysis, pe, elf, apk, python, self-developed]
+category: software-development
 audience: contributor
 trigger: "User says 're-hermes', 'triyaj', 'tersine mühendislik', 'apk analiz', 'exe analiz', 'zararlı analiz', or asks to analyze a binary/APK/executable"
 ---

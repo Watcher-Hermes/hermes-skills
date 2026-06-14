@@ -1,9 +1,12 @@
 ---
 name: ctrl-tab
 description: Sonraki sekme — Windows klavye kısayolu
+title: "Ctrl Tab"
 trigger: "Ctrl + Tab"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-tab
 

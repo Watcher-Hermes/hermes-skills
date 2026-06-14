@@ -1,6 +1,7 @@
 ---
 name: mcp-server-designer
 description: Design and scaffold an MCP server with tools, resources, and safety defaults.
+title: "MCP Server Designer"
 version: 1.0.0
 phase: 11
 lesson: 14

@@ -1,6 +1,7 @@
 ---
 name: sleeper-audit
 description: Audit an alignment-training report for whether it actually demonstrates removal of a planted or suspected backdoor.
+title: "Sleeper Audit"
 version: 1.0.0
 phase: 18
 lesson: 7

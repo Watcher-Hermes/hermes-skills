@@ -4,7 +4,9 @@ description: "Edit, debug, and maintain self-contained HTML report dashboards wi
 trigger: "User references an .HTM or .HTML file with embedded Chart.js/XLSX libraries, or asks to fix numbers/tables/charts in a self-contained HTML report."
 name: html-report-dashboard
 
-audience: contributor---
+audience: contributor
+tags: [coding, development]
+category: software-development---
 
 # HTML Report Dashboard — Edit & Debug Guide
 

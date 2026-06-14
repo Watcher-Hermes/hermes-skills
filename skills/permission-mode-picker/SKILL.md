@@ -1,6 +1,7 @@
 ---
 name: permission-mode-picker
 description: Match a Claude Code task to the correct permission mode, budget caps, and required isolation before starting a run.
+title: "Permission Mode Picker"
 version: 1.0.0
 phase: 15
 lesson: 10

@@ -1,6 +1,7 @@
 ---
 name: rollback-rehearsal
 description: Design a rollback-rehearsal test for a proposed autonomous workflow and audit the checkpoint backend for audit-trail persistence.
+title: "Rollback Rehearsal"
 version: 1.0.0
 phase: 15
 lesson: 16

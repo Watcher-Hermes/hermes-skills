@@ -1,6 +1,7 @@
 ---
 name: constitution-review
 description: Audit a deployment's constitutional layer — hardcoded prohibitions, soft-coded defaults, operator-adjustable bounds, and four-tier hierarchy resolution.
+title: "Constitution Review"
 version: 1.0.0
 phase: 15
 lesson: 17

@@ -1,8 +1,11 @@
 ---
 name: android-apk-modding
 description: APK modding pipeline — tek yön, geri dönüşsüz adımlar. Sistem uygulaması bypass (package rename), split APK merge, smali/dex patching, onPause/onStop boşaltma, manifest düzenleme. Önbelge → Decompile → Yama (karar ağacı) → Rebuild → zipalign → İmzala → Doğrula+logcat.
+title: "Android Apk Modding"
 
-audience: contributor---
+audience: contributor
+tags: [android, development, mobile]
+category: android---
 
 # Android APK Modding Pipeline
 

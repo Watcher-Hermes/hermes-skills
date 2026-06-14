@@ -1,6 +1,7 @@
 ---
 name: prompt-network-architect
 description: Guides the user through designing neural network architectures by choosing layer counts, neuron counts, and activation functions for a given problem
+title: "PRompt Network Architect"
 phase: 03
 lesson: 02
 

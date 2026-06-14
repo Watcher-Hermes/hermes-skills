@@ -1,9 +1,12 @@
 ---
 name: ctrl-i
 description: İtalik — Windows klavye kısayolu
+title: "Ctrl I"
 trigger: "Ctrl + I"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-i
 

@@ -3,7 +3,9 @@ name: local-game-trainer-automation
 title: Local Game Trainer Automation
 description: Author, debug, and operate single-player trainer scripts on Windows using global hotkeys, console command injection, and window focus automation. Use for trainer scripts, console injection, and game hotkey automation.
 
-audience: user---
+audience: user
+tags: [gaming, training]
+category: gaming---
 
 # Local Game Trainer Automation
 

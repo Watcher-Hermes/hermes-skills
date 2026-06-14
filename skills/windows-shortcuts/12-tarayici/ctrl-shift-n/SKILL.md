@@ -1,9 +1,12 @@
 ---
 name: ctrl-shift-n
 description: Gizli / Özel pencere — Windows klavye kısayolu
+title: "Ctrl Shift N"
 trigger: "Ctrl + Shift + N"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-shift-n
 

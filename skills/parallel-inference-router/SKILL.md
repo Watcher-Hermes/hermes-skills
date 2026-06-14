@@ -1,6 +1,7 @@
 ---
 name: parallel-inference-router
 description: Route a reasoning workload between voting, tree-of-thought, multi-agent, Hogwild!, and speculative decoding strategies.
+title: "Parallel Inference Router"
 version: 1.0.0
 phase: 10
 lesson: 22

@@ -1,9 +1,12 @@
 ---
 name: num-5sn
 description: Geçiş Tuşları aç/kapat — Windows klavye kısayolu
+title: "Num 5Sn"
 trigger: "Num Lock 5 sn basılı"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # num-5sn
 

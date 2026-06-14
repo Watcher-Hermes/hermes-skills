@@ -1,6 +1,7 @@
 ---
 name: tool-schema-linter
 description: Audit a tool registry against production design rules for names, descriptions, parameters, and shape. Can run in CI on every tool-registry change.
+title: "Tool Schema Linter"
 version: 1.0.0
 phase: 13
 lesson: 05

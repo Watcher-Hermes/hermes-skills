@@ -1,6 +1,7 @@
 ---
 name: cold-start-planner
 description: Pick and stack cold-start mitigations for serverless LLM deployments. Budget phases (node, image, weights, engine, first forward) and match mitigations to SLA.
+title: "Cold Start Planner"
 version: 1.0.0
 phase: 17
 lesson: 10

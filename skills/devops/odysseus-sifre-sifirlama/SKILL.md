@@ -1,7 +1,9 @@
 ---
 name: odysseus-sifre-sifirlama
 description: Odysseus admin şifresini sıfırla — giriş yapılamadığında kullan.
+title: "Odysseus Sifre Sifirlama"
 tags: [odysseus, sifre, reset, docker, admin]
+category: devops
 audience: maintainer
 platforms: [windows]
 when_to_use: |

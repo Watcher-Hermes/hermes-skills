@@ -1,9 +1,12 @@
 ---
 name: alt-enter
 description: Seçili öğenin Özellikler penceresi — Windows klavye kısayolu
+title: "Alt Enter"
 trigger: "Alt + Enter"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # alt-enter
 

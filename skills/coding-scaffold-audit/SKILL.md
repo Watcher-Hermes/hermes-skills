@@ -1,6 +1,7 @@
 ---
 name: coding-scaffold-audit
 description: Audit a proposed coding-agent scaffold (retrieval, verifier loop, sandbox, benchmark fit) before adopting it for production code changes.
+title: "Coding Scaffold Audit"
 version: 1.0.0
 phase: 15
 lesson: 9

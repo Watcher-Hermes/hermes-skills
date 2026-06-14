@@ -1,9 +1,12 @@
 ---
 name: ctrl-shift-t
 description: Kapanan sekmeyi geri aç — Windows klavye kısayolu
+title: "Ctrl Shift T"
 trigger: "Ctrl + Shift + T"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-shift-t
 

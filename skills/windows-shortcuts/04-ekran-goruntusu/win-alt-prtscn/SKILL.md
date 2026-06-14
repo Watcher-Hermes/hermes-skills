@@ -1,9 +1,12 @@
 ---
 name: win-alt-prtscn
 description: Game Bar ile aktif pencere görüntüsünü kaydet — Windows klavye kısayolu
+title: "Win Alt PRtscn"
 trigger: "Win + Alt + PrtScn"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-alt-prtscn
 

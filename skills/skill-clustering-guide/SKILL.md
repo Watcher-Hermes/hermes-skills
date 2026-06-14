@@ -1,6 +1,7 @@
 ---
 name: skill-clustering-guide
 description: Choose the right clustering algorithm based on data shape, noise, and constraints
+title: "Skill Clustering GUIde"
 version: 1.0.0
 phase: 2
 lesson: 7

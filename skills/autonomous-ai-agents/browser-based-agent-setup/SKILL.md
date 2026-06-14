@@ -14,7 +14,9 @@ triggers:
   - "autonomous çalışan AI asistan kur"
   - "Creo AI ile kendi kendine çalışan asistan"
 
-audience: user---
+audience: user
+tags: [agents, ai, automation]
+category: autonomous-ai-agents---
 
 # Browser-Based Agent Setup
 

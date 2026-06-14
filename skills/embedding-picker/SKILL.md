@@ -1,6 +1,7 @@
 ---
 name: embedding-picker
 description: Pick embedding model, dimension, and retrieval mode for a given corpus and deployment.
+title: "Embedding Picker"
 version: 1.0.0
 phase: 5
 lesson: 22

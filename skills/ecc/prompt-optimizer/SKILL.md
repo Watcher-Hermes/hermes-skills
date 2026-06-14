@@ -1,6 +1,7 @@
 ---
 name: prompt-optimizer
 description: >-
+title: "PRompt Optimizer"
   Analyze raw prompts, identify intent and gaps, match ECC components
   (skills/commands/agents/hooks), and output a ready-to-paste optimized
   prompt. Advisory role only — never executes the task itself.
@@ -17,7 +18,9 @@ metadata:
   author: YannJY02
   version: "1.0.0"
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Prompt Optimizer
 

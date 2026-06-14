@@ -1,6 +1,7 @@
 ---
 name: prompt-optimizer-guide
 description: Guides the user through choosing the right optimizer for their specific machine learning problem
+title: "PRompt Optimizer GUIde"
 phase: 1
 lesson: 8
 

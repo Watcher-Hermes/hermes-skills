@@ -1,6 +1,7 @@
 ---
 name: search-policy
 description: Pick a search strategy (ReAct, ToT, LATS, evolutionary) given task shape, token budget, and evaluator quality.
+title: "Search Policy"
 version: 1.0.0
 phase: 14
 lesson: 04

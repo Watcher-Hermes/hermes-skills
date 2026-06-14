@@ -1,6 +1,7 @@
 ---
 name: stategraph-designer
 description: Turn an agent task into a LangGraph StateGraph with named nodes, typed state, reducers, checkpointer, and human interrupts.
+title: "Stategraph Designer"
 version: 1.0.0
 phase: 11
 lesson: 16

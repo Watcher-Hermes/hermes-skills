@@ -1,6 +1,7 @@
 ---
 name: skill-pytorch-patterns
 description: Reference patterns for PyTorch training, evaluation, and deployment
+title: "Skill PyTorch Patterns"
 version: 1.0.0
 phase: 03
 lesson: 11

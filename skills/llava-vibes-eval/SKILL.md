@@ -1,6 +1,7 @@
 ---
 name: llava-vibes-eval
 description: Run a 10-prompt vibes-eval on a LLaVA-family VLM and produce a human-readable scorecard.
+title: "Llava Vibes Eval"
 version: 1.0.0
 phase: 12
 lesson: 05

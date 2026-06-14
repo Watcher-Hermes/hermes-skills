@@ -1,6 +1,7 @@
 ---
 name: money-printer-turbo
 description: >
+title: "Money PRinter Turbo"
   Set up and run harry0703/MoneyPrinterTurbo — AI video generation tool with
   FastAPI backend and Streamlit WebUI. Covers uv dependency management, API key
   configuration, backend startup, and WebUI launch.
@@ -10,7 +11,9 @@ triggers:
   - user says "MoneyPrinter" or "video generator" or "harry0703"
   - repo has config.toml, pyproject.toml, uv.lock
 
-audience: contributor---
+audience: contributor
+tags: [coding, development]
+category: software-development---
 
 # MoneyPrinterTurbo Setup
 

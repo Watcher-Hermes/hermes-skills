@@ -1,9 +1,12 @@
 ---
 name: git-workflow
 description: Git workflow patterns including branching strategies, commit conventions, merge vs rebase, conflict resolution, and collaborative development best practices for teams of all sizes.
+title: "Git Workflow"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development, git]
+category: ecc---
 
 # Git Workflow Patterns
 

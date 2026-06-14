@@ -1,6 +1,7 @@
 ---
 name: cache-auditor
 description: Audit an LLM prompt template and traffic pattern for cacheability. Recommend prompt restructure, TTL choice, parallelization fix, and semantic-cache threshold.
+title: "Cache Auditor"
 version: 1.0.0
 phase: 17
 lesson: 14

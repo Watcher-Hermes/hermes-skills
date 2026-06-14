@@ -4,6 +4,7 @@ name: "emulator-klavye-navigasyonu"
 description: "Android emülatörüne fare tıklaması ile odaklanıp klavye kısayollarıyla gezinme yöntemi"
 category: windows-automation
 audience: user
+tags: [automation, tor, windows]
 author: Hermes
 version: 1.0
 ---

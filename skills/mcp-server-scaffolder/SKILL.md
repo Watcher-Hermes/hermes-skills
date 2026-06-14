@@ -1,6 +1,7 @@
 ---
 name: mcp-server-scaffolder
 description: Scaffold a domain-specific MCP server with the right tools/resources/prompts split and SDK graduation path.
+title: "MCP Server Scaffolder"
 version: 1.0.0
 phase: 13
 lesson: 07

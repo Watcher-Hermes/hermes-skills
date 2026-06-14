@@ -1,6 +1,7 @@
 ---
 name: ai-sre-plan
 description: Design an AI SRE rollout for a team — multi-agent triage architecture, structured runbooks, adversarial evaluation, narrow auto-remediation, and predictive-detection posture.
+title: "AI SRE Plan"
 version: 1.0.0
 phase: 17
 lesson: 23

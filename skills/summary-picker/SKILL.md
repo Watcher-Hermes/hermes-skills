@@ -1,6 +1,7 @@
 ---
 name: summary-picker
 description: Pick extractive or abstractive, name the library, add a factuality check.
+title: "Summary Picker"
 version: 1.0.0
 phase: 5
 lesson: 12

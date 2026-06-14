@@ -1,6 +1,7 @@
 ---
 name: mtp-planner
 description: Plan a multi-token prediction integration for a new pre-training run.
+title: "Mtp Planner"
 version: 1.0.0
 phase: 10
 lesson: 18

@@ -1,6 +1,7 @@
 ---
 name: ab-plan
 description: Design an LLM A/B test — pick platform (Statsig or GrowthBook), primary metric, guardrails, sample size with LLM-noise buffer, CUPED, sequential stopping, and multiple-comparison correction.
+title: "Ab Plan"
 version: 1.0.0
 phase: 17
 lesson: 21

@@ -1,9 +1,12 @@
 ---
 name: ctrl-l
 description: Adres çubuğuna odaklan — Windows klavye kısayolu
+title: "Ctrl L"
 trigger: "Ctrl + L"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-l
 

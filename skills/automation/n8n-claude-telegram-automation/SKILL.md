@@ -1,8 +1,11 @@
 ---
 name: n8n-claude-telegram-automation
 description: n8n, Claude ve Telegram tabanlı otomasyon kurulumları ve workflow oluşturma.
+title: "N8N Claude Telegram Automation"
 
-audience: maintainer---
+audience: maintainer
+tags: [automation, system, telegram]
+category: automation---
 
 # n8n + Claude + Telegram Otomasyonu
 Bu video iş akışıyla tek bir Telegram mesajından başlatılan, Claude destekli n8n otomasyonu kurulumunu kapsar.

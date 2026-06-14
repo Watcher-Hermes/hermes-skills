@@ -1,9 +1,12 @@
 ---
 name: win-x-u-u
 description: Bilgisayarı kapat — Windows klavye kısayolu
+title: "Win X U U"
 trigger: "Win + X + U + U"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-x-u-u
 

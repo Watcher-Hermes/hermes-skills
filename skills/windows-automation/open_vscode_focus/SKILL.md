@@ -1,8 +1,11 @@
 ---
 name: open_vscode_focus
 description: Oyun ekranından VS Code’a hızlı geçiş. Çalışma alanı sıfırlanmadan öndeki pencereyi kapatır veya en sona alır, ardından VS Code’u sıfırdan başlatır ve odaklar.
+title: "Open VS Code Focus"
 
-audience: user---
+audience: user
+tags: [automation, windows]
+category: windows-automation---
 
 # VS Code Focus
 

@@ -1,9 +1,12 @@
 ---
 name: win-a
 description: Hızlı Ayarlar — Windows klavye kısayolu
+title: "Win A"
 trigger: "Win + A"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-a
 

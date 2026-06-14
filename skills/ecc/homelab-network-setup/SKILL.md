@@ -1,9 +1,12 @@
 ---
 name: homelab-network-setup
 description: Practical home and homelab network planning for gateways, switches, access points, IP ranges, DHCP reservations, DNS, cabling, and common beginner mistakes.
+title: "Homelab Network Setup"
 origin: community
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Homelab Network Setup
 

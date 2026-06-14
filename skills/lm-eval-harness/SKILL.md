@@ -1,6 +1,7 @@
 ---
 name: lm-eval-harness
 description: Minimal language model evaluation harness with JSONL task spec, five metrics, swappable adapter, and leaderboard JSON output.
+title: "Lm Eval Harness"
 version: 1.0.0
 phase: 19
 lesson: 49

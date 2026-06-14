@@ -1,6 +1,7 @@
 ---
 name: rollout-runbook
 description: Design a shadow → canary → A/B → 100% rollout plan for a new LLM model or prompt template, with five canary gates, noise-floor-aware thresholds, and a seconds-fast rollback path.
+title: "Rollout Runbook"
 version: 1.0.0
 phase: 17
 lesson: 20

@@ -1,6 +1,7 @@
 ---
 name: prompt-attention-explainer
 description: Explain the attention mechanism through the database lookup analogy
+title: "PRompt Attention Explainer"
 phase: 7
 lesson: 2
 

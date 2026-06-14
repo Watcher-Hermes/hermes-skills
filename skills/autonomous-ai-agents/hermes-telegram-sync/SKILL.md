@@ -1,8 +1,11 @@
 ---
 name: hermes-telegram-sync
 description: "Hermes Agent ile Telegram bot arasinda kopru kurar. Iki yonlu senkronizasyon saglar: Telegram'dan mesaj geldiginde Hermes Agent'a iletilir, Hermes Agent'in cevabi Telegram'a gonderilir. Skill kutuphanesi, .env ayarlari ve vault verisi her iki tarafta da ayni kalir."
+title: "Hermes Telegram Sync"
 
-audience: user---
+audience: user
+tags: [agents, ai, automation, sync, telegram]
+category: autonomous-ai-agents---
 
 # Hermes – Telegram Köprü
 

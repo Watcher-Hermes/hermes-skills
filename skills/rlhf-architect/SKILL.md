@@ -1,6 +1,7 @@
 ---
 name: rlhf-architect
 description: Design an RLHF / DPO / GRPO alignment pipeline for a language model, including RM, KL, and data strategy.
+title: "Rlhf Architect"
 version: 1.0.0
 phase: 9
 lesson: 9

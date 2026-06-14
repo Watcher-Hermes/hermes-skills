@@ -1,9 +1,11 @@
 ---
 name: lm-studio-local-llm
 description: "LM Studio local LLM operations — Windows install, GGUF model import/load, GPU offload configuration, server management, API testing, and model swapping. Sibling to ollama-local-llm."
+title: "Lm Studio Local LLM"
 version: 1.2.0
 platforms: [windows]
 tags: [lm-studio, local-llm, gpu-offload, gguf, windows, lms-cli]
+category: mlops
 audience: user
 ---
 

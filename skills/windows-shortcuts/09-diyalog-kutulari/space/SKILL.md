@@ -1,9 +1,12 @@
 ---
 name: space
 description: Onay kutusunu işaretle / kaldır — Windows klavye kısayolu
+title: "Space"
 trigger: "Space"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # space
 

@@ -1,6 +1,7 @@
 ---
 name: blueprint
 description: >-
+title: "Blueprint"
   Turn a one-line objective into a step-by-step construction plan for
   multi-session, multi-agent engineering projects. Each step has a
   self-contained context brief so a fresh agent can execute it cold.
@@ -12,7 +13,9 @@ description: >-
   than 3 tool calls, or user says "just do it".
 origin: community
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Blueprint — Construction Plan Generator
 

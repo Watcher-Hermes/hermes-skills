@@ -1,6 +1,7 @@
 ---
 name: gated-bridge-diagnostic
 description: Identify Flamingo-lineage design elements in an open VLM config and diagnose freezing / gating issues.
+title: "Gated Bridge Diagnostic"
 version: 1.0.0
 phase: 12
 lesson: 04

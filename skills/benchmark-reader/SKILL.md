@@ -1,6 +1,7 @@
 ---
 name: benchmark-reader
 description: Read a multi-agent benchmark claim skeptically. Grades the claim on benchmark selection, contamination, baselines, statistical significance, task diversity, and cost disclosure.
+title: "Benchmark Reader"
 version: 1.0.0
 phase: 16
 lesson: 24

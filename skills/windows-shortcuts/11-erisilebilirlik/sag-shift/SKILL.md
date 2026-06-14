@@ -1,9 +1,12 @@
 ---
 name: sag-shift
 description: Filtre Tuşları aç/kapat — Windows klavye kısayolu
+title: "Sag Shift"
 trigger: "Sağ Shift 8 sn basılı"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # sag-shift
 

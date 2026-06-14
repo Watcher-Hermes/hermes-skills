@@ -1,6 +1,7 @@
 ---
 name: spoof-defender
 description: Pick detection model, watermark, provenance manifest, and operational playbook for a voice-generation / voice-auth deployment.
+title: "Spoof Defender"
 version: 1.0.0
 phase: 6
 lesson: 16

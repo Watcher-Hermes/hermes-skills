@@ -1,9 +1,12 @@
 ---
 name: ctrl-a
 description: Tümünü seç — Windows klavye kısayolu
+title: "Ctrl A"
 trigger: "Ctrl + A"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-a
 

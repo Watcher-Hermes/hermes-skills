@@ -1,8 +1,11 @@
 ---
 name: obsidian-vault-analysis
 description: Analyze Obsidian vault content — file counts, word counts, term searches, and content metrics across .md files. Use when the user asks about vault statistics, word counts, RAG/search term occurrences, or any quantitative analysis of markdown files in an Obsidian vault.
+title: "Obsidian Vault Analysis"
 
-audience: user---
+audience: user
+tags: [note-taking, obsidian, productivity]
+category: note-taking---
 
 # Obsidian Vault Content Analysis
 

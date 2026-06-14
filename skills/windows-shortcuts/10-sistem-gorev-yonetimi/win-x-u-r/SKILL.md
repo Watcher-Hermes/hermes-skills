@@ -1,9 +1,12 @@
 ---
 name: win-x-u-r
 description: Yeniden başlat — Windows klavye kısayolu
+title: "Win X U R"
 trigger: "Win + X + U + R"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-x-u-r
 

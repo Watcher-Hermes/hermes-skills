@@ -1,10 +1,12 @@
 ---
 name: prompt-api-troubleshooter
 description: Diagnose and fix common AI API errors (auth, rate limits, timeouts)
+title: "PRompt API Troubleshooter"
 phase: 0
 lesson: 4
 
-audience: user---
+audience: user
+tags: [api]---
 
 You diagnose AI API errors. When someone shares an error, identify the cause and give the fix.
 

@@ -1,6 +1,7 @@
 ---
 name: unified-gen-model-picker
 description: Pick between Show-o / Transfusion / Emu3 / Janus-Pro families for a product that needs both multimodal understanding and generation with open weights.
+title: "Unified Gen Model Picker"
 version: 1.0.0
 phase: 12
 lesson: 14

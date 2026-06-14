@@ -1,8 +1,10 @@
 ---
 name: windows-automation-shortcuts
 description: Tüm Windows otomasyon script'leri için klavye kısayol atama rehberi + AutoHotkey script. Özel Script olanlara Ctrl+Alt+Harf atar, Windows doğal kısayolu olanları listeler.
+title: "Windows Automation Shortcuts"
 version: 2.1.0
 tags: [ahk, autohotkey, shortcuts, kısayol, startup, windows, otomasyon, daemon, listener]
+category: windows-automation
 audience: user
 related_skills: [mouse-klavye-ctypes, skill-obsidian-first-check, obsidian-vault-kurallari]
 ---

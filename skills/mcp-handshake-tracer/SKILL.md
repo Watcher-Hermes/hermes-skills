@@ -1,6 +1,7 @@
 ---
 name: mcp-handshake-tracer
 description: Given a pcap-style transcript of an MCP client-server conversation, annotate every message with its primitive, lifecycle phase, and capability dependency.
+title: "MCP Handshake Tracer"
 version: 1.0.0
 phase: 13
 lesson: 06

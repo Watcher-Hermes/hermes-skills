@@ -1,6 +1,7 @@
 ---
 name: mcp-server-platform
 description: Deploy a production MCP server with StreamableHTTP, OAuth 2.1 scopes, OPA policy, human-approval gate for destructive tools, and a registry for discovery.
+title: "MCP Server Platform"
 version: 1.0.0
 phase: 19
 lesson: 13

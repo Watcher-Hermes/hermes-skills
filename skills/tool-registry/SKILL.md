@@ -1,6 +1,7 @@
 ---
 name: tool-registry
 description: Build a production tool catalog and registry with JSON Schema validation, parallel dispatch, and observability.
+title: "Tool Registry"
 version: 1.0.0
 phase: 14
 lesson: 06

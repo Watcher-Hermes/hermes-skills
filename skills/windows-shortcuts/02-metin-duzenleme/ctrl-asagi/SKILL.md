@@ -1,9 +1,12 @@
 ---
 name: ctrl-asagi
 description: Bir paragraf aşağı atla — Windows klavye kısayolu
+title: "Ctrl Asagi"
 trigger: "Ctrl + Aşağı Ok"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-asagi
 

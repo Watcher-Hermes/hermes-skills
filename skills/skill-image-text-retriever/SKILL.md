@@ -1,6 +1,7 @@
 ---
 name: skill-image-text-retriever
 description: Build an image embedding index with any CLIP checkpoint; support query-by-text and query-by-image
+title: "Skill Image Text Retriever"
 version: 1.0.0
 phase: 4
 lesson: 18

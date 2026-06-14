@@ -1,6 +1,7 @@
 ---
 name: lunizz-sss-repo
 description: >-
+title: "Lunizz Sss Repo"
   LuNiZz/siber-guvenlik-sss GitHub reposu — Obsidian vault'a klonlanmış SSS,
   Altın Madeni, yazılım ve siber güvenlik dökümanları. Güncelleme, MOC yapısı.
   TETİKLEYİCİ: "siber", "guvenlik", "security", "sss", "lunizz", "altın madeni",
@@ -8,6 +9,7 @@ description: >-
 version: 1.0.0
 author: marko
 tags: [siber, guvenlik, security, lunizz, sss, kaynak, yazilim, egitim]
+category: note-taking
 audience: user
 ---
 

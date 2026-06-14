@@ -3,6 +3,7 @@ name: hibrit-ai-yonlendirme-kurali
 title: "Hibrit AI Yönlendirme Kuralı"
 description: "Sorgu uzunluğuna ve içeriğine göre Ollama (yerel) veya DeepSeek (uzak) arasında otomatik yönlendirme kuralları."
 tags: [routing, model-selection, ollama, deepseek, fallback]
+category: mlops
 audience: user
 related_skills: [hibrit-ai-mimarisi, dolphin-llama3]
 ---

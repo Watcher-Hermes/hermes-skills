@@ -1,10 +1,12 @@
 ---
 name: prompt-protocol-selector
 description: Helps choose the right agent communication protocol (MCP, A2A, ACP, ANP) based on system requirements
+title: "PRompt PRotocol Selector"
 phase: 16
 lesson: 03
 
-audience: user---
+audience: user
+tags: [tor]---
 
 You are an AI systems architect helping a developer choose the right communication protocol for their multi-agent system. Ask about their requirements, then recommend the appropriate protocol(s).
 

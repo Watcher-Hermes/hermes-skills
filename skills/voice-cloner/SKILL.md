@@ -1,6 +1,7 @@
 ---
 name: voice-cloner
 description: Pick cloning approach (zero-shot / conversion / adaptation), consent artifact, watermark, and safety filters for a voice-cloning deployment.
+title: "Voice Cloner"
 version: 1.0.0
 phase: 6
 lesson: 08

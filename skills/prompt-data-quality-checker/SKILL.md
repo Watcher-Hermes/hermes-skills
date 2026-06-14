@@ -1,6 +1,7 @@
 ---
 name: prompt-data-quality-checker
 description: Validate and debug data quality in LLM pre-training pipelines
+title: "PRompt Data Quality Checker"
 version: 1.0.0
 phase: 10
 lesson: 3

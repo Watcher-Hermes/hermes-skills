@@ -1,6 +1,7 @@
 ---
 name: skill-llm-evaluation
 description: Decision framework for choosing the right LLM evaluation strategy based on task type, budget, and requirements
+title: "Skill LLM Evaluation"
 version: 1.0.0
 phase: 10
 lesson: 10

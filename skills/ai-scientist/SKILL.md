@@ -1,6 +1,7 @@
 ---
 name: ai-scientist
 description: Build an autonomous research agent that runs experiment tree search, writes LaTeX papers with vision critique, and passes a sandbox-escape red team.
+title: "AI Scientist"
 version: 1.0.0
 phase: 19
 lesson: 05

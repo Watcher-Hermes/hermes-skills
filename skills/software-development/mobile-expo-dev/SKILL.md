@@ -1,9 +1,12 @@
 ---
 name: mobile-expo-dev
 description: React Native + Expo mobil geliştirme döngüsü — kurulum, arayüz, test, hata düzeltme ve yayın öncesi kontrol.
+title: "Mobile Expo Dev"
 platforms: [windows, macos, linux]
 
-audience: contributor---
+audience: contributor
+tags: [coding, development, mobile]
+category: software-development---
 
 # Mobile Expo Dev (Hermes Skill)
 

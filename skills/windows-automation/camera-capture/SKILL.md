@@ -1,8 +1,11 @@
 ---
 name: camera-capture
 description: Capture video from webcam on Windows using Python + OpenCV. Use when user asks for camera recording, webcam capture, video from camera, or "kameradan video çek".
+title: "Camera Capture"
 
-audience: user---
+audience: user
+tags: [automation, camera, windows]
+category: windows-automation---
 
 # Camera Capture
 

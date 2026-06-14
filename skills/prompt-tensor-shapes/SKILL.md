@@ -1,6 +1,7 @@
 ---
 name: prompt-tensor-shapes
 description: Debug tensor shape mismatches and recommend fixes for common deep learning operations
+title: "PRompt Tensor Shapes"
 phase: 1
 lesson: 12
 

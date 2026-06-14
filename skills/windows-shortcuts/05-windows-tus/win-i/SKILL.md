@@ -1,9 +1,12 @@
 ---
 name: win-i
 description: Ayarlar — Windows klavye kısayolu
+title: "Win I"
 trigger: "Win + I"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-i
 

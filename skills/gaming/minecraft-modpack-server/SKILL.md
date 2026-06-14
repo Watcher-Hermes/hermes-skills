@@ -1,7 +1,9 @@
 ---
 name: minecraft-modpack-server
 description: "Host modded Minecraft servers (CurseForge, Modrinth)."
+title: "Minecraft Modpack Server"
 tags: [minecraft, gaming, server, neoforge, forge, modpack]
+category: gaming
 audience: user
 platforms: [linux, macos]
 ---

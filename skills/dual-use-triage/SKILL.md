@@ -1,6 +1,7 @@
 ---
 name: dual-use-triage
 description: Triage a capability claim or incident report across the four CBRN domains.
+title: "Dual Use Triage"
 version: 1.0.0
 phase: 18
 lesson: 30

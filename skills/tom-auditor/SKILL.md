@@ -1,6 +1,7 @@
 ---
 name: tom-auditor
 description: Audit a multi-agent system that claims "emergent coordination." Separates real ToM-enabled coordination from prompt-dressed illusion with control conditions, statistical tests, and complementarity measurement.
+title: "Tom Auditor"
 version: 1.0.0
 phase: 16
 lesson: 18

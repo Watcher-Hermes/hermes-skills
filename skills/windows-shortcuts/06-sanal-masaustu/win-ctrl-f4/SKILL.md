@@ -1,9 +1,12 @@
 ---
 name: win-ctrl-f4
 description: Geçerli masaüstünü kapat — Windows klavye kısayolu
+title: "Win Ctrl F4"
 trigger: "Win + Ctrl + F4"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-ctrl-f4
 

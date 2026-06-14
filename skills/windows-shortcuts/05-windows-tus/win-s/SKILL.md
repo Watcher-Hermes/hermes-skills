@@ -1,9 +1,12 @@
 ---
 name: win-s
 description: Arama çubuğu — Windows klavye kısayolu
+title: "Win S"
 trigger: "Win + S"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-s
 

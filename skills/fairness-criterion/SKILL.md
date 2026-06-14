@@ -1,6 +1,7 @@
 ---
 name: fairness-criterion
 description: Identify which fairness criterion a claim invokes and audit the associated assumptions.
+title: "Fairness Criterion"
 version: 1.0.0
 phase: 18
 lesson: 21

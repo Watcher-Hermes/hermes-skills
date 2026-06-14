@@ -1,9 +1,12 @@
 ---
 name: win-ctrl-d
 description: Yeni sanal masaüstü oluştur — Windows klavye kısayolu
+title: "Win Ctrl D"
 trigger: "Win + Ctrl + D"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-ctrl-d
 

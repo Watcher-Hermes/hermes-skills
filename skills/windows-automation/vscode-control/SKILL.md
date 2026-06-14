@@ -2,6 +2,8 @@
 name: vscode-control
 title: "VS Code Remote Control"
 audience: user
+tags: [automation, windows]
+category: windows-automation
 tags: []
 ---
 

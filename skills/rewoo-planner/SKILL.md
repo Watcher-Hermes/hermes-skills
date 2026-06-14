@@ -1,6 +1,7 @@
 ---
 name: rewoo-planner
 description: Generate a validated ReWOO plan DAG from a user request and tool catalog.
+title: "Rewoo Planner"
 version: 1.0.0
 phase: 14
 lesson: 02

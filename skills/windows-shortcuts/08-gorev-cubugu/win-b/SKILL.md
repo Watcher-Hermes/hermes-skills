@@ -1,9 +1,12 @@
 ---
 name: win-b
 description: Bildirim alanına odaklan — Windows klavye kısayolu
+title: "Win B"
 trigger: "Win + B"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-b
 

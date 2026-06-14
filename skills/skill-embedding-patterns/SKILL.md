@@ -1,6 +1,7 @@
 ---
 name: skill-embedding-patterns
 description: Production patterns for embeddings, vector search, and similarity
+title: "Skill Embedding Patterns"
 version: 1.0.0
 phase: 11
 lesson: 4

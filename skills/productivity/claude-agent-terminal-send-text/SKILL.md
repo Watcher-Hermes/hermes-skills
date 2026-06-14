@@ -3,6 +3,7 @@ name: claude-agent-terminal-send-text
 title: "VS Code Claude Agent Terminaline Metin Gönderme"
 description: "Windows'ta VS Code içindeki Claude Agent terminaline metin gönderme. Kullanıcı tıklamalı dinamik koordinat yakalama. pyautogui ile calisir (SendKeys degil). ctrl+a kullanma."
 tags: [claude, vscode, agent, terminal, send-text, automation]
+category: productivity
 audience: user
 triggers: [claude agent metin gönder, claude terminal, VS Code claude, yaz ve enter bas]
 related_skills: [vscode-ac, powershell-claude-agent, mouse-klavye-ctypes]

@@ -1,6 +1,7 @@
 ---
 name: prompt-vit-vs-cnn-picker
 description: Pick between ViT, ConvNeXt, or Swin based on dataset size, compute, and inference stack
+title: "PRompt ViT Vs CNN Picker"
 phase: 4
 lesson: 14
 

@@ -1,6 +1,7 @@
 ---
 name: batch-triager
 description: Triage LLM workloads into interactive / semi-interactive / batch lanes, compute stacked discount (batch + cache) savings, and flag mis-triaged workloads.
+title: "Batch Triager"
 version: 1.0.0
 phase: 17
 lesson: 15

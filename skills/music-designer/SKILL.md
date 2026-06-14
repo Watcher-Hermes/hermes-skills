@@ -1,6 +1,7 @@
 ---
 name: music-designer
 description: Pick a music-generation model, license strategy, length plan, and disclosure metadata for a deployment.
+title: "Music Designer"
 version: 1.0.0
 phase: 6
 lesson: 09

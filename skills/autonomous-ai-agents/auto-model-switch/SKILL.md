@@ -1,8 +1,11 @@
 ---
 name: auto-model-switch
 description: Hermes CLI agent üzerinden model sağlayıcı değiştirme. Heres config set model <alias> yöntemi, /model slash komutu kısıtı, config değişikliğinin yeni oturumda geçerli olması.
+title: "Auto Model Switch"
 
-audience: user---
+audience: user
+tags: [agents, ai, automation, model]
+category: autonomous-ai-agents---
 
 # Otonom Model Geçişi
 

@@ -1,6 +1,7 @@
 ---
 name: prompt-pose-stack-picker
 description: Pick MediaPipe / YOLOv8-pose / HRNet / ViTPose given latency, crowd size, and 2D vs 3D need
+title: "PRompt Pose Stack Picker"
 phase: 4
 lesson: 21
 

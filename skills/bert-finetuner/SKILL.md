@@ -1,6 +1,7 @@
 ---
 name: bert-finetuner
 description: Scope a BERT fine-tune for a new classification, extraction, or retrieval task.
+title: "Bert Finetuner"
 version: 1.0.0
 phase: 7
 lesson: 6

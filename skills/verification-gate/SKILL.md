@@ -1,6 +1,7 @@
 ---
 name: verification-gate
 description: Generate a deterministic verification gate that combines scope, rule, and feedback artifacts into a single verification_report.json per task, plus CI wiring that refuses to merge without a green verdict.
+title: "Verification Gate"
 version: 1.0.0
 phase: 14
 lesson: 38

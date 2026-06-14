@@ -1,6 +1,7 @@
 ---
 name: terminal-coding-agent
 description: Build and evaluate a terminal-native coding agent against SWE-bench Pro with bounded cost, sandboxed tools, and full 2026 hook surface.
+title: "Terminal Coding Agent"
 version: 1.0.0
 phase: 19
 lesson: 01

@@ -1,6 +1,7 @@
 ---
 name: durable-execution-review
 description: Review a proposed long-running agent deployment for correct durable-execution shape (activities, determinism, checkpoint backend, human-input state, HITL-on-resume).
+title: "Durable Execution Review"
 version: 1.0.0
 phase: 15
 lesson: 12

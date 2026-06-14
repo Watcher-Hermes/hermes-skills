@@ -1,9 +1,12 @@
 ---
 name: sol-alt-shift-num
 description: Fare Tuşları aç/kapat — Windows klavye kısayolu
+title: "Sol Alt Shift Num"
 trigger: "Sol Alt + Sol Shift + Num Lock"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # sol-alt-shift-num
 

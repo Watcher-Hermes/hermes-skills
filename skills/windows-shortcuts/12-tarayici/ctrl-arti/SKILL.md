@@ -1,9 +1,12 @@
 ---
 name: ctrl-arti
 description: Yakınlaştır — Windows klavye kısayolu
+title: "Ctrl Arti"
 trigger: "Ctrl + +"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-arti
 

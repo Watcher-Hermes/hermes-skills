@@ -1,9 +1,12 @@
 ---
 name: ctrl-h
 description: Geçmiş — Windows klavye kısayolu
+title: "Ctrl H"
 trigger: "Ctrl + H"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-h
 

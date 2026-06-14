@@ -1,6 +1,7 @@
 ---
 name: skill-classification-baseline
 description: Establish a strong classification baseline before reaching for complex models
+title: "Skill Classification Baseline"
 version: 1.0.0
 phase: 2
 lesson: 3

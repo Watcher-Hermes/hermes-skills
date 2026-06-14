@@ -1,6 +1,7 @@
 ---
 name: handoff-generator
 description: Generate end-of-session handoff packets from workbench artifacts, producing both human-readable Markdown and machine-readable JSON keyed to the seven canonical fields.
+title: "Handoff Generator"
 version: 1.0.0
 phase: 14
 lesson: 40

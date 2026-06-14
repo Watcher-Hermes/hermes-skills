@@ -1,6 +1,7 @@
 ---
 name: skill-graph-analysis
 description: Analyze graph-structured data and choose the right graph algorithm for ML tasks
+title: "Skill Graph Analysis"
 phase: 1
 lesson: 21
 

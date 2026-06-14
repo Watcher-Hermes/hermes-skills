@@ -1,6 +1,7 @@
 ---
 name: structured-output-picker
 description: Choose a structured output approach, schema design, and validation plan.
+title: "Structured Output Picker"
 version: 1.0.0
 phase: 5
 lesson: 20

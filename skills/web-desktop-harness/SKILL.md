@@ -1,6 +1,7 @@
 ---
 name: web-desktop-harness
 description: Build a WebArena/OSWorld-style harness with execution-based evaluation and trajectory-efficiency metrics.
+title: "Web Desktop Harness"
 version: 1.0.0
 phase: 14
 lesson: 20

@@ -1,6 +1,7 @@
 ---
 name: dp-audit
 description: Audit a differential-privacy claim for a language-model deployment.
+title: "Dp Audit"
 version: 1.0.0
 phase: 18
 lesson: 22

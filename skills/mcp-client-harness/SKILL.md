@@ -1,6 +1,7 @@
 ---
 name: mcp-client-harness
 description: Given a declarative list of MCP servers (name, command, args), scaffold a multi-server client with handshake, namespace merge, and routing.
+title: "MCP CLIent Harness"
 version: 1.0.0
 phase: 13
 lesson: 08

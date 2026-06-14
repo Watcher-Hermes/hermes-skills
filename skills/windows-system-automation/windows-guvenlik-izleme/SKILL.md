@@ -4,6 +4,7 @@ id: windows-guvenlik-izleme
 title: "Windows Güvenlik İzleme — Defender + Port Watchdog"
 description: "Windows Defender tehdit bildirimlerini otomatik izle, açık portları tara, güvenlik ihlallerini raporla."
 tags: [windows, güvenlik, defender, port, watchdog, cron]
+category: windows-system-automation
 audience: user
 trigger: "Kullanıcı 'güvenlik izle', 'watchdog', 'tehdit kontrol' dediğinde veya Windows Defender bildirimi aldığında"
 ---

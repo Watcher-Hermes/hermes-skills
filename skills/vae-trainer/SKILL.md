@@ -1,6 +1,7 @@
 ---
 name: vae-trainer
 description: Specify VAE architecture, latent size, beta schedule, and eval plan for a given dataset and downstream use.
+title: "Vae Trainer"
 version: 1.0.0
 phase: 8
 lesson: 02

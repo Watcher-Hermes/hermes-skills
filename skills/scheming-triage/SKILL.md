@@ -1,6 +1,7 @@
 ---
 name: scheming-triage
 description: Triage an agent-deployment incident report against the Apollo three-pillar scheming framework.
+title: "Scheming Triage"
 version: 1.0.0
 phase: 18
 lesson: 8

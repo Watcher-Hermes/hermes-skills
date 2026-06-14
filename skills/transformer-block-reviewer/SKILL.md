@@ -1,6 +1,7 @@
 ---
 name: transformer-block-reviewer
 description: Review a transformer block implementation against 2026 defaults and flag drift.
+title: "Transformer Block Reviewer"
 version: 1.0.0
 phase: 7
 lesson: 5

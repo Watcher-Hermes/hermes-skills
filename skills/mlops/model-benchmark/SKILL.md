@@ -1,8 +1,10 @@
 ---
 name: model-benchmark
 description: "Cross-model benchmark sistemi — hız, doğruluk, tutarlılık ve maliyet metriği. Yeni model geldiğinde veya mevcut model performansını ölçmek için tekrarlanabilir pipeline."
+title: "Model Benchmark"
 category: mlops
 audience: user
+tags: [ai, benchmark, machine-learning, mlops, model]
 related_skills: [hibrit-ai-yonlendirme-kurali]
 ---
 

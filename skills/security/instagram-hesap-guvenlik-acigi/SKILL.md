@@ -1,9 +1,11 @@
 ---
 name: instagram-hesap-guvenlik-acigi
 description: Instagram hesap güvenlik açığı — VPN lokasyon taklidi + AI kimlik doğrulama bypass ile hesap ele geçirme yöntemi
+title: "Instagram Hesap Guvenlik Acigi"
 hermes_skill: true
 category: security
 audience: user
+tags: [pentest, security]
 created: 2026-06-07
 source: "https://youtu.be/4okr0AHybeA"
 ---

@@ -1,6 +1,7 @@
 ---
 name: prompt-prompt-optimizer
 description: Takes a draft prompt and rewrites it using proven prompt engineering patterns for maximum effectiveness across models
+title: "PRompt PRompt Optimizer"
 phase: 11
 lesson: 01
 

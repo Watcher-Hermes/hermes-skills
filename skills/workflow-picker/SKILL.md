@@ -1,6 +1,7 @@
 ---
 name: workflow-picker
 description: Pick the right pattern (prompt chain, router, parallel, orchestrator-workers, evaluator-optimizer, or full agent) for a given task and produce the minimal implementation.
+title: "Workflow Picker"
 version: 1.0.0
 phase: 14
 lesson: 12

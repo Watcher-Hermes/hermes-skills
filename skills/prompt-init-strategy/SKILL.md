@@ -1,6 +1,7 @@
 ---
 name: prompt-init-strategy
 description: Diagnose weight initialization problems and recommend the right strategy for any neural network architecture
+title: "PRompt Init Strategy"
 phase: 03
 lesson: 08
 

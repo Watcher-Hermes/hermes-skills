@@ -1,6 +1,7 @@
 ---
 name: whisper-tuner
 description: Design a Whisper fine-tune or inference pipeline for a given language, domain, and latency budget.
+title: "Whisper Tuner"
 version: 1.0.0
 phase: 6
 lesson: 05

@@ -1,6 +1,7 @@
 ---
 name: prompt-debug-ai-code
 description: Diagnose AI-specific bugs including NaN loss, shape errors, training failures, and OOM
+title: "PRompt Debug AI Code"
 phase: 0
 lesson: 12
 

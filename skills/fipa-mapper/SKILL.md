@@ -1,6 +1,7 @@
 ---
 name: fipa-mapper
 description: Map any 2026 agent-protocol spec (MCP, A2A, ACP, ANP, CA-MCP, NLIP, or a new one) onto FIPA-ACL performatives and interaction protocols to decide what is genuine novelty and what is reinvention.
+title: "Fipa Mapper"
 version: 1.0.0
 phase: 16
 lesson: 02

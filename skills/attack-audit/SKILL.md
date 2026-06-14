@@ -1,6 +1,7 @@
 ---
 name: attack-audit
 description: Audit a red-team evaluation report for attack coverage, budget, judge identity, and behaviour set.
+title: "Attack Audit"
 version: 1.0.0
 phase: 18
 lesson: 12

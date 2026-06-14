@@ -1,6 +1,7 @@
 ---
 name: skill-ctc-decoder
 description: Write greedy and beam-search CTC decoders from scratch, including length normalisation
+title: "Skill Ctc Decoder"
 version: 1.0.0
 phase: 4
 lesson: 19

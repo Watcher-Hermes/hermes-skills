@@ -1,6 +1,7 @@
 ---
 name: video-vlm-frame-planner
 description: Plan frame sampling, per-frame pooling, output format, and benchmark targets for a video-language model deployment.
+title: "Video Vlm Frame Planner"
 version: 1.0.0
 phase: 12
 lesson: 17

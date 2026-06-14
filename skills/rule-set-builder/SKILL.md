@@ -1,6 +1,7 @@
 ---
 name: rule-set-builder
 description: Interview a project owner, classify their existing prose instructions into five operational categories, and emit a versioned agent-rules.md plus a Python checker stub.
+title: "Rule Set Builder"
 version: 1.0.0
 phase: 14
 lesson: 33

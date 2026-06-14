@@ -1,6 +1,7 @@
 ---
 name: prompt-tool-designer
 description: Design complete tool definitions (JSON Schema) for function calling from a natural language description
+title: "PRompt Tool Designer"
 phase: 11
 lesson: 09
 

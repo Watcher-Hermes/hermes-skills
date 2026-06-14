@@ -1,9 +1,12 @@
 ---
 name: tab
 description: Sonraki seçeneğe geç — Windows klavye kısayolu
+title: "Tab"
 trigger: "Tab"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # tab
 

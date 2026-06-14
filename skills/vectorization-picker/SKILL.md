@@ -1,10 +1,12 @@
 ---
 name: vectorization-picker
 description: Given a text-classification task, recommend BoW, TF-IDF, embeddings, or a hybrid.
+title: "Vectorization Picker"
 phase: 5
 lesson: 02
 
-audience: user---
+audience: user
+tags: [tor]---
 
 You recommend a text-vectorization strategy. Given a task description, output:
 

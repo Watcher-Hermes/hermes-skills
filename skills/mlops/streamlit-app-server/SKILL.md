@@ -1,8 +1,11 @@
 ---
 name: "streamlit-app-server"
 description: "Run, configure, and serve Streamlit data apps on Windows. Covers installation, first-run bypass, port/IP settings, and background process management."
+title: "Streamlit App Server"
 
-audience: user---
+audience: user
+tags: [ai, machine-learning, mlops]
+category: mlops---
 
 # Streamlit App Server
 

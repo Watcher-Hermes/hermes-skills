@@ -1,9 +1,12 @@
 ---
 name: quarkus-verification
 description: "Verification loop for Quarkus projects: build, static analysis, tests with coverage, security scans, native compilation, and diff review before release or PR."
+title: "Quarkus Verification"
 origin: ECC
 
-audience: contributor---
+audience: contributor
+tags: [ai, automation, development]
+category: ecc---
 
 # Quarkus Verification Loop
 

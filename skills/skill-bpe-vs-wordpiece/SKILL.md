@@ -1,6 +1,7 @@
 ---
 name: skill-bpe-vs-wordpiece
 description: Pick tokenizer algorithm, vocab size, library for a given corpus and deployment target.
+title: "Skill Bpe Vs Wordpiece"
 version: 1.0.0
 phase: 5
 lesson: 19

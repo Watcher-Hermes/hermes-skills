@@ -1,6 +1,7 @@
 ---
 name: skill-debug-checklist
 description: Decision-tree checklist for debugging neural network training failures
+title: "Skill Debug Checklist"
 version: 1.0.0
 phase: 3
 lesson: 13

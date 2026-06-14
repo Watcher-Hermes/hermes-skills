@@ -1,9 +1,12 @@
 ---
 name: ctrl-y
 description: İleri al (yinele) — Windows klavye kısayolu
+title: "Ctrl Y"
 trigger: "Ctrl + Y"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # ctrl-y
 

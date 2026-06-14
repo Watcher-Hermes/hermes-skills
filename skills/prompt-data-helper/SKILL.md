@@ -1,6 +1,7 @@
 ---
 name: prompt-data-helper
 description: Find and load the right dataset for an AI/ML task
+title: "PRompt Data Helper"
 phase: 0
 lesson: 9
 

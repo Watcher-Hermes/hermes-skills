@@ -1,9 +1,12 @@
 ---
 name: win-c
 description: Copilot / Chat — Windows klavye kısayolu
+title: "Win C"
 trigger: "Win + C"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # win-c
 

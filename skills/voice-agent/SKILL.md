@@ -1,6 +1,7 @@
 ---
 name: voice-agent
 description: Build a real-time voice agent with sub-800ms first-audio-out, barge-in handling, and mid-conversation tool use.
+title: "Voice Agent"
 version: 1.0.0
 phase: 19
 lesson: 03

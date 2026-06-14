@@ -1,8 +1,11 @@
 ---
 name: camera-capture
 description: Gerçek kamera fotoğrafı çekme, yeniden çekim, ekran görüntüsü alma, canlı kamera akışı ve Telegram'a gönderme.
+title: "Camera Capture"
 
-audience: user---
+audience: user
+tags: [camera, productivity, tools]
+category: productivity---
 
 # Kamera Fotoğraf Çekme
 

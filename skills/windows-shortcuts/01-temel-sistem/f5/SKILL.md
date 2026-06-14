@@ -1,9 +1,12 @@
 ---
 name: f5
 description: Yenile — Windows klavye kısayolu (F5 veya Ctrl+R)
+title: "F5"
 trigger: "F5 veya Ctrl+R"
 
-audience: user---
+audience: user
+tags: [keyboard, shortcuts, windows]
+category: windows-shortcuts---
 
 # f5
 

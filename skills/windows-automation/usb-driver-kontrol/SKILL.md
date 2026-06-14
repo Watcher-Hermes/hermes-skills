@@ -1,8 +1,11 @@
 ---
 name: usb-driver-kontrol
 description: Herhangi bir cihaz bağlantısı (ADB, USB) öncesinde sürücülerin yüklü olup olmadığını kontrol eder. Eksikse kurulum yapar.
+title: "Usb Driver Kontrol"
 
-audience: user---
+audience: user
+tags: [automation, windows]
+category: windows-automation---
 
 # USB Sürücü Kontrol Kuralı
 

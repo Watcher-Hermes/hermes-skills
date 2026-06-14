@@ -1,12 +1,13 @@
 ---
+
 name: gget
 description: gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches, enrichment checks, and reproducible bioinformatics evidence logs.
 title: "Gget"
-origin: community
 
 audience: user
 tags: [ai, automation, development]
 category: ecc---
+
 
 # gget
 

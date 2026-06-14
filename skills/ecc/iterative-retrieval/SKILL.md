@@ -1,12 +1,13 @@
 ---
+
 name: iterative-retrieval
 description: Pattern for progressively refining context retrieval to solve the subagent context problem
 title: "Iterative Retrieval"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Iterative Retrieval Pattern
 

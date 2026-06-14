@@ -1,13 +1,14 @@
 ---
 
+
 name: python-patterns
 description: Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications.
 title: "Python Patterns"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, python]
 category: ecc---
+
 
 # Python Patterns
 

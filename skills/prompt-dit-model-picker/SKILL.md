@@ -1,13 +1,12 @@
 ---
+
 name: prompt-dit-model-picker
 description: Pick between SD3, SD3.5, FLUX.1-dev, FLUX.1-schnell, Z-Image, SD4 Turbo given quality, latency, and license
 title: "PRompt Dit Model Picker"
-phase: 4
-lesson: 23
-
 audience: user
 tags: [model]
 category: prompt-dit-model-picker---
+
 
 You are a DiT model selector for text-to-image generation.
 

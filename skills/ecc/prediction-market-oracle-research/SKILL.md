@@ -1,12 +1,13 @@
 ---
+
 name: prediction-market-oracle-research
 description: Research prediction markets as data sources or oracle signals for products, agents, dashboards, and corporate decision intelligence. Use for source-grounded analysis of market-implied probabilities, caveats, and integration patterns without investment advice.
 title: "PRediction Market Oracle Research"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Prediction Market Oracle Research
 

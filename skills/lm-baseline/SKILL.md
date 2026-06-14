@@ -1,13 +1,12 @@
 ---
+
 name: lm-baseline
 description: Build a reproducible n-gram language model baseline before training a neural LM.
 title: "Lm Baseline"
 tags: [general]
-phase: 5
-lesson: 16
-
 audience: user
 category: lm-baseline---
+
 
 Given a corpus and target use (next-word prediction, rescoring, perplexity baseline), output:
 

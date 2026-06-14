@@ -1,12 +1,13 @@
 ---
+
 name: ecc-guide
 description: Guide users through ECC's current agents, skills, commands, hooks, rules, install profiles, and project onboarding by reading the live repository surface before answering.
 title: "Ecc GUIde"
-origin: community
 
 audience: user
 tags: [ai, automation, development]
 category: ecc---
+
 
 # ECC Guide
 

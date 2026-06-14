@@ -1,12 +1,13 @@
 ---
+
 name: team-agent-orchestration
 description: "Run team-based orchestration for agent squads using work items, ownership, agent Kanban, merge gates, and control pane handoffs."
 title: "Team Agent Orchestration"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Team Agent Orchestration
 

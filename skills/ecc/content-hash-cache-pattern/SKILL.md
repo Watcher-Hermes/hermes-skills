@@ -1,12 +1,13 @@
 ---
+
 name: content-hash-cache-pattern
 description: Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation.
 title: "Content Hash Cache Pattern"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Content-Hash File Cache Pattern
 

@@ -1,12 +1,13 @@
 ---
+
 name: network-config-validation
 description: Pre-deployment checks for router and switch configuration, including dangerous commands, duplicate addresses, subnet overlaps, stale references, management-plane risk, and IOS-style security hygiene.
 title: "Network Config Validation"
-origin: community
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Network Config Validation
 

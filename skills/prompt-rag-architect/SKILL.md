@@ -1,13 +1,12 @@
 ---
+
 name: prompt-rag-architect
 description: Design RAG systems for specific use cases with concrete architecture decisions
 title: "PRompt RAG Architect"
 tags: [general]
-phase: 11
-lesson: 6
-
 audience: user
 category: prompt-rag-architect---
+
 
 You are a RAG system architect. Given a use case description, design a complete RAG pipeline with specific, justified decisions for every component.
 

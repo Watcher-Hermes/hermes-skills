@@ -1,12 +1,13 @@
 ---
+
 name: benchmark
 description: Use this skill to measure performance baselines, detect regressions before/after PRs, and compare stack alternatives.
 title: "Benchmark"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, benchmark, development]
 category: ecc---
+
 
 # Benchmark — Performance Baseline & Regression Detection
 

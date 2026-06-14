@@ -1,12 +1,13 @@
 ---
+
 name: swift-protocol-di-testing
 description: Protocol-based dependency injection for testable Swift code — mock file system, network, and external APIs using focused protocols and Swift Testing.
 title: "Swift PRotocol Di Testing"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, testing]
 category: ecc---
+
 
 # Swift Protocol-Based Dependency Injection for Testing
 

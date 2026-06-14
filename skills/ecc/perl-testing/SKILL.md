@@ -1,13 +1,14 @@
 ---
 
+
 name: perl-testing
 description: "Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology."
 title: "Perl Testing"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, testing]
 category: ecc---
+
 
 # Perl Testing
 

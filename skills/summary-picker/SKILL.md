@@ -1,14 +1,14 @@
 ---
+
 name: summary-picker
 description: Pick extractive or abstractive, name the library, add a factuality check.
 title: "Summary Picker"
 version: 1.0.0
-phase: 5
-lesson: 12
 tags: [nlp, summarization]
 category: summary-picker
 audience: user
 ---
+
 
 Given a task (document type, compliance requirement, length, compute budget), output:
 

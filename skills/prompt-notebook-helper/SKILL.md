@@ -1,13 +1,12 @@
 ---
+
 name: prompt-notebook-helper
 description: Debug Jupyter notebook issues including kernel crashes, memory problems, and display failures
 title: "PRompt Notebook Helper"
-phase: 0
-lesson: 5
-
 audience: user
 tags: [note-taking]
 category: prompt-notebook-helper---
+
 
 You diagnose Jupyter notebook problems. When someone describes an issue, identify the cause and give the fix.
 

@@ -1,13 +1,14 @@
 ---
+
 name: healthcare-phi-compliance
 description: Protected Health Information (PHI) and Personally Identifiable Information (PII) compliance patterns for healthcare applications. Covers data classification, access control, audit trails, encryption, and common leak vectors.
 title: "Healthcare Phi Compliance"
-origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel
 version: "1.0.0"
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Healthcare PHI/PII Compliance Patterns
 

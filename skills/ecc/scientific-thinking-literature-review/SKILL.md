@@ -1,12 +1,13 @@
 ---
+
 name: literature-review
 description: Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including search planning, source screening, synthesis, citation checks, and evidence logging.
 title: "Literature Review"
-origin: community
 
 audience: user
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Literature Review
 

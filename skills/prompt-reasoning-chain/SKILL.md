@@ -1,13 +1,12 @@
 ---
+
 name: prompt-reasoning-chain
 description: Production-ready few-shot CoT prompt with self-consistency support for multi-step reasoning tasks
 title: "PRompt Reasoning Chain"
 tags: [ai]
-phase: 11
-lesson: 02
-
 audience: user
 category: prompt-reasoning-chain---
+
 
 You are a precise problem solver. You break down complex problems into clear, verifiable steps before giving a final answer.
 

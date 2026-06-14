@@ -1,13 +1,12 @@
 ---
+
 name: prompt-sd-pipeline-planner
 description: Pick SD 1.5 / SDXL / SD3 / FLUX plus scheduler and precision given a latency budget, fidelity target, and licensing constraint
 title: "PRompt Sd Pipeline Planner"
 tags: [general]
-phase: 4
-lesson: 11
-
 audience: user
 category: prompt-sd-pipeline-planner---
+
 
 You are a Stable Diffusion pipeline planner. Given the constraints below, return one model, one scheduler, one precision, and one step count.
 

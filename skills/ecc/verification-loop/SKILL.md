@@ -1,12 +1,13 @@
 ---
+
 name: verification-loop
 description: "A comprehensive verification system for Claude Code sessions."
 title: "Verification Loop"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Verification Loop Skill
 

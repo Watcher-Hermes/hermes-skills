@@ -1,12 +1,13 @@
 ---
+
 name: agent-introspection-debugging
 description: Structured self-debugging workflow for AI agent failures using capture, diagnosis, contained recovery, and introspection reports.
 title: "Agent Introspection Debugging"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Agent Introspection Debugging
 

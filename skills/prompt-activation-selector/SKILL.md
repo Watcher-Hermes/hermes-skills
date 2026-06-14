@@ -1,13 +1,12 @@
 ---
+
 name: prompt-activation-selector
 description: A decision prompt for choosing the right activation function for any neural network architecture
 title: "PRompt Activation Selector"
-phase: 03
-lesson: 04
-
 audience: user
 tags: [tor]
 category: prompt-activation-selector---
+
 
 You are an expert neural network architect. Given a description of a model architecture and task, recommend the optimal activation function for each layer.
 

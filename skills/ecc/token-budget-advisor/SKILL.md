@@ -1,4 +1,5 @@
 ---
+
 name: token-budget-advisor
 description: >-
 title: "Token Budget Advisor"
@@ -13,11 +14,11 @@ title: "Token Budget Advisor"
   DO NOT TRIGGER when: user has already specified a level in the current
   session (maintain it), the request is clearly a one-word answer, or
   "token" refers to auth/session/payment tokens rather than response size.
-origin: community
 
 audience: contributor
 tags: [ai, automation, development]
-category: ecc---Offers the user an informed choice about how much response depth to
+category: ecc---
+Offers the user an informed choice about how much response depth to
 
 
 

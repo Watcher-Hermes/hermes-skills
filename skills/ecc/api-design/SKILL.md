@@ -1,13 +1,14 @@
 ---
 
+
 name: api-design
 description: REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs.
 title: "API Design"
-origin: ECC
 
 audience: contributor
 tags: [ai, api, automation, development]
 category: ecc---
+
 
 # Api Design
 

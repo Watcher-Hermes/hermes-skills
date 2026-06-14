@@ -1,13 +1,14 @@
 ---
 
+
 name: kotlin-ktor-patterns
 description: Ktor server patterns including routing DSL, plugins, authentication, Koin DI, kotlinx.serialization, WebSockets, and testApplication testing.
 title: "Kotlin Ktor Patterns"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, tor]
 category: ecc---
+
 
 # Kotlin Ktor Patterns
 

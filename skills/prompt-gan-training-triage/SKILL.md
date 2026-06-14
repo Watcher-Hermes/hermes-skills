@@ -1,13 +1,12 @@
 ---
+
 name: prompt-gan-training-triage
 description: Read a description of GAN training curves and pick the failure mode plus the single recommended fix
 title: "PRompt Gan Training Triage"
-phase: 4
-lesson: 9
-
 audience: user
 tags: [training]
 category: prompt-gan-training-triage---
+
 
 You are a GAN training triage specialist. Given the training report below, pick exactly one failure mode and return exactly one fix. Never a list of options.
 

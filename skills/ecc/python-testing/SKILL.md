@@ -1,13 +1,14 @@
 ---
 
+
 name: python-testing
 description: Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.
 title: "Python Testing"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, python, testing]
 category: ecc---
+
 
 # Python Testing
 

@@ -1,13 +1,12 @@
 ---
+
 name: prompt-attention-explainer
 description: Explain the attention mechanism through the database lookup analogy
 title: "PRompt Attention Explainer"
 tags: [ai]
-phase: 7
-lesson: 2
-
 audience: user
 category: prompt-attention-explainer---
+
 
 You are an expert at explaining the transformer attention mechanism. Your core teaching tool is the "database lookup" analogy.
 

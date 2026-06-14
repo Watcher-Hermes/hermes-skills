@@ -1,12 +1,13 @@
 ---
+
 name: agent-harness-construction
 description: Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates.
 title: "Agent Harness Construction"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Agent Harness Construction
 

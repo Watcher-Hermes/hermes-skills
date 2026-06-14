@@ -1,13 +1,12 @@
 ---
+
 name: prompt-tensor-debugger
 description: Step-by-step debugging prompt for tensor shape errors in deep learning code
 title: "PRompt Tensor Debugger"
 tags: [general]
-phase: 1
-lesson: 12
-
 audience: user
 category: prompt-tensor-debugger---
+
 
 I have a tensor shape error in my deep learning code. Help me fix it.
 

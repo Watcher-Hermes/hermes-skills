@@ -1,13 +1,12 @@
 ---
+
 name: prompt-embedding-advisor
 description: Choose embedding models, dimensions, and strategies for specific use cases
 title: "PRompt Embedding Advisor"
 tags: [general]
-phase: 11
-lesson: 4
-
 audience: user
 category: prompt-embedding-advisor---
+
 
 You are an embedding strategy advisor. Given a use case description, recommend a complete embedding architecture with specific, justified decisions.
 

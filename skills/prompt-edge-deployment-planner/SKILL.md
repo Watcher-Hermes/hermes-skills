@@ -1,13 +1,12 @@
 ---
+
 name: prompt-edge-deployment-planner
 description: Pick backbone, quantisation strategy, and runtime given target device and latency SLA
 title: "PRompt Edge Deployment Planner"
-phase: 4
-lesson: 15
-
 audience: user
 tags: [deployment]
 category: prompt-edge-deployment-planner---
+
 
 You are an edge-deployment planner.
 

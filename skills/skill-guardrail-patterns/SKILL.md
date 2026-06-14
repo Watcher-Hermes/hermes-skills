@@ -1,14 +1,14 @@
 ---
+
 name: skill-guardrail-patterns
 description: Decision framework for choosing and implementing guardrails in production -- tool selection, layering strategy, and cost-performance tradeoffs
 title: "Skill Guardrail Patterns"
 version: 1.0.0
-phase: 11
-lesson: 12
-tags: [guardrails, safety, content-filtering, prompt-injection, pii, moderation, llamaguard, nemo]
+tags: [guardrails, safety, content-filtering, prompt-injection, pii, moderation, llamaguard, ]
 category: skill-guardrail-patterns
 audience: user
 ---
+
 
 # Guardrail Patterns
 
@@ -66,7 +66,7 @@ When building an LLM application that needs safety layers, apply this decision f
 | Relevance scoring (embeddings) | ~50ms | Embedding API | Off-topic responses, topic drift |
 | System prompt leak detection | ~10ms | Free | Attempts to extract your instructions |
 | Hallucination check vs source | ~100ms | Embedding API | Fabricated facts in RAG responses |
-| NeMo Guardrails (Colang flows) | ~50ms + LLM | LLM call | Custom conversation boundaries |
+| Guardrails (Colang flows) | ~50ms + LLM | LLM call | Custom conversation boundaries |
 
 ## Tool selection guide
 
@@ -84,7 +84,7 @@ When building an LLM application that needs safety layers, apply this decision f
 - You have GPU resources (1B model runs on laptop GPU, 8B needs ~16GB VRAM)
 - You want fine-grained category codes (S1-S13)
 
-### Choose NeMo Guardrails when:
+### Choose Guardrails when:
 - You need programmable conversation boundaries (not just content safety)
 - Your app has specific domain rules ("never discuss competitor products")
 - You want to define allowed conversation flows in a DSL
@@ -127,7 +127,7 @@ Total added latency: ~50-100ms. Cost: minimal (self-hosted classifiers). Catches
 
 ```
 Input -> Rate limit -> Regex -> LlamaGuard -> Presidio PII -> Injection classifier
-  -> LLM (with NeMo Rails)
+  -> LLM (with Guardrails)
   -> LlamaGuard -> Toxicity filter -> Presidio PII scrub -> Relevance check -> Hallucination check -> Output
 ```
 
@@ -140,7 +140,7 @@ Total added latency: ~500-800ms. Cost: GPU infrastructure. Catches: ~99% of atta
 | Regex only | <5ms | $0 | ~60% | Low (update patterns quarterly) |
 | Regex + OpenAI Moderation | ~100ms | $0 | ~85% | Low |
 | Regex + ML classifiers (self-hosted) | ~50ms | $50-200 (GPU) | ~92% | Medium (retrain quarterly) |
-| Full stack (LlamaGuard + Presidio + NeMo) | ~500ms | $200-500 (GPU) | ~99% | High (continuous monitoring) |
+| Full stack (LlamaGuard + Presidio + Guardrails) | ~500ms | $200-500 (GPU) | ~99% | High (continuous monitoring) |
 
 ## Common failure patterns
 

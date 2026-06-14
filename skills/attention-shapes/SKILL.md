@@ -1,13 +1,12 @@
 ---
+
 name: attention-shapes
 description: Debug shape bugs in attention implementations.
 title: "Attention Shapes"
 tags: [general]
-phase: 5
-lesson: 10
-
 audience: user
 category: attention-shapes---
+
 
 Given a broken attention implementation, you identify the shape mismatch. Output:
 

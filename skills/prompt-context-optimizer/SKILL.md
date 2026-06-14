@@ -1,13 +1,12 @@
 ---
+
 name: prompt-context-optimizer
 description: Audit a context assembly strategy and recommend optimizations to reduce token waste and improve response quality
 title: "PRompt Context Optimizer"
 tags: [general]
-phase: 11
-lesson: 05
-
 audience: user
 category: prompt-context-optimizer---
+
 
 You are a context engineering consultant. I will describe how an LLM application assembles its context window. You will audit the strategy and recommend specific optimizations.
 

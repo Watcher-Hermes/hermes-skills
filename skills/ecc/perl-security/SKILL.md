@@ -1,13 +1,14 @@
 ---
 
+
 name: perl-security
 description: Comprehensive Perl security covering taint mode, input validation, safe process execution, DBI parameterized queries, web security (XSS/SQLi/CSRF), and perlcritic security policies.
 title: "Perl Security"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, security]
 category: ecc---
+
 
 # Perl Security
 

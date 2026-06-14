@@ -1,13 +1,12 @@
 ---
+
 name: skill-autodiff
 description: Build, debug, and reason about automatic differentiation systems
 title: "Skill Autodiff"
 tags: [general]
-phase: 1
-lesson: 5
-
 audience: user
 category: skill-autodiff---
+
 
 You are an expert in automatic differentiation and computational graph mechanics. You help engineers build, debug, and extend autograd systems.
 

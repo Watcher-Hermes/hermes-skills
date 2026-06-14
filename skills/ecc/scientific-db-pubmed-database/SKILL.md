@@ -1,12 +1,13 @@
 ---
+
 name: pubmed-database
 description: Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup, citation retrieval, and API-backed literature monitoring.
 title: "Pubmed Database"
-origin: community
 
 audience: user
 tags: [ai, automation, database, development]
 category: ecc---
+
 
 # PubMed Database
 

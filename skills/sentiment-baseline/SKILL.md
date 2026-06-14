@@ -1,13 +1,12 @@
 ---
+
 name: sentiment-baseline
 description: Design a sentiment analysis baseline for a new dataset.
 title: "Sentiment Baseline"
 tags: [general]
-phase: 5
-lesson: 05
-
 audience: user
 category: sentiment-baseline---
+
 
 Given a dataset description (domain, language, size, label granularity, latency budget), you output:
 

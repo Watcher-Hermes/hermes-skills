@@ -1,13 +1,14 @@
 ---
 
+
 name: windows-desktop-e2e
 description: E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC, Qt) using pywinauto and Windows UI Automation.
 title: "Windows Desktop E2E"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, windows]
 category: ecc---
+
 
 # Windows Desktop E2E
 

@@ -1,12 +1,13 @@
 ---
+
 name: team-builder
 description: Interactive agent picker for composing and dispatching parallel teams
 title: "Team Builder"
-origin: community
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
+
 
 # Team Builder
 

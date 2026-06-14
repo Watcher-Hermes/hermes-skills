@@ -1,13 +1,14 @@
 ---
 
+
 name: docker-patterns
 description: Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.
 title: "Docker Patterns"
-origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, docker]
 category: ecc---
+
 
 # Docker Patterns
 

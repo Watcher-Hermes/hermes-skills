@@ -12,35 +12,35 @@ This repository contains all skills for **Hermes Agent** (Nous Research). Skills
 
 ```
 hermes-skills/
-├── ecc/                    # ECC skills — AI/ML workflows, dev patterns (262 skills)
-│   ├── react-patterns/
-│   ├── rust-patterns/
-│   ├── django-patterns/
-│   ├── python-testing/
-│   └── ...
-├── windows-automation/     # Windows automation scripts (42 skills)
-├── windows-shortcuts/      # Windows keyboard shortcut references (149 skills)
-├── software-development/   # Full-stack dev scaffolds, testing (34 skills)
-├── devops/                 # Backup, cron, monitoring (13 skills)
-├── creative/               # ASCII art, design, video (22 skills)
-├── media/                  # YouTube, GIF, music (8 skills)
-├── note-taking/            # Obsidian, Notion (12 skills)
-├── github/                 # PR, issues, auth (6 skills)
-├── mlops/                  # Model training, inference (24 skills)
-├── autonomous-ai-agents/   # Multi-agent, Claude Code (23 skills)
-├── data-science/           # Jupyter, HF Hub (3 skills)
-├── research/               # ArXiv, papers (8 skills)
-├── security/               # Pentest, encryption (10 skills)
-├── productivity/           # Email, camera, PDF (26 skills)
-├── gaming/                 # Game trainers, emulators (6 skills)
-├── android/                # APK modding (1 skill)
-├── apple/                  # iOS/macOS (5 skills)
-├── user-preferences/       # Persona, startup config (17 skills)
-├── hermes-agent/           # Hermes config (1 skill)
-├── mcp/                    # MCP client (1 skill)
-├── self-improvement/       # Nightly auto-improvement (1 skill)
-├── *root skills*           # ~460 standalone AI/ML skills (prompt engineering,
-│                           #   model selection, eval, architecture...)
+├── skills/                 # All 1,184 skills organized under here
+│   ├── ecc/                    # ECC skills — AI/ML workflows, dev patterns (262)
+│   ├── windows-automation/     # Windows automation scripts (42)
+│   ├── windows-shortcuts/      # Windows shortcut references (149)
+│   ├── software-development/   # Full-stack dev scaffolds, testing (34)
+│   ├── devops/                 # Backup, cron, monitoring (13)
+│   ├── creative/               # ASCII art, design, video (22)
+│   ├── media/                  # YouTube, GIF, music (8)
+│   ├── note-taking/            # Obsidian, Notion (12)
+│   ├── github/                 # PR, issues, auth (6)
+│   ├── mlops/                  # Model training, inference (24)
+│   ├── autonomous-ai-agents/   # Multi-agent, Claude Code (23)
+│   ├── data-science/           # Jupyter, HF Hub (3)
+│   ├── research/               # ArXiv, papers (8)
+│   ├── security/               # Pentest, encryption (10)
+│   ├── productivity/           # Email, camera, PDF (26)
+│   ├── gaming/                 # Game trainers, emulators (6)
+│   ├── android/                # APK modding (1)
+│   ├── apple/                  # iOS/macOS (5)
+│   ├── user-preferences/       # Persona, startup config (17)
+│   ├── hermes-agent/           # Hermes config (1)
+│   ├── mcp/                    # MCP client (1)
+│   ├── self-improvement/       # Nightly auto-improvement (1)
+│   ├── hermes-mouse-klavye/    # Mouse/keyboard automation (1)
+│   ├── mouse-klavye-ctypes/    # Ctypes mouse lib (1)
+│   └── AmbientEar/, Hermes\ Memor/, LiveTranscriber/  # Audio tools
+├── AGENTS.md              # This file
+├── README.md
+└── manifest.json
 ```
 
 ## Skill Format

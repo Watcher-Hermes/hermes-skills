@@ -1,113 +1,90 @@
 ---
 name: mouse-klavye-ctypes
-description: "Use when moving the mouse, clicking, scrolling, typing text, or drawing on screen on Windows. Uses C:\Users\marko\hermesmouse.py via ctypes (Win32 API) — no pip dependencies needed. ALWAYS use this script instead of pyautogui or PowerShell Forms which fail in terminal environments."
-version: 1.0.0
+title: "Hermes Mouse + Klavye Kontrolü (v5)"
+description: "Windows'ta fare ve klavye kontrolü — ctypes ile (bağımlılıksız, Win32 API). Hermes'ten uygulama açma, element tıklama, menü gezinme, metin yazma, otonom akış yürütme, ekran görüntüsü alma."
+version: 5.0.0
 author: marko
 license: MIT
 platforms: [windows]
-metadata:
-  hermes:
-    tags: [mouse, click, keyboard, scroll, sweep, ctypes, win32, automation, windows]
 audience: user
-related_skills: [tam-sistem-yetkisi, screen-vision-analiz]
+tags: [mouse, click, keyboard, scroll, sweep, ctypes, win32, automation, windows, element, uia, workflow, screenshot]
+related_skills: [tam-sistem-yetkisi, screen-vision-analiz, windows-automation-shortcuts]
 ---
 
-# Mouse / Klavye Kontrolü (ctypes, bağımlılıksız)
+# Hermes Mouse + Klavye Kontrolü (v5)
 
-## Overview
+## Genel Bakış
 
-`C:\Users\marko\hermesmouse.py` scripti, Win32 API üzerinden fare ve klavyeyi
-kontrol eder. pyautogui veya PowerShell Forms gerektirmez — sadece standart
-Python `ctypes` kütüphanesi yeterli.
+`C:\Users\marko\hermesmouse.py` — 900+ satır, 0 dış bağımlılık.
+Win32 API + PowerShell UIAutomation + GDI ile tam Windows otomasyonu.
 
-**KRITIK:** Terminal ortamında pyautogui veya PowerShell Forms genellikle bozulur.
-Her zaman bu scripti kullan.
+pyautogui veya PowerShell Forms'a ihtiyaç duymaz.
 
-## When to Use
+## Komutlar
 
-- Fare hareketi, tıklama, scroll
-- Klavyeyle metin yazma
-- Ekranda görünür demo (sweep/daire)
-- "Fare hareket ettirildi ama görünmedi" durumları
-
-Don't use for: Oyun anti-cheat korumalı uygulamalar.
-
----
-
-## Komut Referansı
-
+### Koordinat Bazlı
 ```bash
-# Mevcut fare konumu
-python C:\Users\marko\hermesmouse.py pos
-
-# Fareyi (x,y)'ye yumusak tasi
-python C:\Users\marko\hermesmouse.py move 800 400
-
-# Sol tik
-python C:\Users\marko\hermesmouse.py click 800 400
-
-# Sag tik
-python C:\Users\marko\hermesmouse.py rclick 800 400
-
-# Cift tik
-python C:\Users\marko\hermesmouse.py dclick 800 400
-
-# Scroll (pozitif=yukari, negatif=asagi)
-python C:\Users\marko\hermesmouse.py scroll 3
-python C:\Users\marko\hermesmouse.py scroll -3
-
-# Gorunum demo - buyuk daire cizer (kullaniciya gosterim icin)
-python C:\Users\marko\hermesmouse.py sweep
-
-# Metin yaz (aktif alana)
-python C:\Users\marko\hermesmouse.py type "Merhaba Hermes"
+python hermesmouse.py pos                              # fare konumu
+python hermesmouse.py status                           # ekran + DPI + elevation
+python hermesmouse.py move <x> <y>                     # yumuşak hareket
+python hermesmouse.py move <x> <y> --fast              # anlık hareket (SendInput)
+python hermesmouse.py drag <x1> <y1> <x2> <y2>        # sürükle
+python hermesmouse.py click <x> <y>                    # sol tık
+python hermesmouse.py rclick <x> <y>                   # sağ tık
+python hermesmouse.py dclick <x> <y>                   # çift tık
+python hermesmouse.py scroll <delta>                   # kaydırma (+/-)
+python hermesmouse.py sweep [cx cy r]                  # daire çiz (demo)
 ```
 
-## Terminal'den Calistirma (Hermes Agent)
-
+### Klavye
 ```bash
-# Hermes terminal aracinda kullan:
-python C:\Users\marko\hermesmouse.py move 500 400
-python C:\Users\marko\hermesmouse.py sweep
+python hermesmouse.py type <metin>                     # Unicode yazı (Türkçe dahil)
+python hermesmouse.py key <tus/kombinasyon>            # tuş gönder
+# Örnekler:
+python hermesmouse.py key enter
+python hermesmouse.py key esc
+python hermesmouse.py key "ctrl+s"
+python hermesmouse.py key "ctrl+shift+esc"
+python hermesmouse.py key "alt+f4"
 ```
 
-Cikti: `moved 500 400` veya `Tamamlandi.`
+### Element (UI Automation) — Detay: references/element-ve-workflow.md
+```bash
+python hermesmouse.py element "Pencere" list
+python hermesmouse.py element "Pencere" "Buton" click
+```
 
-## Python API (script icinde kullanim)
+### Otonom Akış (Workflow) — Detay: references/element-ve-workflow.md
+```bash
+python hermesmouse.py run akis.json
+python hermesmouse.py run akis.txt
+```
 
+### Global Flag'ler
+```bash
+--verbose     debug log (DPI, elevation, UIA çağrıları)
+--timeout N   element bulamazsa N saniye yeniden dene (0 = tek deneme)
+```
+
+## Python API
 ```python
 import sys
 sys.path.insert(0, r"C:\Users\marko")
-import hermesmouse as m
+import hermesmouse as hm
 
-m.move(800, 400)          # yumusak hareket
-m.click(200, 150)         # sol tik
-m.rclick(200, 150)        # sag tik
-m.scroll(-3)              # asagi scroll
-m.sweep()                 # daire demo
-m.type_text("Merhaba!")   # klavye yazma
-x, y = m.get_pos()        # mevcut konum
+hm.move(800, 400)          # yumuşak hareket
+hm.click(200, 150)         # sol tık
+hm.type_text("Merhaba!")   # Unicode yazı
+hm.press_key("ctrl+s")     # tuş kombinasyonu
+x, y = hm.get_pos()        # fare konumu
 ```
 
-## Ekran Koordinat Sistemi
+## Detaylı Başvuru
+| Konu | Dosya |
+|------|-------|
+| Element bulma + Workflow motoru | references/element-ve-workflow.md |
+| Çalışma prensipleri + Sınırlamalar | references/calisma-prensipleri.md |
+| Test durumu + Yaygın tuzaklar | references/test-ve-tuzaklar.md |
 
-- Sol ust kose: (0, 0)
-- 1920x1080 ekranda sag alt: (1919, 1079)
-- Merkez tahmini: (960, 540)
-- Mevcut konumu ogren: `python hermesmouse.py pos`
-
-## Common Pitfalls
-
-1. **Türkçe Q Klavye URL/Sembol Sorunu** — ctypes `keybd_event` ile `:`, `/`, `?`, `&` gibi özel karakterler Türkçe Q klavyede yanlış gider. **URL yazmak için asla ctypes kullanma** — bunun yerine `hermestor.py navigate <URL>` kullan (klavye düzeninden etkilenmez).
-2. **pyautogui kullaniyor ama asmaliyor** — hermesmouse.py kullan, ctypes hic takilmaz.
-2. **PowerShell Forms exit 1 veya exit 127** — hermesmouse.py tek satir terminal komutuyla calisir.
-3. **Hareket oldu ama gorunmedi** — sweep komutunu kullan, daire cizerek gosterir.
-4. **Path bosluk hatasi** — script `C:\Users\marko\hermesmouse.py` (bosluksuz kok).
-5. **Ekran cozunurlugu farkli** — once `pos` ile gercek koordinatlari al.
-
-## Verification Checklist
-
-- [ ] `python C:\Users\marko\hermesmouse.py pos` konum yazdi
-- [ ] `python C:\Users\marko\hermesmouse.py move 800 400` fare gitti
-- [ ] `python C:\Users\marko\hermesmouse.py sweep` daire gorundu
-- [ ] Hermes terminal ciktisi `moved X Y` veya `Tamamlandi.` icerdi
+## Test Durumu
+109 test, 108 başarılı. Tüm komutlar gerçek Windows'ta test edildi.

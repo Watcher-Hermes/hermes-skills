@@ -1,0 +1,4 @@
+# BAD: No resource limits — one pod can starve the entire node
+containers:
+  - name: app
+    image: myapp:1.0.0

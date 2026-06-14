@@ -1,0 +1,5 @@
+# Check health
+hermes doctor
+```
+
+---

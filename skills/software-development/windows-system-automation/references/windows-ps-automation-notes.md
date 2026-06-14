@@ -4,5 +4,5 @@
 - Key fix: inline PowerShell commands with `$` often break when invoked from bash/MSYS; prefer writing a `.ps1` and running `powershell -ExecutionPolicy Bypass -File <path>`.
 - Screenshot path: `C:\Users\marko\AppData\Local\hermes\scripts\screen.png`
 - Terminal command used:
-  - `printf '%s\n' '...' > C:***REMOVED-BASE64***_mouse.ps1 && powershell -ExecutionPolicy Bypass -File C:***REMOVED-BASE64***_mouse.ps1`
+  - `printf '%s\n' '...' > C:/Users/marko/AppData/Local/hermes/scripts/move_mouse.ps1 && powershell -ExecutionPolicy Bypass -File C:/Users/marko/AppData/Local/hermes/scripts/move_mouse.ps1`
 - Approved modality: this user wants visible interactive confirmations (cursor actually moves), not just console output.

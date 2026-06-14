@@ -1,0 +1,3 @@
+# BAD: share app instance across all tests (state leaks)
+@pytest.fixture(scope="session")
+def app(): ...

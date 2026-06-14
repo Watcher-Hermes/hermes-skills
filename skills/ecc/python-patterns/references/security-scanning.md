@@ -1,0 +1,2 @@
+# Security scanning
+bandit -r .

@@ -1,0 +1,3 @@
+## Configuration as YAML
+
+```yaml

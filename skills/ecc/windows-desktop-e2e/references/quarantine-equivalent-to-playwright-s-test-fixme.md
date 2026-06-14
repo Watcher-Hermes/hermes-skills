@@ -1,0 +1,3 @@
+# Quarantine — equivalent to Playwright's test.fixme()
+@pytest.mark.skip(reason="Flaky: animation race on slow CI. Issue #42")
+def test_animated_transition(self, app): ...

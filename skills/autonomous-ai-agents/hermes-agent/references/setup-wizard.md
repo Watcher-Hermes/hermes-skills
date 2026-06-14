@@ -1,0 +1,2 @@
+# Setup wizard
+hermes setup

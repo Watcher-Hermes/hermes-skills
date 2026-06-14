@@ -1,0 +1,3 @@
+# Code formatting
+black .
+isort .

@@ -30,10 +30,10 @@ BEFORE installing Mnemosyne, snapshot current MEMORY.md and USER.md:
 
 ```bash
 # Copy to Obsidian vault 08-Backup/ for permanent record
-cp ***REMOVED-BASE64***.md \
-   "***REMOVED-BASE64*** Vault/08-Backup/MEMORY-yedek-$(date +%Y-%m-%d).md"
-cp ***REMOVED-BASE64***.md \
-   "***REMOVED-BASE64*** Vault/08-Backup/USER-yedek-$(date +%Y-%m-%d).md"
+cp /c/Users/marko/AppData/Local/hermes/memories/MEMORY.md \
+   "/c/Users/marko/OneDrive/Belgeler/Obsidian Vault/08-Backup/MEMORY-yedek-$(date +%Y-%m-%d).md"
+cp /c/Users/marko/AppData/Local/hermes/memories/USER.md \
+   "/c/Users/marko/OneDrive/Belgeler/Obsidian Vault/08-Backup/USER-yedek-$(date +%Y-%m-%d).md"
 ```
 
 ### Step 2: Install Mnemosyne
@@ -74,7 +74,7 @@ from hermes_tools import read_file, terminal
 from mnemosyne import remember
 
 # Parse MEMORY.md sections (separated by § markers)
-memory_content = read_file("***REMOVED-BASE64***.md")
+memory_content = read_file("/c/Users/marko/AppData/Local/hermes/memories/MEMORY.md")
 entries = memory_content["content"].split("§")
 
 for entry in entries:
@@ -83,7 +83,7 @@ for entry in entries:
         remember(entry, importance=0.8, scope="global")
 
 # Parse USER.md  
-user_content = read_file("***REMOVED-BASE64***.md")
+user_content = read_file("/c/Users/marko/AppData/Local/hermes/memories/USER.md")
 entries = user_content["content"].split("§")
 
 for entry in entries:

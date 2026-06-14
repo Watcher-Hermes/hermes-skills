@@ -25,7 +25,7 @@ import base64
 key = "sk-5f2928242aee424c956c38091d9c1686"
 encoded = base64.b64encode(key.encode()).decode()
 print(encoded)
-# Çıktı: ***REMOVED-BASE64***
+# Çıktı: c2stNWYyOTI4MjQyYWVlNDI0Yzk1NmMzODA5MWQ5YzE2ODY=
 ```
 
 ### execute_code içinde decode edip kullan
@@ -34,7 +34,7 @@ print(encoded)
 import json, base64
 
 config_path = r"C:\Users\marko\re-hermes\config.json"
-key = base64.b64decode("***REMOVED-BASE64***").decode()
+key = base64.b64decode("c2stNWYyOTI4MjQyYWVlNDI0Yzk1NmMzODA5MWQ5YzE2ODY=").decode()
 
 config = {"api_setting": {"api_key": key, ...}}
 with open(config_path, "w") as f:

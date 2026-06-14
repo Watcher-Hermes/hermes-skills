@@ -1,0 +1,3 @@
+## Server Setup (Linux)
+
+```bash

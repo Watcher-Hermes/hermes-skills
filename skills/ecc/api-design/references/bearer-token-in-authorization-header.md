@@ -1,0 +1,3 @@
+# Bearer token in Authorization header
+GET /api/v1/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIs...

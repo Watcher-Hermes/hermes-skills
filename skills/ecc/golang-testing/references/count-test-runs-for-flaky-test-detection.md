@@ -1,0 +1,3 @@
+# Count test runs (for flaky test detection)
+go test -count=10 ./...
+```

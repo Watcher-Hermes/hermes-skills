@@ -1,0 +1,2 @@
+# Equality
+assert result == expected

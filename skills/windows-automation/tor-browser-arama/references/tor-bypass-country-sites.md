@@ -1,7 +1,7 @@
 # Ülke Siteleri Tor Bypass Referansı
 
 Test tarihi: 11.06.2026
-Python: "***REMOVED-BASE64***-3.14-64/python.exe" (PySocks VAR)
+Python: "/c/Users/marko/AppData/Local/Python/pythoncore-3.14-64/python.exe" (PySocks VAR)
 Proxy: socks5h://127.0.0.1:9150
 
 ## 🇷🇺 Rusya

@@ -11,7 +11,7 @@
 ### 1. Tarama
 
 ```bash
-ls -1 ***REMOVED-BASE64***
+ls -1 /c/Users/marko/AppData/Local/hermes/skills/
 ```
 
 Root seviyesindeki her SKILL.md sahibi dizin = kategorize edilmemiş skill. Kategori içi skill'ler `kategori_adı/skill_adı/` şeklinde olur.
@@ -66,15 +66,15 @@ Taşınan skill'lerin SKILL.md'lerinde `path` alanı varsa onu güncelle. Intern
 Taşıma sonrası Obsidian vault'taki skill sayısını eşitle:
 
 ```bash
-python "***REMOVED-BASE64***-00-readme/sync_new_skills.py"
+python "/c/Users/marko/AppData/Local/hermes/skills/00-00-readme/sync_new_skills.py"
 ```
 
 ### 6. Doğrulama
 
 Üç yönlü tutarlılık:
-- **Disk:** `find ***REMOVED-BASE64*** -name SKILL.md | wc -l`
+- **Disk:** `find /c/Users/marko/AppData/Local/hermes/skills -name SKILL.md | wc -l`
 - **API:** `hermes skill scan → skills_list()`
-- **Obsidian vault:** `ls -1 ***REMOVED-BASE64***\ Vault/Hermes/Skills/ | wc -l`
+- **Obsidian vault:** `ls -1 /c/Users/marko/OneDrive/Belgeler/Obsidian\ Vault/Hermes/Skills/ | wc -l`
 
 ## Karakter Düzeltme Problemleri ve Çözümleri
 
@@ -96,7 +96,7 @@ Obsidian Sync, taşıma sonrası eski klasördeki silinmiş skill'leri vault'tan
 
 ```bash
 # Vault'taki dosyaları listele
-ls -1 ***REMOVED-BASE64***\ Vault/Hermes/Skills/
+ls -1 /c/Users/marko/OneDrive/Belgeler/Obsidian\ Vault/Hermes/Skills/
 
 # Disk'te olmayanları temizle (karşılaştırmalı)
 ```

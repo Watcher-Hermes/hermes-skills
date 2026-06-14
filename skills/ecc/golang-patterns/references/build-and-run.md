@@ -1,0 +1,3 @@
+# Build and run
+go build ./...
+go run ./cmd/myapp

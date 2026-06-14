@@ -1,0 +1,2 @@
+# Inequality
+assert result != unexpected

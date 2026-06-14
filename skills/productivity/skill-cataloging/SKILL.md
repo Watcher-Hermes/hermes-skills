@@ -169,6 +169,22 @@ cat > "$vault/Hermes Skills Sync.md" <<'INDEX'
 INDEX
 ```
 
+## Quality Benchmark
+
+Tüm skill'lerin yapısal kalite analizi, frontmatter doğrulama, parse hatası düzeltme ve toplu düzeltme prosedürü:
+
+→ `references/skill-quality-benchmark.md`
+
+**Benchmark metrikleri:** title, tags, category, audience, parse geçerliliği, yinelenen isimler.
+**Puan hesaplama:** 100 üzerinden (title=%25, tags=%25, category=%20, audience=%20, parse=%10)
+
+**Derinlemesine içerik benchmark'ı (v2):** İçerik Kalitesi %40, Çalışabilirlik %25, Kapsam %20, Token Verimliliği %15.
+→ `scripts/skill_benchmark.py` — tüm skill'leri tarar, CSV rapor + özet çıkarır.
+
+```bash
+python skills/productivity/skill-cataloging/scripts/skill_benchmark.py --csv ~/Desktop/rapor.csv
+```
+
 ## Related
 
 - `obsidian` — vault write/sync conventions, wikilink format, idempotent index refreshes

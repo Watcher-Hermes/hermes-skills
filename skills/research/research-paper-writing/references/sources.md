@@ -37,7 +37,7 @@ The writing philosophy, citation verification workflow, and conference reference
 | How To Write A Research Paper In ML | [Blog](https://grigorisg9gr.github.io/machine%20learning/research%20paper/how-to-write-a-research-paper-in-machine-learning/) | Practical walkthrough, LaTeX tips |
 | A Recipe for Training Neural Networks | [Karpathy Blog](http://karpathy.github.io/2019/04/25/recipe/) | Debugging methodology that translates to paper structure |
 | ICML Paper Writing Best Practices | [ICML](https://icml.cc/Conferences/2022/BestPractices) | Official venue guidance |
-| Bill Freeman's Writing Slides | [MIT](https://billf.mit.***REMOVED-BASE64***.pdf) | Visual guide to paper structure |
+| Bill Freeman's Writing Slides | [MIT](https://billf.mit.edu/sites/default/files/documents/cvprPapers.pdf) | Visual guide to paper structure |
 
 ---
 
@@ -49,15 +49,15 @@ The writing philosophy, citation verification workflow, and conference reference
 |----------|-----|---------|
 | Paper Checklist Guidelines | [NeurIPS](https://neurips.cc/public/guides/PaperChecklist) | 16-item mandatory checklist |
 | Reviewer Guidelines 2025 | [NeurIPS](https://neurips.cc/Conferences/2025/ReviewerGuidelines) | Evaluation criteria, scoring |
-| Style Files | [NeurIPS](https://neurips.***REMOVED-BASE64***) | LaTeX templates |
+| Style Files | [NeurIPS](https://neurips.cc/Conferences/2025/PaperInformation/StyleFiles) | LaTeX templates |
 
 ### ICML
 
 | Document | URL | Purpose |
 |----------|-----|---------|
 | Paper Guidelines | [ICML](https://icml.cc/Conferences/2024/PaperGuidelines) | Submission requirements |
-| Reviewer Instructions 2025 | [ICML](https://icml.***REMOVED-BASE64***) | Review form, evaluation |
-| Style & Author Instructions | [ICML](https://icml.***REMOVED-BASE64***) | Formatting specifications |
+| Reviewer Instructions 2025 | [ICML](https://icml.cc/Conferences/2025/ReviewerInstructions) | Review form, evaluation |
+| Style & Author Instructions | [ICML](https://icml.cc/Conferences/2022/StyleAuthorInstructions) | Formatting specifications |
 
 ### ICLR
 

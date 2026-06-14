@@ -1,0 +1,2 @@
+# Gradle
+./gradlew dependencyCheckAnalyze

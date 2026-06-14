@@ -1,0 +1,31 @@
+# Formatting
+gofmt -w .
+goimports -w .
+```
+
+### Recommended Linter Configuration (.golangci.yml)
+
+```yaml
+linters:
+  enable:
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+    - gofmt
+    - goimports
+    - misspell
+    - unconvert
+    - unparam
+
+linters-settings:
+  errcheck:
+    check-type-assertions: true
+  govet:
+    check-shadowing: true
+
+issues:
+  exclude-use-default: false
+```

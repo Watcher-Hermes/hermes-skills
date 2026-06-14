@@ -19,7 +19,7 @@ Tüm Hermes yedekleri **Watcher-Hermes** organizasyonu altında toplanmıştır:
 - Obsidian vault git config'deki PAT (66 karakter, fine-grained): sadece obsidian-vault repo'suna push yetkisi var
 
 ## Skill Kategorisine Göre Ayırma Yöntemi
-1. `cp -r ***REMOVED-BASE64***-automation /hedef/hermes-mouse/skills/`
+1. `cp -r /c/Users/marko/AppData/Local/hermes/skills/windows-automation /hedef/hermes-mouse/skills/`
 2. `cd /hedef && git init && git add -A && git commit -m "..." && git remote add origin ... && git push --force origin master`
 3. Kalan skill'ler için aynı işlem
 4. Token içeren dosyaları (gece-3-github-yedek/references/*.md) sil veya içindeki token'ları kaldır

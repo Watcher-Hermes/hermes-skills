@@ -122,4 +122,11 @@ skills_list(category='windows-automation')
 | [hermes-mouse](https://github.com/Watcher-Hermes/hermes-mouse) | Windows fare/klavye otomasyon script'i |
 | [obsidian-vault](https://github.com/Watcher-Hermes/obsidian-vault) | Obsidian vault yedekleri |
 | [hermes-memory-backup](https://github.com/Watcher-Hermes/hermes-memory-backup) | Memory yedekleri |
+---
+
+## 📄 Lisans
+
+**MIT** — Al, kullan, fork'la, değiştir, paylaş. Ticari kullanım dahil her şey serbest.
+
+**Tek şart:** Bu yazılım "OLDUĞU GİBİ" sunulur, hiçbir garanti İÇERMEZ. Kullanımından doğacak hiçbir sorundan yazarlar sorumlu tutulamaz. Detay: [LICENSE](LICENSE)
 

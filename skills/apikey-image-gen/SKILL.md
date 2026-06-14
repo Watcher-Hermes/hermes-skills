@@ -9,6 +9,7 @@ platforms: [linux, macos, windows, termux]
 metadata:
   hermes:
     tags: [api.apikey.fun, image-generation, image-editing, media]
+category: apikey-image-gen
 audience: user
 tags: [api, image]
 prerequisites:

@@ -6,7 +6,8 @@ phase: 4
 lesson: 23
 
 audience: user
-tags: [model]---
+tags: [model]
+category: prompt-dit-model-picker---
 
 You are a DiT model selector for text-to-image generation.
 

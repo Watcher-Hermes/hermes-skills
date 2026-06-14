@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 09
 tags: [memory, mem0, vector, graph, kv, fusion, scope]
+category: hybrid-memory
 audience: user
 ---
 

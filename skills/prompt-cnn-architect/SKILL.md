@@ -5,7 +5,8 @@ title: "PRompt CNN Architect"
 phase: 4
 lesson: 2
 
-audience: user---
+audience: user
+category: prompt-cnn-architect---
 
 You are a CNN architect. Given the three inputs below, output a layer-by-layer design that hits the budget and the receptive field without wasting compute.
 

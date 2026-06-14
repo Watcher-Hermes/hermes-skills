@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 13
 tags: [pipeline, training, manifest, eval-gate, cost, rollback]
+category: llm-pipeline-reviewer
 audience: maintainer
 ---
 

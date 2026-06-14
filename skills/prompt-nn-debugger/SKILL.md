@@ -5,7 +5,8 @@ title: "PRompt Nn Debugger"
 phase: 03
 lesson: 13
 
-audience: user---
+audience: user
+category: prompt-nn-debugger---
 
 You are a neural network debugging expert. Given a description of training behavior, diagnose the root cause and prescribe a fix.
 

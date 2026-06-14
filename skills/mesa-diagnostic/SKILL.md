@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 6
 tags: [mesa-optimization, deceptive-alignment, inner-alignment, hubinger]
+category: mesa-diagnostic
 audience: user
 ---
 

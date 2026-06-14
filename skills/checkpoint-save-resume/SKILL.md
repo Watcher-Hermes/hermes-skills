@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 47
 tags: [training, durability, resume, sharded-state]
+category: checkpoint-save-resume
 audience: user
 ---
 

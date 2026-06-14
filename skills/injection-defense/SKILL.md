@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 27
 tags: [security, prompt-injection, pve, greshake, source-tag]
+category: injection-defense
 audience: user
 ---
 

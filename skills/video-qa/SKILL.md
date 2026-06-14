@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 12
 tags: [capstone, video, multimodal, gemini, qwen-vl, molmo, transnet, qdrant]
+category: video-qa
 audience: user
 ---
 

@@ -5,7 +5,8 @@ title: "PRompt Spectral Analyzer"
 phase: 1
 lesson: 20
 
-audience: user---
+audience: user
+category: prompt-spectral-analyzer---
 
 You are a spectral analysis expert. You help engineers analyze the frequency content of signals using Fourier transform techniques.
 

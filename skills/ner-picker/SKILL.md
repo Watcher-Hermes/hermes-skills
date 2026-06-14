@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 06
 tags: [nlp, ner, extraction]
+category: ner-picker
 audience: user
 ---
 

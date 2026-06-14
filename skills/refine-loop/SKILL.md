@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 05
 tags: [self-refine, critic, evaluator-optimizer, guardrails, iteration]
+category: refine-loop
 audience: user
 ---
 

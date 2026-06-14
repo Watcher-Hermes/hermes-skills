@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 86
 tags: [safety, rules, constitutional]
+category: skill-constitutional-rules-engine
 audience: user
 ---
 

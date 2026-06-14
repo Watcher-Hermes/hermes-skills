@@ -5,7 +5,8 @@ title: "Lm Baseline"
 phase: 5
 lesson: 16
 
-audience: user---
+audience: user
+category: lm-baseline---
 
 Given a corpus and target use (next-word prediction, rescoring, perplexity baseline), output:
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 03
 tags: [nlp, embeddings, debugging]
+category: embedding-probe
 audience: user
 ---
 

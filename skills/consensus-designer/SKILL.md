@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 14
 tags: [multi-agent, consensus, BFT, voting, confidence]
+category: consensus-designer
 audience: user
 ---
 

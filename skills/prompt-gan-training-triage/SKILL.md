@@ -6,7 +6,8 @@ phase: 4
 lesson: 9
 
 audience: user
-tags: [training]---
+tags: [training]
+category: prompt-gan-training-triage---
 
 You are a GAN training triage specialist. Given the training report below, pick exactly one failure mode and return exactly one fix. Never a list of options.
 

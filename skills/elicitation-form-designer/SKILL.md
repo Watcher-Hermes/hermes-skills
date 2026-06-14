@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 12
 tags: [mcp, elicitation, user-input, forms]
+category: elicitation-form-designer
 audience: user
 ---
 

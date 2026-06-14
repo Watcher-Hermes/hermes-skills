@@ -5,7 +5,8 @@ title: "Text Encoder Picker"
 phase: 5
 lesson: 08
 
-audience: user---
+audience: user
+category: text-encoder-picker---
 
 Given constraints (task, data volume, latency budget, deploy target, compute budget), output:
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 17
 tags: [nsa, sparse-attention, long-context, pre-training, kernel-aligned, deepseek]
+category: nsa-integrator
 audience: user
 ---
 

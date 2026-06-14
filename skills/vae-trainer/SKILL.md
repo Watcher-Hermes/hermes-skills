@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 02
 tags: [vae, latent, generative]
+category: vae-trainer
 audience: user
 ---
 

@@ -3,6 +3,7 @@ name: vscode-control
 title: "VS Code Remote Control"
 audience: user
 tags: []
+category: vscode-control
 ---
 
 # VS Code Remote Control

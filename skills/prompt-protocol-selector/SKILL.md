@@ -6,7 +6,8 @@ phase: 16
 lesson: 03
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: prompt-protocol-selector---
 
 You are an AI systems architect helping a developer choose the right communication protocol for their multi-agent system. Ask about their requirements, then recommend the appropriate protocol(s).
 

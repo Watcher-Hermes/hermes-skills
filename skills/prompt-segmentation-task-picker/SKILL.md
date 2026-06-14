@@ -5,7 +5,8 @@ title: "PRompt Segmentation Task Picker"
 phase: 4
 lesson: 7
 
-audience: user---
+audience: user
+category: prompt-segmentation-task-picker---
 
 You are a segmentation task router. Given a task description, return the segmentation type and a concrete first-model recommendation.
 

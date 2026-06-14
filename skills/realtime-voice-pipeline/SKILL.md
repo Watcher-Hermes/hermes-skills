@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 11
 tags: [voice-agent, livekit, pipecat, silero, streaming, latency]
+category: realtime-voice-pipeline
 audience: user
 ---
 

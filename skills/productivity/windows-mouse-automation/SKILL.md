@@ -2,7 +2,6 @@
 name: windows-mouse-automation
 description: >
 title: "Windows Mouse Automation"
-  Windows’ta PowerShell + System.Windows.Forms ile fare imlecini hareket ettirme ve ekran goruntusu alma ornekleri.
   Script’ler C:\Users\marko\AppData\Local\hermes\scripts\ altindadir.
 version: 1.0.0
 author: marko
@@ -13,7 +12,9 @@ metadata:
 category: productivity
 audience: user
 tags: [mouse, productivity, tools, windows]
----
+---Windows’ta PowerShell + System.Windows.Forms ile fare imlecini hareket ettirme ve ekran goruntusu alma ornekleri.
+
+
 
 # Windows Mouse Automation
 

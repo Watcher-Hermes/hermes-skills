@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 36
 tags: [scope, contract, globs, diff-check, ci]
+category: scope-contract
 audience: user
 ---
 

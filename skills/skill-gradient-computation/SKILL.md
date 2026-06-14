@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 1
 lesson: 4
 tags: [calculus, gradients, backpropagation]
+category: skill-gradient-computation
 audience: user
 ---
 

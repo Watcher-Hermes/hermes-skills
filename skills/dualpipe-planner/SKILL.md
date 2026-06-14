@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 19
 tags: [pipeline-parallelism, dualpipe, dualpipev, zero-bubble, expert-parallelism, distributed-training]
+category: dualpipe-planner
 audience: user
 ---
 

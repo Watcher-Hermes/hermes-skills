@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 19
 tags: [multi-agent, swarm-optimization, PSO, ACO, prompt-optimization, routing]
+category: swarm-optimizer
 audience: user
 ---
 

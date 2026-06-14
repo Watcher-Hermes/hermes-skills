@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 19
 tags: [nlp, tokenization]
+category: skill-bpe-vs-wordpiece
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 02
 tags: [multi-agent, protocols, FIPA, speech-acts, interoperability]
+category: fipa-mapper
 audience: user
 ---
 

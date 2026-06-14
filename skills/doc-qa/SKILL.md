@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 04
 tags: [capstone, multimodal, rag, colpali, colqwen, late-interaction, pdf]
+category: doc-qa
 audience: user
 ---
 

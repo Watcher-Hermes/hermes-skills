@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 29
 tags: [production, runtime, queue, event, durable, observability]
+category: runtime-shape
 audience: user
 ---
 

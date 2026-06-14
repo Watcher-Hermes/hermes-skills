@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 11
 lesson: 12
 tags: [guardrails, safety, content-filtering, prompt-injection, pii, moderation, llamaguard, nemo]
+category: skill-guardrail-patterns
 audience: user
 ---
 

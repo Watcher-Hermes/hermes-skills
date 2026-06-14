@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 7
 tags: [rlhf, reward-model, ppo, alignment, human-feedback, preference-learning]
+category: prompt-reward-model-designer
 audience: user
 ---
 

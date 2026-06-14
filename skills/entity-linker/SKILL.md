@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 25
 tags: [nlp, entity-linking, knowledge-graph]
+category: entity-linker
 audience: user
 ---
 

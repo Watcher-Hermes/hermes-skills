@@ -1,6 +1,6 @@
 ---
 name: mouse-klavye-ctypes
-description: Use when moving the mouse, clicking, scrolling, typing text, or drawing on screen on Windows. Uses C:\Users\marko\hermesmouse.py via ctypes (Win32 API) — no pip dependencies needed. ALWAYS use this script instead of pyautogui or PowerShell Forms which fail in terminal environments.
+description: "Use when moving the mouse, clicking, scrolling, typing text, or drawing on screen on Windows. Uses C:\Users\marko\hermesmouse.py via ctypes (Win32 API) — no pip dependencies needed. ALWAYS use this script instead of pyautogui or PowerShell Forms which fail in terminal environments."
 version: 1.0.0
 author: marko
 license: MIT
@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [mouse, click, keyboard, scroll, sweep, ctypes, win32, automation, windows]
 audience: user
-    related_skills: [tam-sistem-yetkisi, screen-vision-analiz]
+related_skills: [tam-sistem-yetkisi, screen-vision-analiz]
 ---
 
 # Mouse / Klavye Kontrolü (ctypes, bağımlılıksız)

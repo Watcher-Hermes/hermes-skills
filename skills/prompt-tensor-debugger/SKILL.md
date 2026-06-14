@@ -5,7 +5,8 @@ title: "PRompt Tensor Debugger"
 phase: 1
 lesson: 12
 
-audience: user---
+audience: user
+category: prompt-tensor-debugger---
 
 I have a tensor shape error in my deep learning code. Help me fix it.
 

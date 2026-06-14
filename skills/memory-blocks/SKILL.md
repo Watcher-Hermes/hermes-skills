@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 08
 tags: [memory, letta, blocks, sleep-time, consolidation]
+category: memory-blocks
 audience: user
 ---
 

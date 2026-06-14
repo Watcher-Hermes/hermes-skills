@@ -5,7 +5,8 @@ title: "PRompt ViT Vs CNN Picker"
 phase: 4
 lesson: 14
 
-audience: user---
+audience: user
+category: prompt-vit-vs-cnn-picker---
 
 You are a vision backbone selector.
 

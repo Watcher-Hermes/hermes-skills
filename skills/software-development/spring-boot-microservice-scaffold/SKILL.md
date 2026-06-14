@@ -2,7 +2,6 @@
 name: spring-boot-microservice-scaffold
 description: >-
 title: "Spring Boot Microservice Scaffold"
-  Spring Boot mikroservis mimarisi scaffold — Eureka Server, API Gateway
   (Spring Cloud Gateway + JWT), Product/Order/User servisleri (Feign client).
   5 servisli tam stack.
 domain: java, spring-boot, microservice, eureka, feign, cloud-gateway
@@ -13,7 +12,9 @@ version: "1.0"
 
 audience: contributor
 tags: [coding, development]
-category: software-development---
+category: software-development---Spring Boot mikroservis mimarisi scaffold — Eureka Server, API Gateway
+
+
 
 # Spring Boot Mikroservis Scaffold
 

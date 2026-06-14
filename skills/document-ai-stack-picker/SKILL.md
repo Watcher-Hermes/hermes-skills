@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 22
 tags: [document-ai, ocr, donut, nougat, paligemma, vlm-native]
+category: document-ai-stack-picker
 audience: user
 ---
 

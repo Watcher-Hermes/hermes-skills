@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 1
 tags: [tokenizer, bpe, wordpiece, sentencepiece, llm, nlp]
+category: skill-tokenizer
 audience: user
 ---
 

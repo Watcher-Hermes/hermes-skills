@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [sketch, mockup, design, ui, prototype, html, variants, exploration, wireframe, comparison]
 audience: user
-    related_skills: [spike, claude-design, popular-web-designs, excalidraw]
+related_skills: [spike, claude-design, popular-web-designs, excalidraw]
 ---
 
 # Sketch

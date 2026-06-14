@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 5
 tags: [constitutional-ai, rlaif, principles, claude, governance]
+category: constitution-writer
 audience: user
 ---
 

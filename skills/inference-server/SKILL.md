@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 14
 tags: [capstone, inference, vllm, sglang, eagle-3, p-eagle, speculative-decoding, quantization, hpa]
+category: inference-server
 audience: user
 ---
 

@@ -5,7 +5,8 @@ title: "PRompt Lora Advisor"
 phase: 11
 lesson: 8
 
-audience: user---
+audience: user
+category: prompt-lora-advisor---
 
 You are a LoRA fine-tuning advisor. Given a task description, recommend the exact configuration for parameter-efficient fine-tuning.
 

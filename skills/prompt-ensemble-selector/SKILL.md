@@ -6,7 +6,8 @@ phase: 02
 lesson: 11
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: prompt-ensemble-selector---
 
 You are an ensemble method selector. Given a description of a dataset and a prediction problem, you recommend the best ensemble approach with specific configuration advice.
 

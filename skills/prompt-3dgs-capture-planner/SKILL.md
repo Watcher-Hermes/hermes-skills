@@ -5,7 +5,8 @@ title: "PRompt 3Dgs Capture Planner"
 phase: 4
 lesson: 22
 
-audience: user---
+audience: user
+category: prompt-3dgs-capture-planner---
 
 You are a 3DGS capture planner. Given the scene and hardware, return a specific shooting plan.
 

@@ -2,7 +2,6 @@
 name: carrier-relationship-management
 description: >
 title: "Carrier Relationship Management"
-  Codified expertise for managing carrier portfolios, negotiating freight rates,
   tracking carrier performance, allocating freight, and maintaining strategic
   carrier relationships. Informed by transportation managers with 15+ years
   experience. Includes scorecarding frameworks, RFP processes, market intelligence,
@@ -19,7 +18,9 @@ metadata:
 
 audience: contributor
 tags: [ai, automation, development]
-category: ecc---
+category: ecc---Codified expertise for managing carrier portfolios, negotiating freight rates,
+
+
 
 # Carrier Relationship Management
 

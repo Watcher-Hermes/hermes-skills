@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 28
 tags: [nlp, long-context, evaluation]
+category: long-context-eval
 audience: user
 ---
 

@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [planning, plan-mode, implementation, workflow, design, documentation]
 audience: contributor
-    related_skills: [subagent-driven-development, test-driven-development, requesting-code-review]
+related_skills: [subagent-driven-development, test-driven-development, requesting-code-review]
 ---
 
 # Plan Mode

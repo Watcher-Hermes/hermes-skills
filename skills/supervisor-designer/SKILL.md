@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 05
 tags: [multi-agent, supervisor, orchestrator, anthropic-research, langgraph]
+category: supervisor-designer
 audience: user
 ---
 

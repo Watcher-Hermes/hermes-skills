@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 17
 tags: [evaluation, wer, mos, utmos, eer, der, fad, mmau, leaderboard]
+category: audio-evaluator
 audience: user
 ---
 

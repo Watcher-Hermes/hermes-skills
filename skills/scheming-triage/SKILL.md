@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 8
 tags: [scheming, agent-safety, apollo, three-pillars, safety-cases]
+category: scheming-triage
 audience: user
 ---
 

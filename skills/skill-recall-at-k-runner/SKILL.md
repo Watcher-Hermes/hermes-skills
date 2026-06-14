@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 20
 tags: [retrieval, evaluation, recall, faiss]
+category: skill-recall-at-k-runner
 audience: user
 ---
 

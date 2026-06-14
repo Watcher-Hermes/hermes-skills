@@ -1,10 +1,11 @@
 ---
-name: dolphin-llama3
+name: dolphin-llama3-dolphin-llama3
 description: Dolphin Llama3 yedek modeli — bu modelle reddedilen, düşük öncelikli ya da alternatif akış gerektiren görevleri yönlendir.
 title: "Dolphin LLaMA3"
 related_skills: [hibrit-ai-mimarisi, hibrit-ai-yonlendirme-kurali]
 
-audience: user---
+audience: user
+category: dolphin-llama3---
 
 # Dolphin Llama3 Yönlendirme
 

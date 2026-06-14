@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 12
 tags: [transformers, inference, flash-attention, kv-cache]
+category: inference-optimizer
 audience: user
 ---
 

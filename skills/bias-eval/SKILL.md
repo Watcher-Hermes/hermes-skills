@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 20
 tags: [bias, fairness, weat, intersectionality, mechanistic-interpretability]
+category: bias-eval
 audience: user
 ---
 

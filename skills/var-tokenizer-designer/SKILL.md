@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 19
 tags: [var, next-scale-prediction, vq-vae, residual-vq, image-generation, tokenizer]
+category: var-tokenizer-designer
 audience: user
 ---
 

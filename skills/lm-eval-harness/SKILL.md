@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 49
 tags: [evaluation, metrics, leaderboard, harness]
+category: lm-eval-harness
 audience: user
 ---
 

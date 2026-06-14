@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 1
 tags: [rlhf, instructgpt, sft, reward-model, ppo, alignment]
+category: instructgpt-explainer
 audience: user
 ---
 

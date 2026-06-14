@@ -13,7 +13,7 @@ metadata:
   hermes:
     tags: [yedek, github, nightly, backup, cron, skills, obsidian]
 audience: maintainer
-    related_skills:
+related_skills:
       - obsidian-vault-kurallari
       - tam-sistem-yetkisi
       - nightly-self-improvement

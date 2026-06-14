@@ -6,7 +6,8 @@ phase: 4
 lesson: 25
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: prompt-vlm-selector---
 
 You are a VLM selector.
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 11
 lesson: 14
 tags: [llm-engineering, mcp, tool-use]
+category: mcp-server-designer
 audience: user
 ---
 

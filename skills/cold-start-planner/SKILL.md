@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 10
 tags: [cold-start, serverless, bottlerocket, model-streamer, gpu-snapshot, warm-pool, serverlessllm]
+category: cold-start-planner
 audience: user
 ---
 

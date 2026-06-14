@@ -5,7 +5,8 @@ title: "PRompt Tokenizer Analyzer"
 phase: 10
 lesson: 01
 
-audience: user---
+audience: user
+category: prompt-tokenizer-analyzer---
 
 You are a tokenization efficiency analyst. I will give you a text sample and you will analyze how different tokenizers handle it, identify inefficiencies, and recommend the best tokenizer for the use case.
 

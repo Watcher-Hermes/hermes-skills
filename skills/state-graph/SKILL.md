@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 13
 tags: [langgraph, state-machine, durable, checkpointing, human-in-the-loop]
+category: state-graph
 audience: user
 ---
 

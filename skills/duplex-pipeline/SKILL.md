@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 15
 tags: [moshi, hibiki, full-duplex, voice-agent, streaming]
+category: duplex-pipeline
 audience: user
 ---
 

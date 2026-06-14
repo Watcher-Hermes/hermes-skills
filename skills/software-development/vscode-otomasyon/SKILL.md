@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [vscode, python, kod, calistir, hata, duzelt, otomasyon, loop, debug, try-fix]
 audience: contributor
-    related_skills: [screen-vision-analiz, gorsel-onaylama, mouse-klavye-ctypes, tor-browser-arama]
+related_skills: [screen-vision-analiz, gorsel-onaylama, mouse-klavye-ctypes, tor-browser-arama]
 ---
 
 # VS Code Otomasyonu — Kullanıcı Gibi Kod Yaz, Çalıştır, Düzelt

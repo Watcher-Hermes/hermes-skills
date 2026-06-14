@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 12
 tags: [red-teaming, jailbreak, pair, harmbench, jailbreakbench, asr]
+category: attack-audit
 audience: maintainer
 ---
 

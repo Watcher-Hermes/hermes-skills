@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 02
 tags: [audio, features, spectrogram, mel]
+category: feature-extractor
 audience: user
 ---
 

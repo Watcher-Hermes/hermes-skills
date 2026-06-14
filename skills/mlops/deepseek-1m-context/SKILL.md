@@ -8,7 +8,7 @@ metadata:
   hermes:
     tags: [deepseek, context, 1m, config, setup]
 audience: user
-    related_skills: [hermes-agent, hibrit-ai-mimarisi]
+related_skills: [hermes-agent, hibrit-ai-mimarisi]
 ---
 
 # DeepSeek 1M Context

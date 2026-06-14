@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 9
 lesson: 2
 tags: [rl, dynamic-programming, bellman]
+category: dp-solver
 audience: user
 ---
 

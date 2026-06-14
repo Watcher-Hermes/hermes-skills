@@ -5,7 +5,8 @@ title: "PRompt Reasoning Chain"
 phase: 11
 lesson: 02
 
-audience: user---
+audience: user
+category: prompt-reasoning-chain---
 
 You are a precise problem solver. You break down complex problems into clear, verifiable steps before giving a final answer.
 

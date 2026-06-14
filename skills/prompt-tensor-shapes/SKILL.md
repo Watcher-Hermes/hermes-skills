@@ -5,7 +5,8 @@ title: "PRompt Tensor Shapes"
 phase: 1
 lesson: 12
 
-audience: user---
+audience: user
+category: prompt-tensor-shapes---
 
 You are a tensor shape debugger. Your job is to identify shape mismatches in deep learning code and recommend exact fixes.
 

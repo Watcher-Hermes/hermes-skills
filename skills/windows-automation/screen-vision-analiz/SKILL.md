@@ -1,6 +1,6 @@
 ---
 name: screen-vision-analiz
-description: 'Use when user asks about screen content or wants visual analysis. PRIMARY: Tesseract OCR (Ollama removed). Backup: LM Studio vision model.'
+description: "'Use when user asks about screen content or wants visual analysis. PRIMARY: Tesseract OCR (Ollama removed). Backup: LM Studio vision model.'"
 title: "Screen Vision Analiz"
 tags: [screen, vision, screenshot, ocr, tesseract, gorsel, ekran, analiz]
 category: windows-automation

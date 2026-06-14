@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 29
 tags: [nlp, dialogue, task-oriented]
+category: dst-designer
 audience: user
 ---
 

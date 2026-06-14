@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 14
 tags: [caching, prompt-cache, semantic-cache, anthropic, openai, parallelization, ttl]
+category: cache-auditor
 audience: maintainer
 ---
 

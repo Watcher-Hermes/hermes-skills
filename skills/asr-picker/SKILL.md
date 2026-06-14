@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 04
 tags: [audio, asr, speech-recognition]
+category: asr-picker
 audience: user
 ---
 

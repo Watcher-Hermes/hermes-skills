@@ -11,7 +11,7 @@ metadata:
   hermes:
     tags: [nightly, self-improvement, cron, obsidian, skill-maintenance]
 audience: user
-    related_skills: [obsidian-vault-kurallari, hermes-agent, telegram-gateway-monitor]
+related_skills: [obsidian-vault-kurallari, hermes-agent, telegram-gateway-monitor]
 ---
 
 # Nightly Self-Improvement

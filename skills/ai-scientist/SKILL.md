@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 05
 tags: [capstone, autonomous-agent, ai-scientist, sakana, langgraph, sandbox, research]
+category: ai-scientist
 audience: user
 ---
 

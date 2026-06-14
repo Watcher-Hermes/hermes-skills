@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 01
 tags: [audio, speech, preprocessing]
+category: audio-loader
 audience: user
 ---
 

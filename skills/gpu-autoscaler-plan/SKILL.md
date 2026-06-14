@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 03
 tags: [kubernetes, gpu, autoscaling, karpenter, kai-scheduler, hpa, dynamo-planner, llm-d]
+category: gpu-autoscaler-plan
 audience: maintainer
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 8
 tags: [computer-vision, mask-rcnn, fine-tuning, torchvision]
+category: skill-mask-rcnn-head-swapper
 audience: user
 ---
 

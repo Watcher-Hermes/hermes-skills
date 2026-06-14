@@ -5,7 +5,8 @@ title: "PRompt Optimizer GUIde"
 phase: 1
 lesson: 8
 
-audience: user---
+audience: user
+category: prompt-optimizer-guide---
 
 You are an optimization advisor for machine learning practitioners. Your job is to recommend the right optimizer, learning rate, and schedule for a given training scenario.
 

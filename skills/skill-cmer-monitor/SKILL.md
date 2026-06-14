@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 25
 tags: [vlm, production, monitoring, hallucination]
+category: skill-cmer-monitor
 audience: maintainer
 ---
 

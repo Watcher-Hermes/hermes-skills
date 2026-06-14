@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 11
 tags: [nlp, translation, evaluation]
+category: mt-evaluator
 audience: user
 ---
 

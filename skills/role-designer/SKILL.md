@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 08
 tags: [multi-agent, role-specialization, metagpt, chatdev, verification]
+category: role-designer
 audience: user
 ---
 

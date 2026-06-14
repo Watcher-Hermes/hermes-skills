@@ -2,7 +2,6 @@
 name: telegram-gateway-monitor
 description: >
 title: "Telegram Gateway Monitor"
-  Telegram bağlantı izleme ve otomatik kurtarma döngüsü.
   Bağlantı 30 dakikada bir kontrol edilir, test mesajı gönderilir,
   hata alınırsa otomatik onarım adımları uygulanır ve sonuç kaydedilir.
   Hedef listeleme ve gönderme için `hermes send --list` + `hermes send --to <target>` kullanılır.
@@ -16,7 +15,9 @@ category: autonomous-ai-agents
 audience: user
 tags: [agents, ai, automation, telegram, tor]
 related_skills: [hermes-agent]
----
+---Telegram bağlantı izleme ve otomatik kurtarma döngüsü.
+
+
 
 # Telegram Gateway Monitor
 

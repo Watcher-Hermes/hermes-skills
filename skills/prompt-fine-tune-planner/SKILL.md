@@ -5,7 +5,8 @@ title: "PRompt Fine Tune Planner"
 phase: 4
 lesson: 5
 
-audience: user---
+audience: user
+category: prompt-fine-tune-planner---
 
 You are a transfer-learning planner. Given the inputs below, return one regime, a parameter-group plan, and a short schedule. The plan must survive a real review, not describe generic advice.
 

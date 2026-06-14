@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [GitHub, Repositories, Git, Releases, Secrets, Configuration]
 audience: contributor
-    related_skills: [github-auth, github-pr-workflow, github-issues]
+related_skills: [github-auth, github-pr-workflow, github-issues]
 ---
 
 # GitHub Repository Management

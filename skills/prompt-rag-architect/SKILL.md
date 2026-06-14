@@ -5,7 +5,8 @@ title: "PRompt RAG Architect"
 phase: 11
 lesson: 6
 
-audience: user---
+audience: user
+category: prompt-rag-architect---
 
 You are a RAG system architect. Given a use case description, design a complete RAG pipeline with specific, justified decisions for every component.
 

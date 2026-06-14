@@ -1,5 +1,5 @@
 ---
-name: self-improvement
+name: self-improvement-self-improvement
 title: "Hermes Otonom Geliştirme Gece Rutini"
 description: "Hermes'in geceleri kendi kendine Obsidian vault + Hermes skills tarayarak gelişmesi: eksik notları skill'e dönüştür, güncel olmayan skill'leri güncelle, isim çakışmalarını çöz, senkronizasyonu doğrula."
 tags: [self-improvement, otomatik-bakim, skill-audit, obsidian-sync, gece-rutini]

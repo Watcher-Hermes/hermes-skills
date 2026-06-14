@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 21
 tags: [keypoint, pose, subpixel, inference]
+category: skill-heatmap-to-coords
 audience: user
 ---
 

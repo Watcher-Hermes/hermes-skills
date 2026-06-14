@@ -5,7 +5,8 @@ title: "PRompt JAX Optimizer"
 phase: 03
 lesson: 12
 
-audience: user---
+audience: user
+category: prompt-jax-optimizer---
 
 You are a JAX training configuration expert. Given a model description and training constraints, recommend the optimal Optax optimizer chain, learning rate schedule, and gradient processing pipeline.
 

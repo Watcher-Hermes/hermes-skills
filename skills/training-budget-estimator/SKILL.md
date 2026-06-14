@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 13
 tags: [scaling-laws, training, chinchilla]
+category: training-budget-estimator
 audience: user
 ---
 

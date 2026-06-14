@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 9
 lesson: 8
 tags: [rl, ppo, policy-gradient]
+category: ppo-trainer
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 23
 tags: [watermarking, synthid, stable-signature, c2pa, provenance]
+category: provenance-audit
 audience: maintainer
 ---
 

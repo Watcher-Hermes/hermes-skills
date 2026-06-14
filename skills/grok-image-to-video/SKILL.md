@@ -9,6 +9,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [xAI, Grok, image-to-video, video-generation, media]
+category: grok-image-to-video
 audience: user
 tags: [image, video]
 prerequisites:

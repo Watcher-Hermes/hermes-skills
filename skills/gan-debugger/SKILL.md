@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 03
 tags: [gan, adversarial, debugging]
+category: gan-debugger
 audience: user
 ---
 

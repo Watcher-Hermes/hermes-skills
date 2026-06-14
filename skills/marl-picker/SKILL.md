@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 20
 tags: [multi-agent, MARL, MADDPG, QMIX, MAPPO, CTDE]
+category: marl-picker
 audience: user
 ---
 

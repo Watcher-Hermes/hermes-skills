@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 03
 tags: [blip2, qformer, vlm, modality-bridge, architecture]
+category: modality-bridge-picker
 audience: user
 ---
 

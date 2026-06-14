@@ -6,7 +6,8 @@ phase: 4
 lesson: 12
 
 audience: user
-tags: [video]---
+tags: [video]
+category: prompt-video-architecture-picker---
 
 You are a video architecture selector.
 

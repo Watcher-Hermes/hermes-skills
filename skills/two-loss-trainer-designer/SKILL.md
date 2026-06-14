@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 13
 tags: [transfusion, mmdit, two-loss, flow-matching, hybrid-attention]
+category: two-loss-trainer-designer
 audience: user
 ---
 

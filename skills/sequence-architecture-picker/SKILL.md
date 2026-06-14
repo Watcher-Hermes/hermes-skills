@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 1
 tags: [transformers, architecture, rnn, ssm]
+category: sequence-architecture-picker
 audience: user
 ---
 

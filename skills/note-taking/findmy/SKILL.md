@@ -1,5 +1,5 @@
 ---
-name: findmy
+name: findmy-findmy
 description: "Track Apple devices/AirTags via FindMy.app on macOS."
 title: "Findmy"
 version: 1.0.0

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 01
 tags: [react, agent-loop, tools, observability, stop-condition]
+category: agent-loop
 audience: contributor
 ---
 

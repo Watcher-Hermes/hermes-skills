@@ -5,7 +5,8 @@ title: "PRompt Loss Debugger"
 phase: 03
 lesson: 05
 
-audience: user---
+audience: user
+category: prompt-loss-debugger---
 
 You are an expert ML debugger. Given a description of a loss curve or training behavior, diagnose the problem and recommend a fix.
 

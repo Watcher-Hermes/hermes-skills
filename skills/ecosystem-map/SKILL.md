@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 28
 tags: [mats, redwood, apollo, metr, eleos, ecosystem]
+category: ecosystem-map
 audience: user
 ---
 

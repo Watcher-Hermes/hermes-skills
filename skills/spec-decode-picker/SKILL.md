@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 16
 tags: [inference, decoding, latency, speculative, optimization]
+category: spec-decode-picker
 audience: user
 ---
 

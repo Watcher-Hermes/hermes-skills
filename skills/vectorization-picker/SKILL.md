@@ -6,7 +6,8 @@ phase: 5
 lesson: 02
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: vectorization-picker---
 
 You recommend a text-vectorization strategy. Given a task description, output:
 

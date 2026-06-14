@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 08
 tags: [mcp, client, multi-server, routing, namespace]
+category: mcp-client-harness
 audience: user
 ---
 

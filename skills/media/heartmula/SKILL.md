@@ -7,7 +7,7 @@ metadata:
   hermes:
     tags: [music, audio, generation, ai, heartmula, heartcodec, lyrics, songs]
 audience: user
-    related_skills: [audiocraft]
+related_skills: [audiocraft]
 ---
 
 # HeartMuLa - Open-Source Music Generation

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 24
 tags: [multi-agent, benchmarks, evaluation, SWE-bench, MARBLE]
+category: benchmark-reader
 audience: user
 ---
 

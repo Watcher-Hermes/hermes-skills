@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 8
 tags: [transformers, t5, bart, seq2seq]
+category: seq2seq-picker
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 3
 lesson: 1
 tags: [perceptron, neural-networks, classification, deep-learning]
+category: skill-perceptron
 audience: user
 ---
 

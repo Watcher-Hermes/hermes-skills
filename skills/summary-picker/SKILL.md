@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 12
 tags: [nlp, summarization]
+category: summary-picker
 audience: user
 ---
 

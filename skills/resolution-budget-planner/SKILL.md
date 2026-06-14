@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 06
 tags: [vlm, patch-n-pack, naflex, anyres, m-rope, token-budget]
+category: resolution-budget-planner
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 05
 tags: [speculative-decoding, eagle-3, vllm, alpha, production-rollout]
+category: eagle3-rollout
 audience: user
 ---
 

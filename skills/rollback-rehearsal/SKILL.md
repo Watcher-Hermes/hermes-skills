@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 16
 tags: [checkpointing, rollback, idempotency, eu-ai-act-article-14, durable-execution]
+category: rollback-rehearsal
 audience: user
 ---
 

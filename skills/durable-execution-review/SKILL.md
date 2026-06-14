@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 12
 tags: [durable-execution, workflows, checkpointing, temporal, langgraph, agents-sdk]
+category: durable-execution-review
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 28
 tags: [self-hosted, vllm, sglang, llama-cpp, ollama, tgi, trt-llm, engine-selection]
+category: engine-picker
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 12
 tags: [computer-vision, video, sampling, debugging]
+category: skill-frame-sampler-auditor
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 33
 tags: [rules, instructions, constraints, checker, workbench]
+category: rule-set-builder
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 05
 tags: [tool-design, linter, selection-accuracy, naming]
+category: tool-schema-linter
 audience: user
 ---
 

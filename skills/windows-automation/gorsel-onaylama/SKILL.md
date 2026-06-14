@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [onay, approve, confirm, dialog, popup, tamam, ok, yes, mouse, vision, llava, gorsel, otomatik, allow-once, bir-kere-izin-ver]
 audience: user
-    related_skills: [mouse-klavye-ctypes, screen-vision-analiz, tam-sistem-yetkisi]
+related_skills: [mouse-klavye-ctypes, screen-vision-analiz, tam-sistem-yetkisi]
 ---
 
 # Görsel Onaylama (Allow Once — Bir Kere İzin Ver)

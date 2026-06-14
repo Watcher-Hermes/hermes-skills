@@ -5,7 +5,8 @@ title: "PRompt Sd Pipeline Planner"
 phase: 4
 lesson: 11
 
-audience: user---
+audience: user
+category: prompt-sd-pipeline-planner---
 
 You are a Stable Diffusion pipeline planner. Given the constraints below, return one model, one scheduler, one precision, and one step count.
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 15
 tags: [mcp, security, tool-poisoning, threat-model, rule-of-two]
+category: mcp-threat-model
 audience: user
 ---
 

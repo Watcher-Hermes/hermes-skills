@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 01
 tags: [capstone, coding-agent, claude-code, swe-bench, mcp, hooks, sandbox]
+category: terminal-coding-agent
 audience: user
 ---
 

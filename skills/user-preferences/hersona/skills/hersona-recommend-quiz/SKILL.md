@@ -8,7 +8,7 @@ metadata:
   hermes:
     tags: [hersona, recommend, quiz, interactive, markdown, tty-less, v1.2]
 audience: user
-    related_skills: [hersona, hersona-recommend-engine, hersona-attribute-development, hermes-agent-skill-authoring]
+related_skills: [hersona, hersona-recommend-engine, hersona-attribute-development, hermes-agent-skill-authoring]
 ---
 
 # hersona-recommend-quiz (v1.0.0)

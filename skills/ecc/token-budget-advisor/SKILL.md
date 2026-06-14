@@ -2,7 +2,6 @@
 name: token-budget-advisor
 description: >-
 title: "Token Budget Advisor"
-  Offers the user an informed choice about how much response depth to
   consume before answering. Use this skill when the user explicitly
   wants to control response length, depth, or token budget.
   TRIGGER when: "token budget", "token count", "token usage", "token limit",
@@ -18,7 +17,9 @@ origin: community
 
 audience: contributor
 tags: [ai, automation, development]
-category: ecc---
+category: ecc---Offers the user an informed choice about how much response depth to
+
+
 
 # Token Budget Advisor (TBA)
 

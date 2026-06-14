@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 14
 tags: [show-o, masked-diffusion, unified, t2i, inpainting]
+category: unified-gen-model-picker
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 06
 tags: [capstone, devops, sre, kubernetes, langgraph, fastmcp, aiops]
+category: devops-agent
 audience: user
 ---
 

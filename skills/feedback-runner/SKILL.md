@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 37
 tags: [feedback, subprocess, runner, jsonl, loop-control]
+category: feedback-runner
 audience: user
 ---
 

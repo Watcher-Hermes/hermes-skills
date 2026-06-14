@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 14
 tags: [nlp, retrieval, rag, search]
+category: retrieval-picker
 audience: user
 ---
 

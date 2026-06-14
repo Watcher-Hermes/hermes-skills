@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 24
 tags: [chaos-engineering, litmuschaos, chaosmesh, harness, llm-chaos, game-day]
+category: chaos-plan
 audience: user
 ---
 

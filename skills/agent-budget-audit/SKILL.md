@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 13
 tags: [cost-governors, denial-of-wallet, budgets, claude-code-sdk, agent-governance]
+category: agent-budget-audit
 audience: maintainer
 ---
 

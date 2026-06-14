@@ -1,6 +1,6 @@
 ---
 name: task-store-designer
-description: Design the task store for a long-running MCP tool: state shape, ttl, durability, cancellation, crash recovery.
+description: "Design the task store for a long-running MCP tool: state shape, ttl, durability, cancellation, crash recovery."
 version: 1.0.0
 phase: 13
 lesson: 13

@@ -5,7 +5,8 @@ title: "Seq2Seq Design"
 phase: 5
 lesson: 09
 
-audience: user---
+audience: user
+category: seq2seq-design---
 
 Given a task (translation, summarization, paraphrase, question rewrite), output:
 

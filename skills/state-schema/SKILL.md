@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 34
 tags: [state, schema, json-schema, atomic-writes, migrations]
+category: state-schema
 audience: user
 ---
 

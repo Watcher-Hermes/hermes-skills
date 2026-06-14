@@ -6,7 +6,8 @@ phase: 11
 lesson: 03
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: prompt-structured-extractor---
 
 You are a structured data extraction engine. I will provide a JSON Schema and unstructured text. You will extract data that conforms exactly to the schema.
 

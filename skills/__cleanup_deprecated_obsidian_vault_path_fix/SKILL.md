@@ -5,7 +5,8 @@ title: "Obsidian Vault Path Fix"
 version: 1.0
 
 audience: maintainer
-tags: [obsidian, system]---
+tags: [obsidian, system]
+category: __cleanup_deprecated_obsidian_vault_path_fix---
 
 # Obsidian Vault Path Fix
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 17
 tags: [wmdp, rmu, dual-use, biosecurity, cybersecurity, chemistry]
+category: wmdp-eval
 audience: user
 ---
 

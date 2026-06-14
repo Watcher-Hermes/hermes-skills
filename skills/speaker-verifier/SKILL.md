@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 06
 tags: [audio, speaker, verification, diarization]
+category: speaker-verifier
 audience: user
 ---
 

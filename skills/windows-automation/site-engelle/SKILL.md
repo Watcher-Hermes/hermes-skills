@@ -2,7 +2,6 @@
 name: site-engelle
 description: >-
 title: "Site Engelle"
-  Kredi kartı/ödeme sayfası görülen domain'i derhal engeller.
   hosts dosyası + Windows Firewall ile çift katmanlı engelleme.
   Tor Browser da dahil hiçbir şekilde erişilemez.
 version: 1.0.0
@@ -14,7 +13,9 @@ metadata:
 category: windows-automation
 audience: maintainer
 tags: [automation, system, windows]
----
+---Kredi kartı/ödeme sayfası görülen domain'i derhal engeller.
+
+
 
 # Site Engelle
 

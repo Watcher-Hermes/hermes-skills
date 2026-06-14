@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 22
 tags: [cais, caisi, four-risk-framework, organizational-risk, sb-53, societal-risk]
+category: societal-risk-review
 audience: user
 ---
 

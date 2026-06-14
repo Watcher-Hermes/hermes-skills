@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 03
 lesson: 11
 tags: [pytorch, training, deep-learning, gpu, patterns]
+category: skill-pytorch-patterns
 audience: user
 ---
 

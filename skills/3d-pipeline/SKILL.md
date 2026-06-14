@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 12
 tags: [3d, gaussian-splatting, nerf, mesh]
+category: 3d-pipeline
 audience: user
 ---
 

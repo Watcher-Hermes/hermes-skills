@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 9
 tags: [coding-agent, scaffolding, swe-bench, codeact, openhands]
+category: coding-scaffold-audit
 audience: user
 ---
 

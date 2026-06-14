@@ -2,7 +2,6 @@
 name: obsidian-vault-maintenance
 description: >-
 title: "Obsidian Vault Maintenance"
-  Obsidian vault'ta toplu bakım — kırık wikilink düzeltme, orphan dosya temizleme,
   toplu etiket ekleme, link audit ve doğrulama. 100-1000+ dosyalı vault'lar için
   Python script tabanlı yaklaşım.
 version: 2.0.0
@@ -14,7 +13,9 @@ metadata:
 category: note-taking
 audience: user
 tags: [note-taking, obsidian, productivity]
----
+---Obsidian vault'ta toplu bakım — kırık wikilink düzeltme, orphan dosya temizleme,
+
+
 
 # Obsidian Vault Maintenance
 

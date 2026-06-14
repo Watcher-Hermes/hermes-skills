@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 19
 tags: [rsp, scaling-policy, ai-rd-4, pause-commitment, saferai, governance]
+category: scaling-policy-review
 audience: user
 ---
 

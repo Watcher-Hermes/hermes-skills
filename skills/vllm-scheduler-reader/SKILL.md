@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 04
 tags: [vllm, paged-attention, continuous-batching, chunked-prefill, serving, scheduler]
+category: vllm-scheduler-reader
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 11
 lesson: 4
 tags: [embeddings, vectors, similarity, search, chunking, quantization]
+category: skill-embedding-patterns
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 17
 tags: [constitutional-ai, rule-override, hierarchy, cai, rlaif, hardcoded-prohibition]
+category: constitution-review
 audience: user
 ---
 

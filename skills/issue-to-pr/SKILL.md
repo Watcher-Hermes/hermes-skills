@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 16
 tags: [capstone, async-agent, github, fargate, daytona, swe-bench, budget, safety]
+category: issue-to-pr
 audience: contributor
 ---
 

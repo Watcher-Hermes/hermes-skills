@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 11
 lesson: 11
 tags: [caching, cost-optimization, rate-limiting, model-routing, budget, llm-ops]
+category: skill-cost-patterns
 audience: maintainer
 ---
 

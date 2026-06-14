@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [Notes, Apple, macOS, note-taking]
 audience: user
-    related_skills: [obsidian]
+related_skills: [obsidian]
 prerequisites:
   commands: [memo]
 ---

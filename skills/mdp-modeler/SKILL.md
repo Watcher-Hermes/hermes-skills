@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 9
 lesson: 1
 tags: [rl, mdp, modeling]
+category: mdp-modeler
 audience: user
 ---
 

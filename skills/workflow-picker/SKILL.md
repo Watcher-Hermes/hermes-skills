@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 12
 tags: [anthropic, workflows, agents, patterns, minimal]
+category: workflow-picker
 audience: user
 ---
 

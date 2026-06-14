@@ -6,7 +6,8 @@ phase: 4
 lesson: 26
 
 audience: user
-tags: [model]---
+tags: [model]
+category: prompt-depth-model-picker---
 
 You are a monocular depth model selector.
 

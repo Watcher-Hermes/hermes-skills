@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 07
 tags: [tensorrt-llm, blackwell, b200, gb200, nvfp4, fp8, dynamo]
+category: trtllm-blackwell-advisor
 audience: user
 ---
 

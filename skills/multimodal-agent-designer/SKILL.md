@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 25
 tags: [multimodal-agents, computer-use, gui-grounding, visualwebarena, agentvista]
+category: multimodal-agent-designer
 audience: user
 ---
 

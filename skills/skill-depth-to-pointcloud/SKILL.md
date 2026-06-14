@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 26
 tags: [depth, point-cloud, 3d, intrinsics]
+category: skill-depth-to-pointcloud
 audience: user
 ---
 

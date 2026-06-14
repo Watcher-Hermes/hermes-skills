@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 28
 tags: [orchestration, supervisor, swarm, hierarchical, debate]
+category: orchestration-picker
 audience: user
 ---
 

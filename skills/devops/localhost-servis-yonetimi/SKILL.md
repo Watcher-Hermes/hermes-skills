@@ -10,7 +10,7 @@ metadata:
   hermes:
     tags: [localhost, port, servis, dashboard, shortcut, windows]
 audience: maintainer
-    related_skills: []
+related_skills: []
 ---
 
 # Localhost Servis Yönetimi

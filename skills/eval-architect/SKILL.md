@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 27
 tags: [nlp, evaluation, rag]
+category: eval-architect
 audience: user
 ---
 

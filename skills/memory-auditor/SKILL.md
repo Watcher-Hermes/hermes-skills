@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 13
 tags: [multi-agent, shared-state, blackboard, memory-poisoning, provenance]
+category: memory-auditor
 audience: maintainer
 ---
 

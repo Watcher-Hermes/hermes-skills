@@ -10,7 +10,7 @@ metadata:
     tags: [hermes, setup, configuration, multi-agent, spawning, cli, gateway, development]
 audience: user
     homepage: https://github.com/NousResearch/hermes-agent
-    related_skills: [claude-code, codex, opencode]
+related_skills: [claude-code, codex, opencode]
 ---
 
 # Hermes Agent

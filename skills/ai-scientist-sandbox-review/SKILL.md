@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 5
 tags: [ai-scientist, research-agent, sandbox, peer-review, disclosure]
+category: ai-scientist-sandbox-review
 audience: user
 ---
 

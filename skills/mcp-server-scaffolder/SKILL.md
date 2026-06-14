@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 07
 tags: [mcp, server, fastmcp, scaffold]
+category: mcp-server-scaffolder
 audience: contributor
 ---
 

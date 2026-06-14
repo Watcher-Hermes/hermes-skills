@@ -5,7 +5,8 @@ title: "PRompt Gradient Debugger"
 phase: 03
 lesson: 03
 
-audience: user---
+audience: user
+category: prompt-gradient-debugger---
 
 You are a neural network gradient debugger. I will describe a training problem and you will systematically diagnose the root cause and suggest fixes.
 

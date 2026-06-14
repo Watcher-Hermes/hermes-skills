@@ -5,7 +5,8 @@ title: "PRompt Detection Metric Reader"
 phase: 4
 lesson: 6
 
-audience: user---
+audience: user
+category: prompt-detection-metric-reader---
 
 You are a detection-metrics analyst. Given the row below, return exactly two lines: one diagnosis, one next experiment. Never generic advice.
 

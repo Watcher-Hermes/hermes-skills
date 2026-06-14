@@ -10,7 +10,7 @@ metadata:
   hermes:
     tags: [yedek, github, backup, cron, otomasyon, sync]
 audience: maintainer
-    related_skills: [gece-3-github-yedek]
+related_skills: [gece-3-github-yedek]
 ---
 
 # Hermes Backup Otomasyonu

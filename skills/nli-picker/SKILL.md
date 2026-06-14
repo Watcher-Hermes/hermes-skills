@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 21
 tags: [nlp, nli, zero-shot]
+category: nli-picker
 audience: user
 ---
 

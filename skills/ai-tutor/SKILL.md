@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 17
 tags: [capstone, tutor, adaptive, bkt, fsrs, livekit, multimodal, coppa]
+category: ai-tutor
 audience: user
 ---
 

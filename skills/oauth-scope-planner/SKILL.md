@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 16
 tags: [oauth, pkce, resource-indicators, step-up, sep-835]
+category: oauth-scope-planner
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 03
 tags: [parallel-tool-calls, streaming, correlation, rate-limits]
+category: parallel-call-safety-check
 audience: user
 ---
 

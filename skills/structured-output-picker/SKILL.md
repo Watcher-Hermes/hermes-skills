@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 20
 tags: [nlp, llm, structured-output]
+category: structured-output-picker
 audience: user
 ---
 

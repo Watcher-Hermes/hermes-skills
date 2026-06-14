@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 22
 tags: [mcp, capstone, ecosystem, architecture, a2a, otel]
+category: ecosystem-blueprint
 audience: user
 ---
 

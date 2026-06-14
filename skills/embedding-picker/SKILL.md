@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 22
 tags: [nlp, embeddings, retrieval]
+category: embedding-picker
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 05
 tags: [stylegan, inversion, editing]
+category: stylegan-inversion
 audience: user
 ---
 

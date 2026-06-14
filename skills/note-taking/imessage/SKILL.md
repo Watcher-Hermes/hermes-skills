@@ -1,5 +1,5 @@
 ---
-name: imessage
+name: imessage-imessage
 description: Send and receive iMessages/SMS via the imsg CLI on macOS.
 title: "Imessage"
 version: 1.0.0

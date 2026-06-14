@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 22
 tags: [3d-gaussian-splatting, export, glTF, OpenUSD, pipeline]
+category: skill-3dgs-export-router
 audience: user
 ---
 

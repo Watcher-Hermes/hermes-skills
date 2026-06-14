@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 09
 tags: [quantization, awq, gptq, gguf, fp8, nvfp4, calibration]
+category: quantization-picker
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 20
 tags: [qwen-omni, moshi, mini-omni, streaming, ttfab, thinker-talker]
+category: omni-streaming-budget
 audience: user
 ---
 

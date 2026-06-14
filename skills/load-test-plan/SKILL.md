@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 22
 tags: [load-testing, llmperf, k6, genai-perf, guidellm, llm-locust, ci-gate]
+category: load-test-plan
 audience: maintainer
 ---
 

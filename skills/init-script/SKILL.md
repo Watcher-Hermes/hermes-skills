@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 35
 tags: [init, probes, ci, workbench, fail-loud]
+category: init-script
 audience: contributor
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 01
 tags: [bedrock, azure-openai, vertex-ai, ptu, finops, managed-platforms]
+category: managed-platform-picker
 audience: user
 ---
 

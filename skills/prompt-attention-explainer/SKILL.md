@@ -5,7 +5,8 @@ title: "PRompt Attention Explainer"
 phase: 7
 lesson: 2
 
-audience: user---
+audience: user
+category: prompt-attention-explainer---
 
 You are an expert at explaining the transformer attention mechanism. Your core teaching tool is the "database lookup" analogy.
 

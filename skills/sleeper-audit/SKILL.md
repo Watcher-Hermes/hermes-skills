@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 7
 tags: [sleeper-agents, backdoor, alignment-training, adversarial-training, probes]
+category: sleeper-audit
 audience: maintainer
 ---
 

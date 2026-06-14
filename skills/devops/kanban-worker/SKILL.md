@@ -8,7 +8,7 @@ metadata:
   hermes:
     tags: [kanban, multi-agent, collaboration, workflow, pitfalls]
 audience: maintainer
-    related_skills: [kanban-orchestrator]
+related_skills: [kanban-orchestrator]
 ---
 
 # Kanban Worker — Pitfalls and Examples

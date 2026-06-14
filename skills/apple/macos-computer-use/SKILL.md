@@ -12,7 +12,7 @@ metadata:
     tags: [computer-use, macos, desktop, automation, gui]
     category: desktop
 audience: user
-    related_skills: [browser]
+related_skills: [browser]
 ---
 
 # macOS Computer Use (universal, any-model)

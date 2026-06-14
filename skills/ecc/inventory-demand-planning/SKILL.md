@@ -2,7 +2,6 @@
 name: inventory-demand-planning
 description: >
 title: "Inventory Demand Planning"
-  Codified expertise for demand forecasting, safety stock optimization,
   replenishment planning, and promotional lift estimation at multi-location
   retailers. Informed by demand planners with 15+ years experience managing
   hundreds of SKUs. Includes forecasting method selection, ABC/XYZ analysis,
@@ -20,7 +19,9 @@ metadata:
 
 audience: contributor
 tags: [ai, automation, development, tor]
-category: ecc---
+category: ecc---Codified expertise for demand forecasting, safety stock optimization,
+
+
 
 # Inventory Demand Planning
 

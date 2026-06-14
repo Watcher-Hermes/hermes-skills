@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 23
 tags: [diffusion, rectified-flow, DiT, training]
+category: skill-rectified-flow-trainer
 audience: user
 ---
 

@@ -5,7 +5,8 @@ title: "PRompt Retrieval Loss Picker"
 phase: 4
 lesson: 20
 
-audience: user---
+audience: user
+category: prompt-retrieval-loss-picker---
 
 You are a metric-learning loss selector.
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 07
 tags: [nlp, pos, parsing]
+category: grammar-pipeline
 audience: user
 ---
 

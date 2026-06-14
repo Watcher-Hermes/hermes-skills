@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 16
 tags: [routing, cascade, model-cascade, routellm, notdiamond, cost-reduction]
+category: router-plan
 audience: user
 ---
 

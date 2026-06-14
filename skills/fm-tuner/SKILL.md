@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 13
 tags: [flow-matching, rectified-flow, diffusion]
+category: fm-tuner
 audience: user
 ---
 

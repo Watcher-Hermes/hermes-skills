@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 18
 tags: [llama-guard, nemo-guardrails, input-rails, output-rails, colang, adversarial-attacks]
+category: classifier-stack-audit
 audience: maintainer
 ---
 

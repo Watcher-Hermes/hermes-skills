@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 09
 tags: [inpaint, outpaint, edit, sam]
+category: editing-pipeline
 audience: user
 ---
 

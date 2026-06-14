@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 04
 tags: [pix2pix, img2img, conditional]
+category: img2img-chooser
 audience: user
 ---
 

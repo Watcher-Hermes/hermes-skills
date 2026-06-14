@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 02
 tags: [clip, siglip, zero-shot, vision-language]
+category: clip-zero-shot
 audience: user
 ---
 

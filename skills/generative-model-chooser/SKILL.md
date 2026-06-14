@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 01
 tags: [generative, taxonomy]
+category: generative-model-chooser
 audience: user
 ---
 

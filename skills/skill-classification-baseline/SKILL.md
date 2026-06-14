@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 2
 lesson: 3
 tags: [classification, logistic-regression, baseline, preprocessing]
+category: skill-classification-baseline
 audience: user
 ---
 

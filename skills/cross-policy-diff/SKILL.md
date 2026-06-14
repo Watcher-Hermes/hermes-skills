@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 20
 tags: [preparedness-framework, fsf, rsp, cross-policy, scaling-policy]
+category: cross-policy-diff
 audience: user
 ---
 

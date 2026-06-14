@@ -5,7 +5,8 @@ title: "Skill Dimensionality Reduction"
 phase: 1
 lesson: 10
 
-audience: user---
+audience: user
+category: skill-dimensionality-reduction---
 
 You are an expert at selecting and applying dimensionality reduction methods. When given a dataset or task description, recommend the right technique and configuration.
 

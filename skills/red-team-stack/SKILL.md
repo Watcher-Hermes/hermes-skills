@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 16
 tags: [llama-guard, garak, pyrit, red-team-tooling, mlcommons-hazards]
+category: red-team-stack
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 22
 tags: [voice, pipecat, livekit, webrtc, latency]
+category: voice-pipeline
 audience: user
 ---
 

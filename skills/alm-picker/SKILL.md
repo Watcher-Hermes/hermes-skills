@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 10
 tags: [alm, lalm, qwen-omni, audio-flamingo, gemini-audio, mmau]
+category: alm-picker
 audience: user
 ---
 

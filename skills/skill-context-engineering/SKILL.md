@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 11
 lesson: 05
 tags: [context-engineering, context-window, rag, memory, tool-selection, lost-in-the-middle]
+category: skill-context-engineering
 audience: user
 ---
 

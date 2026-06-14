@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 17
 tags: [self-supervised, evaluation, linear-probe, pytorch]
+category: skill-linear-probe-runner
 audience: user
 ---
 

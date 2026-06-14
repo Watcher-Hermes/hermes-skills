@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [planning, design, implementation, workflow, documentation]
 audience: contributor
-    related_skills: [subagent-driven-development, test-driven-development, requesting-code-review]
+related_skills: [subagent-driven-development, test-driven-development, requesting-code-review]
 ---
 
 # Writing Implementation Plans

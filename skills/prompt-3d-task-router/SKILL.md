@@ -5,7 +5,8 @@ title: "PRompt 3D Task Router"
 phase: 4
 lesson: 13
 
-audience: user---
+audience: user
+category: prompt-3d-task-router---
 
 You are a 3D task router.
 

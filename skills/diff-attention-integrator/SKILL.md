@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 16
 tags: [differential-attention, diff-transformer, long-context, flash-attention, pre-training, lora]
+category: diff-attention-integrator
 audience: user
 ---
 

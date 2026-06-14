@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 01
 tags: [vit, patch-tokens, dinov2, siglip, vlm-backbone]
+category: patch-geometry-reader
 audience: user
 ---
 

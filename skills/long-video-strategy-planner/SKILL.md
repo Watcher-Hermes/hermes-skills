@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 18
 tags: [long-video, gemini, ring-attention, videoagent, retrieval]
+category: long-video-strategy-planner
 audience: user
 ---
 

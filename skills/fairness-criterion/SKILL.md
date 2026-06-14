@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 21
 tags: [fairness, demographic-parity, equalized-odds, counterfactual-fairness, impossibility]
+category: fairness-criterion
 audience: user
 ---
 

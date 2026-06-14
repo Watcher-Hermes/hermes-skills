@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 18
 tags: [rsp, pf, fsf, frontier-safety, safety-case]
+category: framework-diff
 audience: user
 ---
 

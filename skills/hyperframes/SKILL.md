@@ -9,6 +9,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [hyperframes, ai-video, html-video, animation, motion-graphics, mp4]
+category: hyperframes
 audience: user
 prerequisites:
   commands: [node, npx]

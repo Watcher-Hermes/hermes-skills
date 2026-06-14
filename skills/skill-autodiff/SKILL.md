@@ -5,7 +5,8 @@ title: "Skill Autodiff"
 phase: 1
 lesson: 5
 
-audience: user---
+audience: user
+category: skill-autodiff---
 
 You are an expert in automatic differentiation and computational graph mechanics. You help engineers build, debug, and extend autograd systems.
 

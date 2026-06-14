@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 02
 tags: [capstone, rag, code-search, tree-sitter, qdrant, bm25, hybrid-retrieval]
+category: codebase-rag
 audience: contributor
 ---
 

@@ -5,7 +5,8 @@ title: "PRompt Feature Engineer"
 phase: 2
 lesson: 8
 
-audience: user---
+audience: user
+category: prompt-feature-engineer---
 
 # Feature Engineering Prompt
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 21
 tags: [multi-agent, economy, Shapley, auctions, reputation, DePIN]
+category: economy-designer
 audience: user
 ---
 

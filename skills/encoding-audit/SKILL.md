@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 14
 tags: [artprompt, ascii-art, encoding-attack, utes, structural-sleight]
+category: encoding-audit
 audience: maintainer
 ---
 

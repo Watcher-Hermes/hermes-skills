@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 6
 tags: [bert, fine-tuning, nlp]
+category: bert-finetuner
 audience: user
 ---
 

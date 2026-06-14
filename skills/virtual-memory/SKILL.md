@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 07
 tags: [memory, memgpt, virtual-context, archival, citations]
+category: virtual-memory
 audience: user
 ---
 

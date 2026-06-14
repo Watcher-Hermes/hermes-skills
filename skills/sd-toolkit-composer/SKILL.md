@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 08
 tags: [controlnet, lora, ip-adapter, diffusion]
+category: sd-toolkit-composer
 audience: user
 ---
 

@@ -6,7 +6,8 @@ phase: 4
 lesson: 3
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: prompt-backbone-selector---
 
 You are a vision systems architect. Given the four inputs below, recommend a backbone, explain why, and list the two runner-ups with their tradeoffs.
 

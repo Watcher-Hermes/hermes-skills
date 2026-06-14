@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 30
 tags: [evaluation, ci, regression, benchmarks, llm-judge]
+category: eval-suite
 audience: user
 ---
 

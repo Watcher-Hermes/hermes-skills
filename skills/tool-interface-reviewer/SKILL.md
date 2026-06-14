@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 01
 tags: [tool-calling, function-calling, json-schema, tool-design]
+category: tool-interface-reviewer
 audience: user
 ---
 

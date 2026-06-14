@@ -5,7 +5,8 @@ title: "PRompt Open Vocab Stack Picker"
 phase: 4
 lesson: 24
 
-audience: user---
+audience: user
+category: prompt-open-vocab-stack-picker---
 
 You are an open-vocabulary vision stack selector.
 

@@ -6,7 +6,8 @@ phase: 2
 lesson: 16
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: skill-anomaly-detector---
 
 You are an expert in anomaly detection. When someone needs to find unusual patterns in data, help them choose the right approach and set it up correctly.
 

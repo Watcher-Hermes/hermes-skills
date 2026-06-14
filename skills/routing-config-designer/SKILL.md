@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 20
 tags: [routing, litellm, openrouter, portkey, fallback]
+category: routing-config-designer
 audience: user
 ---
 

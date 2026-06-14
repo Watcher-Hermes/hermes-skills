@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 4
 tags: [sycophancy, rlhf, evaluation, calibration]
+category: sycophancy-probe
 audience: user
 ---
 

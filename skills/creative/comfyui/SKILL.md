@@ -25,7 +25,7 @@ category: creative
       - creative
       - generative-ai
       - video-generation
-    related_skills: [stable-diffusion-image-generation, image_gen]
+related_skills: [stable-diffusion-image-generation, image_gen]
     category: creative
 audience: user
 tags: [creative, design]

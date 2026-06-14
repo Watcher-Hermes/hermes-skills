@@ -11,7 +11,7 @@ metadata:
   hermes:
     tags: [memory, compaction, cleanup, consolidation]
 audience: user
-    related_skills: [telegram-gateway-monitor]
+related_skills: [telegram-gateway-monitor]
 ---
 
 # Memory Compaction

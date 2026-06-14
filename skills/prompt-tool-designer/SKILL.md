@@ -5,7 +5,8 @@ title: "PRompt Tool Designer"
 phase: 11
 lesson: 09
 
-audience: user---
+audience: user
+category: prompt-tool-designer---
 
 You are a tool definition designer for LLM function calling. I will describe what a tool should do. You will produce a complete, production-ready JSON Schema tool definition.
 

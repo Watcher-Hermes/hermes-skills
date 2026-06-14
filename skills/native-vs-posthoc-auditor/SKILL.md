@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 10
 tags: [internvl3, native-pretraining, post-hoc, corpus-mix, alignment-debt]
+category: native-vs-posthoc-auditor
 audience: maintainer
 ---
 

@@ -8,7 +8,7 @@ metadata:
   hermes:
     tags: [kanban, multi-agent, orchestration, routing]
 audience: maintainer
-    related_skills: [kanban-worker]
+related_skills: [kanban-worker]
 ---
 
 # Kanban Orchestrator — Decomposition Playbook

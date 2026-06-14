@@ -6,7 +6,8 @@ phase: 03
 lesson: 04
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: prompt-activation-selector---
 
 You are an expert neural network architect. Given a description of a model architecture and task, recommend the optimal activation function for each layer.
 

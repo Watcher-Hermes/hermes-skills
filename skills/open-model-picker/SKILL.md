@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 14
 tags: [open-models, llama, deepseek, mixtral, qwen, gemma, moe, gqa, mla, quantization]
+category: open-model-picker
 audience: user
 ---
 

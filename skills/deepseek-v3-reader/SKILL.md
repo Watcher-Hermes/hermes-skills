@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 20
 tags: [deepseek-v3, deepseek-r1, mla, moe, mtp, dualpipe, architecture]
+category: deepseek-v3-reader
 audience: user
 ---
 

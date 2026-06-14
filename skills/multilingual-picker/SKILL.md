@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 18
 tags: [nlp, multilingual, cross-lingual]
+category: multilingual-picker
 audience: user
 ---
 

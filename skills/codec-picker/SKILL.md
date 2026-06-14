@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 13
 tags: [codec, encodec, dac, snac, mimi, rvq, semantic-tokens]
+category: codec-picker
 audience: user
 ---
 

@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [telegram, terminal, mouse, keyboard, screenshot, automation, windows, env, config, full-access]
 audience: user
-    related_skills: [hermes-agent-skill-authoring]
+related_skills: [hermes-agent-skill-authoring]
 ---
 
 # Tam Sistem Yetkisi (Windows)

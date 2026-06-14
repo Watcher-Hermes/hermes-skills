@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 3
 tags: [dpo, ipo, kto, simpo, orpo, bpo, daa, preference-optimization]
+category: preference-loss-selector
 audience: user
 ---
 

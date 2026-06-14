@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 25
 tags: [speculative-decoding, draft-model, alpha, throughput, inference, decode-latency]
+category: speculative-tuning
 audience: user
 ---
 

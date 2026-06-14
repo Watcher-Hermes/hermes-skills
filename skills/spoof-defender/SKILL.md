@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 16
 tags: [anti-spoofing, watermark, audioseal, asvspoof, c2pa, voice-fraud]
+category: spoof-defender
 audience: user
 ---
 

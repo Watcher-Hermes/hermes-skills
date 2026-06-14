@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [skills, authoring, hermes-agent, conventions, skill-md]
 audience: contributor
-    related_skills: [plan, requesting-code-review]
+related_skills: [plan, requesting-code-review]
 ---
 
 # Authoring Hermes-Agent Skills (in-repo)
@@ -50,7 +50,7 @@ license: MIT
 metadata:
   hermes:
     tags: [short, descriptive, tags]
-    related_skills: [other-skill, another-skill]
+related_skills: [other-skill, another-skill]
 ---
 ```
 

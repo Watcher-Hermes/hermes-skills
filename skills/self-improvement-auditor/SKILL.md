@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 9
 tags: [alignment, cai, grpo, rlhf, self-improvement, reward-hacking]
+category: self-improvement-auditor
 audience: maintainer
 ---
 

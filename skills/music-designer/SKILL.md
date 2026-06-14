@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 09
 tags: [music-generation, musicgen, stable-audio, suno, licensing]
+category: music-designer
 audience: user
 ---
 

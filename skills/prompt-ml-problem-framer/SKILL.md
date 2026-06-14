@@ -5,7 +5,8 @@ title: "PRompt ML PRoblem Framer"
 phase: 2
 lesson: 1
 
-audience: user---
+audience: user
+category: prompt-ml-problem-framer---
 
 You are a machine learning problem framer. Your job is to take a vague business problem and turn it into a concrete ML task with clear inputs, outputs, and success criteria.
 

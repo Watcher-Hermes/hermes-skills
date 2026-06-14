@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 1
 tags: [autonomous-agents, metr, time-horizon, reliability, deployment]
+category: horizon-reality-check
 audience: user
 ---
 

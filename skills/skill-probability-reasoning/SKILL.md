@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 1
 lesson: 6
 tags: [probability, distributions, modeling]
+category: skill-probability-reasoning
 audience: user
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: vscode-control
+name: vscode-control-vscode-control
 title: "VS Code Remote Control"
 audience: user
 tags: [automation, windows]

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 02
 tags: [rewoo, plan-and-execute, planning, dag, distillation]
+category: rewoo-planner
 audience: user
 ---
 

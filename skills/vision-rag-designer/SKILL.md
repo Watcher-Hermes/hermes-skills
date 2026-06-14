@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 23
 tags: [colpali, colqwen2, visrag, late-interaction, vidore]
+category: vision-rag-designer
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 20
 tags: [rollout, canary, shadow, progressive-delivery, feature-flags, argo-rollouts, flagger, kserve]
+category: rollout-runbook
 audience: user
 ---
 

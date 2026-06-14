@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 24
 tags: [observability, langfuse, phoenix, opik, datadog, tracing]
+category: obs-platform-wiring
 audience: user
 ---
 

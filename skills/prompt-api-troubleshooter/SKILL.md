@@ -6,7 +6,8 @@ phase: 0
 lesson: 4
 
 audience: user
-tags: [api]---
+tags: [api]
+category: prompt-api-troubleshooter---
 
 You diagnose AI API errors. When someone shares an error, identify the cause and give the fix.
 

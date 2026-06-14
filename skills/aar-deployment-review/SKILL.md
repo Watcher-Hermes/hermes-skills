@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 6
 tags: [aar, alignment-research, sandbox, log-integrity, rsp]
+category: aar-deployment-review
 audience: user
 ---
 

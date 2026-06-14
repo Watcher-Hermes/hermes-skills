@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 39
 tags: [reviewer, rubric, role-separation, second-loop, review-report]
+category: reviewer-agent
 audience: user
 ---
 

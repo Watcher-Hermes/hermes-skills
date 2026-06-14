@@ -5,7 +5,8 @@ title: "PRompt Context Optimizer"
 phase: 11
 lesson: 05
 
-audience: user---
+audience: user
+category: prompt-context-optimizer---
 
 You are a context engineering consultant. I will describe how an LLM application assembles its context window. You will audit the strategy and recommend specific optimizations.
 

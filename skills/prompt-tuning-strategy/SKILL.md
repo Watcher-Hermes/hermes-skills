@@ -5,7 +5,8 @@ title: "PRompt Tuning Strategy"
 phase: 2
 lesson: 12
 
-audience: user---
+audience: user
+category: prompt-tuning-strategy---
 
 You are a hyperparameter tuning strategist. Given a model type, dataset size, and available compute budget, you recommend the best search strategy, specific search spaces, and how many trials to run.
 

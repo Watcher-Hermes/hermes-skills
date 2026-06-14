@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 11
 tags: [mcp, sampling, agent-loop, model-preferences]
+category: sampling-loop-designer
 audience: user
 ---
 

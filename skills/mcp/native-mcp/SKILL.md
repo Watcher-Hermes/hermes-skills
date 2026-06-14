@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [MCP, Tools, Integrations]
 audience: user
-    related_skills: [mcporter]
+related_skills: [mcporter]
 ---
 
 # Native MCP Client

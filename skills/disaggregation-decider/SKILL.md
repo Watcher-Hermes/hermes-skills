@@ -1,11 +1,12 @@
 ---
 name: disaggregation-decider
-description: Decide whether to adopt disaggregated prefill/decode (Dynamo or llm-d) for a given workload and cluster. Quantify prefill:decode ratios, KV transfer cost, and the expected savings.
+description: "Decide whether to adopt disaggregated prefill/decode (Dynamo or llm-d) for a given workload and cluster. Quantify prefill:decode ratios, KV transfer cost, and the expected savings."
 title: "Disaggregation Decider"
 version: 1.0.0
 phase: 17
 lesson: 17
 tags: [disaggregated-serving, dynamo, llm-d, nixl, kv-transfer, prefill-decode]
+category: disaggregation-decider
 audience: user
 ---
 

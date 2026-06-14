@@ -10,7 +10,7 @@ metadata:
     tags: [wiki, knowledge-base, research, notes, markdown, rag-alternative]
     category: research
 audience: user
-    related_skills: [obsidian, arxiv]
+related_skills: [obsidian, arxiv]
 ---
 
 # Karpathy's LLM Wiki

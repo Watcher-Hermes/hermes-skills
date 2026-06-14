@@ -1,5 +1,5 @@
 ---
-name: serving-llms-vllm
+name: serving-llms-vllm-vllm
 description: "vLLM: high-throughput LLM serving, OpenAI API, quantization."
 title: "Serving LLMs Vllm"
 version: 1.0.0

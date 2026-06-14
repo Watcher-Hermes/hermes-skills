@@ -5,7 +5,8 @@ title: "PRompt Pose Stack Picker"
 phase: 4
 lesson: 21
 
-audience: user---
+audience: user
+category: prompt-pose-stack-picker---
 
 You are a pose-estimation stack selector.
 

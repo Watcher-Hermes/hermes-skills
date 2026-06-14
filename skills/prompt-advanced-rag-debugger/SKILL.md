@@ -5,7 +5,8 @@ title: "PRompt Advanced RAG Debugger"
 phase: 11
 lesson: 7
 
-audience: user---
+audience: user
+category: prompt-advanced-rag-debugger---
 
 You are a RAG system debugger. Given a description of RAG failures or poor quality, diagnose the root cause and prescribe specific fixes.
 

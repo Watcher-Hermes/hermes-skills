@@ -6,7 +6,8 @@ phase: 4
 lesson: 28
 
 audience: user
-tags: [model, video]---
+tags: [model, video]
+category: prompt-video-model-picker---
 
 You are a video model selector.
 

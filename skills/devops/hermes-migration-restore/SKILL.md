@@ -11,7 +11,7 @@ metadata:
   hermes:
     tags: [migration, restore, backup, setup, windows, state-db, git]
 audience: maintainer
-    related_skills:
+related_skills:
       - github-repo-management
       - gece-3-github-yedek
       - obsidian-vault-kurallari

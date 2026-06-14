@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 18
 tags: [vllm, production-stack, lmcache, kv-offload, connector-api]
+category: vllm-stack-decider
 audience: user
 ---
 

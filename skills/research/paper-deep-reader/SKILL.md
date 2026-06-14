@@ -8,7 +8,7 @@ metadata:
   hermes:
     tags: [academic, paper-reading, mineru, notebooklm, research]
 audience: user
-    related_skills: [notebooklm, arxiv]
+related_skills: [notebooklm, arxiv]
 ---
 
 # paper-deep-reader

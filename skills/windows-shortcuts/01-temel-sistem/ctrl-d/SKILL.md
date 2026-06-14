@@ -1,6 +1,6 @@
 ---
 name: ctrl-d
-description: Seçili öğeyi Geri Dönüşüm Kutusu'na gönder (alternatif: Delete tuşu) — Windows klavye kısayolu
+description: "Seçili öğeyi Geri Dönüşüm Kutusu'na gönder (alternatif: Delete tuşu) — Windows klavye kısayolu"
 trigger: "Ctrl + D"
 
 audience: user---

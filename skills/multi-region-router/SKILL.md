@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 11
 tags: [multi-region, kv-cache, routing, dr, bedrock-cri, vllm-router, llm-d, gorgo]
+category: multi-region-router
 audience: user
 ---
 

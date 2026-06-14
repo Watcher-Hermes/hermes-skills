@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 12
 tags: [voice-assistant, architecture, livekit, pipecat, compliance]
+category: voice-assistant-architect
 audience: user
 ---
 

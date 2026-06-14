@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 08
 tags: [capstone, rag, chatbot, regulated, llama-guard, nemo-guardrails, ragas, langfuse]
+category: production-rag
 audience: user
 ---
 

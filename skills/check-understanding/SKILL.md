@@ -4,7 +4,8 @@ version: 1.0.0
 description: Phase quiz for AI Engineering from Scratch. Trigger with "quiz me", "test phase", "check my understanding", "do I know phase 3", or `/check-understanding <phase>`.
 title: "Check Understanding"
 
-audience: user---
+audience: user
+category: check-understanding---
 
 # Check Understanding
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 24
 tags: [nlp, coref, information-extraction]
+category: coref-picker
 audience: user
 ---
 

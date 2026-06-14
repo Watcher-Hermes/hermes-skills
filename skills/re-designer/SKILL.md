@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 26
 tags: [nlp, relation-extraction, knowledge-graph]
+category: re-designer
 audience: user
 ---
 

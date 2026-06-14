@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 11
 tags: [browser-agents, prompt-injection, trust-boundary, osworld, webarena]
+category: browser-agent-trust-boundary
 audience: user
 ---
 

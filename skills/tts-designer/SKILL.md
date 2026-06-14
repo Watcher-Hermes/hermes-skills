@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 07
 tags: [audio, tts, speech-synthesis]
+category: tts-designer
 audience: user
 ---
 

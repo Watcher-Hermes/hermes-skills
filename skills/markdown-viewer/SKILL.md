@@ -10,6 +10,7 @@ metadata:
   hermes:
     source: markdown-viewer/skills
     tags: [markdown-viewer, diagrams, visualization, plantuml, vega, infographic, documentation]
+category: markdown-viewer
 audience: user
 prerequisites:
   commands: [node, npx]

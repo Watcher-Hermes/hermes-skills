@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 1
 lesson: 15
 tags: [statistics, hypothesis-testing, model-comparison]
+category: skill-statistical-testing
 audience: user
 ---
 

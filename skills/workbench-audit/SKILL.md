@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 31
 tags: [workbench, audit, reliability, agent-engineering]
+category: workbench-audit
 audience: maintainer
 ---
 

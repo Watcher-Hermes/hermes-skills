@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 3
 tags: [data-pipeline, deduplication, quality-filter, pre-training, llm, data-cleaning]
+category: prompt-data-quality-checker
 audience: user
 ---
 

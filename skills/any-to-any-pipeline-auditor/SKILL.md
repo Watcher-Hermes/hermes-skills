@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 16
 tags: [mio, anygpt, moshi, any-to-any, streaming, ttfab]
+category: any-to-any-pipeline-auditor
 audience: user
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: evaluating-llms-harness
+name: evaluating-llms-harness-lm-evaluation-harness
 description: "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.)."
 title: "Evaluating LLMs Harness"
 version: 1.0.0

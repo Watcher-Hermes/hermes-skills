@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 9
 lesson: 11
 tags: [rl, sim2real, robotics, domain-randomization]
+category: sim2real-planner
 audience: user
 ---
 

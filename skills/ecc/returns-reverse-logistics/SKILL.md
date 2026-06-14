@@ -2,7 +2,6 @@
 name: returns-reverse-logistics
 description: >
 title: "Returns Reverse Logistics"
-  Codified expertise for returns authorization, receipt and inspection,
   disposition decisions, refund processing, fraud detection, and warranty
   claims management. Informed by returns operations managers with 15+ years
   experience. Includes grading frameworks, disposition economics, fraud
@@ -20,7 +19,9 @@ metadata:
 
 audience: contributor
 tags: [ai, automation, development]
-category: ecc---
+category: ecc---Codified expertise for returns authorization, receipt and inspection,
+
+
 
 # Returns & Reverse Logistics
 

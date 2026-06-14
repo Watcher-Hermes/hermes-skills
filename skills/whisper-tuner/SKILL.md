@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 05
 tags: [audio, whisper, asr, fine-tuning, lora]
+category: whisper-tuner
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 34
 tags: [gradient-checkpointing, activation-recomputation, selective-checkpoint, fsdp-offload, training-memory]
+category: checkpointing-planner
 audience: user
 ---
 

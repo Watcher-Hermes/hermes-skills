@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 5
 lesson: 15
 tags: [nlp, topic-modeling]
+category: topic-picker
 audience: user
 ---
 

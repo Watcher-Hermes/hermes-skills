@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 18
 tags: [mtp, multi-token-prediction, deepseek-v3, pre-training, speculative-decoding]
+category: mtp-planner
 audience: user
 ---
 

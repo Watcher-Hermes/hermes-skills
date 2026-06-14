@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 14
 tags: [mcp, apps, ui-resources, csp, iframe-sandbox]
+category: mcp-apps-spec
 audience: user
 ---
 

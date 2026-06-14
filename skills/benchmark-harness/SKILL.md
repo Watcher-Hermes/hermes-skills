@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 19
 tags: [swe-bench, gaia, agentbench, harness, evaluation]
+category: benchmark-harness
 audience: user
 ---
 

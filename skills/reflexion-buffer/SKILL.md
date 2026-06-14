@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 03
 tags: [reflexion, episodic-memory, self-healing, verbal-rl, sleep-time]
+category: reflexion-buffer
 audience: user
 ---
 

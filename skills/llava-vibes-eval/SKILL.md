@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 05
 tags: [llava, vlm, vibes-eval, instruction-tuning]
+category: llava-vibes-eval
 audience: user
 ---
 

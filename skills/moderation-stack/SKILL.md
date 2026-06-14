@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 29
 tags: [openai-moderation, perspective, llama-guard, layered-moderation, azure-content-safety]
+category: moderation-stack
 audience: user
 ---
 

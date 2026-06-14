@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 06
 tags: [function-calling, tools, schema, validation, bfcl, parallel-tools]
+category: tool-registry
 audience: user
 ---
 

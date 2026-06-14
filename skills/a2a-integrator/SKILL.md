@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 12
 tags: [multi-agent, a2a, protocol, interoperability, google]
+category: a2a-integrator
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 27
 tags: [finops, cost-attribution, multi-tenant, kill-switch, unit-economics, rate-limit]
+category: finops-plan
 audience: maintainer
 ---
 

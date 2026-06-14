@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 10
 tags: [claude-code, permission-modes, auto-mode, budgets, isolation]
+category: permission-mode-picker
 audience: user
 ---
 

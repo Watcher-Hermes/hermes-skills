@@ -7,7 +7,7 @@ metadata:
   hermes:
     tags: [yuanbao, mention, at, group, members, 元宝, 派, 艾特]
 audience: user
-    related_skills: []
+related_skills: []
 ---
 
 # Yuanbao Group Interaction

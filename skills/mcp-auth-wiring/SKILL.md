@@ -6,6 +6,7 @@ version: 1.1.0
 phase: 13
 lesson: 18
 tags: [mcp, oauth, cimd, dcr, jwks, rfc8414, rfc7591, rfc8707, rfc7636, rfc9728, rfc9207]
+category: mcp-auth-wiring
 audience: user
 ---
 

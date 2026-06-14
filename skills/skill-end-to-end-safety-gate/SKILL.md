@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 87
 tags: [safety, harness, composition]
+category: skill-end-to-end-safety-gate
 audience: user
 ---
 

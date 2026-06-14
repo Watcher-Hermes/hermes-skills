@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 10
 tags: [mcp, primitives, resources, prompts]
+category: primitive-splitter
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 8
 tags: [bounded-self-improvement, invariants, alignment-anchor, rsi-safety]
+category: bounded-loop-review
 audience: user
 ---
 

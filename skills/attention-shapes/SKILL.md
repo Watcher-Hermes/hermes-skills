@@ -5,7 +5,8 @@ title: "Attention Shapes"
 phase: 5
 lesson: 10
 
-audience: user---
+audience: user
+category: attention-shapes---
 
 Given a broken attention implementation, you identify the shape mismatch. Output:
 

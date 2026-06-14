@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 9
 tags: [computer-vision, gan, dcgan, scaffolding]
+category: skill-dcgan-scaffold
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 3
 tags: [alphaevolve, evolutionary-coding, evaluator, reward-hacking, deepmind]
+category: evaluator-rigor-audit
 audience: maintainer
 ---
 

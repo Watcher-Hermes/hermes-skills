@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 12
 tags: [emu3, next-token-prediction, video-gen, diffusion, cfg]
+category: token-gen-cost-analyzer
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 4
 tags: [computer-vision, classification, evaluation, debugging]
+category: skill-classification-diagnostics
 audience: user
 ---
 

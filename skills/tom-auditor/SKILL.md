@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 18
 tags: [multi-agent, theory-of-mind, coordination, evaluation, emergence]
+category: tom-auditor
 audience: maintainer
 ---
 

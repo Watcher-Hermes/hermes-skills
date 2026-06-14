@@ -10,7 +10,7 @@ metadata:
   hermes:
     tags: [Excalidraw, Diagrams, Flowcharts, Architecture, Visualization, JSON]
 audience: user
-    related_skills: []
+related_skills: []
 
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 17
 tags: [video-vlm, temporal-grounding, tmrope, dynamic-fps, benchmarks]
+category: video-vlm-frame-planner
 audience: user
 ---
 

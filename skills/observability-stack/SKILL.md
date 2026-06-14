@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 13
 tags: [observability, langfuse, langsmith, phoenix, arize, helicone, opik, opentelemetry, genai-conventions]
+category: observability-stack
 audience: user
 ---
 

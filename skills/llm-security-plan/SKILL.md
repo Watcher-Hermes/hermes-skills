@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 25
 tags: [security, vault, hashicorp, aws-secrets-manager, pii, presidio, egress, audit-log, zero-trust, ci-cd-supply-chain]
+category: llm-security-plan
 audience: user
 ---
 

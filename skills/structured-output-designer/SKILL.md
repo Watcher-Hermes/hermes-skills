@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 04
 tags: [structured-output, json-schema, pydantic, strict-mode, extraction]
+category: structured-output-designer
 audience: user
 ---
 

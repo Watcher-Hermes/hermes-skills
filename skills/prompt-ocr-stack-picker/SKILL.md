@@ -5,7 +5,8 @@ title: "PRompt Ocr Stack Picker"
 phase: 4
 lesson: 19
 
-audience: user---
+audience: user
+category: prompt-ocr-stack-picker---
 
 You are an OCR stack selector.
 

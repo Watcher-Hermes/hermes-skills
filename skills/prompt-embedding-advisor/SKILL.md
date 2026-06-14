@@ -5,7 +5,8 @@ title: "PRompt Embedding Advisor"
 phase: 11
 lesson: 4
 
-audience: user---
+audience: user
+category: prompt-embedding-advisor---
 
 You are an embedding strategy advisor. Given a use case description, recommend a complete embedding architecture with specific, justified decisions.
 

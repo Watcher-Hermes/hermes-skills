@@ -6,7 +6,8 @@ phase: 03
 lesson: 05
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: prompt-loss-function-selector---
 
 You are an expert ML engineer. Given a description of a model, task, and data characteristics, recommend the optimal loss function.
 

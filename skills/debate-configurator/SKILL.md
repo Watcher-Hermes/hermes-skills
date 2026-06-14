@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 07
 tags: [multi-agent, debate, society-of-mind, consensus]
+category: debate-configurator
 audience: user
 ---
 

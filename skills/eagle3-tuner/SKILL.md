@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 15
 tags: [speculative-decoding, eagle, eagle-3, medusa, inference, vllm, sglang, tensorrt-llm]
+category: eagle3-tuner
 audience: user
 ---
 

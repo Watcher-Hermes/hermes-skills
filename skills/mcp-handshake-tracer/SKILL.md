@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 06
 tags: [mcp, json-rpc, lifecycle, capabilities]
+category: mcp-handshake-tracer
 audience: user
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: audiocraft-audio-generation
+name: audiocraft-audio-generation-audiocraft
 description: "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound."
 title: "Audiocraft Audio Generation"
 version: 1.0.0

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 09
 tags: [capstone, code-migration, openrewrite, libcst, migrationbench, agent, sandbox]
+category: migration-agent
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 11
 tags: [planning, htn, chathtn, alphaevolve, evolutionary-search]
+category: hybrid-planner
 audience: user
 ---
 

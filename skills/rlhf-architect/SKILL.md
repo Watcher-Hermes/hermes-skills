@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 9
 lesson: 9
 tags: [rl, rlhf, alignment, llm]
+category: rlhf-architect
 audience: user
 ---
 

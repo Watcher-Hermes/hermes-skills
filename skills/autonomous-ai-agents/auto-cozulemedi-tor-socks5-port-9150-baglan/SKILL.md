@@ -1,6 +1,6 @@
 ---
 name: auto-cozulemedi-tor-socks5-port-9150-baglan
-description: Autonomous solution for: [COZULEMEDI] Tor SOCKS5 port 9150 baglanti kontrol et. Solved in 2 iteration(s) using dolphin-llama3 + VS Code loop.
+description: "Autonomous solution for: [COZULEMEDI] Tor SOCKS5 port 9150 baglanti kontrol et. Solved in 2 iteration(s) using dolphin-llama3 + VS Code loop."
 version: 1.0.0
 author: hermes-auto
 license: MIT
@@ -8,7 +8,7 @@ metadata:
   hermes:
     tags: [autonomous, auto-generated, dolphin, vscode, loop]
 audience: user
-    related_skills: [vscode-otomasyon, gorsel-onaylama]
+related_skills: [vscode-otomasyon, gorsel-onaylama]
 ---
 
 # Otomatik Cozum: [COZULEMEDI] Tor SOCKS5 port 9150 baglanti kontrol et

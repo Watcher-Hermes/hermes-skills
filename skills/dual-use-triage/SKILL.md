@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 30
 tags: [dual-use, cbrn, bio, chem, cyber, nuclear, uplift]
+category: dual-use-triage
 audience: user
 ---
 

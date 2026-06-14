@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 08
 tags: [llava-onevision, token-budget, curriculum, multi-image, video]
+category: onevision-budget-planner
 audience: user
 ---
 

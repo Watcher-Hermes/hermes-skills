@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 15
 tags: [hitl, propose-then-commit, idempotency, langgraph, cloudflare, agent-framework, eu-ai-act]
+category: hitl-design
 audience: user
 ---
 

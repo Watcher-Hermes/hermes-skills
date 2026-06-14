@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 2
 lesson: 5
 tags: [svm, kernel, classification, hyperparameter-tuning]
+category: skill-svm-kernel-chooser
 audience: user
 ---
 

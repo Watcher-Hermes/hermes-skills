@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 09
 tags: [mcp, streamable-http, sse-migration, session-id, origin]
+category: mcp-transport-migrator
 audience: user
 ---
 

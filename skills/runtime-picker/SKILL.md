@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 18
 tags: [agno, mastra, langgraph, runtime, selection]
+category: runtime-picker
 audience: user
 ---
 

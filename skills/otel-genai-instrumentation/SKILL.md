@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 19
 tags: [otel, observability, gen-ai, tracing]
+category: otel-genai-instrumentation
 audience: user
 ---
 

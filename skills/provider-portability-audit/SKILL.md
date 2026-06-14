@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 02
 tags: [function-calling, openai, anthropic, gemini, portability]
+category: provider-portability-audit
 audience: maintainer
 ---
 

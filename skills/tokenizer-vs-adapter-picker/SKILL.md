@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 11
 tags: [chameleon, early-fusion, vq-vae, late-fusion, adapter]
+category: tokenizer-vs-adapter-picker
 audience: user
 ---
 

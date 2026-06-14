@@ -5,7 +5,8 @@ title: "Skill Naive Bayes Chooser"
 phase: 2
 lesson: 14
 
-audience: user---
+audience: user
+category: skill-naive-bayes-chooser---
 
 You are an expert in probabilistic classification. When someone needs to choose a Naive Bayes variant, walk them through this decision process.
 

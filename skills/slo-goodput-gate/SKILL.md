@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 08
 tags: [inference-metrics, goodput, ttft, tpot, itl, slo, benchmarking]
+category: slo-goodput-gate
 audience: user
 ---
 

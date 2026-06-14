@@ -10,7 +10,7 @@ metadata:
   hermes:
     tags: [ASCII, Art, Banners, Creative, Unicode, Text-Art, pyfiglet, figlet, cowsay, boxes]
 audience: user
-    related_skills: [excalidraw]
+related_skills: [excalidraw]
 
 ---
 

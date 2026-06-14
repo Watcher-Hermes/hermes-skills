@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [hermes, approvals, autonomous, config, workflow]
 audience: user
-    related_skills: [hermes-agent, windows-automation]
+related_skills: [hermes-agent, windows-automation]
 ---
 
 # Hermes Approval Policy

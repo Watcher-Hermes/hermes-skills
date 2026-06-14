@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 41
 tags: [benchmark, before-after, evaluation, workbench, sample-app]
+category: workbench-benchmark
 audience: user
 ---
 

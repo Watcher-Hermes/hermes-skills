@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [PDF, Documents, Research, Arxiv, Text-Extraction, OCR]
 audience: user
-    related_skills: [powerpoint]
+related_skills: [powerpoint]
 ---
 
 # PDF & Document Extraction

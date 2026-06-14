@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 04
 tags: [multi-agent, primitives, framework-comparison, architecture]
+category: primitive-mapper
 audience: user
 ---
 

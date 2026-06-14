@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 9
 lesson: 4
 tags: [rl, td-learning, q-learning, sarsa]
+category: td-agent
 audience: user
 ---
 

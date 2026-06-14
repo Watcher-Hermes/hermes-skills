@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 11
 lesson: 15
 tags: [llm-engineering, caching, cost]
+category: prompt-caching-planner
 audience: user
 ---
 

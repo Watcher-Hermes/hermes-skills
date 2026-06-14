@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 19
 tags: [model-welfare, moral-uncertainty, low-regret, anthropic]
+category: welfare-assessment
 audience: user
 ---
 

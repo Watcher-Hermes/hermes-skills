@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 10
 tags: [capstone, multi-agent, swe-bench, langgraph, a2a, worktree, roles]
+category: multi-agent-team
 audience: user
 ---
 

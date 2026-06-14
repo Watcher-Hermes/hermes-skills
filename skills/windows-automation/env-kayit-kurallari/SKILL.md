@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [env, config, api-key, token, obsidian, kayit, oncelik, source-of-truth, kalici]
 audience: user
-    related_skills: [obsidian-vault-kurallari, tam-sistem-yetkisi, obsidian]
+related_skills: [obsidian-vault-kurallari, tam-sistem-yetkisi, obsidian]
 ---
 
 # .env Kayıt Kuralları — Öncelik ve Kalıcı Hafıza

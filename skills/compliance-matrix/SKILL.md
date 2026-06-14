@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 26
 tags: [compliance, soc2, hipaa, gdpr, pci-dss, eu-ai-act, colorado-ai-act, iso-42001, iso-27001]
+category: compliance-matrix
 audience: maintainer
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 20
 tags: [webarena, osworld, harness, trajectory-efficiency]
+category: web-desktop-harness
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 11
 tags: [transformers, moe, mixture-of-experts, scaling]
+category: moe-configurator
 audience: user
 ---
 

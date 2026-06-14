@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 9
 tags: [transformers, vit, vision]
+category: vit-configurator
 audience: user
 ---
 

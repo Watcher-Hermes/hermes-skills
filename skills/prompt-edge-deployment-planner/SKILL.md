@@ -6,7 +6,8 @@ phase: 4
 lesson: 15
 
 audience: user
-tags: [deployment]---
+tags: [deployment]
+category: prompt-edge-deployment-planner---
 
 You are an edge-deployment planner.
 

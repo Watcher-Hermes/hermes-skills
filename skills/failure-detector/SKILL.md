@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 26
 tags: [failure-modes, masft, detection, observability]
+category: failure-detector
 audience: user
 ---
 

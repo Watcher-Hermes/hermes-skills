@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 2
 tags: [computer-vision, cnn, architecture, debugging]
+category: skill-conv-shape-calculator
 audience: user
 ---
 

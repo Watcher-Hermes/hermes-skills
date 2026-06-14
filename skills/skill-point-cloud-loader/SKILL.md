@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 13
 tags: [3d-vision, point-cloud, data-loading, pytorch]
+category: skill-point-cloud-loader
 audience: user
 ---
 

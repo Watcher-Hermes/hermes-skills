@@ -2,7 +2,6 @@
 name: energy-procurement
 description: >
 title: "Energy PRocurement"
-  Codified expertise for electricity and gas procurement, tariff optimization,
   demand charge management, renewable PPA evaluation, and multi-facility energy
   cost management. Informed by energy procurement managers with 15+ years
   experience at large commercial and industrial consumers. Includes market
@@ -20,7 +19,9 @@ metadata:
 
 audience: contributor
 tags: [ai, automation, development]
-category: ecc---
+category: ecc---Codified expertise for electricity and gas procurement, tariff optimization,
+
+
 
 # Energy Procurement
 

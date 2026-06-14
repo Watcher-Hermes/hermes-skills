@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 09
 tags: [qwen-vl, m-rope, dynamic-fps, json-agent, video-understanding]
+category: qwen-vl-pipeline-designer
 audience: user
 ---
 

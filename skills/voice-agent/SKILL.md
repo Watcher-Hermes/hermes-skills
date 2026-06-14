@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 03
 tags: [capstone, voice, webrtc, livekit, pipecat, asr, tts, streaming]
+category: voice-agent
 audience: user
 ---
 

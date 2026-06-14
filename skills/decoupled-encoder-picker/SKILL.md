@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 15
 tags: [janus-pro, janusflow, internvl-u, decoupled-encoders, unified-model]
+category: decoupled-encoder-picker
 audience: user
 ---
 

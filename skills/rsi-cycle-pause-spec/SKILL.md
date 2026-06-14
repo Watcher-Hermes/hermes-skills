@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 7
 tags: [rsi, self-improvement, alignment, pause-threshold, rsp]
+category: rsi-cycle-pause-spec
 audience: user
 ---
 

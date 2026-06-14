@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 24
 tags: [multimodal-rag, cross-modal-retrieval, fusion, grounded-generation]
+category: multimodal-rag-designer
 audience: user
 ---
 

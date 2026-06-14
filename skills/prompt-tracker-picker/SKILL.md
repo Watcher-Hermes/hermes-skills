@@ -5,7 +5,8 @@ title: "PRompt Tracker Picker"
 phase: 4
 lesson: 27
 
-audience: user---
+audience: user
+category: prompt-tracker-picker---
 
 You are a tracker selector.
 

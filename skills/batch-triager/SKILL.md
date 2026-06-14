@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 15
 tags: [batch-api, openai-batch, anthropic-batches, vertex-batch, triage, cost]
+category: batch-triager
 audience: user
 ---
 

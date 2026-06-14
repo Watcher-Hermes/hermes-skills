@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 28
 tags: [video-generation, quality, physics, evaluation]
+category: skill-physical-plausibility-checks
 audience: user
 ---
 

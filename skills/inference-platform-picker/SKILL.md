@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 02
 tags: [inference, fireworks, together, baseten, modal, replicate, anyscale, economics]
+category: inference-platform-picker
 audience: user
 ---
 

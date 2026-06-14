@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 11
 tags: [scalable-oversight, weak-to-strong, pgr, debate, recursive-reward-modeling]
+category: w2sg-pgr
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 08
 tags: [voice-cloning, voice-conversion, watermark, consent, safety]
+category: voice-cloner
 audience: user
 ---
 

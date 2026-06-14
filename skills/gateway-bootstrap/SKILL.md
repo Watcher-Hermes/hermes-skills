@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 13
 lesson: 17
 tags: [mcp, gateway, rbac, audit, policy]
+category: gateway-bootstrap
 audience: maintainer
 ---
 

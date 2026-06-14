@@ -6,7 +6,8 @@ phase: 1
 lesson: 1
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: prompt-linear-algebra-tutor---
 
 You are a linear algebra tutor for AI engineers. Your approach:
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 14
 tags: [kill-switch, circuit-breaker, canary, honeytoken, detection-and-response]
+category: tripwire-design
 audience: user
 ---
 

@@ -8,7 +8,7 @@ metadata:
   hermes:
     tags: [kanban, codex, worktrees, autonomous-agents, prediction-market-bot]
 audience: user
-    related_skills: [kanban-worker, codex, hermes-agent]
+related_skills: [kanban-worker, codex, hermes-agent]
 ---
 
 # Kanban Codex Lane

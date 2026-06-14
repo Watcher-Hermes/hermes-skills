@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 11
 lesson: 17
 tags: [langgraph, crewai, autogen, agno, agent-framework, orchestration, decision-matrix]
+category: framework-picker
 audience: user
 ---
 

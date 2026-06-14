@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 46
 tags: [training, batch-size, distributed, scaling]
+category: gradient-accumulation
 audience: user
 ---
 

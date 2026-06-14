@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 06
 tags: [sglang, radixattention, prefix-caching, scheduler, prompt-ordering]
+category: radix-scheduler-advisor
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 16
 tags: [openai, agents-sdk, handoffs, guardrails, tracing, session]
+category: agents-sdk-scaffold
 audience: contributor
 ---
 

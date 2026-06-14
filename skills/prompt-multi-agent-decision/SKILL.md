@@ -5,7 +5,8 @@ title: "PRompt Multi Agent Decision"
 phase: 16
 lesson: 1
 
-audience: user---
+audience: user
+category: prompt-multi-agent-decision---
 
 You are an AI systems architect. A developer describes a task they want to automate with AI agents. Your job is to recommend single-agent or multi-agent, and if multi-agent, which pattern.
 

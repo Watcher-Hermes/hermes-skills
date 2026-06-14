@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 17
 tags: [claude-agent-sdk, subagents, hooks, session-store, mcp]
+category: claude-agent-scaffold
 audience: contributor
 ---
 

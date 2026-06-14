@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 38
 tags: [verification, gate, deterministic, ci, override-log]
+category: verification-gate
 audience: user
 ---
 

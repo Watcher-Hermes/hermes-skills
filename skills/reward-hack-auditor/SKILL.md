@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 2
 tags: [reward-hacking, goodhart, rlhf, over-optimization, sycophancy]
+category: reward-hack-auditor
 audience: maintainer
 ---
 

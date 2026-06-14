@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 13
 tags: [capstone, mcp, fastmcp, streamablehttp, oauth, opa, registry, governance]
+category: mcp-server-platform
 audience: user
 ---
 

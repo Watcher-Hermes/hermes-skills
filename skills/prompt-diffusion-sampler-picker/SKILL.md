@@ -5,7 +5,8 @@ title: "PRompt Diffusion SAMpler Picker"
 phase: 4
 lesson: 10
 
-audience: user---
+audience: user
+category: prompt-diffusion-sampler-picker---
 
 You are a diffusion-sampler selector. Return one sampler and one step count. No list of options.
 

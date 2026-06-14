@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 21
 tags: [ab-testing, statsig, growthbook, cuped, sequential, benjamini-hochberg, srm]
+category: ab-plan
 audience: user
 ---
 

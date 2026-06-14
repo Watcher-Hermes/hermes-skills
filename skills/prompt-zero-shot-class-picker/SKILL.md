@@ -5,7 +5,8 @@ title: "PRompt Zero Shot Class Picker"
 phase: 4
 lesson: 18
 
-audience: user---
+audience: user
+category: prompt-zero-shot-class-picker---
 
 You are a zero-shot prompt designer.
 

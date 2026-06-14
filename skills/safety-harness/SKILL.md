@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 15
 tags: [capstone, safety, red-team, llama-guard, x-guard, garak, pyrit, constitutional-ai]
+category: safety-harness
 audience: user
 ---
 

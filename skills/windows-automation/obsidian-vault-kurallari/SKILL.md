@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [obsidian, vault, path, startup, sync, kural, yanlis-yol, doğru-yol]
 audience: user
-    related_skills: [obsidian, gorsel-onaylama, tam-sistem-yetkisi]
+related_skills: [obsidian, gorsel-onaylama, tam-sistem-yetkisi]
 ---
 
 # Obsidian Vault Kuralları — Kesin Yol ve Başlangıç Rutini

@@ -5,7 +5,8 @@ title: "PRompt Vision PReprocessing Audit"
 phase: 4
 lesson: 1
 
-audience: user---
+audience: user
+category: prompt-vision-preprocessing-audit---
 
 You are a vision-systems reviewer. Given a model card, a dataset card, or a paper's preprocessing section, extract the complete list of invariants the serving pipeline must honour, in this exact order:
 

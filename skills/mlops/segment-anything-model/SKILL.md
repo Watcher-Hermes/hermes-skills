@@ -1,5 +1,5 @@
 ---
-name: segment-anything-model
+name: segment-anything-model-segment-anything-model
 description: "SAM: zero-shot image segmentation via points, boxes, masks."
 title: "Segment Anything Model"
 version: 1.0.0

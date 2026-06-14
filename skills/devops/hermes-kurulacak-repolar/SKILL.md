@@ -11,7 +11,7 @@ metadata:
   hermes:
     tags: [kurulum, github, repo, setup, migration]
 audience: maintainer
-    related_skills:
+related_skills:
       - hermes-migration-restore
       - github-repo-management
 ---

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 2
 tags: [star, vstar, quiet-star, self-improvement, reasoning, bootstrap]
+category: star-loop-reviewer
 audience: user
 ---
 

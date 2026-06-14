@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 10
 tags: [transformers, whisper, asr, speech]
+category: asr-configurator
 audience: user
 ---
 

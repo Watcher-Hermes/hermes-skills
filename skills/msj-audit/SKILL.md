@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 13
 tags: [many-shot-jailbreaking, context-window, power-law, anthropic]
+category: msj-audit
 audience: maintainer
 ---
 

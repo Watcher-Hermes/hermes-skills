@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 40
 tags: [handoff, generator, session-end, packet, next-action]
+category: handoff-generator
 audience: user
 ---
 

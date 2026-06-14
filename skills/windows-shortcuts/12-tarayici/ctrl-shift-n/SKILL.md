@@ -1,5 +1,5 @@
 ---
-name: ctrl-shift-n
+name: ctrl-shift-n-ctrl-shift-n
 description: Gizli / Özel pencere — Windows klavye kısayolu
 title: "Ctrl Shift N"
 trigger: "Ctrl + Shift + N"

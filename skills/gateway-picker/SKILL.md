@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 19
 tags: [ai-gateway, litellm, portkey, kong, cloudflare, vercel, bifrost, fallback, rate-limit, guardrails]
+category: gateway-picker
 audience: user
 ---
 

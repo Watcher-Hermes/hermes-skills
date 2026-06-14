@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [delegation, subagent, implementation, workflow, parallel]
 audience: contributor
-    related_skills: [writing-plans, requesting-code-review, test-driven-development]
+related_skills: [writing-plans, requesting-code-review, test-driven-development]
 ---
 
 # Subagent-Driven Development

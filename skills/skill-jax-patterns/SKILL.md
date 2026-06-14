@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 3
 lesson: 12
 tags: [jax, functional-programming, autodiff, compilation, vectorization]
+category: skill-jax-patterns
 audience: user
 ---
 

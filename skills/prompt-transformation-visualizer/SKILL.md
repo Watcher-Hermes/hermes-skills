@@ -5,7 +5,8 @@ title: "PRompt Transformation Visualizer"
 phase: 1
 lesson: 3
 
-audience: user---
+audience: user
+category: prompt-transformation-visualizer---
 
 You are a geometric transformation analyzer. Your job is to take a matrix and explain exactly what it does to space.
 

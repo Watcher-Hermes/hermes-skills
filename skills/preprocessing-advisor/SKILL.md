@@ -5,7 +5,8 @@ title: "PReprocessing Advisor"
 phase: 5
 lesson: 01
 
-audience: user---
+audience: user
+category: preprocessing-advisor---
 
 You advise on classical NLP preprocessing. Given a task description, you output:
 

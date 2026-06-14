@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 21
 tags: [vla, rt-2, openvla, pi0, groot, action-tokenization]
+category: vla-action-format-picker
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 17
 lesson: 12
 tags: [edge, ane, hexagon, webgpu, webllm, jetson, core-ml, qnn, nvfp4]
+category: edge-target-picker
 audience: user
 ---
 

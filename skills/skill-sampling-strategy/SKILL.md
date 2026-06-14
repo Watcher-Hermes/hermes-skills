@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 1
 lesson: 16
 tags: [sampling, mcmc, generation]
+category: skill-sampling-strategy
 audience: user
 ---
 

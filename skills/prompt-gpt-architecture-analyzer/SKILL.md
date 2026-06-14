@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 4
 tags: [gpt, transformer, architecture, attention, kv-cache, scaling, pre-training]
+category: prompt-gpt-architecture-analyzer
 audience: user
 ---
 

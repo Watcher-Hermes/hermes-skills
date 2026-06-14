@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 12
 tags: [inference, kv-cache, batching, speculative-decoding, vllm, optimization]
+category: skill-inference-optimization
 audience: maintainer
 ---
 

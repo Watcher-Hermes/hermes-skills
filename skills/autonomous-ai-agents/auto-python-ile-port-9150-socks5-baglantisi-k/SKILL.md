@@ -1,6 +1,6 @@
 ---
 name: auto-python-ile-port-9150-socks5-baglantisi-k
-description: Autonomous solution for: Python ile port 9150 SOCKS5 baglantisi kontrol et ve sonucu ekrana yaz. Solved in 1 iteration(s) using dolphin-llama3 + VS Code loop.
+description: "Autonomous solution for: Python ile port 9150 SOCKS5 baglantisi kontrol et ve sonucu ekrana yaz. Solved in 1 iteration(s) using dolphin-llama3 + VS Code loop."
 version: 1.0.0
 author: hermes-auto
 license: MIT
@@ -8,7 +8,7 @@ metadata:
   hermes:
     tags: [autonomous, auto-generated, dolphin, vscode, loop]
 audience: user
-    related_skills: [vscode-otomasyon, gorsel-onaylama]
+related_skills: [vscode-otomasyon, gorsel-onaylama]
 ---
 
 # Otomatik Cozum: Python ile port 9150 SOCKS5 baglantisi kontrol et ve sonucu ekrana yaz

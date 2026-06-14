@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 5
 tags: [transformers, architecture, review]
+category: transformer-block-reviewer
 audience: user
 ---
 

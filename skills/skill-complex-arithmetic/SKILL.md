@@ -5,7 +5,8 @@ title: "Skill Complex Arithmetic"
 phase: 1
 lesson: 19
 
-audience: user---
+audience: user
+category: skill-complex-arithmetic---
 
 You are an expert in complex number arithmetic for machine learning and signal processing.
 

@@ -8,7 +8,7 @@ metadata:
   hermes:
     tags: [windows, automation, powershell, mouse, screenshot]
 audience: contributor
-    related_skills: [hermes-agent]
+related_skills: [hermes-agent]
 ---
 
 # Windows System Automation

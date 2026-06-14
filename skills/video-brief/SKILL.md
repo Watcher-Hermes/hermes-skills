@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 10
 tags: [video, diffusion, sora, veo, kling]
+category: video-brief
 audience: user
 ---
 

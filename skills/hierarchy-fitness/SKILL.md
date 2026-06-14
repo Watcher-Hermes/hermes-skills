@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 06
 tags: [multi-agent, hierarchy, crewai, langgraph, decomposition-drift]
+category: hierarchy-fitness
 audience: user
 ---
 

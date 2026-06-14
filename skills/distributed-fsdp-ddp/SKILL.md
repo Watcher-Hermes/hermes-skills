@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 48
 tags: [distributed, ddp, fsdp, collectives]
+category: distributed-fsdp-ddp
 audience: user
 ---
 

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 9
 lesson: 3
 tags: [rl, monte-carlo, evaluation]
+category: mc-evaluator
 audience: user
 ---
 

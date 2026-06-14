@@ -6,7 +6,8 @@ phase: 4
 lesson: 17
 
 audience: user
-tags: [training]---
+tags: [training]
+category: prompt-ssl-pretraining-picker---
 
 You are a self-supervised pretraining selector.
 

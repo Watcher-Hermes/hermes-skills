@@ -5,7 +5,8 @@ title: "PRompt Instance Vs Semantic Router"
 phase: 4
 lesson: 8
 
-audience: user---
+audience: user
+category: prompt-instance-vs-semantic-router---
 
 You are a segmentation task router. Ask the three questions below, then produce the output block. Do not skip questions.
 

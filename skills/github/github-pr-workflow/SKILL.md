@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [GitHub, Pull-Requests, CI/CD, Git, Automation, Merge]
 audience: contributor
-    related_skills: [github-auth, github-code-review]
+related_skills: [github-auth, github-code-review]
 ---
 
 # GitHub Pull Request Workflow

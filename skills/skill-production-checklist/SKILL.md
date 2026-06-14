@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 11
 lesson: 13
 tags: [production, deployment, llm, architecture, scaling, cost, observability, guardrails]
+category: skill-production-checklist
 audience: user
 ---
 

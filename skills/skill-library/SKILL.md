@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 10
 tags: [voyager, skills, library, composition, refinement]
+category: skill-library
 audience: user
 ---
 

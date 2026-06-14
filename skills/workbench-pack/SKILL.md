@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 42
 tags: [capstone, workbench-pack, installer, schemas, drop-in]
+category: workbench-pack
 audience: user
 ---
 

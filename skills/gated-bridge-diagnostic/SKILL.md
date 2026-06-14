@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 04
 tags: [flamingo, idefics, openflamingo, gated-cross-attention, interleaved-inputs]
+category: gated-bridge-diagnostic
 audience: user
 ---
 

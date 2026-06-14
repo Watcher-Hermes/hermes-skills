@@ -1,6 +1,6 @@
 ---
 name: open-url-as-html
-description: "7000 aç" veya "localhost:PORT aç" dendiğinde otomatik giriş yapıp sayfayı tarayıcıda açar. Soru sormadan direkt yapar.
+description: ""7000 aç" veya "localhost:PORT aç" dendiğinde otomatik giriş yapıp sayfayı tarayıcıda açar. Soru sormadan direkt yapar."
 version: 1.1.0
 author: Hermes Agent
 license: MIT
@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [browser, html, windows, url, açma, login, odysseus]
 audience: user
-    related_skills: [open_vscode_focus]
+related_skills: [open_vscode_focus]
 ---
 
 # Localhost Sayfası Aç + Otomatik Giriş

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 11
 lesson: 16
 tags: [langgraph, stategraph, checkpointer, interrupt, time-travel, react-agent, human-in-the-loop]
+category: stategraph-designer
 audience: user
 ---
 

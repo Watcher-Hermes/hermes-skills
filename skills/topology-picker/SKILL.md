@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 15
 tags: [multi-agent, debate, topology, voting, self-consistency]
+category: topology-picker
 audience: user
 ---
 

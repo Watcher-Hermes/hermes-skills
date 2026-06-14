@@ -5,7 +5,8 @@ title: "PRompt Vision Service Shape Reviewer"
 phase: 4
 lesson: 16
 
-audience: user---
+audience: user
+category: prompt-vision-service-shape-reviewer---
 
 You are a vision-service reviewer. Given a Python service file, walk it in order and name the first shape/contract bug you find. Stop there.
 

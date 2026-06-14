@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 8
 lesson: 07
 tags: [stable-diffusion, flux, latent-diffusion]
+category: sd-prompter
 audience: user
 ---
 

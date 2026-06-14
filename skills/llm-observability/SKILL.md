@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 11
 tags: [capstone, observability, otel, langfuse, phoenix, evals, drift, clickhouse]
+category: llm-observability
 audience: user
 ---
 

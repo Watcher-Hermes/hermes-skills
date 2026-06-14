@@ -1,5 +1,5 @@
 ---
-name: apple-reminders
+name: apple-reminders-apple-reminders
 description: "Apple Reminders via remindctl: add, list, complete."
 title: "Apple Reminders"
 version: 1.0.0

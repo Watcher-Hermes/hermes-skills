@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 24
 tags: [eu-ai-act, gpai-code, caisi, uk-aisi, korean-framework-act]
+category: regulatory-map
 audience: user
 ---
 

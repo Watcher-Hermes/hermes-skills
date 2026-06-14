@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 10
 tags: [evaluation, evals, benchmarks, llm-as-judge, elo, metrics]
+category: skill-llm-evaluation
 audience: user
 ---
 

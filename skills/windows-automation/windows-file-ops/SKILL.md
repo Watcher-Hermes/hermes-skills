@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [windows, dosya, file, notepad, uzanti]
 audience: user
-    related_skills: [tam-sistem-yetkisi, windows-automation-shortcuts]
+related_skills: [tam-sistem-yetkisi, windows-automation-shortcuts]
 ---
 
 # Windows Dosya İşlemleri (windows-file-ops)

@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 21
 tags: [metr, time-horizon, hcast, re-bench, eval-vs-deploy, external-evaluation]
+category: horizon-interpretation
 audience: user
 ---
 

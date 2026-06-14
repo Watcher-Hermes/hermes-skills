@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 10
 tags: [ai-control, subversion, trusted-editing, untrusted-monitoring, safety-case]
+category: control-protocol-audit
 audience: maintainer
 ---
 

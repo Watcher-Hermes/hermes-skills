@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 19
 tags: [whisper, audio-flamingo-3, qwen-audio, cascaded, end-to-end]
+category: audio-llm-pipeline-picker
 audience: user
 ---
 

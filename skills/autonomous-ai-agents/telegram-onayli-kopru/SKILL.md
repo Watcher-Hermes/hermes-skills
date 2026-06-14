@@ -7,7 +7,7 @@ metadata:
   hermes:
     tags: [telegram, bridge, claude, ollama, approval, multi-model]
 audience: user
-    related_skills: [telegram-gateway-monitor, telegram-approval-bridge, dolphin-llama3]
+related_skills: [telegram-gateway-monitor, telegram-approval-bridge, dolphin-llama3]
 ---
 
 # Telegram Onaylı Köprü

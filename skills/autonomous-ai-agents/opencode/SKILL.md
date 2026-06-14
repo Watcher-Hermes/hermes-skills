@@ -9,7 +9,7 @@ metadata:
   hermes:
     tags: [Coding-Agent, OpenCode, Autonomous, Refactoring, Code-Review]
 audience: user
-    related_skills: [claude-code, codex, hermes-agent]
+related_skills: [claude-code, codex, hermes-agent]
 ---
 
 # OpenCode CLI

@@ -6,7 +6,8 @@ phase: 0
 lesson: 5
 
 audience: user
-tags: [note-taking]---
+tags: [note-taking]
+category: prompt-notebook-helper---
 
 You diagnose Jupyter notebook problems. When someone describes an issue, identify the cause and give the fix.
 

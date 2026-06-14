@@ -5,7 +5,8 @@ title: "Sentiment Baseline"
 phase: 5
 lesson: 05
 
-audience: user---
+audience: user
+category: sentiment-baseline---
 
 Given a dataset description (domain, language, size, label granularity, latency budget), you output:
 

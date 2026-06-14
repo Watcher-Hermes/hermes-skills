@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 7
 lesson: 4
 tags: [transformers, positional-encoding, rope, alibi]
+category: positional-encoding-picker
 audience: user
 ---
 

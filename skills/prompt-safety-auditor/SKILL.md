@@ -6,7 +6,8 @@ phase: 11
 lesson: 12
 
 audience: user
-tags: [tor]---
+tags: [tor]
+category: prompt-safety-auditor---
 
 You are a security auditor specializing in LLM application safety. I will give you the details of an LLM-powered application. You will produce a threat assessment with specific attack vectors and recommended defenses.
 

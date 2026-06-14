@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 26
 tags: [model-card, datasheet, system-card, transparency, mitchell-2019]
+category: card-audit
 audience: maintainer
 ---
 

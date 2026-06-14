@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 04
 tags: [tree-of-thoughts, lats, mcts, search, value-function]
+category: search-policy
 audience: user
 ---
 

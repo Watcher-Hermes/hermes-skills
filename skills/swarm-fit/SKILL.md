@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 16
 lesson: 09
 tags: [multi-agent, swarm, decentralized, langgraph, matrix]
+category: swarm-fit
 audience: user
 ---
 

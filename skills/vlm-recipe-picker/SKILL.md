@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 12
 lesson: 07
 tags: [vlm, mm1, idefics2, molmo, cambrian, prismatic, ablation]
+category: vlm-recipe-picker
 audience: user
 ---
 

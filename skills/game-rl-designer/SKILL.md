@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 9
 lesson: 12
 tags: [rl, alphazero, muzero, grpo, self-play]
+category: game-rl-designer
 audience: user
 ---
 

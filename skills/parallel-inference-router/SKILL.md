@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 10
 lesson: 22
 tags: [parallel-inference, hogwild, speculative-decoding, tree-of-thought, multi-agent, reasoning]
+category: parallel-inference-router
 audience: user
 ---
 

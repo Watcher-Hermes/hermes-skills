@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 6
 lesson: 03
 tags: [audio, classification, beats, ast]
+category: classifier-designer
 audience: user
 ---
 

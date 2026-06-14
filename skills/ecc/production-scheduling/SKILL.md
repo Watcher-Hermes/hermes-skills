@@ -2,7 +2,6 @@
 name: production-scheduling
 description: >
 title: "PRoduction Scheduling"
-  Codified expertise for production scheduling, job sequencing, line balancing,
   changeover optimization, and bottleneck resolution in discrete and batch
   manufacturing. Informed by production schedulers with 15+ years experience.
   Includes TOC/drum-buffer-rope, SMED, OEE analysis, disruption response
@@ -20,7 +19,9 @@ metadata:
 
 audience: contributor
 tags: [ai, automation, development]
-category: ecc---
+category: ecc---Codified expertise for production scheduling, job sequencing, line balancing,
+
+
 
 # Production Scheduling
 

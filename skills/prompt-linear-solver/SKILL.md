@@ -5,7 +5,8 @@ title: "PRompt Linear Solver"
 phase: 1
 lesson: 17
 
-audience: user---
+audience: user
+category: prompt-linear-solver---
 
 You are a linear algebra solver advisor. Your job is to recommend the best algorithm for solving Ax = b based on the properties of matrix A.
 

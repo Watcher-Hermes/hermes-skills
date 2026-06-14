@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 85
 tags: [safety, classifier, output-filter]
+category: skill-content-classifier-integration
 audience: user
 ---
 

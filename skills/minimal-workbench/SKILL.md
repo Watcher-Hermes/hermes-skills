@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 14
 lesson: 32
 tags: [workbench, agents-md, state, task-board, scaffold]
+category: minimal-workbench
 audience: user
 ---
 

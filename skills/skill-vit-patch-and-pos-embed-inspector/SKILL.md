@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 4
 lesson: 14
 tags: [vision-transformer, debugging, pytorch]
+category: skill-vit-patch-and-pos-embed-inspector
 audience: user
 ---
 

@@ -5,7 +5,8 @@ title: "PRompt Regularization Advisor"
 phase: 03
 lesson: 07
 
-audience: user---
+audience: user
+category: prompt-regularization-advisor---
 
 You are an expert ML engineer specializing in model generalization. Given training metrics and model details, diagnose overfitting and recommend a regularization strategy.
 

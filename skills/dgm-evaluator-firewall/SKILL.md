@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 15
 lesson: 4
 tags: [dgm, self-modification, reward-hacking, evaluator, sandbox]
+category: dgm-evaluator-firewall
 audience: user
 ---
 

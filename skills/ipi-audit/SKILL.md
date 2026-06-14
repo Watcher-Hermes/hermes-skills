@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 18
 lesson: 15
 tags: [ipi, indirect-prompt-injection, ifc, agent-security, owasp-llm01]
+category: ipi-audit
 audience: maintainer
 ---
 

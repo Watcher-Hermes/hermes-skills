@@ -6,6 +6,7 @@ version: 1.0.0
 phase: 19
 lesson: 07
 tags: [capstone, fine-tuning, axolotl, trl, dpo, grpo, vllm, eagle-3, mof]
+category: finetuning-pipeline
 audience: user
 ---
 

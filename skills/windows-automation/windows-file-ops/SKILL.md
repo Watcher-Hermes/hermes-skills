@@ -1,5 +1,7 @@
 ---
 name: windows-file-ops
+title: "Windows File Ops"
+tags: [automation, windows]
 description: Windows'ta dosya/klasör oluşturma, açma ve yönetme işlemleri. Uzantı kuralları, Notepad/uygulama seçimi, dosya yolu yönetimi.
 version: 1.0.0
 author: marko

@@ -2,6 +2,7 @@
 name: prompt-diffusion-sampler-picker
 description: Pick DDPM, DDIM, DPM-Solver++, or Euler ancestral based on quality target, latency budget, and conditioning type
 title: "PRompt Diffusion SAMpler Picker"
+tags: [general]
 phase: 4
 lesson: 10
 

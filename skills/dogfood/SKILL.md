@@ -1,5 +1,7 @@
 ---
 name: dogfood
+title: "Dogfood"
+tags: [development]
 description: "Exploratory QA of web apps: find bugs, evidence, reports."
 version: 1.0.0
 platforms: [linux, macos, windows]

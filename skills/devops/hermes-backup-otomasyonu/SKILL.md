@@ -1,5 +1,7 @@
 ---
 name: hermes-backup-otomasyonu
+title: "Hermes Backup Otomasyonu"
+tags: [automation, backup, devops, system]
 description: >-
   Hermes tam yedek otomasyonu. Gunluk no_agent diff+sync (21:00) +
   haftalik LLM bakim (Carsamba). Startup .bat ile flag tabanli tetikleme.

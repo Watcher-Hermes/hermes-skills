@@ -1,6 +1,8 @@
 ---
 
 name: godmode
+title: "Godmode"
+tags: [security]
 description: "Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN."
 version: 1.0.0
 author: Hermes Agent + Teknium

@@ -1,5 +1,7 @@
 ---
 name: openai-screenshot
+title: "Openai Screenshot"
+tags: [ai, productivity, screen]
 description: "OS-level screenshot and capture tooling for desktop, window, and region captures. Camera hardware capture is delegated to `camera-capture`."
 version: 1.2.0
 author: marko

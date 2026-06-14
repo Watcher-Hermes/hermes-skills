@@ -1,5 +1,7 @@
 ---
 name: windows-keyboard-shortcuts
+title: "Windows Keyboard Shortcuts"
+tags: [productivity, windows]
 description: "Windows klavye kýsayollarý: sistem, pencere, tarayýcý, dosya, metin, geliþtirici. Uzun listeler yerine kýsa, akýlda kalýr bloklar."
 version: 1.0.0
 author: marko

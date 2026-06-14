@@ -1,6 +1,8 @@
 ---
 
 name: claude-design
+title: "Claude Design"
+tags: [creative, design]
 description: Design one-off HTML artifacts (landing, deck, prototype).
 version: 1.0.0
 author: BadTechBandit

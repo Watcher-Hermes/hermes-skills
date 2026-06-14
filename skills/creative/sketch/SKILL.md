@@ -1,5 +1,7 @@
 ---
 name: sketch
+title: "Sketch"
+tags: [creative, design]
 description: "Throwaway HTML mockups: 2-3 design variants to compare."
 version: 1.0.0
 author: Hermes Agent (adapted from gsd-build/get-shit-done)

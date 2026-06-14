@@ -1,5 +1,7 @@
 ---
 name: yuanbao
+title: "Yuanbao"
+tags: [productivity]
 description: "Yuanbao (元宝) groups: @mention users, query info/members."
 version: 1.0.0
 platforms: [linux, macos, windows]

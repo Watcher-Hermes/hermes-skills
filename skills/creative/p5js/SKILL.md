@@ -1,6 +1,8 @@
 ---
 
 name: p5js
+title: "P5Js"
+tags: [creative, design]
 description: "p5.js sketches: gen art, shaders, interactive, 3D."
 version: 1.0.0
 platforms: [linux, macos, windows]

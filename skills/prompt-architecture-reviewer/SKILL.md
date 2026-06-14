@@ -2,6 +2,7 @@
 name: prompt-architecture-reviewer
 description: Review the architecture of any LLM application against a production readiness checklist -- identifies gaps, risks, and missing components
 title: "PRompt Architecture Reviewer"
+tags: [general]
 phase: 11
 lesson: 13
 

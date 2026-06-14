@@ -1,6 +1,8 @@
 ---
 
 name: github-issues
+title: "GitHub Issues"
+tags: [development, git, github]
 description: "Create, triage, label, assign GitHub issues via gh or REST."
 version: 1.1.0
 author: Hermes Agent

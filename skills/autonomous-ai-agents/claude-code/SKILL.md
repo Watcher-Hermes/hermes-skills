@@ -1,6 +1,8 @@
 ---
 
 name: claude-code
+title: "Claude Code"
+tags: [agents, ai]
 description: "Delegate coding to Claude Code CLI (features, PRs)."
 version: 2.2.0
 author: Hermes Agent + Teknium

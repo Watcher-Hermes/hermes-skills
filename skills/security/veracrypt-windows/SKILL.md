@@ -1,5 +1,7 @@
 ---
 name: veracrypt-windows
+title: "Veracrypt Windows"
+tags: [security, windows]
 description: VeraCrypt container creation, formatting, mounting, and Obsidian vault encryption on Windows. CLI syntax for VeraCrypt Format.exe and VeraCrypt.exe, elevation pitfalls, and multi-session workflow.
 version: 1.1.0
 author: hermes

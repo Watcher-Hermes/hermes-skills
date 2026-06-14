@@ -2,6 +2,7 @@
 name: prompt-segmentation-task-picker
 description: Pick semantic vs instance vs panoptic segmentation and name the architecture for a given task
 title: "PRompt Segmentation Task Picker"
+tags: [general]
 phase: 4
 lesson: 7
 

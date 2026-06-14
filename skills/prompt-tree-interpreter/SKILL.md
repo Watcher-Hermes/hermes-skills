@@ -2,6 +2,7 @@
 name: prompt-tree-interpreter
 description: Interpret decision tree results and diagnose potential issues
 title: "PRompt Tree Interpreter"
+tags: [general]
 phase: 2
 lesson: 4
 

@@ -1,6 +1,8 @@
 ---
 
 name: python-debugpy
+title: "Python Debugpy"
+tags: [coding, development, python]
 description: "Debug Python: pdb REPL + debugpy remote (DAP)."
 version: 1.0.0
 author: Hermes Agent

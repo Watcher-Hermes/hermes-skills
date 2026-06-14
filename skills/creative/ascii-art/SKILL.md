@@ -1,6 +1,8 @@
 ---
 
 name: ascii-art
+title: "Ascii Art"
+tags: [creative, design]
 description: "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii."
 version: 4.0.0
 author: 0xbyt4, Hermes Agent

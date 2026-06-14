@@ -1,5 +1,7 @@
 ---
 name: nightly-self-improvement
+title: "Nightly Self Improvement"
+tags: [agents, ai]
 description: >
   Gece otomatik geliştirme cron job'u. Obsidian vault ve Hermes skill
   kütüphanesini tarar, eksik/eksik parçaları tamamlar, skill'leri

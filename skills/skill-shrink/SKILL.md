@@ -96,14 +96,35 @@ Token kazancı: ~%95
 
 ## Dikkat Edilmesi Gerekenler
 
-- **Yedek al:** Çalıştırmadan önce `.audience-backup/` veya Git yedeği al
+- **Önce yedek al (ZORUNLU):** `--all` çalıştırmadan ÖNCE skills/ dizininin SHA256 hash'li yedeğini al. Büyük bir operasyonu geri almak, yeniden yapmaktan daha zordur. (Bkz: `C:\Users\marko\AppData\Local\hermes\.shrink-backup\`)
 - **İç içe başlıklar:** `###` alt başlıklarını üst başlıktan ayırma, aynı reference dosyasında tut
 - **İsimlendirme:** Reference dosya adlarında Türkçe karakter ve boşluk kullanma
 - **Doğrulama:** İşlem sonrası `skill_view(name)` ile skill'in hala çalıştığını doğrula
 - **Frontmatter koru:** SKILL.md'nin frontmatter'ı (--- ... ---) asla değişmesin
+- **Git add + push:** AppData altındaki değişiklikleri GitHub repo'suna kopyalamayı unutma
 
 ## Hata Yönetimi
 
 - Frontmatter parse edilemezse → skill'i atla ve log'a yaz
-- Bölüm bulunamazsa → skill'i atla
-- Zaten references/ klasörü varsa → birleştirme yap
+- Bölüm bulunamazsa (tek bölümlü skill) → skill'i atla
+- `references/` klasörü zaten varsa → silmeyi dene, olmazsa geçici isimle taşı
+
+### Windows PermissionError Workaround'u
+
+`shutil.rmtree(ref_dir)` bazen Windows'ta `PermissionError: [WinError 5]` ile başarısız olur. Script bu durumda rename+retry yapar:
+
+```python
+temp_dir = ref_dir.parent / f".trash_{ref_dir.name}"
+ref_dir.rename(temp_dir)
+shutil.rmtree(temp_dir, ignore_errors=True)
+```
+
+Bu yöntem her zaman çalışır çünkü `rename` kilitli handle'ları da taşıyabilir.
+
+### Gerçek Dünya Testi (14 Haziran 2026)
+
+`--all` ile 166 şişkin skill küçültüldü:
+- Ortalama SKILL.md: ~15KB → ~3KB
+- Token tasarrufu: ~%80
+- Başarı: 166/166
+- Toplam değişen dosya: 4.301

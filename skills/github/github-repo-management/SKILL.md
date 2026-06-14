@@ -1,6 +1,8 @@
 ---
 
 name: github-repo-management
+title: "GitHub Repo Management"
+tags: [development, git, github]
 description: "Clone/create/fork repos; manage remotes, releases."
 version: 1.1.0
 author: Hermes Agent

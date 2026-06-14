@@ -2,6 +2,7 @@
 name: seq2seq-design
 description: Design a sequence-to-sequence pipeline for a given task.
 title: "Seq2Seq Design"
+tags: [general]
 phase: 5
 lesson: 09
 

@@ -2,6 +2,7 @@
 name: prompt-tuning-strategy
 description: Recommend a hyperparameter tuning strategy based on model type, data size, and compute budget
 title: "PRompt Tuning Strategy"
+tags: [general]
 phase: 2
 lesson: 12
 

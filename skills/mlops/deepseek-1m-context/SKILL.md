@@ -1,5 +1,7 @@
 ---
 name: deepseek-1m-context
+title: "DeepSeek 1M Context"
+tags: [machine-learning, mlops]
 description: "DeepSeek 1M token context penceresini aktif eder — context_length=1048576, ollama_num_ctx=1048576"
 version: 1.0.0
 author: Hermes Agent

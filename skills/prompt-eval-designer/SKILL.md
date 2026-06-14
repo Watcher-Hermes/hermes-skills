@@ -2,6 +2,7 @@
 name: prompt-eval-designer
 description: Design a custom evaluation suite for any LLM task, including test cases, scoring functions, and pass/fail thresholds
 title: "PRompt Eval Designer"
+tags: [general]
 phase: 10
 lesson: 10
 

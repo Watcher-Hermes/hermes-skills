@@ -1,6 +1,7 @@
 ---
 name: vscode-agent-control
 title: "VS Code Claude Terminal - Konum Öğren ve Yaz"
+tags: [general]
 audience: user
 tags: []
 category: vscode-agent-control

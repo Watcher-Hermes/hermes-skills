@@ -2,6 +2,7 @@
 name: prompt-retrieval-loss-picker
 description: Pick triplet / InfoNCE / ProxyNCA for a given retrieval problem
 title: "PRompt Retrieval Loss Picker"
+tags: [general]
 phase: 4
 lesson: 20
 

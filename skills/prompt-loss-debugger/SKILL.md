@@ -2,6 +2,7 @@
 name: prompt-loss-debugger
 description: A diagnostic prompt for debugging loss curves and training failures
 title: "PRompt Loss Debugger"
+tags: [general]
 phase: 03
 lesson: 05
 

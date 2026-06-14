@@ -1,5 +1,7 @@
 ---
 name: codebase-inspection
+title: "Codebase Inspection"
+tags: [development, git, github]
 description: "Inspect codebases w/ pygount: LOC, languages, ratios."
 version: 1.0.0
 author: Hermes Agent

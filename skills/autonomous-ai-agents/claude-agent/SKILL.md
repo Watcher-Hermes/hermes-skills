@@ -1,5 +1,7 @@
 ---
 name: claude-agent
+title: "Claude Agent"
+tags: [agents, ai]
 description: Claude Code CLI agent modunu terminalde baslatma ve kullanma
 version: 1.0.0
 platforms: [windows]

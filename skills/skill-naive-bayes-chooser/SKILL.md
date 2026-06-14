@@ -2,6 +2,7 @@
 name: skill-naive-bayes-chooser
 description: Choose the right Naive Bayes variant for your classification task
 title: "Skill Naive Bayes Chooser"
+tags: [ai]
 phase: 2
 lesson: 14
 

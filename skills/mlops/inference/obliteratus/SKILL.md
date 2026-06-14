@@ -1,6 +1,8 @@
 ---
 
 name: obliteratus
+title: "Inference"
+tags: [machine-learning, mlops]
 description: "OBLITERATUS: abliterate LLM refusals (diff-in-means)."
 version: 2.0.0
 author: Hermes Agent

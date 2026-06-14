@@ -2,6 +2,7 @@
 name: prompt-distance-metric-advisor
 description: Recommend the right distance metric based on data type and problem characteristics
 title: "PRompt Distance Metric Advisor"
+tags: [general]
 phase: 2
 lesson: 6
 

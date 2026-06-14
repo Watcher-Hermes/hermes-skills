@@ -2,6 +2,7 @@
 name: prompt-lr-schedule-advisor
 description: Recommend the right learning rate schedule and hyperparameters for any training setup
 title: "PRompt Lr Schedule Advisor"
+tags: [general]
 phase: 03
 lesson: 09
 

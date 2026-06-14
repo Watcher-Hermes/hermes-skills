@@ -1,5 +1,7 @@
 ---
 name: ocr-and-documents
+title: "Ocr And Documents"
+tags: [productivity]
 description: "Extract text from PDFs/scans (pymupdf, marker-pdf)."
 version: 2.3.0
 author: Hermes Agent

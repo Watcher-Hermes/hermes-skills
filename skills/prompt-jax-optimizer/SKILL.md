@@ -2,6 +2,7 @@
 name: prompt-jax-optimizer
 description: Choose and configure the right JAX/Optax optimizer for a given training scenario
 title: "PRompt JAX Optimizer"
+tags: [general]
 phase: 03
 lesson: 12
 

@@ -1,6 +1,8 @@
 ---
 
 name: github-code-review
+title: "GitHub Code Review"
+tags: [development, git, github]
 description: "Review PRs: diffs, inline comments via gh or REST."
 version: 1.1.0
 author: Hermes Agent

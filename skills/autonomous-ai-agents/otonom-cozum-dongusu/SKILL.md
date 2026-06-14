@@ -1,5 +1,7 @@
 ---
 name: otonom-cozum-dongusu
+title: "Otonom Cozum Dongusu"
+tags: [agents, ai]
 description: Use when any problem needs to be solved autonomously without user intervention. Takes a problem description, uses llava to see the screen, dolphin-llama3 to generate Python code, runs it in VS Code, analyzes output, and loops until solved. Saves successful solutions as skills automatically.
 version: 1.0.0
 author: marko

@@ -2,6 +2,7 @@
 name: prompt-ml-problem-framer
 description: Frame a real-world business problem as a machine learning task
 title: "PRompt ML PRoblem Framer"
+tags: [ml]
 phase: 2
 lesson: 1
 

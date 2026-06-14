@@ -1,6 +1,8 @@
 ---
 name: aktif-pencere
 title: "Aktif Pencere"
+tags: [automation, windows]
+title: "Aktif Pencere"
 title: ""
 audience: user
 tags: [automation, windows]

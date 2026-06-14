@@ -1,5 +1,7 @@
 ---
 name: hermes-kurulacak-repolar
+title: "Hermes Kurulacak Repolar"
+tags: [automation, devops, system]
 description: >-
   Hermes Agent kurulumu için gerekli GitHub repolarının listesi ve
   sıralı kurulum talimatları. Watcher-Hermes/hermes-full-backup

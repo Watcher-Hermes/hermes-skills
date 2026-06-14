@@ -1,5 +1,7 @@
 ---
 name: telegram-onayli-kopru
+title: "Telegram Onayli Kopru"
+tags: [agents, ai, telegram]
 description: Claude + Ollama koprusu, dosya tabanli Telegram onayi ile
 version: 1.0.0
 platforms: [windows]

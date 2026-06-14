@@ -1,5 +1,7 @@
 ---
 name: auto-cozulemedi-tor-socks5-port-9150-baglan
+title: "Auto Cozulemedi Tor Socks5 Port 9150 Baglan"
+tags: [agents, ai, tor]
 description: "Autonomous solution for: [COZULEMEDI] Tor SOCKS5 port 9150 baglanti kontrol et. Solved in 2 iteration(s) using dolphin-llama3 + VS Code loop."
 version: 1.0.0
 author: hermes-auto

@@ -2,6 +2,7 @@
 name: prompt-multi-agent-decision
 description: Decide whether a task needs a multi-agent system or a single agent
 title: "PRompt Multi Agent Decision"
+tags: [general]
 phase: 16
 lesson: 1
 

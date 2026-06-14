@@ -1,6 +1,8 @@
 ---
 
 name: tam-sistem-yetkisi
+title: "Tam Sistem Yetkisi"
+tags: [automation, windows]
 description: Use when Hermes needs full system access on Windows — Telegram bot token writing to .env/config.yaml, terminal commands, mouse/keyboard automation, and screenshots. Covers all permission-sensitive operations without asking the user to do it manually.
 version: 1.0.0
 author: Hermes Agent

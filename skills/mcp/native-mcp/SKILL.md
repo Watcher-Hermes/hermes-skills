@@ -1,6 +1,8 @@
 ---
 
 name: native-mcp
+title: "Native MCP"
+tags: [mcp, protocol]
 description: "MCP client: connect servers, register tools (stdio/HTTP)."
 version: 1.0.0
 author: Hermes Agent

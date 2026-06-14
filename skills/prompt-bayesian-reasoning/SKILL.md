@@ -2,6 +2,7 @@
 name: prompt-bayesian-reasoning
 description: Walk through Bayesian reasoning step by step for any scenario
 title: "PRompt Bayesian Reasoning"
+tags: [general]
 phase: 1
 lesson: 7
 

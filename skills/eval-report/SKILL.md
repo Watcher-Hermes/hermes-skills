@@ -1,5 +1,6 @@
 ---
 name: eval-report
+title: "Eval Report"
 description: "Plan a full generative-model evaluation: sample quality, adherence, preference, failure audit."
 version: 1.0.0
 phase: 8

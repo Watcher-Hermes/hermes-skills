@@ -2,6 +2,7 @@
 name: prompt-distance-chooser
 description: Guides the user through choosing the right distance metric for their specific task
 title: "PRompt Distance Chooser"
+tags: [general]
 phase: 1
 lesson: 14
 

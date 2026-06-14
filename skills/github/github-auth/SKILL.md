@@ -1,5 +1,7 @@
 ---
 name: github-auth
+title: "GitHub Auth"
+tags: [development, git, github]
 description: "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login."
 version: 1.1.0
 author: Hermes Agent

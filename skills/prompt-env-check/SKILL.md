@@ -2,6 +2,7 @@
 name: prompt-env-check
 description: Diagnose and fix AI engineering environment setup issues
 title: "PRompt Env Check"
+tags: [general]
 phase: 0
 lesson: 1
 

@@ -2,6 +2,7 @@
 name: prompt-zero-shot-class-picker
 description: Design prompt templates for zero-shot CLIP given a list of classes and a domain
 title: "PRompt Zero Shot Class Picker"
+tags: [general]
 phase: 4
 lesson: 18
 

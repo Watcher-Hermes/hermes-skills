@@ -1,6 +1,8 @@
 ---
 
 name: github-pr-workflow
+title: "GitHub Pr Workflow"
+tags: [development, git, github]
 description: "GitHub PR lifecycle: branch, commit, open, CI, merge."
 version: 1.1.0
 author: Hermes Agent

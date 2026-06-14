@@ -2,6 +2,7 @@
 name: prompt-cnn-architect
 description: Design a stack of Conv2d layers from input size, parameter budget, and target receptive field
 title: "PRompt CNN Architect"
+tags: [general]
 phase: 4
 lesson: 2
 

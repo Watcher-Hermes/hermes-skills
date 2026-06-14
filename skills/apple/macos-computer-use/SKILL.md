@@ -1,5 +1,7 @@
 ---
 name: macos-computer-use
+title: "macOS Computer Use"
+tags: [apple, ios, macos]
 description: |
   Drive the macOS desktop in the background — screenshots, mouse, keyboard,
   scroll, drag — without stealing the user's cursor, keyboard focus, or

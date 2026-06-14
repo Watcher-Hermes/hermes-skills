@@ -1,5 +1,7 @@
 ---
 name: hermes-approval-policy
+title: "Hermes Approval Policy"
+tags: [config, hermes]
 description: "Configure Hermes Agent approval and auto-approve settings for autonomous operation. Use when user wants to eliminate interactive approval prompts, enable subagent auto-approval, or adjust destructive-command confirmation behavior."
 version: 1.0.0
 author: Hermes Agent

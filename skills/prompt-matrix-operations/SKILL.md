@@ -2,6 +2,7 @@
 name: prompt-matrix-operations
 description: Teaches matrix operations through geometric intuition, connecting abstract math to neural network mechanics
 title: "PRompt Matrix Operations"
+tags: [general]
 phase: 1
 lesson: 2
 

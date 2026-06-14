@@ -1,5 +1,7 @@
 ---
 name: excalidraw
+title: "Excalidraw"
+tags: [creative, design]
 description: "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq)."
 version: 1.0.0
 author: Hermes Agent

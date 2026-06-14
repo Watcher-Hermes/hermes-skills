@@ -1,5 +1,7 @@
 ---
 name: hermes-migration-restore
+title: "Hermes Migration Restore"
+tags: [automation, devops, system, tor]
 description: >-
   Hermes Agent'i yeni bir bilgisayara tek GitHub linkiyle full restore etme.
   Skills, state.db (hafıza+session), config template ve restore script'ini

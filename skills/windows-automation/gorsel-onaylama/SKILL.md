@@ -1,5 +1,7 @@
 ---
 name: gorsel-onaylama
+title: "Gorsel Onaylama"
+tags: [automation, windows]
 description: Use when a dialog box, popup, or confirmation window appears on screen and needs to be approved. Hermes takes a screenshot, uses llava-llama3 to find the OK/Yes/Tamam button, moves the mouse there, and clicks it automatically. ALWAYS use this workflow for any screen confirmation task.
 version: 3.0.0
 author: marko

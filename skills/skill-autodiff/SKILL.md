@@ -2,6 +2,7 @@
 name: skill-autodiff
 description: Build, debug, and reason about automatic differentiation systems
 title: "Skill Autodiff"
+tags: [general]
 phase: 1
 lesson: 5
 

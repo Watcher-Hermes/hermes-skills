@@ -2,6 +2,7 @@
 name: prompt-instance-vs-semantic-router
 description: Ask three questions and pick instance vs semantic vs panoptic segmentation plus the first model
 title: "PRompt Instance Vs Semantic Router"
+tags: [general]
 phase: 4
 lesson: 8
 

@@ -1,5 +1,7 @@
 ---
 name: obsidian-vault-kurallari
+title: "Obsidian Vault Kurallari"
+tags: [automation, obsidian, windows]
 description: Use whenever reading, writing, or syncing anything to Obsidian. Contains the ONLY correct vault path and startup verification routine. ALWAYS check this skill before any Obsidian file operation.
 version: 1.0.0
 author: marko

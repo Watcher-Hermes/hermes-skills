@@ -2,6 +2,7 @@
 name: prompt-reasoning-chain
 description: Production-ready few-shot CoT prompt with self-consistency support for multi-step reasoning tasks
 title: "PRompt Reasoning Chain"
+tags: [ai]
 phase: 11
 lesson: 02
 

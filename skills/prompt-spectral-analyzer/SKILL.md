@@ -2,6 +2,7 @@
 name: prompt-spectral-analyzer
 description: Guides analysis of frequency content in signals using Fourier transform techniques
 title: "PRompt Spectral Analyzer"
+tags: [general]
 phase: 1
 lesson: 20
 

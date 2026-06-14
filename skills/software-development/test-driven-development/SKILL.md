@@ -1,6 +1,8 @@
 ---
 
 name: test-driven-development
+title: "Test Driven Development"
+tags: [coding, development, testing]
 description: "TDD: enforce RED-GREEN-REFACTOR, tests before code."
 version: 1.1.0
 author: Hermes Agent (adapted from obra/superpowers)

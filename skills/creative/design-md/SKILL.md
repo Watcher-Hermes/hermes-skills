@@ -1,5 +1,7 @@
 ---
 name: design-md
+title: "Design Md"
+tags: [creative, design]
 description: Author/validate/export Google's DESIGN.md token spec files.
 version: 1.0.0
 author: Hermes Agent

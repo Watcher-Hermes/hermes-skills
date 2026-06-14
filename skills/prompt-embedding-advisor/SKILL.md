@@ -2,6 +2,7 @@
 name: prompt-embedding-advisor
 description: Choose embedding models, dimensions, and strategies for specific use cases
 title: "PRompt Embedding Advisor"
+tags: [general]
 phase: 11
 lesson: 4
 

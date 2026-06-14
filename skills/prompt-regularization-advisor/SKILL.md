@@ -2,6 +2,7 @@
 name: prompt-regularization-advisor
 description: A diagnostic prompt for choosing regularization strategies based on overfitting symptoms
 title: "PRompt Regularization Advisor"
+tags: [general]
 phase: 03
 lesson: 07
 

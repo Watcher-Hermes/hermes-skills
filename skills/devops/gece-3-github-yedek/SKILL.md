@@ -1,6 +1,8 @@
 ---
 
 name: gece-3-github-yedek
+title: "Gece 3 GitHub Yedek"
+tags: [automation, devops, git, system]
 description: >-
   Her gece saat 03:00'te tüm Hermes skill'lerini ve Obsidian vault
   klasörünü GitHub'a yedekler. Skills reposu yoksa MCP GitHub ile

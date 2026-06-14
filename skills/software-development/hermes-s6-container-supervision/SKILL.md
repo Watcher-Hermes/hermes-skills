@@ -1,6 +1,8 @@
 ---
 
 name: hermes-s6-container-supervision
+title: "Hermes S6 Container Supervision"
+tags: [ai, coding, development]
 description: Modify, debug, or extend the s6-overlay supervision tree inside the Hermes Agent Docker image — adding new services, debugging profile gateways, understanding the Architecture B main-program pattern.
 version: 1.0.0
 author: Hermes Agent

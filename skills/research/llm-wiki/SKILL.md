@@ -1,6 +1,8 @@
 ---
 
 name: llm-wiki
+title: "Llm Wiki"
+tags: [academic, research]
 description: "Karpathy's LLM Wiki: build/query interlinked markdown KB."
 version: 2.1.0
 author: Hermes Agent

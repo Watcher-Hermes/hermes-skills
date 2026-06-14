@@ -1,5 +1,7 @@
 ---
 name: auto-python-ile-port-9150-socks5-baglantisi-k
+title: "Auto Python Ile Port 9150 Socks5 Baglantisi K"
+tags: [agents, ai, python]
 description: "Autonomous solution for: Python ile port 9150 SOCKS5 baglantisi kontrol et ve sonucu ekrana yaz. Solved in 1 iteration(s) using dolphin-llama3 + VS Code loop."
 version: 1.0.0
 author: hermes-auto

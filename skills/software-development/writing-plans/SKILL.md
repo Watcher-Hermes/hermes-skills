@@ -1,5 +1,7 @@
 ---
 name: writing-plans
+title: "Writing Plans"
+tags: [coding, development]
 description: "Write implementation plans: bite-sized tasks, paths, code."
 version: 1.1.0
 author: Hermes Agent (adapted from obra/superpowers)

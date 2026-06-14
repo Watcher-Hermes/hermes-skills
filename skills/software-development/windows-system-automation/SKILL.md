@@ -1,5 +1,7 @@
 ---
 name: windows-system-automation
+title: "Windows System Automation"
+tags: [coding, development, windows]
 description: Windows sistem otomasyonu — fare hareketi, imleç kontrolü, PowerShell + .NET desenleri ve ekran görüntüsü alma.
 version: 1.0.0
 author: marko

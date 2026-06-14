@@ -1,5 +1,7 @@
 ---
 name: debugging-hermes-tui-commands
+title: "Debugging Hermes Tui Commands"
+tags: [coding, development]
 description: "Debug Hermes TUI slash commands: Python, gateway, Ink UI."
 version: 1.0.0
 author: Hermes Agent

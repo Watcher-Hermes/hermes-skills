@@ -1,5 +1,7 @@
 ---
 name: spotify
+title: "Spotify"
+tags: [media, video]
 description: "Spotify: play, search, queue, manage playlists and devices."
 version: 1.0.0
 author: Hermes Agent

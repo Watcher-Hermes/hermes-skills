@@ -1,5 +1,7 @@
 ---
 name: localhost-servis-yonetimi
+title: "Localhost Servis Yonetimi"
+tags: [automation, devops, system]
 description: >-
   Manage localhost services, ports, health checks, and desktop shortcuts
   for HTTP services (Hermes Studio, LM Studio, Streamlit, n8n, etc.)

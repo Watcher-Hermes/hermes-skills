@@ -1,5 +1,7 @@
 ---
 name: tersine-muhendislik
+title: "Tersine Muhendislik"
+tags: [security]
 description: Kullanıcı bir .exe, .dll, .apk, .elf veya bilinmeyen ikili dosyayı analiz ettirmek istediğinde çalıştır. RE-HERMES v3 aracıyla pasif statik analiz yapar; hash, entropy, IOC, şüpheli API ve 5N1K raporu üretir. Dosya hiçbir zaman çalıştırılmaz.
 version: 1.0.0
 author: Hermes Agent

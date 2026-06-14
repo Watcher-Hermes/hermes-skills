@@ -1,5 +1,7 @@
 ---
 name: codex
+title: "Codex"
+tags: [agents, ai]
 description: "Delegate coding to OpenAI Codex CLI (features, PRs)."
 version: 1.0.0
 author: Hermes Agent

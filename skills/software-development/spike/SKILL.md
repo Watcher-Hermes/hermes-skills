@@ -1,5 +1,7 @@
 ---
 name: spike
+title: "Spike"
+tags: [coding, development]
 description: "Throwaway experiments to validate an idea before build."
 version: 1.0.0
 author: Hermes Agent (adapted from gsd-build/get-shit-done)

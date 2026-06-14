@@ -2,6 +2,7 @@
 name: attention-shapes
 description: Debug shape bugs in attention implementations.
 title: "Attention Shapes"
+tags: [general]
 phase: 5
 lesson: 10
 

@@ -1,5 +1,7 @@
 ---
 name: otonom-gece-gelistirme
+title: "Otonom Gece Gelistirme"
+tags: [agents, ai]
 description: >
   Gece boyunca çalışan otonom geliştirme döngüsü. Obsidian vault'u tara,
   eksik skill'leri bul, yeni skill oluştur, mevcutları güncelle/geliştir,

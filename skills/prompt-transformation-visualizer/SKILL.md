@@ -2,6 +2,7 @@
 name: prompt-transformation-visualizer
 description: Explain what a matrix transformation does geometrically given its entries
 title: "PRompt Transformation Visualizer"
+tags: [general]
 phase: 1
 lesson: 3
 

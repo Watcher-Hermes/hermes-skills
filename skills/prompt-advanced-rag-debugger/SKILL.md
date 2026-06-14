@@ -2,6 +2,7 @@
 name: prompt-advanced-rag-debugger
 description: Diagnose and fix RAG quality issues across retrieval, generation, and evaluation
 title: "PRompt Advanced RAG Debugger"
+tags: [general]
 phase: 11
 lesson: 7
 

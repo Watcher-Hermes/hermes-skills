@@ -1,6 +1,8 @@
 ---
 name: ekran-al
 title: "Ekran Al"
+tags: [automation, windows]
+title: "Ekran Al"
 title: ""
 audience: user
 tags: [automation, windows]

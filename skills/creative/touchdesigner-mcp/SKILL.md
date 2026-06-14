@@ -1,6 +1,8 @@
 ---
 
 name: touchdesigner-mcp
+title: "Touchdesigner MCP"
+tags: [creative, design]
 description: "Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools."
 version: 1.1.0
 author: kshitijk4poor

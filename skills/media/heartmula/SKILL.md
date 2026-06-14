@@ -1,5 +1,7 @@
 ---
 name: heartmula
+title: "Heartmula"
+tags: [media, video]
 description: "HeartMuLa: Suno-like song generation from lyrics + tags."
 version: 1.0.0
 platforms: [linux, macos, windows]

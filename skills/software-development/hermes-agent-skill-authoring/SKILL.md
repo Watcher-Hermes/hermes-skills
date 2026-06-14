@@ -1,5 +1,7 @@
 ---
 name: hermes-agent-skill-authoring
+title: "Hermes Agent Skill Authoring"
+tags: [coding, development]
 description: "Author in-repo SKILL.md: frontmatter, validator, structure."
 version: 1.0.0
 author: Hermes Agent

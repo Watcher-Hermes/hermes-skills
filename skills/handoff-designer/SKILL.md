@@ -1,5 +1,6 @@
 ---
 name: handoff-designer
+title: "Handoff Designer"
 description: "Design a handoff topology for a Swarm/Agents-SDK-style system: which agents exist, which handoffs they can call, what context transfers."
 version: 1.0.0
 phase: 16

@@ -2,6 +2,7 @@
 name: prompt-vision-preprocessing-audit
 description: Turn any model card or dataset card into a checklist of the preprocessing invariants a vision pipeline must honour
 title: "PRompt Vision PReprocessing Audit"
+tags: [general]
 phase: 4
 lesson: 1
 

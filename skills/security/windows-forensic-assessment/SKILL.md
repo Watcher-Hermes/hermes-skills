@@ -1,5 +1,7 @@
 ---
 name: windows-forensic-assessment
+title: "Windows Forensic Assessment"
+tags: [security, windows]
 description: Systematic audit of forensic traces on Windows — Event Log, USBSTOR, SRUM, WiFi profiles, OneDrive, VirtualBox VM logs, PowerShell history, and disk encryption status. One-time evidence check before deciding on countermeasures.
 version: 1.0.0
 author: hermes

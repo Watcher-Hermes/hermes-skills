@@ -1,5 +1,7 @@
 ---
 name: apple-notes
+title: "Apple Notes"
+tags: [apple, ios, note-taking]
 description: "Manage Apple Notes via memo CLI: create, search, edit."
 version: 1.0.0
 author: Hermes Agent

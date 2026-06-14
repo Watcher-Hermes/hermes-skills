@@ -1,5 +1,7 @@
 ---
 name: hersona-recommend-quiz
+title: "Hersona Recommend Quiz"
+tags: [config, preferences]
 description: "Use when the user wants to take the hersona diagnostic quiz interactively (e.g. 'hersona で recommend して', '診断クイズやりたい', 'キャラ診断して', '属性推薦して'). Walks the user through all 9 questions in hersona/data/quiz/recommend_quiz.yaml, collects answer indices, builds the --answers string, runs `hersona recommend --explain --json`, and renders a Markdown-friendly result (blend / rationale / alternatives / summary / weight_suggestion). Also exposes scripts/run_quiz.py for non-interactive / TTY-less contexts (cron, batch, automated test). Trigger on any request to run the recommend flow as a user-facing experience, not as engine development (engine work uses hersona-recommend-engine)."
 version: 1.0.0
 author: Hermes Agent + hersona project

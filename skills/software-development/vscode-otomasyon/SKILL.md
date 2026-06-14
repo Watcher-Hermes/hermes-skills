@@ -1,5 +1,7 @@
 ---
 name: vscode-otomasyon
+title: "VS Code Otomasyon"
+tags: [coding, development]
 description: Use when writing, running, or debugging Python code in VS Code. Hermes opens VS Code, writes code, runs it, reads output/errors, asks AI for fixes, and retries automatically (try-fix loop). Use for any coding task that needs real execution and error correction.
 version: 1.0.0
 author: marko

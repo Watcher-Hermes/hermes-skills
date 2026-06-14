@@ -1,5 +1,7 @@
 ---
 name: memory-compaction
+title: "Memory Compaction"
+tags: [productivity]
 description: >-
   Hermes MEMORY.md 10.000 char sınırına yaklaştığında veya dolduğunda
   eski/stale/dağınık memory entry'lerini konsolide edip yer açma pattern'i.

@@ -1,5 +1,7 @@
 ---
 name: obsidian-gelistirme-otomasyonu
+title: "Obsidian Gelistirme Otomasyonu"
+tags: [agents, ai, obsidian]
 description: >
   Hermes otomasyon döngüsü: Tor Browser üzerinden sürekli yeni görev
   keşfi ve Obsidian geliştirme. 8 saat boyunca her 3 dakikada bir

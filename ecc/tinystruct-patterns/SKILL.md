@@ -2,7 +2,8 @@
 name: tinystruct-patterns
 description: Expert guidance for developing with the tinystruct Java framework. Use when working on the tinystruct codebase or any project built on tinystruct — including creating Application classes, @Action-mapped routes, unit tests, ActionRegistry, HTTP/CLI dual-mode handling, the built-in HTTP server, the event system, JSON with Builder/Builders, database persistence with AbstractData, POJO generation, Server-Sent Events (SSE), file uploads, and outbound HTTP networking.
 origin: ECC
----
+
+audience: contributor---
 
 # tinystruct Development Patterns
 
@@ -188,16 +189,16 @@ Detailed guides are available in the `references/` directory:
 
 ## Reference Source Files (Internal)
 
-- `***REMOVED-BASE64***.java` — Core base class with lifecycle hooks
-- `***REMOVED-BASE64***.java` — Annotation & Modes
-- `***REMOVED-BASE64***.java` — Routing Engine
-- `***REMOVED-BASE64***.java` — JSON object serializer
-- `***REMOVED-BASE64***.java` — JSON array serializer
-- `***REMOVED-BASE64***.java` — Base POJO class with CRUD
-- `***REMOVED-BASE64***.java` — Mapping XML parser
-- `***REMOVED-BASE64***.java` — POJO generator reference
-- `***REMOVED-BASE64***.java` — SQL-to-Java type mappings
-- `***REMOVED-BASE64***.java` — Fluent SQL query builder
-- `***REMOVED-BASE64***.java` — SSE connection management
-- `***REMOVED-BASE64***.java` — Registry test examples
-- `***REMOVED-BASE64***.java` — HTTP integration test patterns
+- `src/main/java/org/tinystruct/AbstractApplication.java` — Core base class with lifecycle hooks
+- `src/main/java/org/tinystruct/system/annotation/Action.java` — Annotation & Modes
+- `src/main/java/org/tinystruct/application/ActionRegistry.java` — Routing Engine
+- `src/main/java/org/tinystruct/data/component/Builder.java` — JSON object serializer
+- `src/main/java/org/tinystruct/data/component/Builders.java` — JSON array serializer
+- `src/main/java/org/tinystruct/data/component/AbstractData.java` — Base POJO class with CRUD
+- `src/main/java/org/tinystruct/data/Mapping.java` — Mapping XML parser
+- `src/main/java/org/tinystruct/data/tools/MySQLGenerator.java` — POJO generator reference
+- `src/main/java/org/tinystruct/data/component/FieldType.java` — SQL-to-Java type mappings
+- `src/main/java/org/tinystruct/data/component/Condition.java` — Fluent SQL query builder
+- `src/main/java/org/tinystruct/http/SSEPushManager.java` — SSE connection management
+- `src/test/java/org/tinystruct/application/ActionRegistryTest.java` — Registry test examples
+- `src/test/java/org/tinystruct/system/HttpServerHttpModeTest.java` — HTTP integration test patterns

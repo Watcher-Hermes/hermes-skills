@@ -3,6 +3,7 @@ name: self-improvement
 title: "Hermes Otonom Geliştirme Gece Rutini"
 description: "Hermes'in geceleri kendi kendine Obsidian vault + Hermes skills tarayarak gelişmesi: eksik notları skill'e dönüştür, güncel olmayan skill'leri güncelle, isim çakışmalarını çöz, senkronizasyonu doğrula."
 tags: [self-improvement, otomatik-bakim, skill-audit, obsidian-sync, gece-rutini]
+audience: maintainer
 related_skills: [obsidian-vault-kurallari, skill-cataloging, env-kayit-kurallari]
 triggers: [self-improvement, gece bakimi, skill gelistir, otomatik gelisme]
 ---
@@ -67,7 +68,7 @@ isim ara ve haritaya ekle.
 ```bash
 cd /c/Users/marko/hermes-ai
 "C:/Users/marko/hermes-ai/venv/Scripts/python.exe" \
-  "C:***REMOVED-BASE64***_skills_to_obsidian.py"
+  "C:/Users/marko/AppData/Local/hermes/hooks/sync_skills_to_obsidian.py"
 ```
 - İlk sefer: normal mod (sadece değişenleri yazar)
 - İkinci sefer: `--force` flag ile tümünü yeniden yaz

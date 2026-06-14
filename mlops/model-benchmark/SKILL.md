@@ -2,6 +2,7 @@
 name: model-benchmark
 description: "Cross-model benchmark sistemi — hız, doğruluk, tutarlılık ve maliyet metriği. Yeni model geldiğinde veya mevcut model performansını ölçmek için tekrarlanabilir pipeline."
 category: mlops
+audience: user
 related_skills: [hibrit-ai-yonlendirme-kurali]
 ---
 
@@ -60,8 +61,8 @@ python benchmark_v1.py
 
 ### 4. Raporu Obsidian'a kopyala
 ```bash
-cp "***REMOVED-BASE64***_raporu.md" \
-   "***REMOVED-BASE64*** Vault/Hermes/benchmark_sonuclari.md"
+cp "/c/Users/marko/Desktop/benchmark/benchmark_raporu.md" \
+   "/c/Users/marko/OneDrive/Belgeler/Obsidian Vault/Hermes/benchmark_sonuclari.md"
 ```
 
 ## Model Yapılandırması

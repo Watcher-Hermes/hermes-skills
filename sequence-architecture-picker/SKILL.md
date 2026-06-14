@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 1
 tags: [transformers, architecture, rnn, ssm]
+audience: user
 ---
 
 Given a sequence problem (max length, batch shape, training tokens budgeted, inference latency target, device class), output:

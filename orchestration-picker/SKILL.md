@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 28
 tags: [orchestration, supervisor, swarm, hierarchical, debate]
+audience: user
 ---
 
 Given a product domain and a task class, pick the minimal topology.

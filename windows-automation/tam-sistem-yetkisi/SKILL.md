@@ -8,6 +8,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [telegram, terminal, mouse, keyboard, screenshot, automation, windows, env, config, full-access]
+audience: user
     related_skills: [hermes-agent-skill-authoring]
 ---
 
@@ -335,7 +336,7 @@ token = get_env_value(
 6. **subprocess komutları `\` path sorunları** — Windows path'lerde raw string `r"..."` kullan.
 7. **Kabuk tırnak/kaçış karmaşası** — Windows bash/PowerShell içinde `sed`/regex ile `.env` düzeltmek çok hatalıya açık. `.env` güncellemesi için Python betiği yazıp çalıştır.
 8. **Gateway komutu büyük harf** — Komut **küçük harfle** yazılmalı: `hermes gateway`; `Hermes Gateway` hata verir.
-9. **Yanlış Python yorumlayıcısı** — Windows PATH sırasında önce `***REMOVED-BASE64***...` yorumlayıcısı gelebilir; `pyautogui` yeni kurulduysa `hermes-ai\\venv` yorumlayıcısında çalıştığından emin ol.
+9. **Yanlış Python yorumlayıcısı** — Windows PATH sırasında önce `/c/Users/marko/AppData/Local/Programs/Python/...` yorumlayıcısı gelebilir; `pyautogui` yeni kurulduysa `hermes-ai\\venv` yorumlayıcısında çalıştığından emin ol.
 10. **Token 404/InvalidToken** — `.env`'ye yeni bir token yazdıktan sonra en az bir kez gateway restart edilmeli; aksi halde eski hatalı token hala kullanılır.
 11. **Hermes cat/read_file maskeleme tuzağı** — `.env` dosyasını `cat` veya `read_file` ile okuduğunda Hermes token'ı maskeler (`851817...z9aM` gibi gösterir). Gerçek içeriği görmek için **execute_code içinden `open()`** veya **`terminal('python3 -c "print(open(...))"')`** kullan. Dosyada gerçekten yıldız varsa (okunan ile yazılan aynıysa), env_watcher.py maskelenmiş değeri geri yazmıştır.
     **Cron context uyarısı**: `python3 -c "..."` çağrıları cron job'larında "pending_approval" hatasına takılır. Çözüm: kodu bir `.py` dosyasına yaz (`write_file` ile), sonra `python3 /path/to/script.py` olarak çalıştır. Alternatif olarak `mcp_filesystem_read_text_file` da Hermes maskelemesini atlar ve cron'da ek onay gerektirmez.

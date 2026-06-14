@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 19
 tags: [otel, observability, gen-ai, tracing]
+audience: user
 ---
 
 Given an agent codebase (LLM calls, tool dispatch, MCP client, sub-agents), produce an OTel GenAI instrumentation plan.

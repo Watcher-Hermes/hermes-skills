@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [RSS, Blogs, Feed-Reader, Monitoring]
+audience: user
     homepage: https://github.com/JulienTant/blogwatcher-cli
 prerequisites:
   commands: [blogwatcher-cli]
@@ -23,10 +24,10 @@ Pick one method:
 
 - **Go:** `go install github.com/JulienTant/blogwatcher-cli/cmd/blogwatcher-cli@latest`
 - **Docker:** `docker run --rm -v blogwatcher-cli:/data ghcr.io/julientant/blogwatcher-cli`
-- **Binary (Linux amd64):** `curl -sL https://github.com/JulienTant/blogwatcher-***REMOVED-BASE64***-cli_linux_amd64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
-- **Binary (Linux arm64):** `curl -sL https://github.com/JulienTant/blogwatcher-***REMOVED-BASE64***-cli_linux_arm64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
-- **Binary (macOS Apple Silicon):** `curl -sL https://github.com/JulienTant/blogwatcher-***REMOVED-BASE64***-cli_darwin_arm64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
-- **Binary (macOS Intel):** `curl -sL https://github.com/JulienTant/blogwatcher-***REMOVED-BASE64***-cli_darwin_amd64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
+- **Binary (Linux amd64):** `curl -sL https://github.com/JulienTant/blogwatcher-cli/releases/latest/download/blogwatcher-cli_linux_amd64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
+- **Binary (Linux arm64):** `curl -sL https://github.com/JulienTant/blogwatcher-cli/releases/latest/download/blogwatcher-cli_linux_arm64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
+- **Binary (macOS Apple Silicon):** `curl -sL https://github.com/JulienTant/blogwatcher-cli/releases/latest/download/blogwatcher-cli_darwin_arm64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
+- **Binary (macOS Intel):** `curl -sL https://github.com/JulienTant/blogwatcher-cli/releases/latest/download/blogwatcher-cli_darwin_amd64.tar.gz | tar xz -C /usr/local/bin blogwatcher-cli`
 
 All releases: https://github.com/JulienTant/blogwatcher-cli/releases
 

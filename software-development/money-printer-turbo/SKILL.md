@@ -9,7 +9,8 @@ triggers:
   - user clones or mentions MoneyPrinterTurbo
   - user says "MoneyPrinter" or "video generator" or "harry0703"
   - repo has config.toml, pyproject.toml, uv.lock
----
+
+audience: contributor---
 
 # MoneyPrinterTurbo Setup
 
@@ -163,7 +164,7 @@ curl -s -o /dev/null -w "%{http_code}" http://localhost:8501
 | `--no-subtitle-enabled` | Hayır | Altyazıyı kapatır |
 | `--video-terms` | Hayır | Virgülle ayrılmış Pexels arama terimleri |
 | `--video-materials` | local için | Local video yolları (`storage/local_videos/` altında) |
-| `--stop-at` | Hayır | ***REMOVED-BASE64*** |
+| `--stop-at` | Hayır | script/terms/audio/subtitle/materials/video |
 | `--video-count` | Hayır | Kaç video (varsayılan: 1) |
 
 ### Özel Arama Terimleri (--video-terms)
@@ -201,7 +202,7 @@ Süre `generate_silent_audio()` tarafından otomatik hesaplanır (~61 sn).
 ### Local Video Kullanımı
 
 ```bash
---video-materials "C:***REMOVED-BASE64***_videos/video1.mp4"
+--video-materials "C:/Users/marko/MoneyPrinterTurbo/storage/local_videos/video1.mp4"
 ```
 
 Video dosyaları `storage/local_videos/` altında olmalı (güvenlik kısıtlaması).

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 8
 tags: [computer-vision, mask-rcnn, fine-tuning, torchvision]
+audience: user
 ---
 
 # Mask R-CNN Head Swapper

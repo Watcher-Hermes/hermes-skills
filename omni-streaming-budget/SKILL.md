@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 20
 tags: [qwen-omni, moshi, mini-omni, streaming, ttfab, thinker-talker]
+audience: user
 ---
 
 Given a voice-first product spec (target TTFAB, mic sample rate, vision in yes/no, bilingual, full-duplex) and a compute constraint (GPU class, budget), size the Thinker-Talker pipeline.

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 10
 lesson: 5
 tags: [distributed-training, fsdp, deepspeed, tensor-parallelism, pipeline-parallelism, scaling]
+audience: user
 ---
 
 # Distributed Training Planner

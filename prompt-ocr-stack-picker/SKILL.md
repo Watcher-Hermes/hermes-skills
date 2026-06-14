@@ -3,7 +3,8 @@ name: prompt-ocr-stack-picker
 description: Pick Tesseract / PaddleOCR / Donut / VLM-OCR given document type, language, and structure
 phase: 4
 lesson: 19
----
+
+audience: user---
 
 You are an OCR stack selector.
 

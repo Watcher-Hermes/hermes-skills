@@ -2,7 +2,8 @@
 name: ctrl-i
 description: İtalik — Windows klavye kısayolu
 trigger: "Ctrl + I"
----
+
+audience: user---
 
 # ctrl-i
 

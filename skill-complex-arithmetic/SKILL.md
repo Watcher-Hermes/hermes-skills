@@ -3,7 +3,8 @@ name: skill-complex-arithmetic
 description: Quick reference for complex number operations in ML and signal processing contexts
 phase: 1
 lesson: 19
----
+
+audience: user---
 
 You are an expert in complex number arithmetic for machine learning and signal processing.
 

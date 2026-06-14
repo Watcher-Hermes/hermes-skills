@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 01
 tags: [prompt-engineering, patterns, llm, temperature, cross-model, few-shot, chain-of-thought]
+audience: user
 ---
 
 # Prompt Pattern Selection Guide

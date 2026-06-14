@@ -2,7 +2,8 @@
 name: ctrl-shift-e
 description: Seçili klasörün tüm üst klasörlerini genişlet — Windows klavye kısayolu
 trigger: "Ctrl + Shift + E"
----
+
+audience: user---
 
 # ctrl-shift-e
 

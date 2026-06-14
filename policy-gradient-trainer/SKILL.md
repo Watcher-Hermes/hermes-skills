@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 6
 tags: [rl, policy-gradient, reinforce]
+audience: user
 ---
 
 Given an environment (discrete / continuous actions, horizon, reward stats), output:

@@ -10,6 +10,7 @@ prerequisites:
 metadata:
   hermes:
     tags: [Teams, Microsoft Graph, Meetings, Productivity, Operations]
+audience: user
     related_docs:
       - /docs/guides/microsoft-graph-app-registration
       - /docs/user-guide/messaging/teams-meetings
@@ -75,7 +76,7 @@ hermes teams-pipeline fetch --join-web-url "<url>"   # dry-run by join URL
 
 ```bash
 hermes teams-pipeline subscribe \
-  --resource ***REMOVED-BASE64*** \
+  --resource communications/onlineMeetings/getAllTranscripts \
   --notification-url https://<your-public-host>/msgraph/webhook \
   --client-state "$MSGRAPH_WEBHOOK_CLIENT_STATE"
 

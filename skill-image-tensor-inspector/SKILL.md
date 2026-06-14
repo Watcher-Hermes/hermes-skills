@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 1
 tags: [computer-vision, debugging, preprocessing, tensors]
+audience: user
 ---
 
 # Image Tensor Inspector

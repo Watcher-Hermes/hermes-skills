@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 11
 tags: [nlp, translation, evaluation]
+audience: user
 ---
 
 Given a source text and a candidate translation, output:

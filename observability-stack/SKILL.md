@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 13
 tags: [observability, langfuse, langsmith, phoenix, arize, helicone, opik, opentelemetry, genai-conventions]
+audience: user
 ---
 
 Given stack (LangChain / DSPy / raw SDK), scale (traces/day), budget, license posture (MIT-only vs commercial OK), and self-host requirement, produce an observability plan.

@@ -2,7 +2,8 @@
 name: ctrl-shift-r
 description: Önbelleği yoksayarak yenile — Windows klavye kısayolu
 trigger: "Ctrl + Shift + R"
----
+
+audience: user---
 
 # ctrl-shift-r
 

@@ -2,7 +2,8 @@
 name: ctrl-asagi
 description: Bir paragraf aşağı atla — Windows klavye kısayolu
 trigger: "Ctrl + Aşağı Ok"
----
+
+audience: user---
 
 # ctrl-asagi
 

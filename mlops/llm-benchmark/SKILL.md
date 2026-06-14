@@ -2,6 +2,7 @@
 name: llm-benchmark
 description: LLM model karsilastirma benchmark'i. DeepSeek, Groq modellerini hiz/dogruluk/tutarlilik acisindan test eder. Yeni model eklendiginde guncelle.
 category: mlops
+audience: user
 ---
 
 # LLM Benchmark — Scaling Laws Test

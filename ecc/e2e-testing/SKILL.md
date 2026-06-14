@@ -2,7 +2,8 @@
 name: e2e-testing
 description: Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies.
 origin: ECC
----
+
+audience: contributor---
 
 # E2E Testing Patterns
 
@@ -287,7 +288,7 @@ test('wallet connection', async ({ page, context }) => {
       isMetaMask: true,
       request: async ({ method }) => {
         if (method === 'eth_requestAccounts')
-          return ['***REMOVED-BASE64***']
+          return ['0x1234567890123456789012345678901234567890']
         if (method === 'eth_chainId') return '0x1'
       }
     }

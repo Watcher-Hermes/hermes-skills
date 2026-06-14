@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 2
 lesson: 17
 tags: [imbalanced-data, smote, class-weights, threshold-tuning, evaluation]
+audience: user
 ---
 
 # Imbalanced Data Strategy

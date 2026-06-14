@@ -4,7 +4,8 @@ description: "Tamamlayici skill - Tor bypass teknikleri. Ana skil: tor-browser-a
 version: 1.0.0
 author: hermes
 platforms: [windows]
----
+
+audience: user---
 
 # Tor Arama Bypass Çözümü
 
@@ -49,7 +50,7 @@ Browser aracı ile `https://lite.duckduckgo.com/lite/` adresine git, sorgu yaz, 
 
 ### tor_multi_search.py (30+ kaynak)
 ```bash
-"***REMOVED-BASE64***-3.14-64/python.exe" "C:\Users\marko\Desktop\tor_multi_search.py" "sorgu buraya"
+"/c/Users/marko/AppData/Local/Python/pythoncore-3.14-64/python.exe" "C:\Users\marko\Desktop\tor_multi_search.py" "sorgu buraya"
 ```
 - DuckDuckGo Lite, Bing (US/CN/JP/KR/RU/IN), Yandex, Startpage, Mojeek, Qwant, SearX, Swisscows, Brave
 - Rus siteleri (habr, xakep), Çin (freebuf, kaspersky), Japon, Kore, Hint
@@ -59,7 +60,7 @@ Browser aracı ile `https://lite.duckduckgo.com/lite/` adresine git, sorgu yaz, 
 
 ### tor_hizli_arama.py (hedefli)
 ```bash
-"***REMOVED-BASE64***-3.14-64/python.exe" "C:\Users\marko\Desktop\tor_hizli_arama.py" "sorgu"
+"/c/Users/marko/AppData/Local/Python/pythoncore-3.14-64/python.exe" "C:\Users\marko\Desktop\tor_hizli_arama.py" "sorgu"
 ```
 - Daha hızlı, sadece çalışma ihtimali yüksek kaynaklar
 
@@ -69,7 +70,7 @@ Browser aracı ile `https://lite.duckduckgo.com/lite/` adresine git, sorgu yaz, 
 python3 -c "..."  # HATA: Missing dependencies
 
 # Python 3.14 → PySocks VAR
-"***REMOVED-BASE64***-3.14-64/python.exe" -c "..."
+"/c/Users/marko/AppData/Local/Python/pythoncore-3.14-64/python.exe" -c "..."
 ```
 
 ## Tor Kimlik Döndürme

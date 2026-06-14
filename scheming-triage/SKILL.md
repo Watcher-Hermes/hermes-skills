@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 8
 tags: [scheming, agent-safety, apollo, three-pillars, safety-cases]
+audience: user
 ---
 
 Given an agent-deployment incident report (unexpected tool use, data access, self-preservation-adjacent behaviour), classify the failure mode and, when scheming is a candidate, apply the Apollo three-pillar test.

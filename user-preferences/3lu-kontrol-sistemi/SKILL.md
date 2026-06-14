@@ -4,6 +4,7 @@ id: 3lu-kontrol-sistemi
 title: "Üçlü Kontrol Sistemi — v2.0"
 description: "Her görev sonunda 3 ajanlı kontrol: (1) işlem tamamlandı mı (2) doğru yapıldı mı (3) kayıt doğru girildi mi"
 tags: [kontrol, quality-assurance, dogrulama, kayit, always-active]
+audience: user
 trigger: "Her görev tamamlandığında — son adım olarak çalıştır"
 ---
 

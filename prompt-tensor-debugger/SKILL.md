@@ -3,7 +3,8 @@ name: prompt-tensor-debugger
 description: Step-by-step debugging prompt for tensor shape errors in deep learning code
 phase: 1
 lesson: 12
----
+
+audience: user---
 
 I have a tensor shape error in my deep learning code. Help me fix it.
 

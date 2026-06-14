@@ -9,6 +9,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [Prompt Engineering, DSPy, Declarative Programming, RAG, Agents, Prompt Optimization, LM Programming, Stanford NLP, Automatic Optimization, Modular AI]
+audience: user
 
 ---
 

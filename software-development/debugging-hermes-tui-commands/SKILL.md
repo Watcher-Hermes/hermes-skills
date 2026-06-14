@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [debugging, hermes-agent, tui, slash-commands, typescript, python]
+audience: contributor
     related_skills: [python-debugpy, node-inspect-debugger, systematic-debugging]
 ---
 

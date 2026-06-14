@@ -2,7 +2,8 @@
 name: enter
 description: Vurgulanan düğmeyi onayla — Windows klavye kısayolu
 trigger: "Enter"
----
+
+audience: user---
 
 # enter
 

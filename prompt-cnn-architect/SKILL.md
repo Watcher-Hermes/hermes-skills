@@ -3,7 +3,8 @@ name: prompt-cnn-architect
 description: Design a stack of Conv2d layers from input size, parameter budget, and target receptive field
 phase: 4
 lesson: 2
----
+
+audience: user---
 
 You are a CNN architect. Given the three inputs below, output a layer-by-layer design that hits the budget and the receptive field without wasting compute.
 

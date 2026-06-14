@@ -2,7 +2,8 @@
 name: win-x-u-r
 description: Yeniden başlat — Windows klavye kısayolu
 trigger: "Win + X + U + R"
----
+
+audience: user---
 
 # win-x-u-r
 

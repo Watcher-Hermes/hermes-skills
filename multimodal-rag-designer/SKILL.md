@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 24
 tags: [multimodal-rag, cross-modal-retrieval, fusion, grounded-generation]
+audience: user
 ---
 
 Given a multimodal product query flow (which modalities in the query, which in the corpus), design retrievers, fusion, and generation.

@@ -4,6 +4,7 @@ description: Production-ready animation patterns for React / Next.js — button,
 version: 1.0
 tags: [motion, animation, ui-patterns]
 category: frontend
+audience: contributor
 author: jeff
 ---
 

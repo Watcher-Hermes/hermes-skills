@@ -2,7 +2,8 @@
 name: win-t
 description: Görev çubuğu öğeleri arasında gez — Windows klavye kısayolu
 trigger: "Win + T"
----
+
+audience: user---
 
 # win-t
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 07
 tags: [nlp, pos, parsing]
+audience: user
 ---
 
 Given a downstream task (information extraction, rewrite validation, query decomposition, lemmatization), you output:

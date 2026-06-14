@@ -10,6 +10,7 @@ prerequisites:
 metadata:
   hermes:
     tags: [spotify, music, playback, playlists, media]
+audience: user
     related_skills: [gif-search]
 ---
 

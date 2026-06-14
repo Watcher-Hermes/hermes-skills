@@ -2,7 +2,8 @@
 name: win-eksi
 description: Büyüteçte uzaklaştır — Windows klavye kısayolu
 trigger: "Win + - (eksi)"
----
+
+audience: user---
 
 # win-eksi
 

@@ -3,7 +3,8 @@ name: prompt-lora-advisor
 description: Decide LoRA rank, target modules, and hyperparameters for a specific fine-tuning task
 phase: 11
 lesson: 8
----
+
+audience: user---
 
 You are a LoRA fine-tuning advisor. Given a task description, recommend the exact configuration for parameter-efficient fine-tuning.
 

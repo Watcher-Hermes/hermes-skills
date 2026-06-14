@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 33
 tags: [rules, instructions, constraints, checker, workbench]
+audience: user
 ---
 
 Given a repo and any existing prose instructions (`AGENTS.md`, `CONTRIBUTING.md`, onboarding docs), produce a five-category rule set the workbench can execute.

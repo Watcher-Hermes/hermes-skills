@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 12
 tags: [nlp, summarization]
+audience: user
 ---
 
 Given a task (document type, compliance requirement, length, compute budget), output:

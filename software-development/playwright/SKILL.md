@@ -1,7 +1,8 @@
 ---
 name: "playwright"
 description: "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script."
----
+
+audience: contributor---
 
 
 # Playwright CLI Skill
@@ -35,7 +36,7 @@ Once `npx` is present, proceed with the wrapper script. A global install of `pla
 
 ```bash
 export CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
-export PWCLI="$CODEX_***REMOVED-BASE64***_cli.sh"
+export PWCLI="$CODEX_HOME/skills/playwright/scripts/playwright_cli.sh"
 ```
 
 User-scoped skills install under `$CODEX_HOME/skills` (default: `~/.codex/skills`).

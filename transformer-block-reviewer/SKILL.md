@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 5
 tags: [transformers, architecture, review]
+audience: user
 ---
 
 Given a transformer block source (PyTorch / JAX / numpy / pseudocode) and its intended role (encoder / decoder / encoder-decoder), output:

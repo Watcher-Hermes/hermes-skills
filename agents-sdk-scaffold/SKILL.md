@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 16
 tags: [openai, agents-sdk, handoffs, guardrails, tracing, session]
+audience: contributor
 ---
 
 Given a product domain and a list of specialist agents, scaffold an OpenAI Agents SDK app.

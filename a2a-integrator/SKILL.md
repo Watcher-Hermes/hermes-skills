@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 12
 tags: [multi-agent, a2a, protocol, interoperability, google]
+audience: user
 ---
 
 Given two agent systems that need to interoperate, produce the A2A integration plan: Agent Card contents, task schemas, auth, transport mode.

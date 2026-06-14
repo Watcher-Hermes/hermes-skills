@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 32
 tags: [workbench, agents-md, state, task-board, scaffold]
+audience: user
 ---
 
 Given a repo path and a short backlog, scaffold the minimum viable agent workbench.

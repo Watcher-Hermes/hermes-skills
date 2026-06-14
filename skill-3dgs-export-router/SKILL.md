@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 22
 tags: [3d-gaussian-splatting, export, glTF, OpenUSD, pipeline]
+audience: user
 ---
 
 # 3DGS Export Router

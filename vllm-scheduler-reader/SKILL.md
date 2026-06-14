@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 04
 tags: [vllm, paged-attention, continuous-batching, chunked-prefill, serving, scheduler]
+audience: user
 ---
 
 Given a vLLM serving config (model, dtype, hardware, `--gpu-memory-utilization`, `--max-num-batched-tokens`, `--enable-chunked-prefill`, `--speculative-model` or `--speculative-config`, max concurrency, and an observed metric set of TTFT mean/P99, ITL mean/P99, throughput tok/s), produce a scheduler-level diagnosis.

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 25
 tags: [nlp, entity-linking, knowledge-graph]
+audience: user
 ---
 
 Given a use case (domain KB, language, volume, latency budget), output:

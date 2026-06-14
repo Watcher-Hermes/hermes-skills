@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 12
 tags: [emu3, next-token-prediction, video-gen, diffusion, cfg]
+audience: user
 ---
 
 Given a generation product spec (image or video, target resolution, quality tier, throughput requirement), compute token counts for Emu3-style next-token generation, estimate inference cost, and pick between Emu3-family and diffusion.

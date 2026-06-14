@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 10
 lesson: 6
 tags: [sft, instruction-tuning, fine-tuning, data-curation, alignment]
+audience: user
 ---
 
 # SFT Data Curator

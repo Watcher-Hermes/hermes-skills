@@ -3,7 +3,8 @@ name: text-encoder-picker
 description: Pick a text encoder architecture for a given constraint set.
 phase: 5
 lesson: 08
----
+
+audience: user---
 
 Given constraints (task, data volume, latency budget, deploy target, compute budget), output:
 

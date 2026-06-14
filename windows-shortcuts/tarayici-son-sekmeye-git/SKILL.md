@@ -2,7 +2,8 @@
 name: tarayici-son-sekmeye-git
 trigger: "son sekme"
 shortcut: Ctrl + 9
----
+
+audience: user---
 GÖREV ADI: Son sekmeye git
 TETİKLEYİCİ: "son sekme"
 KISAYOL: Ctrl + 9

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 23
 tags: [multi-agent, failure-modes, MAST, groupthink, circuit-breaker, audit]
+audience: maintainer
 ---
 
 Given a multi-agent system and sampled execution traces, run a failure-mode audit.

@@ -9,6 +9,7 @@ metadata:
   hermes:
     tags: [article-illustration, creative, image-generation]
     category: creative
+audience: user
     homepage: https://github.com/JimLiu/baoyu-skills#baoyu-article-illustrator
 ---
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 19
 tags: [ocr, ctc, decoding, sequence-models]
+audience: user
 ---
 
 # CTC Decoder

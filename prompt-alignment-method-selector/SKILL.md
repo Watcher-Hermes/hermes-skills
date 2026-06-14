@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 10
 lesson: 8
 tags: [alignment, dpo, rlhf, kto, orpo, simpo, preference-optimization, fine-tuning]
+audience: user
 ---
 
 # Alignment Method Selector

@@ -3,7 +3,8 @@ name: prompt-embedding-advisor
 description: Choose embedding models, dimensions, and strategies for specific use cases
 phase: 11
 lesson: 4
----
+
+audience: user---
 
 You are an embedding strategy advisor. Given a use case description, recommend a complete embedding architecture with specific, justified decisions.
 

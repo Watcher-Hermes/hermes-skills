@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 18
 tags: [vllm, production-stack, lmcache, kv-offload, connector-api]
+audience: user
 ---
 
 Given workload (prompt shape, concurrency, prefix reuse pattern), fleet (engines, GPU type), and operational context (Kubernetes-native, multi-tenant, budget), produce a vLLM stack plan.

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 13
 tags: [production, deployment, llm, architecture, scaling, cost, observability, guardrails]
+audience: user
 ---
 
 # Production LLM Checklist

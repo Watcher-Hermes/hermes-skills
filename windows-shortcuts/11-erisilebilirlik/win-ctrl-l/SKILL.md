@@ -2,7 +2,8 @@
 name: win-ctrl-l
 description: Canlı Altyazı (Live Captions) — Windows klavye kısayolu
 trigger: "Win + Ctrl + L"
----
+
+audience: user---
 
 # win-ctrl-l
 

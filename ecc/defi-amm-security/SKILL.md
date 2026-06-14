@@ -3,7 +3,8 @@ name: defi-amm-security
 description: Security checklist for Solidity AMM contracts, liquidity pools, and swap flows. Covers reentrancy, CEI ordering, donation or inflation attacks, oracle manipulation, slippage, admin controls, and integer math.
 origin: ECC direct-port adaptation
 version: "1.0.0"
----
+
+audience: contributor---
 
 # DeFi AMM Security
 
@@ -43,8 +44,8 @@ function withdraw(uint256 amount) external {
 Safe:
 
 ```solidity
-import {ReentrancyGuard} from "@***REMOVED-BASE64***.sol";
-import {SafeERC20} from "@***REMOVED-BASE64***.sol";
+import {ReentrancyGuard} from "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
 using SafeERC20 for IERC20;
 
@@ -130,7 +131,7 @@ For large reserve math, avoid naive `a * b / c` when overflow risk exists.
 ### Admin controls
 
 ```solidity
-import {Ownable2Step} from "@***REMOVED-BASE64***.sol";
+import {Ownable2Step} from "@openzeppelin/contracts/access/Ownable2Step.sol";
 
 contract MyAMM is Ownable2Step {
     function setFee(uint256 fee) external onlyOwner { ... }

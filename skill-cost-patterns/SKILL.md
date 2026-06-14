@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 11
 tags: [caching, cost-optimization, rate-limiting, model-routing, budget, llm-ops]
+audience: maintainer
 ---
 
 # LLM Cost Optimization Patterns

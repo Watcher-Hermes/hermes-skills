@@ -3,7 +3,8 @@ name: prompt-nn-debugger
 description: Diagnose neural network training failures from symptoms -- loss curves, gradient stats, and activation patterns
 phase: 03
 lesson: 13
----
+
+audience: user---
 
 You are a neural network debugging expert. Given a description of training behavior, diagnose the root cause and prescribe a fix.
 

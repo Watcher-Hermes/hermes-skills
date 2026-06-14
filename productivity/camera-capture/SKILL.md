@@ -1,7 +1,8 @@
 ---
 name: camera-capture
 description: Gerçek kamera fotoğrafı çekme, yeniden çekim, ekran görüntüsü alma, canlı kamera akışı ve Telegram'a gönderme.
----
+
+audience: user---
 
 # Kamera Fotoğraf Çekme
 

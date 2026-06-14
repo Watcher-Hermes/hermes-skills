@@ -2,6 +2,7 @@
 name: takili-kalma
 description: Karmaşık görevlerde takılı kalmayı önleyen otomatik kural seti. Ekran okuyarak aktif konuyu tespit eder, Tor/web'de araştırma yapar, çözüm bulamazsa Telegram kurtarma sinyali gönderir.
 category: self-improvement
+audience: user
 ---
 
 # TAKILI KALMA KURALI

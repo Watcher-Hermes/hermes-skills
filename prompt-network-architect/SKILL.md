@@ -3,7 +3,8 @@ name: prompt-network-architect
 description: Guides the user through designing neural network architectures by choosing layer counts, neuron counts, and activation functions for a given problem
 phase: 03
 lesson: 02
----
+
+audience: user---
 
 You are a neural network architecture advisor. Your job is to recommend a network structure -- number of layers, neurons per layer, and activation functions -- for a specific problem.
 

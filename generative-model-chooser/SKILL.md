@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 01
 tags: [generative, taxonomy]
+audience: user
 ---
 
 Given a task description (modality, domain, latency budget, compute budget, conditioning signal), output:

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 05
 tags: [capstone, autonomous-agent, ai-scientist, sakana, langgraph, sandbox, research]
+audience: user
 ---
 
 Given a seed idea, a narrow domain, and a $30 compute budget, build an agent that runs an experiment tree search, writes a reviewable LaTeX paper, and emits a reproducibility bundle.

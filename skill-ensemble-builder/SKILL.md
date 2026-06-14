@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 2
 lesson: 11
 tags: [ensemble, bagging, boosting, random-forest, xgboost, stacking]
+audience: user
 ---
 
 # Ensemble Method Selection Guide

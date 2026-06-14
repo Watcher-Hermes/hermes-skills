@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 04
 tags: [pix2pix, img2img, conditional]
+audience: user
 ---
 
 Given a task description (source domain, target domain, data availability - paired/unpaired/N samples, latency budget, quality bar), output:

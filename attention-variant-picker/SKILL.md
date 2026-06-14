@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 15
 tags: [attention, transformer, long-context, inference, memory]
+audience: user
 ---
 
 # Attention Variant Picker

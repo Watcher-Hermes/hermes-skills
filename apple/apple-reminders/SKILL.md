@@ -8,6 +8,7 @@ platforms: [macos]
 metadata:
   hermes:
     tags: [Reminders, tasks, todo, macOS, Apple]
+audience: user
 prerequisites:
   commands: [remindctl]
 ---

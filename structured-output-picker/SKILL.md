@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 20
 tags: [nlp, llm, structured-output]
+audience: user
 ---
 
 Given a use case (provider, latency budget, schema complexity, failure tolerance), output:

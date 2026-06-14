@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 02
 tags: [inference, fireworks, together, baseten, modal, replicate, anyscale, economics]
+audience: user
 ---
 
 Given a workload profile (model, tokens/day, sustained utilization, TTFT SLA, burst factor, compliance, Python vs mixed stack), produce a platform recommendation.

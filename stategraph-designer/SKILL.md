@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 16
 tags: [langgraph, stategraph, checkpointer, interrupt, time-travel, react-agent, human-in-the-loop]
+audience: user
 ---
 
 Given the agent task (user-facing goal, available tools, expected turn count, side effects with safety blast radius, durability requirements, target latency budget), output:

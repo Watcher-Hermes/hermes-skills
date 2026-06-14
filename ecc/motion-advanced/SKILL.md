@@ -4,6 +4,7 @@ description: Advanced motion patterns for React / Next.js — drag & drop, gestu
 version: 1.0
 tags: [motion, animation, advanced, gestures, svg]
 category: frontend
+audience: contributor
 author: jeff
 ---
 

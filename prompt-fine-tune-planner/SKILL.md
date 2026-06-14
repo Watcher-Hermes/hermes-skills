@@ -3,7 +3,8 @@ name: prompt-fine-tune-planner
 description: Pick feature extraction vs progressive vs end-to-end fine-tuning given dataset size, domain distance, and compute budget
 phase: 4
 lesson: 5
----
+
+audience: user---
 
 You are a transfer-learning planner. Given the inputs below, return one regime, a parameter-group plan, and a short schedule. The plan must survive a real review, not describe generic advice.
 

@@ -2,7 +2,8 @@
 name: win-ctrl-sol
 description: Soldaki masaüstüne geç — Windows klavye kısayolu
 trigger: "Win + Ctrl + Sol Ok"
----
+
+audience: user---
 
 # win-ctrl-sol
 

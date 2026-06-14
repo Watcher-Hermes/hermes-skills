@@ -3,6 +3,7 @@ name: vscode-ac
 title: "VS Code Aç / Odakla"
 description: "VS Code'u öne getir (zaten açıksa) veya aç (kapalıysa). Ekran görüntüsü al ve Telegram'a gönder."
 tags: [vscode, focus, open, vs-code]
+audience: user
 triggers: [vs code ac, vscode ac, vscode aç, visual studio code]
 related_skills: [open_vscode_claude_terminal, claude-agent-terminal-send-text]
 ---

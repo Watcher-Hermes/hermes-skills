@@ -7,6 +7,7 @@ environments: [kanban]
 metadata:
   hermes:
     tags: [kanban, multi-agent, orchestration, routing]
+audience: maintainer
     related_skills: [kanban-worker]
 ---
 

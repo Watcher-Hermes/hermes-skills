@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 26
 tags: [nlp, relation-extraction, knowledge-graph]
+audience: user
 ---
 
 Given a corpus (domain, language, volume) and downstream use (KG-RAG, analytics, compliance), output:

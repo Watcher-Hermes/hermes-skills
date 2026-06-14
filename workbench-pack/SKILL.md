@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 42
 tags: [capstone, workbench-pack, installer, schemas, drop-in]
+audience: user
 ---
 
 Given a repo, the team's incident history, and the agent product running inside it, emit a tuned agent-workbench-pack and an installer.

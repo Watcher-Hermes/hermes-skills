@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 10
 tags: [mcp, primitives, resources, prompts]
+audience: user
 ---
 
 Given a proposed MCP server's capabilities (as plain English or a draft tool list), categorize each one as tool, resource, or prompt with a one-sentence rationale.

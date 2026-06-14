@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 2
 tags: [computer-vision, cnn, architecture, debugging]
+audience: user
 ---
 
 # Conv Shape Calculator

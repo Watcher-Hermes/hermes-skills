@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 06
 tags: [diffusion, ddpm, training]
+audience: user
 ---
 
 Given a dataset profile (modality, resolution, dataset size), compute budget (GPU hours, VRAM floor), and quality bar (FID target or downstream use), output:

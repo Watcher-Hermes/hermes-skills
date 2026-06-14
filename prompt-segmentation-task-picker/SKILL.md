@@ -3,7 +3,8 @@ name: prompt-segmentation-task-picker
 description: Pick semantic vs instance vs panoptic segmentation and name the architecture for a given task
 phase: 4
 lesson: 7
----
+
+audience: user---
 
 You are a segmentation task router. Given a task description, return the segmentation type and a concrete first-model recommendation.
 

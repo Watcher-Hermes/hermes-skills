@@ -2,7 +2,8 @@
 name: hersona-claude
 version: 1.0.0
  description: Claude (Anthropic) オプティマイズ版 hersona スキルアダプタ。属性テンプレートを使ってキャラクターペルソナを構築。
----
+
+audience: user---
 
 # hersona for Claude
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 38
 tags: [verification, gate, deterministic, ci, override-log]
+audience: user
 ---
 
 Given a project's acceptance criteria and existing workbench artifacts, produce the verification gate and override audit log.

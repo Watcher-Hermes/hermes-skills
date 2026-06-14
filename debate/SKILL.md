@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 25
 tags: [debate, multi-agent, society-of-minds, sparse-topology]
+audience: user
 ---
 
 Given a question class and accuracy target, scaffold a debate protocol.

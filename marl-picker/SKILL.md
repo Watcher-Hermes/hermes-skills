@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 20
 tags: [multi-agent, MARL, MADDPG, QMIX, MAPPO, CTDE]
+audience: user
 ---
 
 Given a multi-agent task description, pick the MARL algorithm.

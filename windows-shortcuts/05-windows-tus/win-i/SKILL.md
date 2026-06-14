@@ -2,7 +2,8 @@
 name: win-i
 description: Ayarlar — Windows klavye kısayolu
 trigger: "Win + I"
----
+
+audience: user---
 
 # win-i
 

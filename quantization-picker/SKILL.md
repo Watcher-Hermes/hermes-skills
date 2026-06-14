@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 09
 tags: [quantization, awq, gptq, gguf, fp8, nvfp4, calibration]
+audience: user
 ---
 
 Given hardware (CPU / H100 / H200 / B200 / GB200, with count), engine (llama.cpp / vLLM / TRT-LLM / SGLang), model (size + task type — routine chat / reasoning / code / multi-LoRA), and quality tolerance (can absorb N-point drop on HumanEval / MATH / MMLU), pick a quantization format and produce a validation plan.

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 27
 tags: [nlp, evaluation, rag]
+audience: user
 ---
 
 Given a use case (RAG / agent / generative task), output:

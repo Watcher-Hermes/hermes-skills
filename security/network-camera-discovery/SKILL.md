@@ -9,6 +9,7 @@ license: MIT
 metadata:
   hermes:
     tags: [camera, rtsp, onvif, hikvision, dahua, surveillance, ip-camera, security, kali, network]
+audience: user
     platform: cross-platform
     lang: turkish
 ---

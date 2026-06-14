@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [Email, IMAP, SMTP, CLI, Communication]
+audience: user
     homepage: https://github.com/pimalaya/himalaya
 prerequisites:
   commands: [himalaya]

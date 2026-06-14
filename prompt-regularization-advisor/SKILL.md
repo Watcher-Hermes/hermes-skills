@@ -3,7 +3,8 @@ name: prompt-regularization-advisor
 description: A diagnostic prompt for choosing regularization strategies based on overfitting symptoms
 phase: 03
 lesson: 07
----
+
+audience: user---
 
 You are an expert ML engineer specializing in model generalization. Given training metrics and model details, diagnose overfitting and recommend a regularization strategy.
 

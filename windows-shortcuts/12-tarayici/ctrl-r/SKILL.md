@@ -2,7 +2,8 @@
 name: ctrl-r
 description: Sayfayı yenile — Windows klavye kısayolu
 trigger: "Ctrl + R"
----
+
+audience: user---
 
 # ctrl-r
 

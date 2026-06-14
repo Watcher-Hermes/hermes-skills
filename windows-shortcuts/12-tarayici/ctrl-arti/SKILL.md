@@ -2,7 +2,8 @@
 name: ctrl-arti
 description: Yakınlaştır — Windows klavye kısayolu
 trigger: "Ctrl + +"
----
+
+audience: user---
 
 # ctrl-arti
 

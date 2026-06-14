@@ -3,6 +3,7 @@ name: re-hermes-v3
 title: "RE-Hermes v3 — Reverse Engineering Triage Agent"
 description: "Python stdlib ile APK/PE/ELF/ham ikili dosyalardan PASIF statik analiz. Hash, entropy, PE/ELF header, APK izin+dex, IOC, suspicious token, 5N1K eğitim katmanı, opsiyonel DeepSeek AI yorumu."
 tags: [reverse-engineering, malware-analysis, apk, pe, elf, static-analysis, triage]
+audience: contributor
 ---
 
 # RE-Hermes v3 — Reverse Engineering Triage Agent

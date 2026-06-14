@@ -10,6 +10,7 @@ license: MIT
 metadata:
   hermes:
     tags: [obsidian, gelistirme, tor, otomasyon, arastirma]
+audience: user
     related_skills: [tor-browser-arama, obsidian]
 ---
 

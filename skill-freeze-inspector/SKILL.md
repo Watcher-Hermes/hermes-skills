@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 5
 tags: [computer-vision, transfer-learning, debugging, pytorch]
+audience: user
 ---
 
 # Freeze Inspector

@@ -6,6 +6,7 @@ license: MIT
 metadata:
   hermes:
     tags: [communication, style, brevity]
+audience: user
     platform: telegram
     lang: turkish
 ---

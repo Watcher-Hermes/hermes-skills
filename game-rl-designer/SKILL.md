@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 12
 tags: [rl, alphazero, muzero, grpo, self-play]
+audience: user
 ---
 
 Given a target (perfect-info game / imperfect-info / Atari / LLM reasoning / combinatorial), output:

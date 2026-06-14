@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 19
 tags: [ai-gateway, litellm, portkey, kong, cloudflare, vercel, bifrost, fallback, rate-limit, guardrails]
+audience: user
 ---
 
 Given RPS (current and projected 12-month), latency budget, compliance (self-host required?), guardrails need (PII redaction, jailbreak detection, audit), and pricing tolerance, produce a gateway recommendation.

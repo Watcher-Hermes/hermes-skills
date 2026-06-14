@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 16
 tags: [anti-spoofing, watermark, audioseal, asvspoof, c2pa, voice-fraud]
+audience: user
 ---
 
 Given the workload (voice-gen vs voice-auth, deploy scale, compliance region, adversary profile), output:

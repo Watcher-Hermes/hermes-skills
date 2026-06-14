@@ -10,6 +10,7 @@ license: MIT
 metadata:
   hermes:
     tags: [migration, restore, backup, setup, windows, state-db, git]
+audience: maintainer
     related_skills:
       - github-repo-management
       - gece-3-github-yedek
@@ -157,4 +158,4 @@ Detay: `github-repo-management` skill'inin **Push Protection** bölümü.
 5. **İlk clone büyük olabilir** — skills + state.db ~200MB. `git clone --depth 1` kullanılabilir.
 6. **Restore sırasında Hermes kapalı olmalı** — Script otomatik kapatır, ama el ile kapatmak daha güvenli.
 7. **🔥 KRİTİK: Repodaki diğer dosyalara dokunma** — Repo'da Hermes dışı projeler de var (AmbientEar, LiveTranscriber, gmod_trainer, test.txt, state zips). Bunları asla silme/taşıma/değiştirme. Sadece `skills/`, `Hermes Memor/`, `hermes-config-template.yaml`, `hermes-full-restore.ps1` ve `README.md` güncellenir. Diğer dosyalar için kullanıcıdan açık onay al.
-8. **GitHub Push Protection — PAT token kalıntıları** — GitHub'ın secret scanning push protection'ı, kısmi/truncated token'ları bile (`***REMOVED***...KxUM`, `github...eT6B`) yakalar. Çözüm: commit'leri squash et, token hiç GitHub'a ulaşmasın:
+8. **GitHub Push Protection — PAT token kalıntıları** — GitHub'ın secret scanning push protection'ı, kısmi/truncated token'ları bile (`ghp_hE...KxUM`, `github...eT6B`) yakalar. Çözüm: commit'leri squash et, token hiç GitHub'a ulaşmasın:

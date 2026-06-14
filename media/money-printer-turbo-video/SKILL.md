@@ -7,7 +7,8 @@ triggers:
   - otomatik video
   - MoneyPrinterTurbo
   - deepseek video
----
+
+audience: user---
 
 # MoneyPrinterTurbo Video Oluşturma
 
@@ -70,7 +71,7 @@ cd /c/Users/marko/MoneyPrinterTurbo
 .venv/Scripts/python.exe cli.py \
   --video-subject "KONU" \
   --video-source local \
-  --video-materials "C:***REMOVED-BASE64***_videos/video.mp4" \
+  --video-materials "C:/Users/marko/MoneyPrinterTurbo/storage/local_videos/video.mp4" \
   --voice-name "tr-TR-EmelNeural"
 ```
 

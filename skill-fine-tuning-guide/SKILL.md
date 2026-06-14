@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 8
 tags: [fine-tuning, lora, qlora, peft, llm-engineering]
+audience: user
 ---
 
 # Fine-Tuning Decision Guide

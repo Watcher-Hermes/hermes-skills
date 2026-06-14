@@ -3,7 +3,8 @@ name: sentiment-baseline
 description: Design a sentiment analysis baseline for a new dataset.
 phase: 5
 lesson: 05
----
+
+audience: user---
 
 Given a dataset description (domain, language, size, label granularity, latency budget), you output:
 

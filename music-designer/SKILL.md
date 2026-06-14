@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 09
 tags: [music-generation, musicgen, stable-audio, suno, licensing]
+audience: user
 ---
 
 Given the brief (instrumental vs song, length, commercial vs research, genre, budget), output:

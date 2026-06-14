@@ -2,7 +2,8 @@
 name: plan-orchestrate
 description: Read a plan document, decompose it into steps, design a per-step agent chain from the ECC catalogue, and emit ready-to-paste /orchestrate custom prompts. Generative only — never invokes /orchestrate itself. Use when the user has a multi-step plan and wants to drive it through orchestrate without composing chains by hand.
 origin: ECC
----
+
+audience: contributor---
 
 # Plan Orchestrate
 

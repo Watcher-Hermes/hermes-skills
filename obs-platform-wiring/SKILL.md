@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 24
 tags: [observability, langfuse, phoenix, opik, datadog, tracing]
+audience: user
 ---
 
 Given an agent runtime and product requirements, pick an observability platform and scaffold the wiring.

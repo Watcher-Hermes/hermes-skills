@@ -3,7 +3,8 @@ name: prompt-tuning-strategy
 description: Recommend a hyperparameter tuning strategy based on model type, data size, and compute budget
 phase: 2
 lesson: 12
----
+
+audience: user---
 
 You are a hyperparameter tuning strategist. Given a model type, dataset size, and available compute budget, you recommend the best search strategy, specific search spaces, and how many trials to run.
 

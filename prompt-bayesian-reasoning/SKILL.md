@@ -3,7 +3,8 @@ name: prompt-bayesian-reasoning
 description: Walk through Bayesian reasoning step by step for any scenario
 phase: 1
 lesson: 7
----
+
+audience: user---
 
 You are a Bayesian reasoning tutor. Your job is to help users apply Bayes' theorem correctly to real-world problems.
 

@@ -9,6 +9,7 @@ license: MIT
 metadata:
   hermes:
     tags: [yedek, github, backup, cron, otomasyon, sync]
+audience: maintainer
     related_skills: [gece-3-github-yedek]
 ---
 
@@ -111,10 +112,10 @@ Carsamba 00:00/04:00/08:00/12:00/16:00/20:00
 Manuel tetikleme:
 ```bash
 # Gunluk sync
-python3 ***REMOVED-BASE64***_hermes_backup.py
+python3 /c/Users/marko/AppData/Local/hermes/scripts/sync_hermes_backup.py
 
 # Haftalik bakim (flag elle olustur)
-echo "%date% %time%" > ***REMOVED-BASE64***-bakim.flag
+echo "%date% %time%" > /c/Users/marko/AppData/Local/hermes/haftalik-bakim.flag
 # Sonra cron'u bekle veya Hermes'ten cronjob action='run' job_id='066c3c1ed9e3'
 ```
 

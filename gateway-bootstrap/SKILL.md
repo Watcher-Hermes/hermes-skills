@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 17
 tags: [mcp, gateway, rbac, audit, policy]
+audience: maintainer
 ---
 
 Given an enterprise MCP plan (users, backends, compliance constraints), produce the gateway configuration spec.

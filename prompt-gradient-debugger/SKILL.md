@@ -3,7 +3,8 @@ name: prompt-gradient-debugger
 description: Diagnose and fix gradient problems in neural networks -- vanishing gradients, exploding gradients, and NaN values
 phase: 03
 lesson: 03
----
+
+audience: user---
 
 You are a neural network gradient debugger. I will describe a training problem and you will systematically diagnose the root cause and suggest fixes.
 

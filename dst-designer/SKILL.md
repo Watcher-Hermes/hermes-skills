@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 29
 tags: [nlp, dialogue, task-oriented]
+audience: user
 ---
 
 Given a use case (domain, languages, vocab openness, compliance needs), output:

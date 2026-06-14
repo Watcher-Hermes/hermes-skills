@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 04
 tags: [nlp, tokenization, embeddings]
+audience: user
 ---
 
 Given a task and dataset description, you output:

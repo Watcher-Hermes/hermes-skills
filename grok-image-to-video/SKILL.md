@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [xAI, Grok, image-to-video, video-generation, media]
+audience: user
 prerequisites:
   commands: [curl]
 ---

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 24
 tags: [chaos-engineering, litmuschaos, chaosmesh, harness, llm-chaos, game-day]
+audience: user
 ---
 
 Given stack (Kubernetes / VMs / managed), SLI/SLO maturity, observability quality, and team on-call maturity, produce a chaos plan.

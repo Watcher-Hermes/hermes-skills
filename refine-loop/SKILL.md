@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 05
 tags: [self-refine, critic, evaluator-optimizer, guardrails, iteration]
+audience: user
 ---
 
 Given a task, an iteration budget, and what verifier is available (tool-grounded or self-eval only), emit prompts and a stop policy for an evaluator-optimizer loop.

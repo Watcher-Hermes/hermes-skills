@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 25
 tags: [multi-agent, case-studies, production, framework-selection, reference-architectures]
+audience: user
 ---
 
 Given a proposed multi-agent system design, pick the closest canonical 2026 case study and adapt.

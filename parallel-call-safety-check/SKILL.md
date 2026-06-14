@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 03
 tags: [parallel-tool-calls, streaming, correlation, rate-limits]
+audience: user
 ---
 
 Given a tool registry (list of tools with names, descriptions, and executors), return an annotated copy with `parallel_safe: bool`, `ordering_deps: [tool_name]`, and `rate_limit_group: name` fields added.

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 06
 tags: [multi-agent, hierarchy, crewai, langgraph, decomposition-drift]
+audience: user
 ---
 
 Given a task description and an optional org structure, recommend the coordination pattern (flat supervisor, hierarchical, sequential) and list the specific failure modes to guard against.

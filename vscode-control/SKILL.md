@@ -1,3 +1,10 @@
+---
+name: vscode-control
+title: "VS Code Remote Control"
+audience: user
+tags: []
+---
+
 # VS Code Remote Control
 
 Telegram'dan VS Code'u uzaktan kontrol etmek için kullanılır.

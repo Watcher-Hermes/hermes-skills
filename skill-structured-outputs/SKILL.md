@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 03
 tags: [structured-output, json, schema, constrained-decoding, pydantic, function-calling]
+audience: user
 ---
 
 # Structured Output Strategy

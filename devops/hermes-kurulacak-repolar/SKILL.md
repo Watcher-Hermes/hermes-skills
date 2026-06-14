@@ -10,6 +10,7 @@ license: MIT
 metadata:
   hermes:
     tags: [kurulum, github, repo, setup, migration]
+audience: maintainer
     related_skills:
       - hermes-migration-restore
       - github-repo-management
@@ -32,6 +33,10 @@ banklone edilmesi gerektiğini ve hangi sırayla kurulacağını tanımlar.
 | 4 | kali-pentest | https://github.com/x-glacier/kali-pentest | ✅ 269 araç |
 | 5 | wifi-ag-tarayici | https://github.com/Izleyici-Hermes/wifi-ag-tarayici | ✅ |
 | 6 | runners-journey | https://github.com/Izleyici-Hermes/runners-journey | ✅ |
+| 7 | hermes-studio | https://github.com/EKKOLearnAI/hermes-studio | ✅ npm global |
+| 8 | hermes-share-skill | https://github.com/Noshkoto/hermes-share-skill | ✅ skill |
+| 9 | paper-deep-reader | https://github.com/kingmt123/paper-deep-reader | ✅ skill |
+| 10 | hersona | https://github.com/shiro-0x/hersona | ✅ 6 skill |
 | 7 | hermes-studio | https://github.com/EKKOLearnAI/hermes-studio | ✅ 7.890★ Web dashboard |
 | 8 | share-skill | https://github.com/Noshkoto/hermes-share-skill | ✅ Session export skill |
 | 9 | paper-deep-reader | https://github.com/kingmt123/paper-deep-reader | ✅ Akademik makale okuma |
@@ -69,6 +74,41 @@ git clone https://github.com/x-glacier/kali-pentest.git
 git clone https://github.com/asdafgf/wifi-ag-tarayici.git
 git clone https://github.com/asdafgf/runners-journey.git
 echo "Tüm repolar indirildi."
+```
+
+## Hermes Studio Kurulumu
+
+```bash
+npm install -g hermes-web-ui
+hermes-web-ui start
+# → http://localhost:8648
+```
+
+Kurulum sonrası:
+1. Tarayıcıda http://localhost:8648 aç
+2. Kullanıcı kaydı oluştur
+3. Giriş yap → otomatik Hermes profiline bağlanır
+4. Skills, memory, sessions, cron hepsi aynı Hermes instance'ı üzerinden çalışır
+
+**Uninstall:**
+```bash
+npm uninstall -g hermes-web-ui
+```
+
+## Hermes Studio Yeni Skill Ekleme (GitHub'dan)
+
+```bash
+# 1. Clone
+git clone https://github.com/OWNER/REPO.git
+
+# 2. SKILL.md varsa skills klasörüne kopyala
+cp -r REPO/skills/* ~/.hermes/skills/KATEGORI/
+
+# 3. Yoksa direkt SKILL.md'i kopyala
+cp REPO/SKILL.md ~/.hermes/skills/KATEGORI/REPO-ADI/
+
+# 4. sync (Obsidian'a kaydet)
+python C:\Users\marko\AppData\Local\hermes\hooks\sync_skills_to_obsidian.py
 ```
 
 ## Kurulum Notları

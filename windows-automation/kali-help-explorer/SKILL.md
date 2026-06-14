@@ -2,6 +2,7 @@
 name: kali-help-explorer
 hermes_skill: true
 category: windows-automation
+audience: user
 description: Kali Linux araçlarının yardım/ man/ info sayfalarını analiz eder, parametre matrisi çıkarır, senaryo bazlı örnekler üretir. Kali VM'e SSH bağlantısı ile çalışır.
 created: 2026-06-07
 ---

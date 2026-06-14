@@ -3,6 +3,7 @@ name: ai-fullstack-kodlamiyoruz
 title: AI ile Full-Stack Web Uygulaması (Prototurk "Kodlamıyoruz" Serisi)
 description: "AI kodlama ajanı (Cursor/Claude Code/GitHub Copilot) ile sıfırdan production seviyesinde full-stack web uygulaması kurulumu. Prototurk'ün 'kodlamıyoruz' serisi baz alınmıştır. Stack: Next.js + PostgreSQL + Redis + Railway + Cloudflare R2 + Resend + Playwright."
 category: software-development
+audience: contributor
 ---
 
 > **📁 Seri Referansları:** Her video için session-specific analiz `references/` altında:

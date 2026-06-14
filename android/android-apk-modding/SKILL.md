@@ -1,7 +1,8 @@
 ---
 name: android-apk-modding
 description: APK modding pipeline — tek yön, geri dönüşsüz adımlar. Sistem uygulaması bypass (package rename), split APK merge, smali/dex patching, onPause/onStop boşaltma, manifest düzenleme. Önbelge → Decompile → Yama (karar ağacı) → Rebuild → zipalign → İmzala → Doğrula+logcat.
----
+
+audience: contributor---
 
 # Android APK Modding Pipeline
 
@@ -32,9 +33,9 @@ Bu durumda SDK izinleri (`appops`) ve Android sistem ayarları (`settings`, `pm`
 Pat'ler:
 ```bash
 APKTOOL="java -jar /c/Users/marko/re-hermes/apktool.jar"
-ZIPALIGN="***REMOVED-BASE64***-tools/37.0.0/zipalign.exe"
-APKSIGNER="***REMOVED-BASE64***-tools/37.0.0/apksigner.bat"
-KEYSTORE="***REMOVED-BASE64***.keystore"
+ZIPALIGN="/c/Users/marko/AppData/Local/Android/Sdk/build-tools/37.0.0/zipalign.exe"
+APKSIGNER="/c/Users/marko/AppData/Local/Android/Sdk/build-tools/37.0.0/apksigner.bat"
+KEYSTORE="/c/Users/marko/Desktop/LiveTranscriber/release.keystore"
 KEYALIAS="livetranscriber"
 KSPASS="<keystore-sifresi>"
 ```

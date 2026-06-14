@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 14
 tags: [multi-agent, consensus, BFT, voting, confidence]
+audience: user
 ---
 
 Given an ensemble of N agents answering a common question, design a consensus protocol that is robust to the three canonical LLM-agent attacks: byzantine lie, sycophantic conformity, correlated-error monoculture.

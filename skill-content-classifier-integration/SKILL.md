@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 85
 tags: [safety, classifier, output-filter]
+audience: user
 ---
 
 # Content Classifier Integration

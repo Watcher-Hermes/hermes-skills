@@ -7,6 +7,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [obsidian, skills, sync, export, documentation]
+audience: user
 ---
 
 # Skill Cataloging
@@ -144,7 +145,7 @@ Open the sync file in Obsidian to confirm links resolve.
 
 ```bash
 # 1. Resolve
-vault="***REMOVED-BASE64*** Vault"
+vault="/c/Users/marko/OneDrive/Belgeler/Obsidian Vault"
 target="obsidian_skill_all_tree_0"
 
 # 2. Ensure dirs
@@ -169,16 +170,32 @@ INDEX
 
 - `obsidian` — vault write/sync conventions, wikilink format, idempotent index refreshes
 
+## Audience Classification
+
+NemoClaw'dan esinlenen 3'lü audience sistemi ile skill'leri **user / maintainer / contributor** olarak sınıflandır.
+
+Detaylı prosedür, Python scripti ve sınıflandırma tablosu:
+→ `references/audience-classification.md`
+
+Kısaca:
+- **contributor** — kod geliştirme (software-development, github, testing)
+- **maintainer** — sistem bakımı (cron/backup, audit, vault maintenance)
+- **user** — günlük kullanım (AI araçları, windows otomasyonu, media, creative)
+
+Her SKILL.md frontmatter'ına `audience: user | maintainer | contributor` alanı eklenir.
+Audit skill'leri (isimde `audit`/`auditor`) otomatik maintainer olur.
+`software-development/`, `github/` kategorileri otomatik contributor olur.
+
 ## Otomatik Sync
 
 Hermes'te `hooks/sync_skills_to_obsidian.py` script'i SKILL.md → Obsidian notu senkronizasyonunu otomatik yapar:
 
 ```bash
 # Normal sync (sadece yeni skill'leri yazar, eskiyi overwrite etmez)
-python3 ***REMOVED-BASE64***_skills_to_obsidian.py
+python3 /c/Users/marko/AppData/Local/hermes/hooks/sync_skills_to_obsidian.py
 
 # Force sync (tüm skill'leri yeniden yazar)
-python3 ***REMOVED-BASE64***_skills_to_obsidian.py --force
+python3 /c/Users/marko/AppData/Local/hermes/hooks/sync_skills_to_obsidian.py --force
 ```
 
 Bu sync script'i:
@@ -192,5 +209,5 @@ Bu sync script'i:
 **Cron job önerisi:**
 ```bash
 # Her gece 02:30'da sync çalıştır (03:00 yedekten önce)
-hermes cron create --schedule "30 2 * * *" --command "python3 ***REMOVED-BASE64***_skills_to_obsidian.py"
+hermes cron create --schedule "30 2 * * *" --command "python3 /c/Users/marko/AppData/Local/hermes/hooks/sync_skills_to_obsidian.py"
 ```

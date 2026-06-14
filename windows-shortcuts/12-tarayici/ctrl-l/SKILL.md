@@ -2,7 +2,8 @@
 name: ctrl-l
 description: Adres çubuğuna odaklan — Windows klavye kısayolu
 trigger: "Ctrl + L"
----
+
+audience: user---
 
 # ctrl-l
 

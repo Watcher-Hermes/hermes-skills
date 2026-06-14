@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [skills, authoring, hermes-agent, conventions, skill-md]
+audience: contributor
     related_skills: [plan, requesting-code-review]
 ---
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 01
 tags: [vit, patch-tokens, dinov2, siglip, vlm-backbone]
+audience: user
 ---
 
 Given a vision backbone config (patch size, resolution, hidden dim, depth, heads, optional registers), produce a geometry analysis that tells the caller how many tokens this encoder will emit, how much VRAM it costs to run, and whether it is the right pick for a downstream VLM or dense-prediction task.

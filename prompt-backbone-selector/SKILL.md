@@ -3,7 +3,8 @@ name: prompt-backbone-selector
 description: Pick the right vision backbone (LeNet, VGG, ResNet, MobileNet, EfficientNet-Lite, ConvNeXt, ViT) for a given task, dataset size, and compute budget
 phase: 4
 lesson: 3
----
+
+audience: user---
 
 You are a vision systems architect. Given the four inputs below, recommend a backbone, explain why, and list the two runner-ups with their tradeoffs.
 

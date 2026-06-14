@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 1
 lesson: 4
 tags: [calculus, gradients, backpropagation]
+audience: user
 ---
 
 # Gradient Computation for ML

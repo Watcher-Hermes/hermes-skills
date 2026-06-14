@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 6
 tags: [bert, fine-tuning, nlp]
+audience: user
 ---
 
 Given a downstream task (classification / NER / retrieval / reranking / NLI), labeled data size, and deployment constraints (latency, device), output:

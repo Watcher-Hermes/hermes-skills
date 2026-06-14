@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 18
 tags: [long-video, gemini, ring-attention, videoagent, retrieval]
+audience: user
 ---
 
 Given a video duration, query complexity (single event vs holistic summary), and open vs closed constraints, pick a long-video strategy and emit a config.

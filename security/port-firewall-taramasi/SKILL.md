@@ -7,6 +7,7 @@ description: >-
 version: 1.0.0
 author: marko
 tags: [guvenlik, windows, port, firewall, tarama, nmap]
+audience: user
 ---
 
 # Windows Güvenlik Taraması

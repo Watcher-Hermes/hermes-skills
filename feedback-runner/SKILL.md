@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 37
 tags: [feedback, subprocess, runner, jsonl, loop-control]
+audience: user
 ---
 
 Given a project that runs shell commands inside an agent loop, produce a feedback runner and the JSONL it writes.

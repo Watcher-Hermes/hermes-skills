@@ -10,6 +10,7 @@ license: MIT
 metadata:
   hermes:
     tags: [memory, compaction, cleanup, consolidation]
+audience: user
     related_skills: [telegram-gateway-monitor]
 ---
 

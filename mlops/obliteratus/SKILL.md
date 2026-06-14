@@ -9,6 +9,7 @@ platforms: [linux, macos]
 metadata:
   hermes:
     tags: [Abliteration, Uncensoring, Refusal-Removal, LLM, Weight-Projection, SVD, Mechanistic-Interpretability, HuggingFace, Model-Surgery]
+audience: user
     related_skills: [vllm, gguf, huggingface-tokenizers]
 ---
 

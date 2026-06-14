@@ -2,7 +2,8 @@
 name: win-v
 description: Pano geçmişi — Windows klavye kısayolu
 trigger: "Win + V"
----
+
+audience: user---
 
 # win-v
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 2
 lesson: 2
 tags: [regression, linear-regression, polynomial-regression, ridge, regularization]
+audience: user
 ---
 
 # Regression Strategy Guide

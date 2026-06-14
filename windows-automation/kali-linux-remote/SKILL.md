@@ -6,6 +6,7 @@ license: MIT
 metadata:
   hermes:
     tags: [kali, ssh, remote, linux, vm, network-scanning, kali-pentest]
+audience: user
     platform: windows
     lang: turkish
 ---
@@ -484,12 +485,12 @@ sshpass -p 'kali' /c/Windows/System32/OpenSSH/ssh.exe -o StrictHostKeyChecking=n
 
 Terminal tool'unu dogrudan Kali'ye SSH yapacak sekilde yapilandirmak icin:
 ```bash
-"***REMOVED-BASE64***-agent/venv/Scripts/hermes.exe" config set terminal.backend ssh
-"***REMOVED-BASE64***-agent/venv/Scripts/hermes.exe" config set terminal.ssh_host <ip>
-"***REMOVED-BASE64***-agent/venv/Scripts/hermes.exe" config set terminal.ssh_user kali
-"***REMOVED-BASE64***-agent/venv/Scripts/hermes.exe" config set terminal.ssh_password "1234"
-"***REMOVED-BASE64***-agent/venv/Scripts/hermes.exe" config set terminal.ssh_port 22
-"***REMOVED-BASE64***-agent/venv/Scripts/hermes.exe" config set terminal.ssh_strict_host_key_check false
+"/c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/hermes.exe" config set terminal.backend ssh
+"/c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/hermes.exe" config set terminal.ssh_host <ip>
+"/c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/hermes.exe" config set terminal.ssh_user kali
+"/c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/hermes.exe" config set terminal.ssh_password "1234"
+"/c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/hermes.exe" config set terminal.ssh_port 22
+"/c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/hermes.exe" config set terminal.ssh_strict_host_key_check false
 ```
 **Uyari:** Config dosyasina `patch` ile dogrudan yazmak ENGELENIR -> `hermes config set` kullanilmali.
 **Not:** Config degisiklikleri mevcut session'da etkili olmaz, yeni session gerektirir.
@@ -768,8 +769,8 @@ powershell.exe -NoProfile -Command "Start-Process powershell -Verb RunAs -Argume
 12. **Hermes tool'lari ortak runtime paylasimi** — `terminal`, `execute_code`, ve diger Python tabanli tool'lar ayni Hermes runtime ortamini kullanir. Biri SSH backend'de bloke olursa hepsi bloke olur. Ayri bir Python subprocess ile bypass edilemez.
 13. **SSH backend config dogrulama adimi (eklemeden once):** `terminal.backend: ssh` yapmadan once config'in dogru yazildigini kontrol et:
     ```bash
-    "***REMOVED-BASE64***-agent/venv/Scripts/hermes.exe" config get terminal.ssh_host
-    "***REMOVED-BASE64***-agent/venv/Scripts/hermes.exe" config get terminal.ssh_user
+    "/c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/hermes.exe" config get terminal.ssh_host
+    "/c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/hermes.exe" config get terminal.ssh_user
     ```
     Bu komutlar `None` veya bos donerse config yanlis yere yazilmis demektir. Dogru yazildigini gordukten **sonra** `terminal.backend: ssh` yap ve `/new` ile yeni session baslat.
 14. **Windows nmap Kali'dan port taramada daha guvenilir:** Kali uzerinden `nmap -p 80,443,554 <hedef>` bazen timeout verirken Windows ana makinedeki nmap (`C:\Program Files (x86)\Nmap\nmap.exe`) ayni hedefe hizli ve dogru sonuc doner. Ozellikle spesifik port taramalarinda Windows nmap'i kullan.

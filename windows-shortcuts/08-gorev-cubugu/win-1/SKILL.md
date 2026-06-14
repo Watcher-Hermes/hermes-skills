@@ -2,7 +2,8 @@
 name: win-1
 description: Görev çubuğundaki uygulamayı aç / geç — Windows klavye kısayolu
 trigger: "Win + 1...9"
----
+
+audience: user---
 
 # win-1
 

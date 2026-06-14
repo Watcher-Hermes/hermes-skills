@@ -3,6 +3,7 @@ name: python-chromadb-kullanimi
 title: "Python ChromaDB Kullanımı"
 description: "ChromaDB vektör veritabanı — bellek depolama, anlamsal arama, PersistentClient ile kalıcı veri yönetimi ve Ollama/özel embedding function entegrasyonu."
 tags: [chromadb, vector-database, embeddings, semantic-search, memory, ollama, rag]
+audience: user
 related_skills: [dspy, ollama-local-llm, hibrit-ai-yonlendirme-kurali]
 ---
 

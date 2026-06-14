@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 34
 tags: [state, schema, json-schema, atomic-writes, migrations]
+audience: user
 ---
 
 Given a repo and the agent product running inside it, produce schema-first state files for the workbench.

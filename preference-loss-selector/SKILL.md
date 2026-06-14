@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 3
 tags: [dpo, ipo, kto, simpo, orpo, bpo, daa, preference-optimization]
+audience: user
 ---
 
 Given a preference dataset description (paired vs unpaired, preference-strength distribution, length distribution, size) and a training target (one-stage from base, two-stage after SFT, on-policy continuation), recommend a loss from the DPO family and name the single failure mode it protects against.

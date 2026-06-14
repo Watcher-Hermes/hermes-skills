@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 15
 lesson: 20
 tags: [preparedness-framework, fsf, rsp, cross-policy, scaling-policy]
+audience: user
 ---
 
 Given a specific frontier capability (e.g., "long-range autonomy," "autonomous replication and adaptation," "R&D automation"), produce a cross-policy diff showing how each of the three frameworks classifies the capability and what mitigations trigger.

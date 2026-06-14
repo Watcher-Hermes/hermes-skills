@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 14
 tags: [transformers, review, capstone]
+audience: user
 ---
 
 Given a transformer-from-scratch codebase (PyTorch / JAX), review against the 2026 defaults and flag missing or incorrect pieces:

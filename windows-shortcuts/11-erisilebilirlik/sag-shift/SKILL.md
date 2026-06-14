@@ -2,7 +2,8 @@
 name: sag-shift
 description: Filtre Tuşları aç/kapat — Windows klavye kısayolu
 trigger: "Sağ Shift 8 sn basılı"
----
+
+audience: user---
 
 # sag-shift
 

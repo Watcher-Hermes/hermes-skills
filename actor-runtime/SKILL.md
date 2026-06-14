@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 14
 tags: [autogen, actor-model, messaging, fault-isolation, dead-letter]
+audience: user
 ---
 
 Given a multi-agent task, produce an actor runtime and the agent actors needed.

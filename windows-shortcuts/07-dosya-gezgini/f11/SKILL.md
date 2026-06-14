@@ -2,7 +2,8 @@
 name: f11
 description: Tam ekran yap / çık — Windows klavye kısayolu
 trigger: "F11"
----
+
+audience: user---
 
 # f11
 

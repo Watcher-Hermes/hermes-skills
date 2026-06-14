@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 13
 tags: [codec, encodec, dac, snac, mimi, rvq, semantic-tokens]
+audience: user
 ---
 
 Given the task (generative LM, compression, full-duplex dialogue, music editing, fidelity target), output:

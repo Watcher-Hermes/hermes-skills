@@ -2,7 +2,8 @@
 name: win-ctrl-c
 description: Renk filtreleri aç / kapat — Windows klavye kısayolu
 trigger: "Win + Ctrl + C"
----
+
+audience: user---
 
 # win-ctrl-c
 

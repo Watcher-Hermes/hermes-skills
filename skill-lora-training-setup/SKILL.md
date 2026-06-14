@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 11
 tags: [computer-vision, stable-diffusion, lora, fine-tuning]
+audience: user
 ---
 
 # LoRA Training Setup

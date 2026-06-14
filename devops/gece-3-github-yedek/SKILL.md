@@ -12,6 +12,7 @@ license: MIT
 metadata:
   hermes:
     tags: [yedek, github, nightly, backup, cron, skills, obsidian]
+audience: maintainer
     related_skills:
       - obsidian-vault-kurallari
       - tam-sistem-yetkisi
@@ -140,7 +141,7 @@ git config --global credential.helper ""
 mkdir -p /c/Users/marko/hermes-skills-backup
 
 # Skills'i kopyala
-cp -r ***REMOVED-BASE64**** /c/Users/marko/hermes-skills-backup/
+cp -r /c/Users/marko/AppData/Local/hermes/skills/* /c/Users/marko/hermes-skills-backup/
 
 # Git repo oluştur/yönet
 cd /c/Users/marko/hermes-skills-backup
@@ -170,7 +171,7 @@ fi
 ### 2. Obsidian Vault Yedek
 
 ```bash
-cd "***REMOVED-BASE64*** Vault"
+cd "/c/Users/marko/OneDrive/Belgeler/Obsidian Vault"
 
 # Önce JavaNotes submodule'ünü işle
 if [ -f JavaNotes/.git ]; then

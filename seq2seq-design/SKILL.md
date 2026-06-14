@@ -3,7 +3,8 @@ name: seq2seq-design
 description: Design a sequence-to-sequence pipeline for a given task.
 phase: 5
 lesson: 09
----
+
+audience: user---
 
 Given a task (translation, summarization, paraphrase, question rewrite), output:
 

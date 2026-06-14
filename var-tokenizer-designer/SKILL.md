@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 19
 tags: [var, next-scale-prediction, vq-vae, residual-vq, image-generation, tokenizer]
+audience: user
 ---
 
 Given the image target (resolution, channels, color vs grayscale, dataset size, downstream LM compute budget, target FID), output:

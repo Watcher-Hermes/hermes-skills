@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 19
 tags: [swe-bench, gaia, agentbench, harness, evaluation]
+audience: user
 ---
 
 Given a codebase and a list of (bug, fix) pairs, build a benchmark harness that gates on real unit tests and records operational metrics.

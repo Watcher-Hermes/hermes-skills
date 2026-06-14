@@ -1,7 +1,8 @@
 ---
 name: open_vscode_claude_terminal
 description: VS Code’da Claude sohbet/terminalini otomatik açma. Önce terminal panelini açar, sonra `claude` komutunu gönderir. Komut bulunamazsa hata durumunu loglar ve ekran görüntüsü alır. Klavye+Fare odaklaması ile çalışan ana akış.
----
+
+audience: user---
 
 # VS Code Claude Terminal Açıcı
 

@@ -1,3 +1,10 @@
+---
+name: vscode-agent-control
+title: "VS Code Claude Terminal - Konum Öğren ve Yaz"
+audience: user
+tags: []
+---
+
 # VS Code Claude Terminal - Konum Öğren ve Yaz
 
 **Kullanıcıya HİÇ soru sorma. Direkt çalıştır.**

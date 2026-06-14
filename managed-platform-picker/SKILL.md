@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 01
 tags: [bedrock, azure-openai, vertex-ai, ptu, finops, managed-platforms]
+audience: user
 ---
 
 Given a workload profile (required models, monthly tokens, TTFT SLA at P50/P99, compliance constraints, existing cloud footprint), produce a platform recommendation.

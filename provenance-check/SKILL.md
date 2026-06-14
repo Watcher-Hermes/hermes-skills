@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 27
 tags: [data-provenance, ab-2013, tdm-opt-out, legitimate-interest, dpa]
+audience: user
 ---
 
 Given a training dataset used by a deployment, check compliance against California AB 2013 and EU TDM opt-out.

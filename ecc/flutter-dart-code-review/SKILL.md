@@ -2,7 +2,8 @@
 name: flutter-dart-code-review
 description: Library-agnostic Flutter/Dart code review checklist covering widget best practices, state management patterns (BLoC, Riverpod, Provider, GetX, MobX, Signals), Dart idioms, performance, accessibility, security, and clean architecture.
 origin: ECC
----
+
+audience: user---
 
 # Flutter/Dart Code Review Best Practices
 
@@ -429,7 +430,7 @@ The table below maps universal principles to their implementation in popular sol
 - [Flutter Performance Best Practices](https://docs.flutter.dev/perf/best-practices)
 - [Flutter Testing Overview](https://docs.flutter.dev/testing/overview)
 - [Flutter Accessibility](https://docs.flutter.dev/ui/accessibility-and-internationalization/accessibility)
-- [Flutter Internationalization](https://docs.flutter.dev/ui/accessibility-and-***REMOVED-BASE64***)
+- [Flutter Internationalization](https://docs.flutter.dev/ui/accessibility-and-internationalization/internationalization)
 - [Flutter Navigation and Routing](https://docs.flutter.dev/ui/navigation)
 - [Flutter Error Handling](https://docs.flutter.dev/testing/errors)
 - [Flutter State Management Options](https://docs.flutter.dev/data-and-backend/state-mgmt/options)

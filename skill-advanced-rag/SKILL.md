@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 7
 tags: [rag, hybrid-search, bm25, reranking, hyde, evaluation]
+audience: user
 ---
 
 # Advanced RAG Pattern

@@ -2,7 +2,8 @@
 name: ctrl-1-8
 description: İlgili sekmeye git — Windows klavye kısayolu
 trigger: "Ctrl + 1...8"
----
+
+audience: user---
 
 # ctrl-1-8
 

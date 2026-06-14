@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 21
 tags: [fairness, demographic-parity, equalized-odds, counterfactual-fairness, impossibility]
+audience: user
 ---
 
 Given a fairness claim or policy, identify which criterion is being invoked, what assumptions the claim depends on, and what the impossibility theorems imply for the remaining criteria.

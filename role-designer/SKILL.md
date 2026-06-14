@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 08
 tags: [multi-agent, role-specialization, metagpt, chatdev, verification]
+audience: user
 ---
 
 Given a task, produce a specialized role roster with I/O schemas and a deterministic verifier. Ready to map onto CrewAI, LangGraph, AutoGen, or custom loops.

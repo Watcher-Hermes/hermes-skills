@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 05
 tags: [llava, vlm, vibes-eval, instruction-tuning]
+audience: user
 ---
 
 Given a LLaVA-family VLM (LLaVA-1.5, LLaVA-NeXT, LLaVA-OneVision, or a community fork) and a test image set, run a 10-prompt smoke test covering captioning, VQA, reasoning, refusal, and format compliance. Produce a scorecard that confirms the projector and LLM are connecting correctly.

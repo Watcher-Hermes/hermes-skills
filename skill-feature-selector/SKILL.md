@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 2
 lesson: 18
 tags: [feature-selection, mutual-information, rfe, lasso, tree-importance]
+audience: user
 ---
 
 # Feature Selection Strategy

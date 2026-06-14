@@ -2,7 +2,8 @@
 name: homelab-pihole-dns
 description: Pi-hole installation, blocklist management, DNS-over-HTTPS setup, DHCP integration, local DNS records, and troubleshooting broken DNS resolution on a home network.
 origin: community
----
+
+audience: contributor---
 
 # Homelab Pi-hole DNS
 
@@ -162,7 +163,7 @@ DNS-over-HTTPS encrypts your DNS queries so your ISP cannot see what sites you r
 # Prefer Cloudflare's package repository for automatic signed package verification.
 # If you download a binary directly, pin a release version and verify its checksum.
 CLOUDFLARED_VERSION="<pinned-version>"
-curl -LO "https://github.***REMOVED-BASE64***${CLOUDFLARED_VERSION}/cloudflared-linux-arm64"
+curl -LO "https://github.com/cloudflare/cloudflared/releases/download/${CLOUDFLARED_VERSION}/cloudflared-linux-arm64"
 # Verify the checksum/signature from Cloudflare's release notes before installing.
 sudo mv cloudflared-linux-arm64 /usr/local/bin/cloudflared
 sudo chmod +x /usr/local/bin/cloudflared

@@ -2,7 +2,8 @@
 name: ctrl-z
 description: Geri al — Windows klavye kısayolu
 trigger: "Ctrl + Z"
----
+
+audience: user---
 
 # ctrl-z
 

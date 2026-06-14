@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 35
 tags: [init, probes, ci, workbench, fail-loud]
+audience: contributor
 ---
 
 Given a repo, the agent product, and its dependency surface, produce a project-specific init script and CI wiring.

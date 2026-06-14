@@ -2,7 +2,8 @@
 name: ctrl-home
 description: Belge başına git — Windows klavye kısayolu
 trigger: "Ctrl + Home"
----
+
+audience: user---
 
 # ctrl-home
 

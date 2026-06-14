@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 9
 tags: [transformers, vit, vision]
+audience: user
 ---
 
 Given a vision task (classification / segmentation / detection / retrieval), image resolution, dataset size (labeled + unlabeled), and deployment target, output:

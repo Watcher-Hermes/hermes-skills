@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [Smart-Home, Hue, Lights, IoT, Automation]
+audience: user
     homepage: https://www.openhue.io/cli
 prerequisites:
   commands: [openhue]

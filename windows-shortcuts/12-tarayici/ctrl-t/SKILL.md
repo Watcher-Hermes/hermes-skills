@@ -2,7 +2,8 @@
 name: ctrl-t
 description: Yeni sekme — Windows klavye kısayolu
 trigger: "Ctrl + T"
----
+
+audience: user---
 
 # ctrl-t
 

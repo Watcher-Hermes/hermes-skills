@@ -2,7 +2,8 @@
 name: win-a
 description: Hızlı Ayarlar — Windows klavye kısayolu
 trigger: "Win + A"
----
+
+audience: user---
 
 # win-a
 

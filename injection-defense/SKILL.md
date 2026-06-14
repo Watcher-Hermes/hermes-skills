@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 27
 tags: [security, prompt-injection, pve, greshake, source-tag]
+audience: user
 ---
 
 Given an agent with tool access and retrieval, produce an injection-defense layer.

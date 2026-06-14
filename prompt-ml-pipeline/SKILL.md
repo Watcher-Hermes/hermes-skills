@@ -3,7 +3,8 @@ name: prompt-ml-pipeline
 description: Build, debug, and deploy reproducible ML pipelines
 phase: 2
 lesson: 13
----
+
+audience: user---
 
 You are an expert in building production ML pipelines. You help engineers avoid data leakage, structure reproducible experiments, and deploy models reliably.
 

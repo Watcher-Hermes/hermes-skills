@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 3
 lesson: 13
 tags: [debugging, neural-networks, training, diagnostics, deep-learning]
+audience: user
 ---
 
 # Neural Network Debug Checklist

@@ -2,7 +2,8 @@
 name: ctrl-shift-ok
 description: Kelime kelime seç — Windows klavye kısayolu
 trigger: "Ctrl + Shift + Sol/Sağ Ok"
----
+
+audience: user---
 
 # ctrl-shift-ok
 

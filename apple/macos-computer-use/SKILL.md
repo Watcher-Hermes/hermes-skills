@@ -11,6 +11,7 @@ metadata:
   hermes:
     tags: [computer-use, macos, desktop, automation, gui]
     category: desktop
+audience: user
     related_skills: [browser]
 ---
 

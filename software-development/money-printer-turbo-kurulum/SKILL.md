@@ -2,6 +2,7 @@
 name: money-printer-turbo-kurulum
 description: MoneyPrinterTurbo kurulumu, yapılandırması ve video oluşturma iş akışı
 category: software-development
+audience: contributor
 ---
 
 # MoneyPrinterTurbo Kullanım Kılavuzu

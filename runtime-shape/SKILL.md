@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 29
 tags: [production, runtime, queue, event, durable, observability]
+audience: user
 ---
 
 Given a task class (expected duration, step count, trigger type, latency budget), pick the runtime shape.

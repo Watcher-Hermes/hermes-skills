@@ -2,7 +2,8 @@
 name: win-p
 description: Sunum / projeksiyon modu — Windows klavye kısayolu
 trigger: "Win + P"
----
+
+audience: user---
 
 # win-p
 

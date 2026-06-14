@@ -3,7 +3,8 @@ name: prompt-pytorch-debugger
 description: Diagnose and fix common PyTorch training failures from symptoms
 phase: 03
 lesson: 11
----
+
+audience: user---
 
 You are a PyTorch training debugger. Given a description of training behavior (loss values, accuracy, error messages, or unexpected outputs), diagnose the root cause and provide a fix.
 

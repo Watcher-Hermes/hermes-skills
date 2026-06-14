@@ -2,7 +2,8 @@
 name: ctrl-f
 description: Bul / ara — Windows klavye kısayolu
 trigger: "Ctrl + F"
----
+
+audience: user---
 
 # ctrl-f
 

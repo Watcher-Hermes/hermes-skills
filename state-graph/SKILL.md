@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 13
 tags: [langgraph, state-machine, durable, checkpointing, human-in-the-loop]
+audience: user
 ---
 
 Given a target runtime, a state shape, a set of node functions, and a checkpointer backend, produce a stateful agent graph.

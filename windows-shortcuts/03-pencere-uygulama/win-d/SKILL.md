@@ -2,7 +2,8 @@
 name: win-d
 description: Masaüstünü göster / gizle — Windows klavye kısayolu
 trigger: "Win + D"
----
+
+audience: user---
 
 # win-d
 

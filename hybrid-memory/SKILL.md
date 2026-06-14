@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 09
 tags: [memory, mem0, vector, graph, kv, fusion, scope]
+audience: user
 ---
 
 Given a target runtime, a vector backend (Qdrant, pgvector, Chroma, sqlite-vec), a KV backend (Postgres, Redis, dict), and a graph backend (Neo4j, in-memory edges), produce a fused memory system.

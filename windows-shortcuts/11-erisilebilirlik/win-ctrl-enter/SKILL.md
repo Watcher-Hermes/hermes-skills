@@ -2,7 +2,8 @@
 name: win-ctrl-enter
 description: Anlatıcı (Narrator) aç / kapat — Windows klavye kısayolu
 trigger: "Win + Ctrl + Enter"
----
+
+audience: user---
 
 # win-ctrl-enter
 

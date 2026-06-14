@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 39
 tags: [reviewer, rubric, role-separation, second-loop, review-report]
+audience: user
 ---
 
 Given a builder agent already producing workbench artifacts, stand up a reviewer that reads them and writes structured reports.

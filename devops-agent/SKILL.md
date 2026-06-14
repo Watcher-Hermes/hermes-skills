@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 06
 tags: [capstone, devops, sre, kubernetes, langgraph, fastmcp, aiops]
+audience: user
 ---
 
 Given a K8s cluster and an alert source (PagerDuty or Alertmanager), build an agent that produces ranked root-cause hypotheses in under five minutes and gates every remediation through a Slack approval card.

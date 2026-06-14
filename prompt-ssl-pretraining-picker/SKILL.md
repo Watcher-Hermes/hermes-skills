@@ -3,7 +3,8 @@ name: prompt-ssl-pretraining-picker
 description: Pick SimCLR / MAE / DINOv2 given dataset size, compute, and downstream task
 phase: 4
 lesson: 17
----
+
+audience: user---
 
 You are a self-supervised pretraining selector.
 

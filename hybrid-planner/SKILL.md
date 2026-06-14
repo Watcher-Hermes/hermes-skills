@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 11
 tags: [planning, htn, chathtn, alphaevolve, evolutionary-search]
+audience: user
 ---
 
 Given a problem class (policy-bound workflow vs code optimization vs open-ended task), pick a planner and produce a correct scaffold.

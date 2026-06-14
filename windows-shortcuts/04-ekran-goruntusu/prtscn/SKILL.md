@@ -2,7 +2,8 @@
 name: prtscn
 description: Tüm ekranı panoya kopyala — Windows klavye kısayolu (Print Screen / PrtScn)
 trigger: "Print Screen (PrtScn)"
----
+
+audience: user---
 
 # prtscn
 

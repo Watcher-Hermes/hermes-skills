@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 13
 tags: [multi-agent, shared-state, blackboard, memory-poisoning, provenance]
+audience: maintainer
 ---
 
 Given a multi-agent codebase or architecture doc, audit the shared-memory design and flag exposure to memory poisoning.

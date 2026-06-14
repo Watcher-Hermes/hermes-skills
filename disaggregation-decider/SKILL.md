@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 17
 tags: [disaggregated-serving, dynamo, llm-d, nixl, kv-transfer, prefill-decode]
+audience: user
 ---
 
 Given workload profile (prompt/output length distribution, model, concurrency), cluster topology (GPUs, fabric, RDMA availability), and current serving cost, produce a disaggregation decision.

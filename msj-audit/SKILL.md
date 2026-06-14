@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 13
 tags: [many-shot-jailbreaking, context-window, power-law, anthropic]
+audience: maintainer
 ---
 
 Given a safety evaluation for a long-context model, audit whether the evaluation covers many-shot jailbreaking.

@@ -2,7 +2,8 @@
 name: ctrl-0
 description: Yakınlaştırmayı sıfırla — Windows klavye kısayolu
 trigger: "Ctrl + 0"
----
+
+audience: user---
 
 # ctrl-0
 

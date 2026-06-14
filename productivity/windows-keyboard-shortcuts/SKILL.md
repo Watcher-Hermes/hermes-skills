@@ -8,6 +8,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [windows, keyboard, shortcuts, productivity, system, browser, editor]
+audience: user
     related_skills: [windows-system-automation, openai-screenshot, obsidian]
 ---
 

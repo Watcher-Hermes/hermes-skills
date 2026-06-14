@@ -2,7 +2,8 @@
 name: win-l
 description: Bilgisayarı kilitle — Windows klavye kısayolu
 trigger: "Win + L"
----
+
+audience: user---
 
 # win-l
 

@@ -2,7 +2,8 @@
 name: sol-alt-shift-prtscn
 description: Yüksek karşıtlık aç/kapat — Windows klavye kısayolu
 trigger: "Sol Alt + Sol Shift + PrtScn"
----
+
+audience: user---
 
 # sol-alt-shift-prtscn
 

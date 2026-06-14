@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 07
 tags: [memory, memgpt, virtual-context, archival, citations]
+audience: user
 ---
 
 Given a target runtime (Python, Node, Rust), a model provider (Anthropic, OpenAI, local), and a storage backend (in-memory, SQLite, vector DB, KV, graph), produce a correct MemGPT-shaped memory system.

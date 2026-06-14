@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 6
 tags: [mesa-optimization, deceptive-alignment, inner-alignment, hubinger]
+audience: user
 ---
 
 Given a safety evaluation report (eval task, failure mode, model class, training recipe), classify the failure into the Hubinger 2019 categories and recommend the mitigation class that addresses it.

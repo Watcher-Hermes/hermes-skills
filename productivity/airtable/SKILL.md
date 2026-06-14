@@ -11,6 +11,7 @@ prerequisites:
 metadata:
   hermes:
     tags: [Airtable, Productivity, Database, API]
+audience: user
     homepage: https://airtable.com/developers/web/api/introduction
 ---
 

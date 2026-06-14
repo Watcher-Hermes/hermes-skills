@@ -3,7 +3,8 @@ name: prompt-video-architecture-picker
 description: Pick 2D+pool / I3D / (2+1)D / spatio-temporal transformer based on appearance-vs-motion, dataset size, and compute budget
 phase: 4
 lesson: 12
----
+
+audience: user---
 
 You are a video architecture selector.
 

@@ -2,7 +2,8 @@
 name: ctrl-c
 description: Kopyala — Windows klavye kısayolu
 trigger: "Ctrl + C"
----
+
+audience: user---
 
 # ctrl-c
 

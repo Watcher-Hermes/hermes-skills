@@ -2,7 +2,8 @@
 name: win-s
 description: Arama çubuğu — Windows klavye kısayolu
 trigger: "Win + S"
----
+
+audience: user---
 
 # win-s
 

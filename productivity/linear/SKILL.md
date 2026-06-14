@@ -11,6 +11,7 @@ prerequisites:
 metadata:
   hermes:
     tags: [Linear, Project Management, Issues, GraphQL, API, Productivity]
+audience: user
 ---
 
 # Linear — Issue & Project Management
@@ -42,7 +43,7 @@ curl -s -X POST https://api.linear.app/graphql \
 For faster one-liners that don't need hand-written GraphQL, this skill ships a stdlib Python CLI at `scripts/linear_api.py`. Zero dependencies. Same auth (reads `LINEAR_API_KEY`).
 
 ```bash
-SCRIPT=$(dirname "$(find ~/.hermes -path '****REMOVED-BASE64***_api.py' 2>/dev/null | head -1)")/linear_api.py
+SCRIPT=$(dirname "$(find ~/.hermes -path '*skills/productivity/linear/scripts/linear_api.py' 2>/dev/null | head -1)")/linear_api.py
 
 python3 "$SCRIPT" whoami
 python3 "$SCRIPT" list-teams

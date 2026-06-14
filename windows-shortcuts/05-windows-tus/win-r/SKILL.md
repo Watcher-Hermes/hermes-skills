@@ -2,7 +2,8 @@
 name: win-r
 description: Çalıştır penceresi — Windows klavye kısayolu
 trigger: "Win + R"
----
+
+audience: user---
 
 # win-r
 

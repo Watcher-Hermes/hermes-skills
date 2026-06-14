@@ -2,7 +2,8 @@
 name: win-yukari
 description: Pencereyi büyüt — Windows klavye kısayolu
 trigger: "Win + Yukarı Ok"
----
+
+audience: user---
 
 # win-yukari
 

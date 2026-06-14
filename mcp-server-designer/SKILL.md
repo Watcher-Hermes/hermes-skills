@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 14
 tags: [llm-engineering, mcp, tool-use]
+audience: user
 ---
 
 Given a domain (internal API, database, file source) and the hosts that will mount the server, output:

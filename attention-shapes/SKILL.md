@@ -3,7 +3,8 @@ name: attention-shapes
 description: Debug shape bugs in attention implementations.
 phase: 5
 lesson: 10
----
+
+audience: user---
 
 Given a broken attention implementation, you identify the shape mismatch. Output:
 

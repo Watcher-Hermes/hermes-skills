@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 07
 tags: [vlm, mm1, idefics2, molmo, cambrian, prismatic, ablation]
+audience: user
 ---
 
 Given a task mix (OCR, chart, UI agent, reasoning, grounding), a compute budget (LLM params, training GPU hours, or inference latency target), and a deployment constraint (edge, cloud, on-device), emit a full open-weight VLM recipe with citations.

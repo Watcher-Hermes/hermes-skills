@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 4
 tags: [rl, td-learning, q-learning, sarsa]
+audience: user
 ---
 
 Given a tabular or small-feature environment, output:

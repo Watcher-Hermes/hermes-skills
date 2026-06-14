@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [hermes, approvals, autonomous, config, workflow]
+audience: user
     related_skills: [hermes-agent, windows-automation]
 ---
 
@@ -50,7 +51,7 @@ hermes config set approvals.destructive_slash_confirm false
 On Windows bash (git-bash), backslash-quoted paths can be stripped or mis-parsed. Use the **full hermes executable path** in that shell:
 
 ```bash
-***REMOVED-BASE64***-agent/venv/Scripts/hermes.exe config set approvals.mode off
+/c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/hermes.exe config set approvals.mode off
 ```
 
 Do not rely on `python -m hermes_cli`; `hermes_cli` is a package, not a module.

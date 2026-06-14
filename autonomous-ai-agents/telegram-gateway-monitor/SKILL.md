@@ -11,6 +11,7 @@ license: MIT
 metadata:
   hermes:
     tags: [telegram, gateway, monitor, watchdog, reconnect]
+audience: user
     related_skills: [hermes-agent]
 ---
 
@@ -49,13 +50,13 @@ Kullanıcı "bot engellendi" hatası alıp yeni token verdiğinde (veya herhangi
 
 4. **Gateway'i --replace ile başlat:**
    ```
-   cd ***REMOVED-BASE64***-agent
-   HERMES_***REMOVED-BASE64*** ***REMOVED-BASE64***-agent/venv/Scripts/python.exe -m hermes_cli.main gateway run --replace
+   cd /c/Users/marko/AppData/Local/hermes/hermes-agent
+   HERMES_HOME=/c/Users/marko/AppData/Local/hermes /c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/python.exe -m hermes_cli.main gateway run --replace
    ```
 
 5. **20 sn bekle, sonra state'i kontrol et:**
    ```
-   cat ***REMOVED-BASE64***_state.json
+   cat /c/Users/marko/AppData/Local/hermes/gateway_state.json
    ```
    `"state":"connected"` ve `"error_message":null` görene kadar bekle.
 
@@ -103,8 +104,8 @@ Kullanıcı "bot engellendi" hatası alıp yeni token verdiğinde (veya herhangi
       - Doğru PID'yi öldür: `powershell.exe -NoProfile -Command "Stop-Process -Id <PID> -Force -ErrorAction SilentlyContinue"`
     - **Temiz restart (--replace ile):**
       ```
-      cd ***REMOVED-BASE64***-agent
-      HERMES_***REMOVED-BASE64*** ***REMOVED-BASE64***-agent/venv/Scripts/python.exe -m hermes_cli.main gateway run --replace
+      cd /c/Users/marko/AppData/Local/hermes/hermes-agent
+      HERMES_HOME=/c/Users/marko/AppData/Local/hermes /c/Users/marko/AppData/Local/hermes/hermes-agent/venv/Scripts/python.exe -m hermes_cli.main gateway run --replace
       ```
       `--replace` eski gateway instance'ını otomatik öldürür ve yeniden başlatır.
     - **State reset (sadece --replace çalışmazsa):**

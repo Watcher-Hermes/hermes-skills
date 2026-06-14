@@ -8,6 +8,7 @@ platforms: [linux, macos]
 metadata:
   hermes:
     tags: [debugging, python, pdb, debugpy, breakpoints, dap, post-mortem]
+audience: contributor
     related_skills: [systematic-debugging, node-inspect-debugger, debugging-hermes-tui-commands]
 ---
 

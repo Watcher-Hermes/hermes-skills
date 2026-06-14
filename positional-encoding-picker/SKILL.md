@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 4
 tags: [transformers, positional-encoding, rope, alibi]
+audience: user
 ---
 
 Given a transformer spec (target context length at inference, trained context length, extrapolation requirement, fine-tune budget in tokens), output:

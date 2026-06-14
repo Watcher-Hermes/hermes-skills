@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 06
 tags: [vlm, patch-n-pack, naflex, anyres, m-rope, token-budget]
+audience: user
 ---
 
 Given a workload — a description of the images the VLM will see (OCR documents, charts, UI screenshots, natural photos, video frames) and a total per-request token budget — pick one resolution strategy per image class and produce a runnable configuration.

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 01
 tags: [react, agent-loop, tools, observability, stop-condition]
+audience: contributor
 ---
 
 Given a target runtime (Python async, Python sync, Node, Rust async, Go) and a tool list (name, input schema, callable), produce a ReAct agent loop that is correct on the first try.

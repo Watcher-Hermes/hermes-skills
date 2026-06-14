@@ -2,7 +2,8 @@
 name: ctrl-e
 description: Arama kutusuna odaklan — Windows klavye kısayolu
 trigger: "Ctrl + E"
----
+
+audience: user---
 
 # ctrl-e
 

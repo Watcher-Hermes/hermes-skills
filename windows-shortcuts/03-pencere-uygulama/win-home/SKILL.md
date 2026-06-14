@@ -2,7 +2,8 @@
 name: win-home
 description: Aktif hariç tüm pencereleri küçült — Windows klavye kısayolu
 trigger: "Win + Home"
----
+
+audience: user---
 
 # win-home
 

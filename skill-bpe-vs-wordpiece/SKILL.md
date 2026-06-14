@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 19
 tags: [nlp, tokenization]
+audience: user
 ---
 
 Given a corpus (size, languages, domain) and deployment target (training from scratch / fine-tuning / API-compatible inference), output:

@@ -1,7 +1,8 @@
 ---
 name: pygame-event-driven-cheat
 description: Pygame oyunlarda event-driven hile/cheat girişi, cooldown, gizli hedef radar, uçma/hızlı koşma efektleri için kalıcı pattern. Windows'ta pygame input polling (get_pressed) yerine KEYDOWN olaylarını dinle, hileyi 120 ms cooldown ile tetikle.
----
+
+audience: user---
 
 # Pygame Event-Driven Cheat Loop
 

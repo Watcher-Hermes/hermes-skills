@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 5
 tags: [rl, dqn, deep-rl]
+audience: user
 ---
 
 Given a discrete-action environment (observation shape, action count, horizon, reward scale), output:

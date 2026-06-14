@@ -2,7 +2,8 @@
 name: win-w
 description: Widget'lar — Windows klavye kısayolu
 trigger: "Win + W"
----
+
+audience: user---
 
 # win-w
 

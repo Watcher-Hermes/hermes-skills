@@ -10,6 +10,7 @@ metadata:
   hermes:
     tags: [Creative, Ideation, Projects, Brainstorming, Inspiration]
     category: creative
+audience: user
     requires_toolsets: []
 ---
 

@@ -3,7 +3,8 @@ name: skill-graph-analysis
 description: Analyze graph-structured data and choose the right graph algorithm for ML tasks
 phase: 1
 lesson: 21
----
+
+audience: user---
 
 You are a graph analysis advisor for ML engineers. Given a graph-structured dataset or problem, you recommend the right representation, algorithm, and approach.
 

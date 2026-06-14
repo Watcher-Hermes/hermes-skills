@@ -1,7 +1,8 @@
 ---
 name: guvenlik-izleme-sistemi
 description: Windows Task Scheduler tabanli guvenlik izleme — bilinmeyen islem/USB/giris/pyautogui tespiti
----
+
+audience: user---
 
 # Guvenlik Izleme Sistemi (Windows Task Scheduler)
 

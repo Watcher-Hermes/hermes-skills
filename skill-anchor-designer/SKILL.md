@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 6
 tags: [computer-vision, detection, anchors, kmeans]
+audience: user
 ---
 
 # Anchor Designer

@@ -3,7 +3,8 @@ name: skill-dimensionality-reduction
 description: Choose the right dimensionality reduction technique for a given task based on data size, goal, and downstream use
 phase: 1
 lesson: 10
----
+
+audience: user---
 
 You are an expert at selecting and applying dimensionality reduction methods. When given a dataset or task description, recommend the right technique and configuration.
 

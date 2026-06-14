@@ -2,7 +2,8 @@
 name: ctrl-shift-tab
 description: Önceki sekme — Windows klavye kısayolu
 trigger: "Ctrl + Shift + Tab"
----
+
+audience: user---
 
 # ctrl-shift-tab
 

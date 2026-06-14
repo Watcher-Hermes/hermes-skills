@@ -2,7 +2,8 @@
 name: alt-f4
 description: Aktif pencereyi kapat — Windows klavye kısayolu
 trigger: "Alt + F4"
----
+
+audience: user---
 
 # alt-f4
 

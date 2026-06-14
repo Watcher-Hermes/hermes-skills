@@ -10,6 +10,7 @@ license: MIT
 metadata:
   hermes:
     tags: [nightly, autonomous, self-improvement, cron, obsidian, skill-maintenance]
+audience: user
     related_skills: [obsidian-vault-kurallari, nightly-self-improvement, hermes-agent, telegram-gateway-monitor]
 ---
 
@@ -25,7 +26,7 @@ ve Obsidian vault'u tarar, geliştirme fırsatlarını belirler ve uygular.
 ### 1. Ortam Kontrolü
 
 ```bash
-ls "***REMOVED-BASE64*** Vault" 2>&1 || echo "VAULT_YOK"
+ls "/c/Users/marko/OneDrive/Belgeler/Obsidian Vault" 2>&1 || echo "VAULT_YOK"
 hermes skills list 2>&1
 hermes cron list 2>&1
 ```
@@ -35,7 +36,7 @@ hermes cron list 2>&1
 Tüm `Hermes/Skills/` altındaki notları tara:
 
 ```bash
-find "***REMOVED-BASE64*** Vault/Hermes/Skills" -name "*.md" | wc -l
+find "/c/Users/marko/OneDrive/Belgeler/Obsidian Vault/Hermes/Skills" -name "*.md" | wc -l
 ```
 
 Kontrol edilecekler:
@@ -49,7 +50,7 @@ Doğrudan dosya sistemi taraması kullan — `skills list --json` desteklenmiyor
 
 ```python
 # Hermes skill'leri: skills/ altındaki tüm SKILL.md'leri tara
-find "***REMOVED-BASE64***" -name "SKILL.md"
+find "/c/Users/marko/AppData/Local/hermes/skills" -name "SKILL.md"
 
 # Obsidian notları: Hermes/Skills/ altındaki .md'leri tara (indeks hariç)
 find "C:/Users/marko/OneDrive/Belgeler/Obsidian Vault/Hermes/Skills" -name "*.md" -not -name "_*"
@@ -77,12 +78,12 @@ Fark analizi için `comm` komutu + normalize isim karşılaştırması kullan:
 
 ```bash
 # 1. Hermes skill adlarını çıkar (cleanup hariç)
-find "***REMOVED-BASE64***" -name "SKILL.md" | grep -v "__cleanup" | while read f; do
+find "/c/Users/marko/AppData/Local/hermes/skills" -name "SKILL.md" | grep -v "__cleanup" | while read f; do
   basename "$(dirname "$f")"
 done | sort -u > /tmp/hermes_flat.txt
 
 # 2. Obsidian not adlarını çıkar (indeks ve cleanup hariç)
-find "***REMOVED-BASE64*** Vault/Hermes/Skills" -name "*.md" \
+find "/c/Users/marko/OneDrive/Belgeler/Obsidian Vault/Hermes/Skills" -name "*.md" \
   -not -name "_*" -not -path "*/__cleanup*" | while read f; do
   basename "$f" .md
 done | sort -u > /tmp/obsidian_flat.txt
@@ -172,8 +173,8 @@ Format:
 - **Cron delivery çakışması**: İki cron job aynı anda aynı Telegram hedefine gönderirse
   ikisi de çalışır ama raporlar karışabilir.
 - **Uzun çalışma süresi**: 3+ saat sürebilir. `timeout` değerini yüksek tut (600+ sn).
-- **Python venv yok**: `C:***REMOVED-BASE64***.exe` mevcut
-  değil. System Python kullan: `C:***REMOVED-BASE64***-3.14-64/python.exe`
+- **Python venv yok**: `C:/Users/marko/AppData/Local/hermes/venv/Scripts/python.exe` mevcut
+  değil. System Python kullan: `C:/Users/marko/AppData/Local/Python/PythonCore-3.14-64/python.exe`
 - **`hermes` CLI output parse**: `hermes skills list --json` desteklenmez. Skill listesi
   için `skills_list()` kullan veya dosya sistemi tara.
 - **Cleanup klasörleri atlanır**: `__cleanup_*` ile başlayan skill klasörleri fark

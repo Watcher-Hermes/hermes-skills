@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 07
 tags: [tensorrt-llm, blackwell, b200, gb200, nvfp4, fp8, dynamo]
+audience: user
 ---
 
 Given a workload (model size, active params, annual token volume, quality sensitivity — reasoning-heavy or routine), current infra (H100/H200/B200 GPUs, serving engine), and budget, produce a Blackwell + TRT-LLM migration advisory.

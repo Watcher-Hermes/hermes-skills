@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 12
 tags: [transformers, inference, flash-attention, kv-cache]
+audience: user
 ---
 
 Given an inference deployment (model name + params, target hardware, concurrency, max context length, latency SLO, throughput target), output:

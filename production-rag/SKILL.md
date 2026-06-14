@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 08
 tags: [capstone, rag, chatbot, regulated, llama-guard, nemo-guardrails, ragas, langfuse]
+audience: user
 ---
 
 Given a regulated-domain corpus (legal contracts, clinical trial protocols, insurance policies, or similar), deploy a chatbot that answers with verifiable citations, respects role and jurisdiction access policies, and is monitored for drift.

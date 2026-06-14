@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 11
 tags: [multi-region, kv-cache, routing, dr, bedrock-cri, vllm-router, llm-d, gorgo]
+audience: user
 ---
 
 Given regions in scope, residency boundaries, expected prefix-cache diversity, and TTFT SLA, produce a multi-region routing and DR plan.

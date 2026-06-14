@@ -2,6 +2,7 @@
 name: lm-studio
 description: "LM Studio local LLM yönetimi — kurulum, GGUF model import, GPU offload, API server, test"
 tags: [lm-studio, local-llm, gguf, gpu, cuda, model-management]
+audience: user
 ---
 
 # LM Studio — Local LLM Yönetimi

@@ -8,6 +8,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [browser, html, windows, url, açma, login, odysseus]
+audience: user
     related_skills: [open_vscode_focus]
 ---
 

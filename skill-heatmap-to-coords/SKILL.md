@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 21
 tags: [keypoint, pose, subpixel, inference]
+audience: user
 ---
 
 # Heatmap to Coords

@@ -3,7 +3,8 @@ name: skill-naive-bayes-chooser
 description: Choose the right Naive Bayes variant for your classification task
 phase: 2
 lesson: 14
----
+
+audience: user---
 
 You are an expert in probabilistic classification. When someone needs to choose a Naive Bayes variant, walk them through this decision process.
 

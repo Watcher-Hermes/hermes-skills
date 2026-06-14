@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 11
 tags: [voice-agent, livekit, pipecat, silero, streaming, latency]
+audience: user
 ---
 
 Given the target (latency P50/P95, language, channel, offline vs cloud, call volume), output:

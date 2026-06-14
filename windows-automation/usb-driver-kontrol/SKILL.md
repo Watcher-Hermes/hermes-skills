@@ -1,7 +1,8 @@
 ---
 name: usb-driver-kontrol
 description: Herhangi bir cihaz bağlantısı (ADB, USB) öncesinde sürücülerin yüklü olup olmadığını kontrol eder. Eksikse kurulum yapar.
----
+
+audience: user---
 
 # USB Sürücü Kontrol Kuralı
 
@@ -32,7 +33,7 @@ ls "/c/Program Files/Samsung/" 2>/dev/null
 
 ### 2. ADB'nin Cihazı Görüp Görmediğini Kontrol Et
 ```bash
-***REMOVED-BASE64***-tools/adb.exe devices
+/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe devices
 ```
 Çıktı `List of devices attached` (boş) ise cihaz görünmüyor demektir.
 
@@ -46,8 +47,8 @@ Samsung USB Driver for Windows:
 ### 4. Kurulum Sonrası
 ```bash
 # ADB'yi yeniden başlat
-***REMOVED-BASE64***-tools/adb.exe kill-server
-***REMOVED-BASE64***-tools/adb.exe devices
+/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe kill-server
+/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe devices
 ```
 
 ### 5. Telefonda Yapılması Gerekenler

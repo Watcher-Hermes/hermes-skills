@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [PDF, Documents, Editing, NLP, Productivity]
+audience: user
     homepage: https://pypi.org/project/nano-pdf/
 ---
 

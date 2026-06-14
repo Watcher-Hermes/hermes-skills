@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 19
 tags: [model-welfare, moral-uncertainty, low-regret, anthropic]
+audience: user
 ---
 
 Given a deployment decision or proposed welfare intervention, apply the four-step precautionary assessment.

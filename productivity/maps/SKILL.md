@@ -9,6 +9,7 @@ metadata:
   hermes:
     tags: [maps, geocoding, places, routing, distance, directions, nearby, location, openstreetmap, nominatim, overpass, osrm]
     category: productivity
+audience: user
     requires_toolsets: [terminal]
     supersedes: [find-nearby]
 ---

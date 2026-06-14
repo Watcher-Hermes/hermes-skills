@@ -10,6 +10,7 @@ license: MIT
 metadata:
   hermes:
     tags: [nightly, self-improvement, cron, obsidian, skill-maintenance]
+audience: user
     related_skills: [obsidian-vault-kurallari, hermes-agent, telegram-gateway-monitor]
 ---
 
@@ -26,7 +27,7 @@ ve Obsidian vault'u tarar, geliştirme fırsatlarını belirler ve uygular.
 
 ```
 # Vault yolunu doğrula
-ls "***REMOVED-BASE64*** Vault" 2>&1 || echo "VAULT_YOK"
+ls "/c/Users/marko/OneDrive/Belgeler/Obsidian Vault" 2>&1 || echo "VAULT_YOK"
 
 # Skill listesini al
 hermes skills list 2>&1

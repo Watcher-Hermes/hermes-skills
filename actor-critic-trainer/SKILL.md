@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 7
 tags: [rl, actor-critic, gae]
+audience: user
 ---
 
 Given an environment and compute budget, output:

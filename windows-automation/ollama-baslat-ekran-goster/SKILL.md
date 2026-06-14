@@ -5,7 +5,8 @@ triggers:
   - ollama exe başlat
   - ollama uygulamasını aç ve ekran görüntüsü al
   - ollama ekran kontrolü
----
+
+audience: user---
 
 # Ollama Başlat ve Ekran Göster
 

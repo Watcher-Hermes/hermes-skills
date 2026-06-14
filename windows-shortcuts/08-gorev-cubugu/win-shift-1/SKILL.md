@@ -2,7 +2,8 @@
 name: win-shift-1
 description: İlgili uygulamanın yeni örneğini aç — Windows klavye kısayolu
 trigger: "Win + Shift + 1...9"
----
+
+audience: user---
 
 # win-shift-1
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 01
 tags: [audio, speech, preprocessing]
+audience: user
 ---
 
 Given an audio file (path, channels, sample rate, bit depth, codec) and a target model (ASR / TTS / classifier with a required sample rate and channel count), output:

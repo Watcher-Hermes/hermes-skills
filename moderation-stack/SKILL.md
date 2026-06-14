@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 29
 tags: [openai-moderation, perspective, llama-guard, layered-moderation, azure-content-safety]
+audience: user
 ---
 
 Given a production deployment, recommend a moderation stack configuration across the three layers.

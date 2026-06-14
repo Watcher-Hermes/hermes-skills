@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 10
 tags: [rl, multi-agent, marl, self-play]
+audience: user
 ---
 
 Given a task with `n` agents, output:

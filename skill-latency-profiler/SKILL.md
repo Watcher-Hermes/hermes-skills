@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 15
 tags: [edge, deployment, profiling, benchmarking]
+audience: user
 ---
 
 # Latency Profiler

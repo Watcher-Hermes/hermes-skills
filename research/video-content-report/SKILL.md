@@ -2,7 +2,8 @@
 name: video-content-report
 title: Video İçerik Raporu Oluşturma
 description: YouTube videolarını analiz edip standart rapor şablonuyla (içerik bülteni, action items, engellenen içerikler, teşekkür notu + ikinci kaynak) txt dosyasına kaydetme. Türkçe, direkt işleyiş.
----
+
+audience: user---
 
 # Video İçerik Raporu Oluşturma
 

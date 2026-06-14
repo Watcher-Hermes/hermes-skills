@@ -2,7 +2,8 @@
 name: win-prtscn
 description: Tüm ekranı Resimler\Ekran Görüntüleri klasörüne kaydet — Windows klavye kısayolu
 trigger: "Win + PrtScn"
----
+
+audience: user---
 
 # win-prtscn
 

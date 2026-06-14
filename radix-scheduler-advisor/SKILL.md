@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 06
 tags: [sglang, radixattention, prefix-caching, scheduler, prompt-ordering]
+audience: user
 ---
 
 Given a workload description (prompt-template shape, retrieval pattern, conversation length, number of concurrent tenants, hardware), produce an SGLang / RadixAttention adoption advisory.

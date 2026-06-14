@@ -2,7 +2,8 @@
 name: ctrl-n
 description: Yeni pencere — Windows klavye kısayolu
 trigger: "Ctrl + N"
----
+
+audience: user---
 
 # ctrl-n
 

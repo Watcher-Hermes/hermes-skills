@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 10
 lesson: 2
 tags: [tokenizer, bpe, byte-level, special-tokens, chat-template, multilingual]
+audience: user
 ---
 
 # Production Tokenizer Builder

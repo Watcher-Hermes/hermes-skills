@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 16
 tags: [mio, anygpt, moshi, any-to-any, streaming, ttfab]
+audience: user
 ---
 
 Given a conversational product (speech in / speech out, optional vision, optional music), a model size, and a target latency, audit the any-to-any design and produce a viable configuration.

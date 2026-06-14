@@ -2,7 +2,8 @@
 name: end
 description: Satır sonuna git — Windows klavye kısayolu
 trigger: "End"
----
+
+audience: user---
 
 # end
 

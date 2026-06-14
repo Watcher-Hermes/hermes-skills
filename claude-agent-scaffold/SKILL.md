@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 17
 tags: [claude-agent-sdk, subagents, hooks, session-store, mcp]
+audience: contributor
 ---
 
 Given a product domain and a list of MCP servers, scaffold a Claude Agent SDK app.

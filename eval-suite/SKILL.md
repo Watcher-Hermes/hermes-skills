@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 30
 tags: [evaluation, ci, regression, benchmarks, llm-judge]
+audience: user
 ---
 
 Given an agent product, build a three-layer eval suite wired into CI.

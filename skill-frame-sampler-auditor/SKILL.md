@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 12
 tags: [computer-vision, video, sampling, debugging]
+audience: user
 ---
 
 # Frame Sampler Auditor

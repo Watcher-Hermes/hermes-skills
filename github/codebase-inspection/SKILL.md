@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [LOC, Code Analysis, pygount, Codebase, Metrics, Repository]
+audience: contributor
     related_skills: [github-repo-management]
 prerequisites:
   commands: [pygount]

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 18
 tags: [clip, retrieval, faiss, zero-shot]
+audience: user
 ---
 
 # Image-Text Retriever

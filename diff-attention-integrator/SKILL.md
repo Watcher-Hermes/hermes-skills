@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 10
 lesson: 16
 tags: [differential-attention, diff-transformer, long-context, flash-attention, pre-training, lora]
+audience: user
 ---
 
 Given a model architecture (hidden, heads, KV heads, layers, d_head), a target context length, a hallucination or long-context profile (failure modes on your existing evals), and a training budget (tokens available, GPU-hours), produce an integration plan for DIFF V2.

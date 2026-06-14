@@ -2,7 +2,8 @@
 name: alt-sol
 description: Geri — Windows klavye kısayolu
 trigger: "Alt + Sol Ok"
----
+
+audience: user---
 
 # alt-sol
 

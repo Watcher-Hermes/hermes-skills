@@ -2,7 +2,8 @@
 name: ctrl-shift-n
 description: Gizli / Özel pencere — Windows klavye kısayolu
 trigger: "Ctrl + Shift + N"
----
+
+audience: user---
 
 # ctrl-shift-n
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 11
 tags: [chameleon, early-fusion, vq-vae, late-fusion, adapter]
+audience: user
 ---
 
 Given a product specification (understanding-only or understanding+generation), target image quality (social-post / magazine / print / broadcast), and cost budget (training + inference), recommend Chameleon-family or LLaVA-family with a concrete architecture outline.

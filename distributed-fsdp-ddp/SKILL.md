@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 48
 tags: [distributed, ddp, fsdp, collectives]
+audience: user
 ---
 
 ## When to use

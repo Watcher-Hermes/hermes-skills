@@ -2,7 +2,8 @@
 name: win-arti
 description: Büyüteci aç / yakınlaştır — Windows klavye kısayolu
 trigger: "Win + + (artı)"
----
+
+audience: user---
 
 # win-arti
 

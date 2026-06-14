@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 02
 tags: [vae, latent, generative]
+audience: user
 ---
 
 Given a dataset profile (modality, resolution, dataset size) and the downstream use (reconstruction only, sampling, or input-encoder for a latent-diffusion or token-AR model), output:

@@ -2,7 +2,8 @@
 name: win-x-u-u
 description: Bilgisayarı kapat — Windows klavye kısayolu
 trigger: "Win + X + U + U"
----
+
+audience: user---
 
 # win-x-u-u
 

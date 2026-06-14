@@ -7,6 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [bridge, approval, claude, ollama, telegram, file-signal]
+audience: user
 ---
 
 # Telegram-Onaylı LLM Köprü

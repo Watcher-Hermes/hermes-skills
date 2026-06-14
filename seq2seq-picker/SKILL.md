@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 8
 tags: [transformers, t5, bart, seq2seq]
+audience: user
 ---
 
 Given a seq2seq task (translation / summarization / speech-to-text / structured extraction / rewrite), input and output length distributions, and quality vs latency priorities, output:

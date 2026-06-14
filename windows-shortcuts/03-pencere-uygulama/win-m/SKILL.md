@@ -2,7 +2,8 @@
 name: win-m
 description: Tüm pencereleri simge durumuna küçült — Windows klavye kısayolu
 trigger: "Win + M"
----
+
+audience: user---
 
 # win-m
 

@@ -9,6 +9,7 @@ metadata:
   hermes:
     tags: [persona, character, anime, roleplay, japanese, english, maintenance, strict]
     category: personality
+audience: user
     requires_toolsets: []
 ---
 

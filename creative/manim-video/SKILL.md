@@ -3,7 +3,8 @@ name: manim-video
 description: "Manim CE animations: 3Blue1Brown math/algo videos."
 version: 1.0.0
 platforms: [linux, macos, windows]
----
+
+audience: user---
 
 # Manim Video Production Pipeline
 

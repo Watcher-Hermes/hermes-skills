@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 10
 tags: [video, diffusion, sora, veo, kling]
+audience: user
 ---
 
 Given a video brief (duration, aspect ratio, style, subject, camera plan, audio needs, fidelity bar, budget), output:

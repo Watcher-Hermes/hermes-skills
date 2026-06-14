@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 06
 tags: [function-calling, tools, schema, validation, bfcl, parallel-tools]
+audience: user
 ---
 
 Given a task domain, produce a tool catalog that an agent can use reliably across the BFCL V4 axes (agentic, multi-turn, live, non-live, hallucination).

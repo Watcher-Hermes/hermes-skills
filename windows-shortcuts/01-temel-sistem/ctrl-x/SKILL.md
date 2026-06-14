@@ -2,7 +2,8 @@
 name: ctrl-x
 description: Kes — Windows klavye kısayolu
 trigger: "Ctrl + X"
----
+
+audience: user---
 
 # ctrl-x
 

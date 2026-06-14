@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 15
 tags: [batch-api, openai-batch, anthropic-batches, vertex-batch, triage, cost]
+audience: user
 ---
 
 Given a workload (name, user expectation for latency, traffic volume, shared prompt structure), produce a triage + cost plan.

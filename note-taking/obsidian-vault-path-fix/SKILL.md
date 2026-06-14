@@ -11,6 +11,7 @@ license: MIT
 metadata:
   hermes:
     tags: [obsidian, vault, path, windows, fix]
+audience: user
 ---
 
 # Obsidian Vault Path Fix

@@ -1,7 +1,8 @@
 ---
 name: windows-camera-capture
 description: Windows'ta USB/built-in webcam'dan video çekme, doğrulama ve Telegram'a gönderme. opencv-python-headless hatası, çözünürlük/fps ayarı, kare sayısı doğrulama ve Telegram Bot API gönderimi için.
----
+
+audience: user---
 
 # Windows Kamera Video Çekme
 

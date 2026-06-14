@@ -7,6 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [obsidian, vault, maintenance, cleanup, tags]
+audience: user
 ---
 
 # Vault Fix and Tag

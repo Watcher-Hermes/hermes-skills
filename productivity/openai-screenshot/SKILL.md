@@ -8,6 +8,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [screenshot, desktop, capture, windows, keyboard shortcut]
+audience: user
     related_skills: [windows-system-automation, obsidian, gorsel-onaylama]
 ---
 

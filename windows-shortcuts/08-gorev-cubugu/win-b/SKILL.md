@@ -2,7 +2,8 @@
 name: win-b
 description: Bildirim alanına odaklan — Windows klavye kısayolu
 trigger: "Win + B"
----
+
+audience: user---
 
 # win-b
 

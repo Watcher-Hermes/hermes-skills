@@ -2,7 +2,8 @@
 name: ctrl-end
 description: Belge sonuna git — Windows klavye kısayolu
 trigger: "Ctrl + End"
----
+
+audience: user---
 
 # ctrl-end
 

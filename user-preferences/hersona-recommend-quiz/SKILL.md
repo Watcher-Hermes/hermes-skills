@@ -7,6 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [hersona, recommend, quiz, interactive, markdown, tty-less, v1.2]
+audience: user
     related_skills: [hersona, hersona-recommend-engine, hersona-attribute-development, hermes-agent-skill-authoring]
 ---
 

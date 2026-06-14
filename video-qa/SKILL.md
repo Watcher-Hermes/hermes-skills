@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 12
 tags: [capstone, video, multimodal, gemini, qwen-vl, molmo, transnet, qdrant]
+audience: user
 ---
 
 Given 100 hours of video, build an ingestion pipeline and a query system that answers natural-language questions with (start, end) timestamps plus frame previews.

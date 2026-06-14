@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 10
 tags: [evaluation, testing, llm-as-judge, regression, confidence-intervals, ci-cd]
+audience: user
 ---
 
 # Eval Patterns

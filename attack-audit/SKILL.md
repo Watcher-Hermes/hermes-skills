@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 12
 tags: [red-teaming, jailbreak, pair, harmbench, jailbreakbench, asr]
+audience: maintainer
 ---
 
 Given a red-team evaluation report, audit whether the evaluation is comparable to published baselines and whether it supports its conclusions.

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 23
 tags: [colpali, colqwen2, visrag, late-interaction, vidore]
+audience: user
 ---
 
 Given a document RAG project (corpus size, query latency target, storage budget, per-query cost), emit a vision-native RAG config.

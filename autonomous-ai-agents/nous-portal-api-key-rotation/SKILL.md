@@ -10,6 +10,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [nous, deepseek, api-key, rotation, portal, dotenv, config]
+audience: user
 ---
 
 #Nous Portal API Key Rotation

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 10
 tags: [alm, lalm, qwen-omni, audio-flamingo, gemini-audio, mmau]
+audience: user
 ---
 
 Given the task (speech / sound / music / multi-audio / long-audio, output modality, latency, license), output:

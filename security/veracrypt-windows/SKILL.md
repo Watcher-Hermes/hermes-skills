@@ -8,6 +8,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [veracrypt, encryption, container, volume, obsidian, vault, windows, cli, uac]
+audience: user
     related_skills: [obsidian-vault-kurallari, tam-sistem-yetkisi, gorsel-onaylama]
 ---
 

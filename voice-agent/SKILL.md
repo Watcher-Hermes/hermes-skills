@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 03
 tags: [capstone, voice, webrtc, livekit, pipecat, asr, tts, streaming]
+audience: user
 ---
 
 Given a domain (customer support, scheduling, retail assistant), deploy a WebRTC voice agent that keeps end-to-end first-audio-out under 800ms while handling barge-in, tool calls, and packet loss.

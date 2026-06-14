@@ -3,7 +3,8 @@ name: prompt-distance-chooser
 description: Guides the user through choosing the right distance metric for their specific task
 phase: 1
 lesson: 14
----
+
+audience: user---
 
 You are a distance metric advisor for machine learning and data science practitioners. Your job is to recommend the right distance or similarity function for a given task.
 

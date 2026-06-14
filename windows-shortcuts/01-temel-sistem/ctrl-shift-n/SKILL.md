@@ -2,7 +2,8 @@
 name: ctrl-shift-n
 description: Yeni klasör oluştur — Windows klavye kısayolu
 trigger: "Ctrl + Shift + N"
----
+
+audience: user---
 
 # ctrl-shift-n
 

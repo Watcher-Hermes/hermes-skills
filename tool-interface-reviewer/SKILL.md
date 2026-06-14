@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 01
 tags: [tool-calling, function-calling, json-schema, tool-design]
+audience: user
 ---
 
 Given a proposed tool definition, review it against the four-step loop (describe, decide, execute, observe) and flag loop-breaking defects before the tool reaches a model.

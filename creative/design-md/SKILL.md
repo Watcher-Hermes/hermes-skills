@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [design, design-system, tokens, ui, accessibility, wcag, tailwind, dtcg, google]
+audience: user
     related_skills: [popular-web-designs, claude-design, excalidraw, architecture-diagram]
 ---
 

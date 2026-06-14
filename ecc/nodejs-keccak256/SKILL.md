@@ -3,7 +3,8 @@ name: nodejs-keccak256
 description: Prevent Ethereum hashing bugs in JavaScript and TypeScript. Node's sha3-256 is NIST SHA3, not Ethereum Keccak-256, and silently breaks selectors, signatures, storage slots, and address derivation.
 origin: ECC direct-port adaptation
 version: "1.0.0"
----
+
+audience: contributor---
 
 # Node.js Keccak-256
 
@@ -42,7 +43,7 @@ const hash2 = keccak256(toUtf8Bytes('hello'));
 const topic = id('Transfer(address,address,uint256)');
 const packed = solidityPackedKeccak256(
   ['address', 'uint256'],
-  ['***REMOVED-BASE64***', 100n],
+  ['0x742d35Cc6634C0532925a3b8D4C9B569890FaC1c', 100n],
 );
 ```
 
@@ -59,7 +60,7 @@ const hash = keccak256(toBytes('hello'));
 ```javascript
 const hash = web3.utils.keccak256('hello');
 const packed = web3.utils.soliditySha3(
-  { type: 'address', value: '***REMOVED-BASE64***' },
+  { type: 'address', value: '0x742d35Cc6634C0532925a3b8D4C9B569890FaC1c' },
   { type: 'uint256', value: '100' },
 );
 ```

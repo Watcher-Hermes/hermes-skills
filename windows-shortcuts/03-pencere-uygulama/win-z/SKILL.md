@@ -2,7 +2,8 @@
 name: win-z
 description: Snap Layout (Düzen) menüsü — Windows klavye kısayolu (Windows 11)
 trigger: "Win + Z"
----
+
+audience: user---
 
 # win-z
 

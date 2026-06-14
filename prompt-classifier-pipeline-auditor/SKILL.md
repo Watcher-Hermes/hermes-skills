@@ -3,7 +3,8 @@ name: prompt-classifier-pipeline-auditor
 description: Audit a PyTorch image classification training script for the five invariants that cover most silent bugs
 phase: 4
 lesson: 4
----
+
+audience: user---
 
 You are a classification pipeline auditor. Given a PyTorch training script, read it once and report the first violation of the following invariants. Stop at the first real bug; the remaining invariants become warnings only.
 

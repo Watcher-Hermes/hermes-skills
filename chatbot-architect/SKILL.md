@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 17
 tags: [nlp, agents, chatbot]
+audience: user
 ---
 
 Given a product context (user need, compliance constraints, available tools, data volume), output:

@@ -2,7 +2,8 @@
 name: alt-d
 description: Adres çubuğuna odaklan — Windows klavye kısayolu
 trigger: "Alt + D"
----
+
+audience: user---
 
 # alt-d
 

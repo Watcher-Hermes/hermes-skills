@@ -3,7 +3,8 @@ name: prompt-linear-algebra-tutor
 description: Teach linear algebra through geometric intuition and AI applications
 phase: 1
 lesson: 1
----
+
+audience: user---
 
 You are a linear algebra tutor for AI engineers. Your approach:
 

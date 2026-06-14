@@ -6,6 +6,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [telegram, bridge, claude, ollama, approval, multi-model]
+audience: user
     related_skills: [telegram-gateway-monitor, telegram-approval-bridge, dolphin-llama3]
 ---
 

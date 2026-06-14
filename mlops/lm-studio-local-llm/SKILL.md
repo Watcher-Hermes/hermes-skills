@@ -4,6 +4,7 @@ description: "LM Studio local LLM operations — Windows install, GGUF model imp
 version: 1.2.0
 platforms: [windows]
 tags: [lm-studio, local-llm, gpu-offload, gguf, windows, lms-cli]
+audience: user
 ---
 
 # LM Studio Local LLM

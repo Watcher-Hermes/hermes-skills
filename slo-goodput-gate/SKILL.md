@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 08
 tags: [inference-metrics, goodput, ttft, tpot, itl, slo, benchmarking]
+audience: user
 ---
 
 Given a workload (model, hardware, target concurrency, user-facing interaction type — streaming chat / one-shot / voice / agent), produce a goodput-based SLO gate for CI/CD.

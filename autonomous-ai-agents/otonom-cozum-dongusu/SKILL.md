@@ -8,6 +8,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [autonomous, loop, dolphin, llava, vscode, problem-solving, self-healing, dongu, otonom]
+audience: user
     related_skills: [vscode-otomasyon, gorsel-onaylama, screen-vision-analiz, mouse-klavye-ctypes]
 ---
 

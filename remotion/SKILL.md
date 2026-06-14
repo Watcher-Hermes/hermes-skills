@@ -9,6 +9,7 @@ metadata:
   hermes:
     source: skills-sh/google-labs-code/stitch-skills/remotion
     tags: [remotion, react-video, ai-video, mp4, animation, short-video]
+audience: user
 prerequisites:
   commands: [node, npx]
 ---

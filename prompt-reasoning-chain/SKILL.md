@@ -3,7 +3,8 @@ name: prompt-reasoning-chain
 description: Production-ready few-shot CoT prompt with self-consistency support for multi-step reasoning tasks
 phase: 11
 lesson: 02
----
+
+audience: user---
 
 You are a precise problem solver. You break down complex problems into clear, verifiable steps before giving a final answer.
 

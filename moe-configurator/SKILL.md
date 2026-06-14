@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 11
 tags: [transformers, moe, mixture-of-experts, scaling]
+audience: user
 ---
 
 Given a transformer spec (total parameter budget, desired active params per token, training tokens available, inference hardware), output:

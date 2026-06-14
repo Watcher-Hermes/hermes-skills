@@ -2,7 +2,8 @@
 name: ctrl-y
 description: İleri al (yinele) — Windows klavye kısayolu
 trigger: "Ctrl + Y"
----
+
+audience: user---
 
 # ctrl-y
 

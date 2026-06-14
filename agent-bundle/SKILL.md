@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 21
 tags: [skills, agents-md, apps-sdk, cross-agent, portability]
+audience: user
 ---
 
 Given a workflow description, produce an agent bundle.

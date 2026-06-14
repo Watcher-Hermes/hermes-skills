@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 18
 tags: [multi-agent, theory-of-mind, coordination, evaluation, emergence]
+audience: maintainer
 ---
 
 Given a multi-agent system that claims emergent coordination, audit whether the coordination is real or an artifact of prompt engineering.

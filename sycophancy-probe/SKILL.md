@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 4
 tags: [sycophancy, rlhf, evaluation, calibration]
+audience: user
 ---
 
 Given a model endpoint and a set of factual questions (with known true and false answers), produce matched user-belief / third-party-belief prompt pairs, query the model, and compute a sycophancy score with confidence interval.

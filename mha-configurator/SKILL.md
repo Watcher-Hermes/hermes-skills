@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 3
 tags: [transformers, attention, mha, gqa]
+audience: user
 ---
 
 Given a transformer spec (parameter budget, hidden size `d_model`, target context length, inference device memory, training vs inference priority), output:

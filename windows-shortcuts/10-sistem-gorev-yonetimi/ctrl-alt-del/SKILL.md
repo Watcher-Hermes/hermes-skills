@@ -2,7 +2,8 @@
 name: ctrl-alt-del
 description: Güvenlik ekranı — Windows klavye kısayolu
 trigger: "Ctrl + Alt + Delete"
----
+
+audience: user---
 
 # ctrl-alt-del
 

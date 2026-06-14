@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 8
 tags: [rl, ppo, policy-gradient]
+audience: user
 ---
 
 Given an environment and training budget, output:

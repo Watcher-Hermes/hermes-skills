@@ -1,7 +1,8 @@
 ---
 name: "streamlit-app-server"
 description: "Run, configure, and serve Streamlit data apps on Windows. Covers installation, first-run bypass, port/IP settings, and background process management."
----
+
+audience: user---
 
 # Streamlit App Server
 

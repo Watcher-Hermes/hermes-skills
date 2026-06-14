@@ -2,7 +2,8 @@
 name: home
 description: Satır başına git — Windows klavye kısayolu
 trigger: "Home"
----
+
+audience: user---
 
 # home
 

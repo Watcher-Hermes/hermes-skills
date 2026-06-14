@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 18
 tags: [nlp, multilingual, cross-lingual]
+audience: user
 ---
 
 Given requirements (target languages, task type, available labeled data per language), output:

@@ -9,6 +9,7 @@ metadata:
   hermes:
     tags: [writing, editing, humanize, anti-ai-slop, voice, prose, text]
     category: creative
+audience: user
     homepage: https://github.com/blader/humanizer
     related_skills: [songwriting-and-ai-music]
 ---

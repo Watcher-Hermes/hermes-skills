@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 19
 tags: [whisper, audio-flamingo-3, qwen-audio, cascaded, end-to-end]
+audience: user
 ---
 
 Given an audio task (transcription, summarization, diarization, emotion, music, environmental sounds, deepfake, temporal grounding) and a deployment constraint, pick a pipeline and emit a config.

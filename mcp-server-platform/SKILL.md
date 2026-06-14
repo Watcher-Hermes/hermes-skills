@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 13
 tags: [capstone, mcp, fastmcp, streamablehttp, oauth, opa, registry, governance]
+audience: user
 ---
 
 Given an enterprise environment, ship an MCP server with 10 internal tools, a registry service for discovery, and a governance layer that gates destructive tools via Slack approval.

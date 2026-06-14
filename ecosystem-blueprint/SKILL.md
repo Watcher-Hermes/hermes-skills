@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 22
 tags: [mcp, capstone, ecosystem, architecture, a2a, otel]
+audience: user
 ---
 
 Given a product need (research, summarization, automation, any agent-driven workflow), produce the full architecture.

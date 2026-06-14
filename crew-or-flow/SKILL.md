@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 15
 tags: [crewai, crews, flows, multi-agent, role-based]
+audience: user
 ---
 
 Given a task description, pick Crew (autonomous) or Flow (deterministic), then scaffold.

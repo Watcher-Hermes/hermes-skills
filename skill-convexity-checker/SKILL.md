@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 1
 lesson: 18
 tags: [optimization, convexity, solvers]
+audience: user
 ---
 
 # Convexity Checker

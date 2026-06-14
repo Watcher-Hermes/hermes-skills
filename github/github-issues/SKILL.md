@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [GitHub, Issues, Project-Management, Bug-Tracking, Triage]
+audience: contributor
     related_skills: [github-auth, github-pr-workflow]
 ---
 

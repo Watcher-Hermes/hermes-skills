@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 36
 tags: [scope, contract, globs, diff-check, ci]
+audience: user
 ---
 
 Given a task description and a repo layout, produce a scope contract and a diff-aware checker.

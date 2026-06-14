@@ -1,7 +1,8 @@
 ---
 name: android-apk-repackaging
 description: APK repackaging pipeline — tek yön, geri dönüşsüz adımlar. Önbelge → Decompile → Yama (karar ağacı) → Rebuild → zipalign → İmzala → Doğrula+logcat.
----
+
+audience: contributor---
 
 # Android APK Repackaging Pipeline
 
@@ -191,7 +192,7 @@ Başarısız → APK bozuk. `-f` ile dene.
 
 ```bash
 apksigner sign \
-  --ks ***REMOVED-BASE64***.keystore \
+  --ks /c/Users/marko/Desktop/LiveTranscriber/release.keystore \
   --ks-key-alias livetranscriber \
   --ks-pass pass:SIFRE \
   _build_aligned.apk
@@ -269,5 +270,5 @@ APK: 14.2 MB
 **patch.sh ortak kullanım:**
 ```bash
 # Modding skill'indeki script'i çağır
-bash ***REMOVED-BASE64***-apk-modding/scripts/patch.sh target.apk full
+bash /c/Users/marko/AppData/Local/hermes/skills/android/android-apk-modding/scripts/patch.sh target.apk full
 ```

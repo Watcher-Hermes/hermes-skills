@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 20
 tags: [bias, fairness, weat, intersectionality, mechanistic-interpretability]
+audience: user
 ---
 
 Given a bias evaluation report or fairness claim, audit across the Gallegos et al. 2024 three-category framework and the 2024-2025 intersectionality literature.

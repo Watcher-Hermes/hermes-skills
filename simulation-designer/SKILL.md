@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 17
 tags: [multi-agent, simulation, generative-agents, emergence, memory]
+audience: user
 ---
 
 Given a scenario that requires emergent behavior from a population of agents (social simulation, game NPCs, policy rehearsal, market dynamics), design the simulation.

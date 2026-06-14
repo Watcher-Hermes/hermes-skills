@@ -9,6 +9,7 @@ license: MIT
 metadata:
   hermes:
     tags: [windows, mouse, automation, powershell, cursor, screenshot]
+audience: user
 ---
 
 # Windows Mouse Automation
@@ -16,12 +17,12 @@ metadata:
 ## Bilinen calisan scriptler
 
 - `move_mouse.ps1` : 8 adimda egrili hareket (220 ms bekleme)
-  calistir: `powershell -ExecutionPolicy Bypass -File C:***REMOVED-BASE64***_mouse.ps1`
+  calistir: `powershell -ExecutionPolicy Bypass -File C:/Users/marko/AppData/Local/hermes/scripts/move_mouse.ps1`
 - `visible_move.ps1` : orta ekranda sekiz hareket daha buyuk adimlarla (500 ms bekleme)
-  calistir: `powershell -ExecutionPolicy Bypass -File C:***REMOVED-BASE64***_move.ps1`
+  calistir: `powershell -ExecutionPolicy Bypass -File C:/Users/marko/AppData/Local/hermes/scripts/visible_move.ps1`
 - `screenshot.ps1` : imleci 300,200’e tasir, 1.2 sn bekler, ekran goruntusu alir
-  cikti: `C:***REMOVED-BASE64***.png`
-  calistir: `powershell -ExecutionPolicy Bypass -File C:***REMOVED-BASE64***.ps1`
+  cikti: `C:/Users/marko/AppData/Local/hermes/scripts/screen.png`
+  calistir: `powershell -ExecutionPolicy Bypass -File C:/Users/marko/AppData/Local/hermes/scripts/screenshot.ps1`
 
 ## Bilinen calisma durumu
 

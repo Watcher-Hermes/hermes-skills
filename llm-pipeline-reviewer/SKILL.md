@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 10
 lesson: 13
 tags: [pipeline, training, manifest, eval-gate, cost, rollback]
+audience: maintainer
 ---
 
 Given a proposed training pipeline manifest (YAML or JSON describing tokenizer, data, pre-training, SFT, alignment, eval, quantization, and serving stages), produce a review covering:

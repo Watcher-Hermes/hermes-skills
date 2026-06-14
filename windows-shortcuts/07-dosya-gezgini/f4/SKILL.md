@@ -2,7 +2,8 @@
 name: f4
 description: Adres çubuğu listesini aç — Windows klavye kısayolu
 trigger: "F4"
----
+
+audience: user---
 
 # f4
 

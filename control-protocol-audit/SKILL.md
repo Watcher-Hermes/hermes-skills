@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 10
 tags: [ai-control, subversion, trusted-editing, untrusted-monitoring, safety-case]
+audience: maintainer
 ---
 
 Given a deployment protocol description, audit it under the AI Control threat model: U (untrusted strong), T (trusted weak), H (trusted human), and measure the protocol's position on the usefulness-safety frontier.

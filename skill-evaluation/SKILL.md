@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 2
 lesson: 9
 tags: [evaluation, metrics, cross-validation, model-selection]
+audience: user
 ---
 
 # Model Evaluation Strategy

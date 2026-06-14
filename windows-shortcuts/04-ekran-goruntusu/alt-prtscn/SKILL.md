@@ -2,7 +2,8 @@
 name: alt-prtscn
 description: Aktif pencereyi panoya kopyala — Windows klavye kısayolu
 trigger: "Alt + PrtScn"
----
+
+audience: user---
 
 # alt-prtscn
 

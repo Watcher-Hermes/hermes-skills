@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 22
 tags: [document-ai, ocr, donut, nougat, paligemma, vlm-native]
+audience: user
 ---
 
 Given a document-AI project (domain: invoices / scientific papers / forms / mixed; scale: pages per day; quality bar; regulatory needs), pick a stack and produce a reference config.

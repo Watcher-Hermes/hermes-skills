@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 10
 lesson: 21
 tags: [jamba, mamba, ssm, hybrid, long-context, memory-budget, architecture]
+audience: user
 ---
 
 Given a workload specification (context length profile p50/p99, task mix, memory budget per GPU, target throughput, quality-vs-speed priority), recommend between a pure Transformer (+MoE +MLA), a Jamba-style hybrid, and a pure Mamba model.

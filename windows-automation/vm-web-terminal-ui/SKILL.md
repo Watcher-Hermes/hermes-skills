@@ -11,6 +11,7 @@ license: MIT
 metadata:
   hermes:
     tags: [flask, paramiko, ssh, web-terminal, kali, vm]
+audience: user
     platform: windows
     lang: turkish
 ---

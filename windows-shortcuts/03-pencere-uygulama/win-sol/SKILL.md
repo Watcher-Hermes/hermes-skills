@@ -2,7 +2,8 @@
 name: win-sol
 description: Pencereyi sol yarıya yasla — Windows klavye kısayolu
 trigger: "Win + Sol Ok"
----
+
+audience: user---
 
 # win-sol
 

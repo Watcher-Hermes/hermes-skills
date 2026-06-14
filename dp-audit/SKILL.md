@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 22
 tags: [differential-privacy, dp-sgd, lora, mia, pmixed]
+audience: maintainer
 ---
 
 Given a privacy claim for a language-model deployment, audit the claim.

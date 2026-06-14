@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 16
 tags: [routing, cascade, model-cascade, routellm, notdiamond, cost-reduction]
+audience: user
 ---
 
 Given workload mix (task classification sample), quality floor, latency tolerance, and current monthly spend, produce a routing plan.

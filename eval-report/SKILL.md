@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 14
 tags: [evaluation, fid, clip, elo]
+audience: user
 ---
 
 Given a new generative-model checkpoint, a reference baseline, and a modality (image / video / audio / 3D), output a full eval plan:

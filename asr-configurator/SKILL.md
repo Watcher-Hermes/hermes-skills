@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 10
 tags: [transformers, whisper, asr, speech]
+audience: user
 ---
 
 Given a speech task (transcription / translation / streaming / on-device), language(s), audio characteristics (noise, accent, duration), and latency/quality targets, output:

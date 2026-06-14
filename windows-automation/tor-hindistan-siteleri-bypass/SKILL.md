@@ -3,7 +3,8 @@ name: tor-hindistan-siteleri-bypass
 description: Hindistan sitelerine Tor üzerinden erişim. GBHackers ve Bing IN çalışır. TheHackerNews Cloudflare bloklu.
 version: 1.0.0
 platforms: [windows]
----
+
+audience: user---
 
 # Hindistan Siteleri Tor Bypass Çözümü
 

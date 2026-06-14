@@ -2,7 +2,8 @@
 name: ctrl-v
 description: Yapıştır — Windows klavye kısayolu
 trigger: "Ctrl + V"
----
+
+audience: user---
 
 # ctrl-v
 

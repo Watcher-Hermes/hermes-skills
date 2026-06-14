@@ -7,6 +7,7 @@ platforms: [windows, linux, macos]
 metadata:
   hermes:
     tags: [deepseek, context, 1m, config, setup]
+audience: user
     related_skills: [hermes-agent, hibrit-ai-mimarisi]
 ---
 

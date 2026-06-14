@@ -9,7 +9,8 @@ trigger: Spring Boot projesi oluşturulacaksa, JPA entity + JWT auth + REST
   API yazılacaksa, mevcut Spring Boot kodunda login/403/StackOverflow hatası
   varsa
 version: "1.0"
----
+
+audience: contributor---
 
 # Spring Boot Scaffold Skill
 

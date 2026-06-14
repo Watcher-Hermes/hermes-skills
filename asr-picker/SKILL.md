@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 04
 tags: [audio, asr, speech-recognition]
+audience: user
 ---
 
 Given a deployment target (language list, domain, latency budget, hardware, offline / streaming, clip duration), output:

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 15
 lesson: 11
 tags: [browser-agents, prompt-injection, trust-boundary, osworld, webarena]
+audience: user
 ---
 
 Given a proposed browser-agent workflow, produce a trust-boundary scoping document that enumerates every read, every write, and the minimum defense stack required for first run.

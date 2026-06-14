@@ -8,6 +8,7 @@ description: >-
 version: 1.0.0
 author: marko
 tags: [siber, guvenlik, security, lunizz, sss, kaynak, yazilim, egitim]
+audience: user
 ---
 
 # LuNiZz SSS Repo — Skill
@@ -42,7 +43,7 @@ Siber Güvenlik & Yazılım SSS/
 ## Güncelleme
 Repoyu güncellemek için:
 ```bash
-cd "***REMOVED-BASE64*** Vault/Siber Güvenlik & Yazılım SSS"
+cd "/c/Users/marko/OneDrive/Belgeler/Obsidian Vault/Siber Güvenlik & Yazılım SSS"
 git pull
 ```
 Not: Klasör adında boşluk (&) olduğu için tırnak kullan.

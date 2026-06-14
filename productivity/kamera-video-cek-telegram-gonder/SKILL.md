@@ -6,7 +6,8 @@ triggers:
   - kamera kaydı gönder
   - webcam video telegram
   - video çek ilet
----
+
+audience: user---
 
 # Kamera Video Çek ve Telegram Gönder
 

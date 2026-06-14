@@ -2,7 +2,8 @@
 name: ctrl-a
 description: Tümünü seç — Windows klavye kısayolu
 trigger: "Ctrl + A"
----
+
+audience: user---
 
 # ctrl-a
 

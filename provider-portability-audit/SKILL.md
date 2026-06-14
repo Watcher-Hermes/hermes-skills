@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 02
 tags: [function-calling, openai, anthropic, gemini, portability]
+audience: maintainer
 ---
 
 Given a function-calling integration on one provider (OpenAI, Anthropic, or Gemini), produce a portability audit listing every field rename, behavior difference, and hard-limit collision that appears when the same logic is shipped on the other two providers.

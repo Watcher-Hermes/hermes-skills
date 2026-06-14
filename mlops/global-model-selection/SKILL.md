@@ -7,6 +7,7 @@ description: >
   seçme rehberi. Güncel: 9 Haziran 2028.
 tags: [model-selection, benchmark, llm-comparison, claude, gpt, gemini, deepseek, fable, grok]
 category: mlops
+audience: user
 related_skills: [hibrit-ai-yonlendirme-kurali, model-benchmark]
 ---
 

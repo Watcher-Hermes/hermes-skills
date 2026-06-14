@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 15
 tags: [mcp, security, tool-poisoning, threat-model, rule-of-two]
+audience: user
 ---
 
 Given an MCP deployment (list of servers, list of tools, list of permissions), produce a threat model.

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 27
 tags: [finops, cost-attribution, multi-tenant, kill-switch, unit-economics, rate-limit]
+audience: maintainer
 ---
 
 Given product surface, tenant tiers, monthly spend, and current attribution state, produce a FinOps plan.

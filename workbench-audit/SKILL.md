@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 31
 tags: [workbench, audit, reliability, agent-engineering]
+audience: maintainer
 ---
 
 Given a repository path and the agent product that will run inside it, audit the seven workbench surfaces and produce a readiness report.

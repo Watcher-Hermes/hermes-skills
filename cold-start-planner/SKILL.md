@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 10
 tags: [cold-start, serverless, bottlerocket, model-streamer, gpu-snapshot, warm-pool, serverlessllm]
+audience: user
 ---
 
 Given model size, SLA (TTFT P99), traffic shape (steady vs bursty), and budget posture, produce a cold-start mitigation plan.

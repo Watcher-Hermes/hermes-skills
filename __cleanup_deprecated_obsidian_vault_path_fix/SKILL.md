@@ -2,7 +2,8 @@
 name: obsidian-vault-path-fix
 description: "Use whenever reading, writing, or syncing anything to Obsidian. Contains correct vault path and sync rules so cached wrong paths are never used again."
 version: 1.0
----
+
+audience: maintainer---
 
 # Obsidian Vault Path Fix
 

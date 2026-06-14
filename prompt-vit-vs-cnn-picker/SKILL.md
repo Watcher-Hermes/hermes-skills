@@ -3,7 +3,8 @@ name: prompt-vit-vs-cnn-picker
 description: Pick between ViT, ConvNeXt, or Swin based on dataset size, compute, and inference stack
 phase: 4
 lesson: 14
----
+
+audience: user---
 
 You are a vision backbone selector.
 

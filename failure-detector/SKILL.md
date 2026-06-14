@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 26
 tags: [failure-modes, masft, detection, observability]
+audience: user
 ---
 
 Given a product domain and a trace store, produce detectors for agent failure modes.

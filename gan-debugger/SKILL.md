@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 03
 tags: [gan, adversarial, debugging]
+audience: user
 ---
 
 Given a failing GAN run (D and G loss curves, sample grid, dataset size, optimizer config), output:

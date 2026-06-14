@@ -2,7 +2,8 @@
 name: tab
 description: Sonraki seçeneğe geç — Windows klavye kısayolu
 trigger: "Tab"
----
+
+audience: user---
 
 # tab
 

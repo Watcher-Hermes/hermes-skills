@@ -2,7 +2,8 @@
 name: deployment-patterns
 description: Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications.
 origin: ECC
----
+
+audience: contributor---
 
 # Deployment Patterns
 

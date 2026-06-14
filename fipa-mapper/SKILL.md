@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 02
 tags: [multi-agent, protocols, FIPA, speech-acts, interoperability]
+audience: user
 ---
 
 Given a new agent-protocol spec, produce the FIPA-ACL mapping so the reader can tell which parts are reinvention and which are genuine new structure.

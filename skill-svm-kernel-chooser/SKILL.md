@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 2
 lesson: 5
 tags: [svm, kernel, classification, hyperparameter-tuning]
+audience: user
 ---
 
 # SVM Kernel Selection Guide

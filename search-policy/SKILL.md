@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 04
 tags: [tree-of-thoughts, lats, mcts, search, value-function]
+audience: user
 ---
 
 Given a task shape (single-answer / multi-answer / open-ended), a token budget, and an available evaluator (scalar test / heuristic / self-eval), produce a search strategy recommendation with concrete parameters.

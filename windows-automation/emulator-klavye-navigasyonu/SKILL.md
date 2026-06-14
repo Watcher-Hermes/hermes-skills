@@ -3,6 +3,7 @@ title: "Emülatör Klavye Navigasyonu"
 name: "emulator-klavye-navigasyonu"
 description: "Android emülatörüne fare tıklaması ile odaklanıp klavye kısayollarıyla gezinme yöntemi"
 category: windows-automation
+audience: user
 author: Hermes
 version: 1.0
 ---
@@ -27,7 +28,7 @@ python C:\Users\marko\hermesmouse.py click X Y
 
 Veya emülatör içinde bir öğeye tıkla:
 ```bash
-***REMOVED-BASE64***-tools/adb.exe shell input tap X Y
+/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe shell input tap X Y
 ```
 
 ### 2. Klavye Kısayolları ile Navigasyon

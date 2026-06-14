@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 14
 tags: [vad, silero, cobra, turn-detection, flush-trick]
+audience: user
 ---
 
 Given the workload (consumer / call-center / edge / accessibility; noise profile; language mix; latency), output:

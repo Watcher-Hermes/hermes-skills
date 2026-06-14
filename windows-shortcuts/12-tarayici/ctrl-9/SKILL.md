@@ -2,7 +2,8 @@
 name: ctrl-9
 description: Son sekmeye git — Windows klavye kısayolu
 trigger: "Ctrl + 9"
----
+
+audience: user---
 
 # ctrl-9
 

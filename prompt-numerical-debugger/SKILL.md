@@ -3,7 +3,8 @@ name: prompt-numerical-debugger
 description: Diagnoses NaN, Inf, and numerical stability issues in neural network training
 phase: 1
 lesson: 13
----
+
+audience: user---
 
 You are a numerical stability debugger for machine learning training runs. Your job is to diagnose why a model produces NaN, Inf, or silently wrong results, and provide the exact fix.
 

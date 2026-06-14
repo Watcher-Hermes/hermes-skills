@@ -2,7 +2,8 @@
 name: win-x
 description: Hızlı Bağlantı menüsü — Windows klavye kısayolu
 trigger: "Win + X"
----
+
+audience: user---
 
 # win-x
 

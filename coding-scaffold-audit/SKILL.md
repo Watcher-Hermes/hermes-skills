@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 15
 lesson: 9
 tags: [coding-agent, scaffolding, swe-bench, codeact, openhands]
+audience: user
 ---
 
 Given a proposed coding-agent scaffold (SWE-agent, OpenHands, Aider, Cline, Devin, Claude Code, or an in-house build), score it across four axes and flag where benchmark numbers will overstate production quality.

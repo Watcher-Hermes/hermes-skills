@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 22
 tags: [multi-agent, production, scaling, durable-execution, queues, checkpoints]
+audience: user
 ---
 
 Given a multi-agent production deployment plan, recommend the durable-execution substrate.

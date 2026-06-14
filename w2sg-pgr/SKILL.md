@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 11
 tags: [scalable-oversight, weak-to-strong, pgr, debate, recursive-reward-modeling]
+audience: user
 ---
 
 Given a scalable-oversight or W2SG paper / report, audit whether the setup supports its claim.

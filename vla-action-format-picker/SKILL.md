@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 21
 tags: [vla, rt-2, openvla, pi0, groot, action-tokenization]
+audience: user
 ---
 
 Given a robot task (manipulation, navigation, whole-body humanoid), DOF count, control rate requirement, and compute constraint, pick an action format and a VLA family.

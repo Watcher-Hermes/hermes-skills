@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 15
 tags: [moshi, hibiki, full-duplex, voice-agent, streaming]
+audience: user
 ---
 
 Given the workload (latency target, tool-calling needs, language coverage, hardware budget, cloud vs edge), output:

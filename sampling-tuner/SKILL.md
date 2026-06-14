@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 7
 lesson: 7
 tags: [gpt, sampling, decoding, inference]
+audience: user
 ---
 
 Given a generation task (code, creative writing, reasoning, dialogue, structured output) and a latency/quality target, output:

@@ -2,7 +2,8 @@
 name: shift-5
 description: Yapışkan Tuşlar aç/kapat — Windows klavye kısayolu
 trigger: "Shift 5 kez"
----
+
+audience: user---
 
 # shift-5
 

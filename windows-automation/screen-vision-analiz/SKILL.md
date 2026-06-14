@@ -2,6 +2,7 @@
 name: screen-vision-analiz
 description: 'Use when user asks about screen content or wants visual analysis. PRIMARY: Tesseract OCR (Ollama removed). Backup: LM Studio vision model.'
 tags: [screen, vision, screenshot, ocr, tesseract, gorsel, ekran, analiz]
+audience: user
 related_skills: [tam-sistem-yetkisi, tor-browser-arama]
 ---
 # Ekran Görüntüsü + OCR/Metin Analizi

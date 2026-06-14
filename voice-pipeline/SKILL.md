@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 22
 tags: [voice, pipecat, livekit, webrtc, latency]
+audience: user
 ---
 
 Given a voice product spec (language, transport, providers), scaffold a frame-based pipeline.

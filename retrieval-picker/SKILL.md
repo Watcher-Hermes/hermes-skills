@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 14
 tags: [nlp, retrieval, rag, search]
+audience: user
 ---
 
 Given requirements (corpus size, query pattern, latency budget, quality bar, infra constraints), output:

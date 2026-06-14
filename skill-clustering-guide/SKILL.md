@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 2
 lesson: 7
 tags: [clustering, k-means, dbscan, hierarchical, gmm, unsupervised]
+audience: user
 ---
 
 # Clustering Algorithm Selection Guide

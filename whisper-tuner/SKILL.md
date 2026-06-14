@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 05
 tags: [audio, whisper, asr, fine-tuning, lora]
+audience: user
 ---
 
 Given a target (language set, domain, clip length distribution, latency budget, hardware) and data (hours available, quality), output:

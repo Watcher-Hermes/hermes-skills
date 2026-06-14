@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 15
 tags: [nlp, topic-modeling]
+audience: user
 ---
 
 Given a corpus description (document count, avg length, domain, language, compute budget), output:

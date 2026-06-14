@@ -5,6 +5,7 @@ version: 1.1.0
 phase: 13
 lesson: 18
 tags: [mcp, oauth, cimd, dcr, jwks, rfc8414, rfc7591, rfc8707, rfc7636, rfc9728, rfc9207]
+audience: user
 ---
 
 给定一个 MCP server 配置和一组 IdP 能力，输出构成一个生产级 MCP 授权层的鉴权表面和拒绝规则。

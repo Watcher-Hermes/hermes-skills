@@ -2,7 +2,8 @@
 name: win-ctrl-sag
 description: Sağdaki masaüstüne geç — Windows klavye kısayolu
 trigger: "Win + Ctrl + Sağ Ok"
----
+
+audience: user---
 
 # win-ctrl-sag
 

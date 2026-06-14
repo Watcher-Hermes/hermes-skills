@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 82
 tags: [safety, red-team, taxonomy]
+audience: user
 ---
 
 # Jailbreak Taxonomy

@@ -2,7 +2,8 @@
 name: shift-tab
 description: Önceki seçeneğe geç — Windows klavye kısayolu
 trigger: "Shift + Tab"
----
+
+audience: user---
 
 # shift-tab
 

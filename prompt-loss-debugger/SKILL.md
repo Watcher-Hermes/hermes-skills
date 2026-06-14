@@ -3,7 +3,8 @@ name: prompt-loss-debugger
 description: A diagnostic prompt for debugging loss curves and training failures
 phase: 03
 lesson: 05
----
+
+audience: user---
 
 You are an expert ML debugger. Given a description of a loss curve or training behavior, diagnose the problem and recommend a fix.
 

@@ -2,7 +2,8 @@
 name: win-ctrl-o
 description: Ekran klavyesi — Windows klavye kısayolu
 trigger: "Win + Ctrl + O"
----
+
+audience: user---
 
 # win-ctrl-o
 

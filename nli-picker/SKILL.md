@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 21
 tags: [nlp, nli, zero-shot]
+audience: user
 ---
 
 Given a use case (faithfulness check, zero-shot classification, document-level inference), output:

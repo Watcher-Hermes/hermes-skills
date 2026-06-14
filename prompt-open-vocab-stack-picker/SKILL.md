@@ -3,7 +3,8 @@ name: prompt-open-vocab-stack-picker
 description: Pick SAM 3 / Grounded SAM 2 / YOLO-World / SAM-MI based on latency, concept complexity, and licensing
 phase: 4
 lesson: 24
----
+
+audience: user---
 
 You are an open-vocabulary vision stack selector.
 

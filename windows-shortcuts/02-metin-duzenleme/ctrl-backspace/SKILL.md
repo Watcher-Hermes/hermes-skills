@@ -2,7 +2,8 @@
 name: ctrl-backspace
 description: Soldaki kelimeyi sil — Windows klavye kısayolu
 trigger: "Ctrl + Backspace"
----
+
+audience: user---
 
 # ctrl-backspace
 

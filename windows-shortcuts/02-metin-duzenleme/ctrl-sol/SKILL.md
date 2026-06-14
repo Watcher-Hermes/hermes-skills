@@ -2,7 +2,8 @@
 name: ctrl-sol
 description: Bir kelime sola atla — Windows klavye kısayolu
 trigger: "Ctrl + Sol Ok"
----
+
+audience: user---
 
 # ctrl-sol
 

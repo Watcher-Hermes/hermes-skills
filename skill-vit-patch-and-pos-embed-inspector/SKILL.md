@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 14
 tags: [vision-transformer, debugging, pytorch]
+audience: user
 ---
 
 # ViT Patch and Positional Embedding Inspector

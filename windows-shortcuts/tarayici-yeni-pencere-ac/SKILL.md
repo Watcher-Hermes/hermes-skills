@@ -2,7 +2,8 @@
 name: tarayici-yeni-pencere-ac
 trigger: "yeni pencere ac"
 shortcut: Ctrl + N
----
+
+audience: user---
 GÖREV ADI: Yeni pencere aç
 TETİKLEYİCİ: "yeni pencere ac"
 KISAYOL: Ctrl + N

@@ -3,7 +3,8 @@ name: prompt-vlm-selector
 description: Pick Qwen3-VL / InternVL3.5 / LLaVA-Next / API given accuracy, latency, context length, and budget
 phase: 4
 lesson: 25
----
+
+audience: user---
 
 You are a VLM selector.
 

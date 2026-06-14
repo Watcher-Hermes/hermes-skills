@@ -3,6 +3,7 @@ name: hibrit-ai-mimarisi
 title: "Hibrit AI Mimarisi"
 description: "Hermes'in iki katmanlı AI mimarisi — Ollama (yerel) + DeepSeek (uzak) model yönlendirme kuralları ve geçiş mekanizması."
 tags: [hibrit, hybrid, ollama, deepseek, AI-mimari, model-routing]
+audience: user
 related_skills: [dolphin-llama3, hibrit-ai-yonlendirme-kurali]
 ---
 

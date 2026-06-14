@@ -3,7 +3,8 @@ name: prompt-feature-engineer
 description: Systematic prompt for engineering features from raw tabular data
 phase: 2
 lesson: 8
----
+
+audience: user---
 
 # Feature Engineering Prompt
 

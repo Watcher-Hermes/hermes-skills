@@ -8,6 +8,7 @@ platforms: [linux, macos, windows, termux]
 metadata:
   hermes:
     tags: [api.apikey.fun, image-generation, image-editing, media]
+audience: user
 prerequisites:
   commands: [curl]
 ---

@@ -7,6 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [security, reverse-engineering, malware, apk, pe, elf, static-analysis, ioc]
+audience: user
     related_skills: [security-best-practices, port-firewall-taramasi]
 ---
 

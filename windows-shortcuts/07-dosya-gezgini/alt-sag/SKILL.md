@@ -2,7 +2,8 @@
 name: alt-sag
 description: İleri — Windows klavye kısayolu
 trigger: "Alt + Sağ Ok"
----
+
+audience: user---
 
 # alt-sag
 

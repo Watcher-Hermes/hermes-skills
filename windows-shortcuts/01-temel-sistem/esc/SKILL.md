@@ -2,7 +2,8 @@
 name: esc
 description: İşlemi iptal et / kapat — Windows klavye kısayolu
 trigger: "Esc"
----
+
+audience: user---
 
 # esc
 

@@ -9,6 +9,7 @@ metadata:
   hermes:
     tags: [hersona, persona, initialization, maintenance, enforcement]
     category: personality
+audience: user
     requires_toolsets: []
 ---
 

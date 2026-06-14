@@ -2,7 +2,8 @@
 name: win
 description: Başlat menüsü — Windows klavye kısayolu
 trigger: "Win"
----
+
+audience: user---
 
 # win
 

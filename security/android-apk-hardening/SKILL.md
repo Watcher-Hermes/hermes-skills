@@ -1,7 +1,8 @@
 ---
 name: android-apk-hardening
 description: Kendi APK'ını saldırgan gözüyle oku, lisans/premium kırılganlıklarını tespit et, sertleştir. Client-side güvenlik denetimi + savunma stratejisi.
----
+
+audience: user---
 
 # Android APK Hardening — Lisans/Premium Kırılganlık Denetimi
 

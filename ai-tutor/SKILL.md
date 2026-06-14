@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 17
 tags: [capstone, tutor, adaptive, bkt, fsrs, livekit, multimodal, coppa]
+audience: user
 ---
 
 Given a subject (K-12 algebra or intro Python), build a personal tutor with text + voice + photo-math input, Bayesian knowledge tracing learner model, curriculum-graph-driven concept selection, COPPA-aware memory, and safety filters. Run a two-week efficacy study with 10 learners.

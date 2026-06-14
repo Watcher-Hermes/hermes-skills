@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 05
 tags: [multi-agent, supervisor, orchestrator, anthropic-research, langgraph]
+audience: user
 ---
 
 Given a user query that benefits from parallel subagent research, produce a supervisor-pattern design ready to wire into any framework (LangGraph, OpenAI Agents SDK, CrewAI Hierarchical).

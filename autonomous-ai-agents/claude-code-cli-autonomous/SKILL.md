@@ -8,6 +8,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [claude-code, cli, agent, autonomous, coding, delegation]
+audience: user
 ---
 
 # Claude Code CLI — Otonom Kodlama Görevleri

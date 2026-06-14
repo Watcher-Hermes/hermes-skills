@@ -2,7 +2,8 @@
 name: shift-delete
 description: Kalıcı sil — Windows klavye kısayolu
 trigger: "Shift + Delete"
----
+
+audience: user---
 
 # shift-delete
 

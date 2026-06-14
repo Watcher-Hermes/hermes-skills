@@ -2,7 +2,8 @@
 name: ctrl-h
 description: Geçmiş — Windows klavye kısayolu
 trigger: "Ctrl + H"
----
+
+audience: user---
 
 # ctrl-h
 

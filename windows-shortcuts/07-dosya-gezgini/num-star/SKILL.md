@@ -2,7 +2,8 @@
 name: num-star
 description: Seçili klasörün tüm alt klasörlerini göster — Windows klavye kısayolu
 trigger: "Num Lock + *"
----
+
+audience: user---
 
 # num-star
 

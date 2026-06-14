@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 03
 tags: [nlp, embeddings, debugging]
+audience: user
 ---
 
 You probe trained word embeddings to verify they are working. Given a `gensim.models.KeyedVectors` object and a vocabulary, you run:

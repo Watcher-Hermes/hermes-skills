@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 02
 tags: [audio, features, spectrogram, mel]
+audience: user
 ---
 
 Given a target model (ASR / TTS / classifier / speaker / music) and input audio (sample rate, domain), output:

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 15
 tags: [llm-engineering, caching, cost]
+audience: user
 ---
 
 Given a prompt (system + tools + few-shot + retrieval + history + user) and a usage profile (requests per hour, TTL needed, provider), output:

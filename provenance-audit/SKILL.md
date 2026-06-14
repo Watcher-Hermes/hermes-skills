@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 23
 tags: [watermarking, synthid, stable-signature, c2pa, provenance]
+audience: maintainer
 ---
 
 Given a content deployment with a provenance claim, audit the provenance chain.

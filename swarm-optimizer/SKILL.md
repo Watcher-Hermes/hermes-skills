@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 19
 tags: [multi-agent, swarm-optimization, PSO, ACO, prompt-optimization, routing]
+audience: user
 ---
 
 Given an LLM or agent optimization problem, choose the right optimizer.

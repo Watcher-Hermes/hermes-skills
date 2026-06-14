@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 6
 tags: [rag, retrieval, embeddings, vector-search, llm-engineering]
+audience: user
 ---
 
 # RAG Pipeline Pattern

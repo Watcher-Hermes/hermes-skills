@@ -6,6 +6,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [claude, agent, terminal, cli, coding]
+audience: user
     related_skills: [powershell-claude-agent, codex, opencode]
 ---
 

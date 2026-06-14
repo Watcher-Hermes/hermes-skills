@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 03
 tags: [blip2, qformer, vlm, modality-bridge, architecture]
+audience: user
 ---
 
 Given a vision encoder's token count per image, the LLM's context budget, the target number of images per prompt, and the training compute budget, recommend which modality bridge to use and justify with parameter counts and token economics.

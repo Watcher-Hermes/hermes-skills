@@ -7,6 +7,7 @@ environments: [kanban]
 metadata:
   hermes:
     tags: [kanban, multi-agent, collaboration, workflow, pitfalls]
+audience: maintainer
     related_skills: [kanban-orchestrator]
 ---
 

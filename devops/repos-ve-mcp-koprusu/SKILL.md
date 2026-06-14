@@ -4,7 +4,8 @@ description: Hermes-Obsidian MCP bridge kurulumu ve 6 yeni GitHub reposu. obsidi
 version: 1.0.0
 author: hermes
 platforms: [windows]
----
+
+audience: maintainer---
 
 # Repolar ve Obsidian MCP Köprüsü
 
@@ -20,7 +21,7 @@ git clone https://github.com/benmaster82/writher.git
 
 Obsidian pluginleri:
 ```bash
-cd "***REMOVED-BASE64*** Vault/.obsidian/plugins"
+cd "/c/Users/marko/OneDrive/Belgeler/Obsidian Vault/.obsidian/plugins"
 git clone https://github.com/takeshy/obsidian-llm-hub.git
 git clone https://github.com/AdrianV101/obsidian-pkm-plugin.git
 ```

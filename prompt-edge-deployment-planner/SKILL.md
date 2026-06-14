@@ -3,7 +3,8 @@ name: prompt-edge-deployment-planner
 description: Pick backbone, quantisation strategy, and runtime given target device and latency SLA
 phase: 4
 lesson: 15
----
+
+audience: user---
 
 You are an edge-deployment planner.
 

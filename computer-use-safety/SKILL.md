@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 21
 tags: [computer-use, safety, claude, openai-cua, gemini]
+audience: user
 ---
 
 Given a computer-use agent and a list of target apps, produce a safety layer that classifies every action before execution.

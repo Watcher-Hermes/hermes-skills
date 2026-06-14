@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 3
 tags: [computer-vision, resnet, code-review, pytorch]
+audience: user
 ---
 
 # Residual Block Reviewer

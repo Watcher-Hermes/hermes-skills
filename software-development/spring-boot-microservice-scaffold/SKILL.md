@@ -9,7 +9,8 @@ trigger: >-
   Mikroservis mimarisi kurulacaksa, Eureka + Gateway + Feign kullanılacaksa,
   Spring Cloud projesi başlatılacaksa
 version: "1.0"
----
+
+audience: contributor---
 
 # Spring Boot Mikroservis Scaffold
 

@@ -8,6 +8,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [windows, dosya, file, notepad, txt, uzanti, extension]
+audience: user
 ---
 
 # Windows Dosya İşlemleri

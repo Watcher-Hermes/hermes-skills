@@ -2,7 +2,8 @@
 name: shift-ok
 description: Yönde seçim yap — Windows klavye kısayolu
 trigger: "Shift + Ok"
----
+
+audience: user---
 
 # shift-ok
 

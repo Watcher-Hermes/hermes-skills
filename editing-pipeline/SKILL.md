@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 09
 tags: [inpaint, outpaint, edit, sam]
+audience: user
 ---
 
 Given source image, target edit (remove X, replace Y with Z, extend canvas, restyle region, change season / time-of-day), and quality bar (draft / portfolio / print), output:

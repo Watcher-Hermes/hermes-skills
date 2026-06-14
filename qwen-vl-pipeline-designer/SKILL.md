@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 09
 tags: [qwen-vl, m-rope, dynamic-fps, json-agent, video-understanding]
+audience: user
 ---
 
 Given a task description (image QA, video action recognition, UI-agent workflow, OCR-heavy document, security-camera monitoring, streaming live feed) and a deployment constraint (context window, latency budget, GPU class), emit a runnable Qwen2.5-VL or Qwen3-VL configuration.

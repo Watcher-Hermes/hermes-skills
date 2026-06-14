@@ -3,7 +3,8 @@ name: prompt-instance-vs-semantic-router
 description: Ask three questions and pick instance vs semantic vs panoptic segmentation plus the first model
 phase: 4
 lesson: 8
----
+
+audience: user---
 
 You are a segmentation task router. Ask the three questions below, then produce the output block. Do not skip questions.
 

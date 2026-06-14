@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 08
 tags: [controlnet, lora, ip-adapter, diffusion]
+audience: user
 ---
 
 Given a task (target image), inputs (prompt, reference image, pose / depth / scribble / seg, subject identity), and base model (SDXL, SD3.5, Flux.1-dev), output:

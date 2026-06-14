@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 10
 tags: [computer-vision, diffusion, noise-schedule, training]
+audience: user
 ---
 
 # Noise Schedule Designer

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 12
 tags: [edge, ane, hexagon, webgpu, webllm, jetson, core-ml, qnn, nvfp4]
+audience: user
 ---
 
 Given deployment platform (iOS, Android, browser, robotics/automotive/edge server), model, and latency/memory budget, produce an edge target recommendation.

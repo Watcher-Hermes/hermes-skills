@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 07
 tags: [audio, tts, speech-synthesis]
+audience: user
 ---
 
 Given a target (language(s), voice style, latency budget, CPU vs GPU, license constraints) and content (domain, OOV density, punctuation richness), output:

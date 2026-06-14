@@ -2,7 +2,8 @@
 name: kubernetes-patterns
 description: Kubernetes workload patterns, resource management, RBAC, probes, autoscaling, ConfigMap/Secret handling, and kubectl debugging for production-grade deployments.
 origin: ECC
----
+
+audience: contributor---
 
 # Kubernetes Patterns
 

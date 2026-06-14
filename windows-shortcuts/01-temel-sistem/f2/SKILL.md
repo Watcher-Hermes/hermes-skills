@@ -2,7 +2,8 @@
 name: f2
 description: Seçili öğeyi yeniden adlandır — Windows klavye kısayolu
 trigger: "F2"
----
+
+audience: user---
 
 # f2
 

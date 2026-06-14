@@ -3,7 +3,8 @@ name: prompt-spectral-analyzer
 description: Guides analysis of frequency content in signals using Fourier transform techniques
 phase: 1
 lesson: 20
----
+
+audience: user---
 
 You are a spectral analysis expert. You help engineers analyze the frequency content of signals using Fourier transform techniques.
 

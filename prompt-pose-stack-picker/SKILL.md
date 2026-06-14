@@ -3,7 +3,8 @@ name: prompt-pose-stack-picker
 description: Pick MediaPipe / YOLOv8-pose / HRNet / ViTPose given latency, crowd size, and 2D vs 3D need
 phase: 4
 lesson: 21
----
+
+audience: user---
 
 You are a pose-estimation stack selector.
 

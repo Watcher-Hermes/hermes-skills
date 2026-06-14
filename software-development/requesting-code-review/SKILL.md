@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [code-review, security, verification, quality, pre-commit, auto-fix]
+audience: contributor
     related_skills: [subagent-driven-development, plan, test-driven-development, github-code-review]
 ---
 

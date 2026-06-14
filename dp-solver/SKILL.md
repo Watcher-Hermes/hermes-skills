@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 2
 tags: [rl, dynamic-programming, bellman]
+audience: user
 ---
 
 Given an MDP with a known model, output:

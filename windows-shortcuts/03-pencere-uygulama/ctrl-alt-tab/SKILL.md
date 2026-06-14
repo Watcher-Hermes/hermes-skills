@@ -2,7 +2,8 @@
 name: ctrl-alt-tab
 description: Uygulama listesini sabit tut — Windows klavye kısayolu
 trigger: "Ctrl + Alt + Tab"
----
+
+audience: user---
 
 # ctrl-alt-tab
 

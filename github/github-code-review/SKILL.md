@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [GitHub, Code-Review, Pull-Requests, Git, Quality]
+audience: contributor
     related_skills: [github-auth, github-pr-workflow]
 ---
 

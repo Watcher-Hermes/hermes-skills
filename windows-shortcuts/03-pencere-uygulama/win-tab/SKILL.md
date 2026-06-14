@@ -2,7 +2,8 @@
 name: win-tab
 description: Görev görünümü — Windows klavye kısayolu
 trigger: "Win + Tab"
----
+
+audience: user---
 
 # win-tab
 

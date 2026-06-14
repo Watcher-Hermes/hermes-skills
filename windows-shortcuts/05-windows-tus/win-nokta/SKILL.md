@@ -2,7 +2,8 @@
 name: win-nokta
 description: Emoji / sembol paneli — Windows klavye kısayolu
 trigger: "Win + . (nokta)"
----
+
+audience: user---
 
 # win-nokta
 

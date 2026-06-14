@@ -1,7 +1,8 @@
 ---
 name: harmonic-mixing
 description: Harmonic mixing and DJ fundamentals — Camelot wheel key compatibility, harmonic mixing rules, mix techniques, and energy flow management for DJ sets.
----
+
+audience: user---
 
 # Harmonic Mixing & DJ Fundamentals
 

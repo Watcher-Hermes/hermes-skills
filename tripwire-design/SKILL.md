@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 15
 lesson: 14
 tags: [kill-switch, circuit-breaker, canary, honeytoken, detection-and-response]
+audience: user
 ---
 
 Given a proposed detector stack for an agent deployment, audit it against the three-detector reference (kill switch, circuit breaker, canary) and flag what is missing, mis-tuned, or exposed to the agent.

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 1
 tags: [rl, mdp, modeling]
+audience: user
 ---
 
 Given a task (control / game / recommendation / LLM fine-tuning), output:

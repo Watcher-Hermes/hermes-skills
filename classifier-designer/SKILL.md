@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 03
 tags: [audio, classification, beats, ast]
+audience: user
 ---
 
 Given an audio classification task (domain, label count, label density per clip, data volume, deployment target), output:

@@ -2,7 +2,8 @@
 name: win-shift-tus
 description: Pencereyi diğer monitöre taşı — Windows klavye kısayolu
 trigger: "Win + Shift + Sol/Sağ Ok"
----
+
+audience: user---
 
 # win-shift-tus
 

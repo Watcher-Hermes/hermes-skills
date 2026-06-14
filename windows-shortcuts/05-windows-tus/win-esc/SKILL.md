@@ -2,7 +2,8 @@
 name: win-esc
 description: Büyüteci kapat — Windows klavye kısayolu
 trigger: "Win + Esc"
----
+
+audience: user---
 
 # win-esc
 

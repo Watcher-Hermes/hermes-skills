@@ -1,7 +1,8 @@
 ---
 name: windows-screen-capture
 description: Windows ekran görüntüsü alma iş akışı. Tam ekran, aktif pencere, alan seçimli kesme ve panoya kopyalama senaryolarını kapsar.
----
+
+audience: user---
 
 # Windows Screen Capture
 

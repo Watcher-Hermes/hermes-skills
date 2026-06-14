@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 4
 lesson: 20
 tags: [retrieval, evaluation, recall, faiss]
+audience: user
 ---
 
 # Recall@K Runner

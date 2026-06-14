@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 15
 lesson: 5
 tags: [ai-scientist, research-agent, sandbox, peer-review, disclosure]
+audience: user
 ---
 
 Given an autonomous research output (hypothesis, code, experiments, figures, paper draft) produced by an AI-Scientist-v2-style loop, produce a two-gate review: sandbox audit (does anything leave?) plus research audit (is the work sound?).

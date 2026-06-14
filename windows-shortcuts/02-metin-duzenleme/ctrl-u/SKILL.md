@@ -2,7 +2,8 @@
 name: ctrl-u
 description: Altı çizili — Windows klavye kısayolu
 trigger: "Ctrl + U"
----
+
+audience: user---
 
 # ctrl-u
 

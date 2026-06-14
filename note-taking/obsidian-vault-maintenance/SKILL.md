@@ -10,6 +10,7 @@ license: MIT
 metadata:
   hermes:
     tags: [obsidian, vault, maintenance, cleanup, audit, links, tags]
+audience: user
 ---
 
 # Obsidian Vault Maintenance

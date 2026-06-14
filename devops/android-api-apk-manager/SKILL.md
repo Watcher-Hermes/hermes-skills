@@ -1,7 +1,8 @@
 ---
 name: android-api-apk-manager
 description: Android APK kontrolü yükleme yönetme. Mevcut varlıkları kontrol et, eksikleri indir/kur, yükleme olmayanları işle, tüm süreci doğrula.
----
+
+audience: maintainer---
 
 # Android APK Manager Workflow
 
@@ -46,10 +47,10 @@ APK'nın iç yapısını analiz etmek için `aapt2` kullan:
 
 ```bash
 # Manifest bilgisi
-"***REMOVED-BASE64***-tools/35.0.0/aapt2" dump manifest "<apk_yolu>"
+"/c/Users/marko/AppData/Local/Android/Sdk/build-tools/35.0.0/aapt2" dump manifest "<apk_yolu>"
 
 # Detaylı badge/izin bilgisi
-"***REMOVED-BASE64***-tools/34.0.0/aapt" dump badging "<apk_yolu>"
+"/c/Users/marko/AppData/Local/Android/Sdk/build-tools/34.0.0/aapt" dump badging "<apk_yolu>"
 ```
 
 **Çıktıda kontrol edilecekler:**
@@ -87,13 +88,13 @@ Bu yöntem **Play Protect ve Knox'u bypass eder**, direkt sisteme yazar.
 
 ```bash
 # Telefon bağlı mı?
-"***REMOVED-BASE64***-tools/adb.exe" devices
+"/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe" devices
 
 # APK'yı yükle
-"***REMOVED-BASE64***-tools/adb.exe" install "<apk_yolu>"
+"/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe" install "<apk_yolu>"
 
 # Önceki sürüm varsa kaldır
-"***REMOVED-BASE64***-tools/adb.exe" uninstall <paket_adi>
+"/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe" uninstall <paket_adi>
 ```
 
 **Gereksinimler:**
@@ -106,13 +107,13 @@ Bu yöntem **Play Protect ve Knox'u bypass eder**, direkt sisteme yazar.
 APK'yı önce emülatörde test et (varsa):
 ```bash
 # APK yükle
-"***REMOVED-BASE64***-tools/adb.exe" -s emulator-5554 install "<apk_yolu>"
+"/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe" -s emulator-5554 install "<apk_yolu>"
 
 # Çalıştır
-"***REMOVED-BASE64***-tools/adb.exe" -s emulator-5554 shell am start -n <paket_adi>/<MainActivity>
+"/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe" -s emulator-5554 shell am start -n <paket_adi>/<MainActivity>
 
 # Çalıştığını doğrula
-"***REMOVED-BASE64***-tools/adb.exe" -s emulator-5554 shell ps | grep <paket_adi>
+"/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe" -s emulator-5554 shell ps | grep <paket_adi>
 ```
 
 ## APK Dosyasını Telefona Aktarma (Fallback Zinciri)
@@ -122,9 +123,9 @@ Kullanıcıya APK'yı teslim etmek için sıralı fallback:
 ### 1. ADB ile direkt yükle (EN HIZLI)
 ```bash
 # USB debugging AÇIK olmalı
-\"***REMOVED-BASE64***-tools/adb.exe\" devices
+\"/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe\" devices
 # Cihaz görünüyorsa:
-\"***REMOVED-BASE64***-tools/adb.exe\" install \"<apk_yolu>\"
+\"/c/Users/marko/AppData/Local/Android/Sdk/platform-tools/adb.exe\" install \"<apk_yolu>\"
 ```
 
 ### 2. ADB cihaz görmüyorsa — USB Debugging AÇTIR
@@ -244,7 +245,7 @@ apksigner verify --verbose signed.apk
 
 **apksigner yolu:** Android SDK build-tools içinde:
 ```bash
-"***REMOVED-BASE64***-tools/35.0.0/apksigner" sign --ks my.keystore --ks-key-alias myalias rebuilt_unsigned.apk
+"/c/Users/marko/AppData/Local/Android/Sdk/build-tools/35.0.0/apksigner" sign --ks my.keystore --ks-key-alias myalias rebuilt_unsigned.apk
 ```
 
 #### 7. Split APK'ları Birleştir (varsa)

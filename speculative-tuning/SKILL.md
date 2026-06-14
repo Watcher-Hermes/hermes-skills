@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 10
 lesson: 25
 tags: [speculative-decoding, draft-model, alpha, throughput, inference, decode-latency]
+audience: user
 ---
 
 Given the target model (size, family, tokenizer), the workload telemetry (task mix, prompt-vs-decode token ratio, p50/p99 decode latency, accelerator and HBM headroom, average batch size, sampling temperature distribution), and the available draft checkpoints, output:

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 14
 lesson: 23
 tags: [opentelemetry, genai, observability, tracing, semantic-conventions]
+audience: user
 ---
 
 Given an agent runtime, wire OTel GenAI semantic conventions.

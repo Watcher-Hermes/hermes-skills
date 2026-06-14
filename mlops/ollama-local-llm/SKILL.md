@@ -7,6 +7,7 @@ platforms: [windows, linux, macos]
 metadata:
   hermes:
     tags: [ollama, local-llm, windows, network-enumeration, mac-address, codegen, alpsee]
+audience: user
 ---
 
 # Ollama Local LLM

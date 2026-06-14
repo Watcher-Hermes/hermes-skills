@@ -2,6 +2,7 @@
 name: knowledge-repo-import
 description: GitHub repo'yu klonla, içerik dizinini çıkar, Hermes skill + Obsidian vault kopyasını otomatik oluştur.
 tags: [github, clone, obsidian, knowledge-base, import, research]
+audience: user
 ---
 
 # Knowledge Repo Import

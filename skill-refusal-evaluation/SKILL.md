@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 84
 tags: [safety, evaluation, calibration]
+audience: user
 ---
 
 # Refusal Evaluation

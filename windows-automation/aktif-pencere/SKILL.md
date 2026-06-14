@@ -1,3 +1,10 @@
+---
+name: aktif-pencere
+title: ""
+audience: user
+tags: []
+---
+
 **Skill ID:** `aktif-pencere`
 **Tetikleyici:** "şu pencereyi al"
 **Kısayol:** Alt + PrtScn

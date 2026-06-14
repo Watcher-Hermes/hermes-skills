@@ -2,7 +2,8 @@
 name: win-c
 description: Copilot / Chat — Windows klavye kısayolu
 trigger: "Win + C"
----
+
+audience: user---
 
 # win-c
 

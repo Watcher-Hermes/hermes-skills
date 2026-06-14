@@ -2,7 +2,8 @@
 name: ctrl-b
 description: Kalın — Windows klavye kısayolu
 trigger: "Ctrl + B"
----
+
+audience: user---
 
 # ctrl-b
 

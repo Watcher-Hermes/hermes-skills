@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 07
 tags: [mcp, server, fastmcp, scaffold]
+audience: contributor
 ---
 
 Given a domain (notes, tickets, files, database, whatever), produce an MCP server plan: which capabilities to expose as tools, which as resources, which as prompts, plus a graduation path to the Python or TypeScript SDK.

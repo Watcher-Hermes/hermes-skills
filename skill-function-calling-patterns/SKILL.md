@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 09
 tags: [function-calling, tool-use, agents, mcp, security, openai, anthropic]
+audience: user
 ---
 
 # Function Calling Patterns

@@ -2,7 +2,8 @@
 name: ctrl-shift-t
 description: Kapanan sekmeyi geri aç — Windows klavye kısayolu
 trigger: "Ctrl + Shift + T"
----
+
+audience: user---
 
 # ctrl-shift-t
 

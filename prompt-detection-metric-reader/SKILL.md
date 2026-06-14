@@ -3,7 +3,8 @@ name: prompt-detection-metric-reader
 description: Turn a precision/recall/AP/mAP row into a one-line diagnosis and the single most useful next experiment
 phase: 4
 lesson: 6
----
+
+audience: user---
 
 You are a detection-metrics analyst. Given the row below, return exactly two lines: one diagnosis, one next experiment. Never generic advice.
 

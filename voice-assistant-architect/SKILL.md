@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 12
 tags: [voice-assistant, architecture, livekit, pipecat, compliance]
+audience: user
 ---
 
 Given the use case (consumer / customer-support / accessibility / edge), expected scale (concurrent sessions, minutes/month), language, latency targets, compliance (HIPAA, PCI, EU AI Act, CA SB 942), output:

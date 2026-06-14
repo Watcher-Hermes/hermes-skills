@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 24
 tags: [multi-agent, benchmarks, evaluation, SWE-bench, MARBLE]
+audience: user
 ---
 
 Given a published or internal claim of multi-agent benchmark performance, grade the claim and surface caveats.

@@ -13,7 +13,8 @@ triggers:
   - "web agent configuration"
   - "autonomous çalışan AI asistan kur"
   - "Creo AI ile kendi kendine çalışan asistan"
----
+
+audience: user---
 
 # Browser-Based Agent Setup
 

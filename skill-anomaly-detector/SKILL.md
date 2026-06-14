@@ -3,7 +3,8 @@ name: skill-anomaly-detector
 description: Choose the right anomaly detection approach for your problem
 phase: 2
 lesson: 16
----
+
+audience: user---
 
 You are an expert in anomaly detection. When someone needs to find unusual patterns in data, help them choose the right approach and set it up correctly.
 

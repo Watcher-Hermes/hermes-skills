@@ -1,13 +1,14 @@
 ---
 name: tor-browser-arama
 description: Use when searching for information, browsing the web, or researching any topic. ALWAYS use Tor Browser for ALL web searches — never use regular browser or direct connections. Tor Browser exe is at C:\Users\marko\OneDrive\Desktop\Tor Browser\Browser\firefox.exe and SOCKS5 proxy runs on port 9150.
-version: 2.0.0
+version: 2.1.0
 author: marko
 license: MIT
 platforms: [windows]
 metadata:
   hermes:
     tags: [tor, browser, search, arama, web, gizlilik, duckduckgo, proxy, socks5, internet]
+audience: user
     related_skills: [gorsel-onaylama, screen-vision-analiz, mouse-klavye-ctypes]
 ---
 
@@ -177,31 +178,39 @@ python C:\\Users\\marko\\hermesmouse.py click X Y
 
 Sayfa icerigi okumak icin ilgili URL'i `tor_get()` ile al.
 
+### 14. Site engelleme — hosts dosyası ile
+Kullanıcı "şu siteyi engelle" derse: Windows hosts dosyasına `127.0.0.1 siteadi.com` eklenir. Yönetici yetkisi gerekir. Self-elevating PowerShell scripti ile yap. Engellenen siteleri Obsidian `07-System/Engelli-Siteler.md` notuna kaydet. Detay: `skill_view(name='tor-browser-arama', file_path='references/local-site-blocking.md')`.
+
 ## Common Pitfalls
 
-0. **PENCERE ODAKLAMA + GÖRSEL NAVİGASYON (KRİTİK)** — Tor Browser işlemleri ŞU SIRAYLA yapılır:
-   1. `focus_tor.ps1` çalıştır (pencereyi öne getir)
-   2. 1 sn bekle
-   3. `hermestor.py navigate <URL>` çalıştır
-   4. 4-5 sn bekle (Tor yavaş)
-   5. Gerekirse ekran görüntüsü al + OCR ile kontrol et
-   - ASLA ctypes ile manuel URL yazma — Türkçe Q klavyede `:`, `/`, `?` karakterleri bozulur
-   - "llava-adres" hatası NORMALDİR — Ollama kaldırıldı, navigate yine de çalışır
+### 1. PENCERE ODAKLAMA + NAVİGASYON (KRİTİK)
+Tor Browser işlemleri ŞU SIRAYLA yapılır:
+```
+1. Kullanıcıya ne yapılacağını SÖYLE (örn: "Şimdi X reposuna gidiyorum")
+2. focus_tor.ps1 çalıştır (pencereyi öne getir)
+3. 1 sn bekle
+4. hermestor.py navigate <URL> çalıştır
+5. 4-5 sn bekle (Tor yavaş, kullanıcı ekranda görsün)
+6. Gerekirse ekran görüntüsü al + OCR ile kontrol et
+```
+- ASLA ctypes ile manuel URL yazma — Türkçe Q klavyede `:`, `/`, `?` karakterleri bozulur
+- "llava-adres" hatası NORMALDİR — Ollama kaldırıldı, navigate yine de çalışır (Ctrl+L + URL + Enter)
+- Hiçbir şekilde `type_string()` veya elle klavye ile URL yazma
+- SADECE `hermestor.py navigate <URL>` kullan (klavye düzeninden etkilenmez)
+- Alternatif: `curl --socks5-hostname 127.0.0.1:9150` ile API'den veri al (GitHub API, hızlı liste için)
 
-0a. **TÜRKÇE Q KLAVYE URL SORUNU** — ctypes `keybd_event` ile URL yazma başarısız olur.
-   - Hiçbir şekilde `type_string()` veya elle URL yazma
-   - SADECE `hermestor.py navigate <URL>` kullan (klavye düzeninden etkilenmez)
-   - Alternatif: `curl --socks5-hostname 127.0.0.1:9150` ile API'den veri al
+### 2. KULLANICI İZLERKEN GEZİNME
+Kullanıcı ekrana bakıyorsa:
+- Önce ne yapacağını söyle: "Şimdi X reposuna gidiyorum"
+- `focus_tor.ps1`'i HER navigate ÖNCESİ çalıştır
+- Her navigate arası 4-5 sn bekle (kullanıcı görsün)
+- Navigasyon sonrası ekran görüntüsü alıp OCR ile kontrol et
+- GitHub aramalarında: önce `curl --socks5-hostname` ile API'den liste al, sonra sadece en iyi repo'ya navigate et
 
-0b. **KULLANICI İZLERKEN GEZİNME** — Kullanıcı ekrana bakıyorsa:
-   - Önce ne yapacağını söyle: "Şimdi X reposuna gidiyorum"
-   - focus_tor.ps1'i HER navigate ÖNCESİ çalıştır
-   - Her navigate arası 4-5 sn bekle (kullanıcı görsün)
-   - Navigasyon sonrası ekran görüntüsü alıp OCR ile kontrol et
-   - GitHub aramalarında: önce `curl --socks5-hostname` ile API'den ön liste al, sonra sadece en iyi reposu navigate et
+### 3. REPO ONAY KURALI
+GitHub'dan clone yapmadan ÖNCE kullanıcıya sor. Asla izinsiz clone yapma.
 
-0c. **REPO ONAY KURALI** — GitHub'dan clone yapmadan ÖNCE kullanıcıya sor.
-2. **Tor acik ama proxy hazir degil** — "Connect" butonu tiklanmamis olabilir; `connect` komutu kullan.
+### 4. Tor acik ama proxy hazir degil
 3. **DuckDuckGo bos sonuc** — Tor cikis dugumu bloke olabilir; `start` ile Tor'u yeniden baslat (yeni devre).
 4. **Ekranda captcha** — Tor IP'si banli olabilir; Tor Browser'da "New Identity" kullan.
 5. **Port 9150 yerine 9050** — 9050 Tor daemon'u, 9150 Tor Browser'u. Tor Browser aciksa 9150.

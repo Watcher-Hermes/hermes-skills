@@ -2,7 +2,8 @@
 name: win-pause
 description: Sistem özellikleri — Windows klavye kısayolu
 trigger: "Win + Pause"
----
+
+audience: user---
 
 # win-pause
 

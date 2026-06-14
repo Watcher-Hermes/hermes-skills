@@ -2,7 +2,8 @@
 name: ctrl-yukari
 description: Bir paragraf yukarı atla — Windows klavye kısayolu
 trigger: "Ctrl + Yukarı Ok"
----
+
+audience: user---
 
 # ctrl-yukari
 

@@ -7,6 +7,7 @@ description: >
   Trigger phrases: "where should I start", "find my level", "what do I know",
   "which phase", "assess my knowledge", "placement test", "skip ahead"
 tags: [assessment, onboarding, curriculum, ai-engineering]
+audience: user
 ---
 
 # Find Your Level

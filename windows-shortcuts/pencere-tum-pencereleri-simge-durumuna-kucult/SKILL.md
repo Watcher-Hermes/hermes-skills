@@ -2,7 +2,8 @@
 name: pencere-tum-pencereleri-simge-durumuna-kucult
 trigger: "tum pencereleri kucult"
 shortcut: Win + M
----
+
+audience: user---
 GÖREV ADI:Tüm pencereleri simge durumuna küçült
 TETİKLEYİCİ: "tum pencereleri kucult"
 KISAYOL: Win + M

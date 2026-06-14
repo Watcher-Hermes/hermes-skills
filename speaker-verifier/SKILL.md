@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 6
 lesson: 06
 tags: [audio, speaker, verification, diarization]
+audience: user
 ---
 
 Given a target (verification vs identification vs diarization, domain, channel, threat model) and data (hours for threshold tuning, number of speakers, enrollment clip budget), output:

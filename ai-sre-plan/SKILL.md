@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 17
 lesson: 23
 tags: [ai-sre, multi-agent, runbooks, auto-remediation, adversarial-eval, datadog-bits-ai, neubird, predictive]
+audience: user
 ---
 
 Given team size, incident volume, observability maturity, and risk tolerance, produce an AI SRE plan.

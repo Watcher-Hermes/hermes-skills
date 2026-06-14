@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 11
 lesson: 02
 tags: [chain-of-thought, few-shot, self-consistency, tree-of-thought, react, reasoning, prompting]
+audience: user
 ---
 
 # Reasoning Technique Selection Guide

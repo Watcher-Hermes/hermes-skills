@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 04
 tags: [capstone, multimodal, rag, colpali, colqwen, late-interaction, pdf]
+audience: user
 ---
 
 Given a corpus of PDFs (10-Ks, scientific papers, scanned documents), build a pipeline that indexes pages as images using ColPali-style late interaction and answers questions with page-level evidence regions.

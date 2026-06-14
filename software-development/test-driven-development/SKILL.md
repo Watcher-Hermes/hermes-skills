@@ -8,6 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [testing, tdd, development, quality, red-green-refactor]
+audience: contributor
     related_skills: [systematic-debugging, plan, subagent-driven-development]
 ---
 

@@ -2,7 +2,8 @@
 name: ctrl-eksi
 description: Uzaklaştır — Windows klavye kısayolu
 trigger: "Ctrl + -"
----
+
+audience: user---
 
 # ctrl-eksi
 

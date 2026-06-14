@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 16
 tags: [capstone, async-agent, github, fargate, daytona, swe-bench, budget, safety]
+audience: contributor
 ---
 
 Given a GitHub repository with issues labeled `@agent fix this`, ship a self-hosted cloud agent that turns each labeled issue into a review-ready PR with scoped credentials and bounded cost.

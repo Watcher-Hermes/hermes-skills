@@ -8,6 +8,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [forensic, evidence, traces, windows, security, audit, event-log, usbstor, srum, virtualbox, onedrive, powershell]
+audience: user
     related_skills: [veracrypt-windows, guvenlik-izleme-sistemi, port-firewall-taramasi, tor-browser-arama]
 ---
 

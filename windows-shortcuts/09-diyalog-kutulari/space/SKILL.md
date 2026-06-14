@@ -2,7 +2,8 @@
 name: space
 description: Onay kutusunu işaretle / kaldır — Windows klavye kısayolu
 trigger: "Space"
----
+
+audience: user---
 
 # space
 

@@ -2,7 +2,8 @@
 name: ctrl-tab
 description: Sonraki sekme — Windows klavye kısayolu
 trigger: "Ctrl + Tab"
----
+
+audience: user---
 
 # ctrl-tab
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 15
 lesson: 7
 tags: [rsi, self-improvement, alignment, pause-threshold, rsp]
+audience: user
 ---
 
 Given a proposed recursive-self-improvement pipeline, produce a pause specification: the explicit conditions that halt the loop for human inspection before the next cycle begins. A pipeline without a pause spec is not ready to run.

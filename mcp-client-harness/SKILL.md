@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 13
 lesson: 08
 tags: [mcp, client, multi-server, routing, namespace]
+audience: user
 ---
 
 Given a configuration of MCP servers to run, produce a client harness that spawns each, handshakes each, merges their tool lists into one namespace, and routes each call to the owning server.

@@ -2,7 +2,8 @@
 name: win-asagi
 description: Pencereyi küçült / geri yükle — Windows klavye kısayolu
 trigger: "Win + Aşağı Ok"
----
+
+audience: user---
 
 # win-asagi
 

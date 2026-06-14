@@ -1,3 +1,10 @@
+---
+name: ekran-al
+title: ""
+audience: user
+tags: []
+---
+
 **Skill ID:** `ekran-al`
 **Kısayol/Önemi:** Win+Shift+S (alan seçimli kesme)
 **KMüşteri Tanımı:**

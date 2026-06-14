@@ -2,7 +2,8 @@
 name: win-n
 description: Bildirim Merkezi — Windows klavye kısayolu
 trigger: "Win + N"
----
+
+audience: user---
 
 # win-n
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 8
 lesson: 13
 tags: [flow-matching, rectified-flow, diffusion]
+audience: user
 ---
 
 Given a diffusion-style training plan (data, compute, schedule, target step count, quality bar), output a flow-matching equivalent:

@@ -7,6 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [academic, paper-reading, mineru, notebooklm, research]
+audience: user
     related_skills: [notebooklm, arxiv]
 ---
 
@@ -136,7 +137,7 @@ Read `paper.md` + `metadata.json` + `figures_analysis/summary.md` (if available)
 
 **Key rules:**
 - LLM is the primary analysis engine (12KB+ target)
-- Paper type determines structure (***REMOVED-BASE64***)
+- Paper type determines structure (Survey/Method/System/Experimental/Application)
 - **Module 3 (方法/技术内容)**: 6 required subsections — problem formulation, method overview, core algorithm, key design decisions, comparison with related methods, strengths & potential issues. See `templates/deep-read.md` for detailed structure per paper type.
 - **Module 4 (实验/结果/证据)**: 6 required subsections — methodology, quantitative results (with interpretation), qualitative results, computational cost, credibility assessment, limitations. See `templates/deep-read.md` for details.
 - Metadata: API-verified = ground truth. Missing → "未提供"

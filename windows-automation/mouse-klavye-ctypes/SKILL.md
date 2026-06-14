@@ -8,6 +8,7 @@ platforms: [windows]
 metadata:
   hermes:
     tags: [mouse, click, keyboard, scroll, sweep, ctypes, win32, automation, windows]
+audience: user
     related_skills: [tam-sistem-yetkisi, screen-vision-analiz]
 ---
 
@@ -97,7 +98,8 @@ x, y = m.get_pos()        # mevcut konum
 
 ## Common Pitfalls
 
-1. **pyautogui kullaniyor ama asmaliyor** — hermesmouse.py kullan, ctypes hic takilmaz.
+1. **Türkçe Q Klavye URL/Sembol Sorunu** — ctypes `keybd_event` ile `:`, `/`, `?`, `&` gibi özel karakterler Türkçe Q klavyede yanlış gider. **URL yazmak için asla ctypes kullanma** — bunun yerine `hermestor.py navigate <URL>` kullan (klavye düzeninden etkilenmez).
+2. **pyautogui kullaniyor ama asmaliyor** — hermesmouse.py kullan, ctypes hic takilmaz.
 2. **PowerShell Forms exit 1 veya exit 127** — hermesmouse.py tek satir terminal komutuyla calisir.
 3. **Hareket oldu ama gorunmedi** — sweep komutunu kullan, daire cizerek gosterir.
 4. **Path bosluk hatasi** — script `C:\Users\marko\hermesmouse.py` (bosluksuz kok).

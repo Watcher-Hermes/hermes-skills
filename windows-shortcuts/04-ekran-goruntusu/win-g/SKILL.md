@@ -2,7 +2,8 @@
 name: win-g
 description: Xbox Game Bar — Windows klavye kısayolu
 trigger: "Win + G"
----
+
+audience: user---
 
 # win-g
 

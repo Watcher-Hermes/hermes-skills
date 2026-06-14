@@ -9,6 +9,7 @@ platforms: [linux, macos]
 metadata:
   hermes:
     tags: [Multimodal, Audio Generation, Text-to-Music, Text-to-Audio, MusicGen]
+audience: user
 
 ---
 

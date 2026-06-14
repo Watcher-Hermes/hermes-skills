@@ -1,5 +1,6 @@
 ---
 tags: [hermes, skill, system, security]
+audience: user
 shortcut: Ctrl + Alt + Delete
 function: Güvenlik ekranı (kilit, oturum değiştirme, görev yöneticisi)
 created: 2026-06-05

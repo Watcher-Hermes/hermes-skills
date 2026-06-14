@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 11
 tags: [rl, sim2real, robotics, domain-randomization]
+audience: user
 ---
 
 Given a robot platform, a task, and access to real hardware time, output:

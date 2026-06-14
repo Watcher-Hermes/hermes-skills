@@ -2,7 +2,8 @@
 name: ctrl-w
 description: Geçerli pencereyi kapat — Windows klavye kısayolu
 trigger: "Ctrl + W"
----
+
+audience: user---
 
 # ctrl-w
 

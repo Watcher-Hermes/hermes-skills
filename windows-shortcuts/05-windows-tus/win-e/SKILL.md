@@ -2,7 +2,8 @@
 name: win-e
 description: Dosya Gezgini — Windows klavye kısayolu
 trigger: "Win + E"
----
+
+audience: user---
 
 # win-e
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 16
 lesson: 10
 tags: [multi-agent, groupchat, autogen, ag2, speaker-selection]
+audience: user
 ---
 
 Given a task and an agent roster, produce a GroupChat configuration: selector choice, selector inputs, termination rules, and guardrails.

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 06
 tags: [nlp, ner, extraction]
+audience: user
 ---
 
 Given a task description (domain, label set, language, latency, data volume), output:

@@ -7,6 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [autonomous, auto-generated, dolphin, vscode, loop]
+audience: user
     related_skills: [vscode-otomasyon, gorsel-onaylama]
 ---
 

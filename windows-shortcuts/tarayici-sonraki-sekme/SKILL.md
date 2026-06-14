@@ -2,7 +2,8 @@
 name: tarayici-sonraki-sekme
 trigger: "sonraki sekme"
 shortcut: Ctrl + Tab
----
+
+audience: user---
 GÖREV ADI: Sonraki sekme
 TETİKLEYİCİ: "sonraki sekme"
 KISAYOL: Ctrl + Tab

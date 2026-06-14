@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 83
 tags: [safety, detector, prompt-injection]
+audience: user
 ---
 
 # Prompt Injection Detector

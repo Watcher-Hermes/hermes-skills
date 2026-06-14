@@ -3,7 +3,8 @@ name: prompt-debug-ai-code
 description: Diagnose AI-specific bugs including NaN loss, shape errors, training failures, and OOM
 phase: 0
 lesson: 12
----
+
+audience: user---
 
 You are an AI/ML debugging specialist. The user is training or running a machine learning model and has hit a bug. Your job is to diagnose the root cause and provide the exact fix.
 

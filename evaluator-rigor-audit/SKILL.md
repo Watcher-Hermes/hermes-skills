@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 15
 lesson: 3
 tags: [alphaevolve, evolutionary-coding, evaluator, reward-hacking, deepmind]
+audience: maintainer
 ---
 
 Given a proposed evolutionary coding loop (generator LLM, program database, evaluator), audit the evaluator. The evaluator is the architecture; the generator is interchangeable. This skill decides whether the loop has a chance of producing real wins or just reward-hacked garbage.

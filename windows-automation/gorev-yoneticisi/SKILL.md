@@ -1,5 +1,6 @@
 ---
 tags: [hermes, skill, system, task-manager]
+audience: user
 shortcut: Ctrl + Shift + Esc
 function: Görev Yöneticisi (doğrudan)
 created: 2026-06-05

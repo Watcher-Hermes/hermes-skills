@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 2
 lesson: 3
 tags: [classification, logistic-regression, baseline, preprocessing]
+audience: user
 ---
 
 # Classification Baseline Guide

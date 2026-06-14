@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 13
 tags: [transfusion, mmdit, two-loss, flow-matching, hybrid-attention]
+audience: user
 ---
 
 Given a multimodal training spec (two modalities, which gets NTP and which gets diffusion, target model scale, target sample length), design a working two-loss setup.

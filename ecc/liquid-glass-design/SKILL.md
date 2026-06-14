@@ -1,7 +1,8 @@
 ---
 name: liquid-glass-design
 description: iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit.
----
+
+audience: contributor---
 
 # Liquid Glass Design System (iOS 26)
 
@@ -138,7 +139,7 @@ glassEffect.tintColor = UIColor.systemBlue.withAlphaComponent(0.3)
 glassEffect.isInteractive = true
 
 let visualEffectView = UIVisualEffectView(effect: glassEffect)
-visualEffectView.***REMOVED-BASE64*** = false
+visualEffectView.translatesAutoresizingMaskIntoConstraints = false
 visualEffectView.layer.cornerRadius = 20
 visualEffectView.clipsToBounds = true
 
@@ -153,7 +154,7 @@ NSLayoutConstraint.activate([
 // Add content to contentView
 let label = UILabel()
 label.text = "Liquid Glass"
-label.***REMOVED-BASE64*** = false
+label.translatesAutoresizingMaskIntoConstraints = false
 visualEffectView.contentView.addSubview(label)
 NSLayoutConstraint.activate([
     label.centerXAnchor.constraint(equalTo: visualEffectView.contentView.centerXAnchor),

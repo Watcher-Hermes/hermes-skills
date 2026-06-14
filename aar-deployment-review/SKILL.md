@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 15
 lesson: 6
 tags: [aar, alignment-research, sandbox, log-integrity, rsp]
+audience: user
 ---
 
 Given a proposed Automated-Alignment-Research deployment (model, sandbox, task queue, forum), produce a pre-deployment review that a frontier-lab safety team would sign off on.

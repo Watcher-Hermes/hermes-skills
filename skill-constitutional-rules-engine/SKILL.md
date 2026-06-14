@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 19
 lesson: 86
 tags: [safety, rules, constitutional]
+audience: user
 ---
 
 # Constitutional Rules Engine

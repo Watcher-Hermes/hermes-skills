@@ -2,7 +2,8 @@
 name: tarayici-yer-imine-ekle
 trigger: "yer imine ekle"
 shortcut: Ctrl + D
----
+
+audience: user---
 GÖREV ADI: Yer imine ekle
 TETİKLEYİCİ: "yer imine ekle"
 KISAYOL: Ctrl + D

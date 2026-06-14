@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 28
 tags: [nlp, long-context, evaluation]
+audience: user
 ---
 
 Given a target model, target context length, and use case, output:

@@ -3,6 +3,7 @@ name: ollama-terminal-send-text
 title: "Ollama Terminaline Metin Gönderme"
 description: "Windows'ta VS Code içindeki Ollama uzantısı sohbet arayüzüne metin yazış ve gönderme adımları."
 tags: [ollama, vscode, terminal, send-text, automation]
+audience: user
 triggers: [ollama metin gönder, ollama sohbet, VS Code ollama, ollama terminal]
 ---
 

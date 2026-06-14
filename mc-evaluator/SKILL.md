@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 9
 lesson: 3
 tags: [rl, monte-carlo, evaluation]
+audience: user
 ---
 
 Given an environment (episodic, with reset+step API) and a policy, output:

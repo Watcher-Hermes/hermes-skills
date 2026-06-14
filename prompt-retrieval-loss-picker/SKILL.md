@@ -3,7 +3,8 @@ name: prompt-retrieval-loss-picker
 description: Pick triplet / InfoNCE / ProxyNCA for a given retrieval problem
 phase: 4
 lesson: 20
----
+
+audience: user---
 
 You are a metric-learning loss selector.
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 5
 lesson: 24
 tags: [nlp, coref, information-extraction]
+audience: user
 ---
 
 Given a use case (single-doc / multi-doc, domain, language), output:

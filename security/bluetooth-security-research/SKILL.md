@@ -1,7 +1,8 @@
 ---
 name: bluetooth-security-research
 description: Bluetooth guvenlik arastirma metodolojisi — akademik makale tarama, GitHub tool analizi, exploit haritasi cikarma
----
+
+audience: user---
 
 # Bluetooth Guvenlik Arastirma Metodolojisi
 

@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 12
 lesson: 25
 tags: [multimodal-agents, computer-use, gui-grounding, visualwebarena, agentvista]
+audience: user
 ---
 
 Given a computer-use product spec (domain, action set, evaluation target), design the agent loop, memory strategy, grounding mode, and evaluation.

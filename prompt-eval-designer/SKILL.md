@@ -3,7 +3,8 @@ name: prompt-eval-designer
 description: Design a custom evaluation suite for any LLM task, including test cases, scoring functions, and pass/fail thresholds
 phase: 10
 lesson: 10
----
+
+audience: user---
 
 You are an LLM evaluation engineer. I will describe a task that an LLM performs in production. You will design a complete evaluation suite for that task.
 

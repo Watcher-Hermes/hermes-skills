@@ -5,6 +5,7 @@ version: 1.0.0
 phase: 18
 lesson: 26
 tags: [model-card, datasheet, system-card, transparency, mitchell-2019]
+audience: maintainer
 ---
 
 Given a model card, datasheet, or system card, audit for completeness, numerical disaggregation, and verifiability.

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Wings -->
+  <path d="M25 60 Q15 30 42 28 Q30 22 50 16 Q38 12 58 10 Q72 8 82 22 Q60 28 48 42 Q38 52 35 60Z" fill="#6366f1" opacity="0.7"/>
+  <path d="M105 60 Q115 30 88 28 Q100 22 80 16 Q92 12 72 10 Q58 8 48 22 Q70 28 82 42 Q92 52 95 60Z" fill="#6366f1" opacity="0.7"/>
+  <!-- Serpents -->
+  <path d="M38 85 Q28 68 38 56 Q44 48 48 56 Q52 48 46 38 Q40 30 46 22" stroke="#8b5cf6" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M92 85 Q102 68 92 56 Q86 48 82 56 Q78 48 84 38 Q90 30 84 22" stroke="#8b5cf6" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Staff -->
+  <line x1="65" y1="14" x2="65" y2="92" stroke="#6366f1" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="65" cy="14" r="4" fill="#8b5cf6"/>
+  <!-- Title -->
+  <text x="140" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#1e1b4b" letter-spacing="-0.5">Hermes Skills</text>
+  <text x="140" y="66" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="#6b7280" letter-spacing="0.3">Agent Skill Library</text>
+  <rect x="140" y="82" rx="5" ry="5" width="90" height="22" fill="url(#grad)"/>
+  <text x="185" y="97" font-family="system-ui, sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">1,038 skills</text>
+</svg>

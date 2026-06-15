@@ -1,0 +1,57 @@
+# Skill Deployment Workflow
+
+Bir skill oluşturulduktan veya güncellendikten sonra şu adımlar TAMAMLANMALIDIR:
+
+## Adımlar
+
+### 1. Hermes'e Kaydet
+```bash
+skill_manage(action='create'|'edit', name='...', content='...')
+```
+
+### 2. Gözden Geçir — Origin İzlerini Temizle
+Eğer skill başka bir kaynaktan (GitHub repo, NemoClaw, ECC, vs.) import edildiyse:
+
+| Alan | Ne Yap | Örnek |
+|------|--------|-------|
+| `phase:` | Sil | NVIDIA eğitim modülü |
+| `lesson:` | Sil | NVIDIA ders no |
+| `origin:` | Sil | `origin: ECC`, `origin: oh-my-agent-check` |
+| `tools:` | Sil | NemoClaw'a özgü alan |
+| Tag'lerde `nemo` | "Guardrails" ile değiştir | `nemo-guardrails` → `guardrails` |
+| Marka adları (NeMo, Nemotron) | Jenerik terimlerle değiştir | `NeMo Guardrails` → `Guardrails` |
+
+Kural: Skill'in içinde başka bir şirkete/sisteme ait olduğunu gösteren hiçbir meta veri kalmamalıdır.
+
+### 3. Obsidian'a Sync Et
+```bash
+python "C:\Users\marko\hermes-ai\venv\Scripts\python.exe" "C:\Users\marko\AppData\Local\hermes\hooks\sync_skills_to_obsidian.py"
+```
+
+### 4. GitHub'a Push Et (hermes-skills)
+```bash
+cd /c/Users/marko/hermes-skills
+git pull origin master
+
+# Skill dosyalarını Hermes'ten GitHub kopyasına kopyala
+# SKILL.md (Router):
+cp /c/Users/marko/AppData/Local/hermes/skills/<kategori>/<skill-adi>/SKILL.md \
+   skills/<kategori>/<skill-adi>/SKILL.md
+
+# Varsa references/ klasörü (yeni eklenen referanslar):
+cp -r /c/Users/marko/AppData/Local/hermes/skills/<kategori>/<skill-adi>/references/* \
+      skills/<kategori>/<skill-adi>/references/ 2>/dev/null
+
+# Varsa templates/ ve scripts/:
+cp -r /c/Users/marko/AppData/Local/hermes/skills/<kategori>/<skill-adi>/templates/* \
+      skills/<kategori>/<skill-adi>/templates/ 2>/dev/null
+
+git add -A
+git commit -m "update: <skill-adi> — <kısa açıklama>"
+git push origin master
+```
+
+## Önemli
+- GitHub push atlanırsa skill sadece yerel kalır, diğer cihazlara gitmez
+- Origin izleri temizlenmezse telif/takip riski oluşur
+- Sıralama: HERMES'E KAYDET → TEMİZLE → OBSIDIAN SYNC → GITHUB PUSH

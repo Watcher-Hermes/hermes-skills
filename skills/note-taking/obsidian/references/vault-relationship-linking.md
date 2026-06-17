@@ -97,16 +97,16 @@ Then update the MOC notes themselves to include the new links.
   vault; prefer them over full absolute links.
 - Use descriptive link titles (`[[target|Kısa Açıklama]]`) so Graph View
   edges are readable.
-- **Python 3.14 token interpolation**: When the token value contains `***` 
-  (triple-asterisk patterns), Python string formatting breaks. Use 
+- **Python 3.14 token interpolation**: When the token value contains `***`
+  (triple-asterisk patterns), Python string formatting breaks. Use
   string concatenation (`part1 + part2`) instead of f-strings.
-- **patch anchor must be unique**: If `## Common Pitfalls` appears 
-  identically in two places (e.g., list items start the same way), 
-  the fuzzy matcher may hit the wrong one. Include a unique snippet of 
+- **patch anchor must be unique**: If `## Common Pitfalls` appears
+  identically in two places (e.g., list items start the same way),
+  the fuzzy matcher may hit the wrong one. Include a unique snippet of
   the *first list item under that heading* for safe anchoring.
 - **Don't patch notes with "Ilgili Skill'ler" that already cover the link**:
   Check first — no point adding a cross-category link if it's already
   listed in the existing related-skills section.
-- **Keep session scope manageable**: 15 patched notes + 3 MOC updates 
-  + 1 validation is a good session. Over 25 patches and you risk 
+- **Keep session scope manageable**: 15 patched notes + 3 MOC updates
+  + 1 validation is a good session. Over 25 patches and you risk
   context window overflow or mismatched anchors.

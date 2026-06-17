@@ -1,13 +1,12 @@
 ---
-
 name: orch-change-feature
 description: Orchestrate altering an existing, working feature to new desired behavior — update its tests to the new spec, change the implementation to match, review, and gated commit. Use when behavior is not broken but should be different.
 title: "Orch Change Feature"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # orch-change-feature
 

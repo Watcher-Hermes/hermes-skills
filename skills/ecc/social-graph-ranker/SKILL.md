@@ -1,13 +1,12 @@
 ---
-
 name: social-graph-ranker
 description: Weighted social-graph ranking for warm intro discovery, bridge scoring, and network gap analysis across X and LinkedIn. Use when the user wants the reusable graph-ranking engine itself, not the broader outreach or network-maintenance workflow layered on top of it.
 title: "Social Graph Ranker"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # Social Graph Ranker
 

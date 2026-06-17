@@ -38,6 +38,7 @@ Bu skill modüler bir yönlendiricidir. İhtiyacınız olan bölümü seçin ve 
 | Integration with Other Skills | `references/integration-with-other-skills.md` |
 | Example Workflow | `references/example-workflow.md` |
 | Remember | `references/remember.md` |
+| Parallel Batch Implementation (Case Study) | `references/parallel-batch-implementation.md` |
 | Further reading (load when relevant) | `references/further-reading-load-when-relevant.md` |
 
 ## Kullanım

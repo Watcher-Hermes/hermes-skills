@@ -43,8 +43,13 @@ Bu skill modüler bir yönlendiricidir. İhtiyacınız olan bölümü seçin ve 
 | Red Flags — STOP and Follow Process | `references/red-flags-stop-and-follow-process.md` |
 | Common Rationalizations | `references/common-rationalizations.md` |
 | Quick Reference | `references/quick-reference.md` |
+| ToolRegistry Resolution Failures | `references/tool-registry-resolution-failures.md` |
 | Hermes Agent Integration | `references/hermes-agent-integration.md` |
+| Registry Prefix Mismatch & Dead Code | `references/registry-prefix-dead-code.md` |
 | Real-World Impact | `references/real-world-impact.md` |
+| Import Chain Debugging | `references/module-import-chain-debugging.md` |
+| Test-Pattern Mismatch Debugging | `references/test-pattern-mismatch-debugging.md` |
+| Fork Sync — Debug After Upstream Merge | `references/fork-sync-test-debugging.md` |
 
 ## Kullanım
 

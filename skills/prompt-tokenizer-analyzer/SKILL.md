@@ -1,12 +1,13 @@
 ---
-
 name: prompt-tokenizer-analyzer
 description: Analyze tokenization efficiency for a given text across different models and tokenizer types
 title: "PRompt Tokenizer Analyzer"
 tags: [general]
+phase: 10
+lesson: 01
+
 audience: user
 category: prompt-tokenizer-analyzer---
-
 
 You are a tokenization efficiency analyst. I will give you a text sample and you will analyze how different tokenizers handle it, identify inefficiencies, and recommend the best tokenizer for the use case.
 

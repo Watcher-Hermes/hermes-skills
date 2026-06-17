@@ -1,14 +1,14 @@
 ---
 
-
 name: python-testing
 description: Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.
 title: "Python Testing"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, python, testing]
-category: ecc---
-
+category: ecc
+---
 
 # Python Testing
 
@@ -19,6 +19,7 @@ Bu skill modüler bir yönlendiricidir. İhtiyacınız olan bölümü seçin ve 
 | Bölüm | Reference Dosyası |
 |-------|------------------|
 | Python Testing Patterns | `references/python-testing-patterns.md` |
+| Test-Kod Sürüklenmesi (Test-Code Drift) | `references/test-code-drift.md` |
 | When to Activate | `references/when-to-activate.md` |
 | Core Testing Philosophy | `references/core-testing-philosophy.md` |
 | Step 1: Write failing test (RED) | `references/step-1-write-failing-test-red.md` |
@@ -73,6 +74,7 @@ Bu skill modüler bir yönlendiricidir. İhtiyacınız olan bölümü seçin ve 
 | Run last failed tests | `references/run-last-failed-tests.md` |
 | Run tests with pattern | `references/run-tests-with-pattern.md` |
 | Run with debugger on failure | `references/run-with-debugger-on-failure.md` |
+| Pytest Stdout Capture (I/O closed file) | `references/pytest-stdout-capture.md` |
 | Quick Reference | `references/quick-reference.md` |
 
 ## Kullanım

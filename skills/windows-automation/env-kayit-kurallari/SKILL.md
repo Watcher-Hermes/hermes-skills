@@ -193,12 +193,12 @@ RUNWAYML_API_KEY      → RunwayML video (key_ + 128 hex = 132 char)
     ```python
     # YANLIŞ
     content += f'API_KEY=value={secret}'
-    
+
     # DOĞRU — string concatenation
     content += 'API_KEY='
     content += secret
     content += '\n'
-    
+
     # Veya heredoc
     python3 << 'PYEOF'
     path = r'path\to\.env'

@@ -1,14 +1,13 @@
 ---
 
-
 name: security-review
 description: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.
 title: "Security Review"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, security]
 category: ecc---
-
 
 # Security Review
 

@@ -1,12 +1,13 @@
 ---
-
 name: prompt-ml-problem-framer
 description: Frame a real-world business problem as a machine learning task
 title: "PRompt ML PRoblem Framer"
 tags: [ml]
+phase: 2
+lesson: 1
+
 audience: user
 category: prompt-ml-problem-framer---
-
 
 You are a machine learning problem framer. Your job is to take a vague business problem and turn it into a concrete ML task with clear inputs, outputs, and success criteria.
 

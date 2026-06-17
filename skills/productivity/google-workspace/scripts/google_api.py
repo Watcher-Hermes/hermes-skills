@@ -206,9 +206,9 @@ def build_service(api, version):
     return build(api, version, credentials=get_credentials())
 
 
-# ***REMOVED-BASE64***
+# =========================================================================
 # Gmail
-# ***REMOVED-BASE64***
+# =========================================================================
 
 
 def gmail_search(args):
@@ -456,9 +456,9 @@ def gmail_modify(args):
     print(json.dumps({"id": result["id"], "labels": result.get("labelIds", [])}, indent=2))
 
 
-# ***REMOVED-BASE64***
+# =========================================================================
 # Calendar
-# ***REMOVED-BASE64***
+# =========================================================================
 
 
 def calendar_list(args):
@@ -564,9 +564,9 @@ def calendar_delete(args):
     print(json.dumps({"status": "deleted", "eventId": args.event_id}))
 
 
-# ***REMOVED-BASE64***
+# =========================================================================
 # Drive
-# ***REMOVED-BASE64***
+# =========================================================================
 
 
 def drive_search(args):
@@ -798,9 +798,9 @@ def drive_delete(args):
     print(json.dumps({"status": "trashed", "fileId": args.file_id, "permanent": False}))
 
 
-# ***REMOVED-BASE64***
+# =========================================================================
 # Contacts
-# ***REMOVED-BASE64***
+# =========================================================================
 
 
 def contacts_list(args):
@@ -845,9 +845,9 @@ def contacts_list(args):
     print(json.dumps(contacts, indent=2, ensure_ascii=False))
 
 
-# ***REMOVED-BASE64***
+# =========================================================================
 # Sheets
-# ***REMOVED-BASE64***
+# =========================================================================
 
 
 def sheets_get(args):
@@ -947,9 +947,9 @@ def sheets_create(args):
     }, indent=2, ensure_ascii=False))
 
 
-# ***REMOVED-BASE64***
+# =========================================================================
 # Docs
-# ***REMOVED-BASE64***
+# =========================================================================
 
 
 def docs_get(args):
@@ -1046,9 +1046,9 @@ def _docs_insert_text(doc_id: str, text: str, index: int) -> None:
     service.documents().batchUpdate(documentId=doc_id, body={"requests": requests}).execute()
 
 
-# ***REMOVED-BASE64***
+# =========================================================================
 # CLI parser
-# ***REMOVED-BASE64***
+# =========================================================================
 
 
 def main():

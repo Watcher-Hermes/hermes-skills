@@ -257,9 +257,9 @@
 <div class="canvas-area" id="canvas-container"></div>
 
 <script>
-// ***REMOVED-BASE64***
+// ====================================================================
 // CONFIGURATION — REPLACE FOR EACH PROJECT
-// ***REMOVED-BASE64***
+// ====================================================================
 const DEFAULTS = {
   seed: 42,
   count: 500,
@@ -270,9 +270,9 @@ const DEFAULTS = {
 
 let PARAMS = { ...DEFAULTS };
 
-// ***REMOVED-BASE64***
+// ====================================================================
 // SEED NAVIGATION — FIXED (do not modify)
-// ***REMOVED-BASE64***
+// ====================================================================
 function changeSeed(delta) {
   PARAMS.seed = Math.max(0, PARAMS.seed + delta);
   document.getElementById('seed-display').textContent = PARAMS.seed;
@@ -295,9 +295,9 @@ function jumpToSeed() {
   }
 }
 
-// ***REMOVED-BASE64***
+// ====================================================================
 // PARAMETER UPDATES — CUSTOMIZE updateParam body as needed
-// ***REMOVED-BASE64***
+// ====================================================================
 function updateParam(name, value) {
   PARAMS[name] = value;
   let el = document.getElementById(name + '-val');
@@ -331,9 +331,9 @@ function downloadPNG() {
   saveCanvas('generative-art-seed-' + PARAMS.seed, 'png');
 }
 
-// ***REMOVED-BASE64***
+// ====================================================================
 // P5.JS SKETCH — REPLACE ENTIRELY FOR EACH PROJECT
-// ***REMOVED-BASE64***
+// ====================================================================
 
 // Your state variables
 let particles = [];

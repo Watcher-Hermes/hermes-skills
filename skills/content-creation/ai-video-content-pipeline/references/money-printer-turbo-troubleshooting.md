@@ -13,7 +13,7 @@ WebUI's `save_config()` in `app/config/config.py` writes the full `_cfg` dict ba
 
 ## Gemini Voice Fallback
 
-When user selects `gemini:Zephyr-Female` in WebUI but has no Gemini API key, the original code errors out. 
+When user selects `gemini:Zephyr-Female` in WebUI but has no Gemini API key, the original code errors out.
 
 **Patch applied to `app/services/voice.py`, function `tts()`:**
 

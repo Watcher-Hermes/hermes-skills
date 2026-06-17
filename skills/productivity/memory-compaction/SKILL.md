@@ -3,7 +3,7 @@ name: memory-compaction
 title: "Memory Compaction"
 tags: [productivity]
 description: >-
-  Hermes MEMORY.md 10.000 char sınırına yaklaştığında veya dolduğunda
+  Hermes MEMORY.md 50.000 char sınırına yaklaştığında veya dolduğunda
   eski/stale/dağınık memory entry'lerini konsolide edip yer açma pattern'i.
   Kullanıcının "memory dolu" veya memory add başarısız olduğunda kullan.
 version: 1.0.0
@@ -22,7 +22,7 @@ related_skills: [telegram-gateway-monitor]
 
 Aşağıdaki durumlardan biri oluştuğunda bu skill'i yükle:
 
-1. **Memory add/replace başarısız olursa** — `memory(action='add')` 10.000 char limit hatası dönerse
+1. **Memory add/replace başarısız olursa** — `memory(action='add')` 50.000 char limit hatası dönerse
 2. **Memory kullanım oranı %90+ ise** — mevcut memory çıktısında char kullanımı 9.000+ gösteriyorsa
 3. **Kullanıcı "hafızan dolu" derse** veya "memory temizle" gibi bir ifade kullanırsa
 
@@ -91,13 +91,13 @@ Konsolide entry'yi eklemek için:
 ### 6. Doğrulama
 
 Tüm işlemler bitince memory durumunu teyit et:
-- Kullanım oranı düştü mü? (9.000/10.000 altı hedef)
+- Kullanım oranı düştü mü? (45.000/50.000 altı hedef)
 - Değiştirilemez kurallar hâlâ duruyor mu?
 - Hiçbir önemli bilgi kayboldu mu?
 
 ## İki Depolu Yapı (memory vs user)
 
-Memory iki ayrı depodan oluşur — her birinin 10K limiti vardır:
+Memory iki ayrı depodan oluşur — MEMORY 50K, USER PROFILE 5K limiti vardır:
 
 | Depo | Ne İçin | Örnek |
 |------|---------|-------|
@@ -133,6 +133,8 @@ Kullanıcı küçük, modüler entry'leri büyük tek blok yerine tercih eder. ~
 - **DEGISTIRILEMEZ KURAL** etiketli entry'lere dokunma.
 - Kullanıcıya sadece "Memory %XX → %YY" özeti ver.
 
-## Referans
+## Referanslar
+
+- `references/memory-audit-checklist.md` — Proaktif hafıza kalite audit'i (kapasite analizi + içerik audit'i + konsolidasyon). Memory %90 altındayken kullanılır.
 
 Bu session'da memory %72 → %39'a düşürüldü (7,200 char tek blok → 12 modüler entry): 7 eksik parça geri eklendi, user deposu yeniden yapılandırıldı.

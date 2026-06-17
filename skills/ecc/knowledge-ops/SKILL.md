@@ -1,13 +1,12 @@
 ---
-
 name: knowledge-ops
 description: Knowledge base management, ingestion, sync, and retrieval across multiple storage layers (local files, MCP memory, vector stores, Git repos). Use when the user wants to save, organize, sync, deduplicate, or search across their knowledge systems.
 title: "Knowledge Ops"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # Knowledge Operations
 

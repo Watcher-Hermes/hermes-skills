@@ -1,6 +1,6 @@
 ## Genel Yaklaşım
 
-Python script (sistem Python'u ile) → dosyaların fiilen düzenlenmesi. 
+Python script (sistem Python'u ile) → dosyaların fiilen düzenlenmesi.
 Terminal komutlarıyla tek tek düzeltme yapma — Python ile toplu işle.
 
 **Araç zinciri:**

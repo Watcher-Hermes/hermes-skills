@@ -4,19 +4,19 @@ MoneyPrinterTurbo **gerçek AI video üretimi yapmaz** — sadece Pexels/Pixabay
 
 ### Kling AI
 
-- **Web:** https://kling.ai  
-- **API:** https://kling.ai/dev/api-key  
-- **Kayıt:** `.env` → `KLING_ACCESS_KEY`, `KLING_SECRET_KEY`  
-- **Özellik:** Text-to-video, image-to-video  
+- **Web:** https://kling.ai
+- **API:** https://kling.ai/dev/api-key
+- **Kayıt:** `.env` → `KLING_ACCESS_KEY`, `KLING_SECRET_KEY`
+- **Özellik:** Text-to-video, image-to-video
 
 ### RunwayML
 
-- **Web:** https://app.runwayml.com  
-- **API Docs:** https://docs.dev.runwayml.com/api  
-- **API Key formatı:** `key_` ile başlayan 128 hex karakter (toplam 132 karakter)  
-- **Kayıt:** `.env` → `RUNWAYML_API_KEY`  
-- **API Endpoint:** `api.dev.runwayml.com`  
-- **Gerekli Header'lar:**  
+- **Web:** https://app.runwayml.com
+- **API Docs:** https://docs.dev.runwayml.com/api
+- **API Key formatı:** `key_` ile başlayan 128 hex karakter (toplam 132 karakter)
+- **Kayıt:** `.env` → `RUNWAYML_API_KEY`
+- **API Endpoint:** `api.dev.runwayml.com`
+- **Gerekli Header'lar:**
   ```
   Authorization: Bearer <key>
   X-Runway-Version: v1

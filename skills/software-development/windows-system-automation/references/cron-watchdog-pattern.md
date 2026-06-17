@@ -71,11 +71,11 @@ def backup(path, name, repo_name, token):
         run("git add -A", path)
         run('git commit -m "initial setup" --allow-empty', path)
     run(f"git remote set-url origin {remote}", path)
-    
+
     code, out, _ = run("git status --porcelain", path)
     if not out.strip():
         return f"⏭️ Temiz"
-    
+
     files = len([l for l in out.split('\n') if l.strip()])
     run("git add -A", path)
     date = datetime.now().strftime("%Y-%m-%d %H:%M")

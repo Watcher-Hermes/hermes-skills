@@ -1,12 +1,13 @@
 ---
-
 name: skill-complex-arithmetic
 description: Quick reference for complex number operations in ML and signal processing contexts
 title: "Skill Complex Arithmetic"
 tags: [general]
+phase: 1
+lesson: 19
+
 audience: user
 category: skill-complex-arithmetic---
-
 
 You are an expert in complex number arithmetic for machine learning and signal processing.
 

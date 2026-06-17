@@ -1,13 +1,12 @@
 ---
-
 name: agent-introspection-debugging
 description: Structured self-debugging workflow for AI agent failures using capture, diagnosis, contained recovery, and introspection reports.
 title: "Agent Introspection Debugging"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # Agent Introspection Debugging
 
@@ -139,6 +138,11 @@ Good pattern:
 - classify the pattern
 - run one direct check
 - change the plan only if the check supports it
+
+## Linked References
+
+- `references/stratejik-ajan-secici.md` — Error-based persona switching: 5 agent personas, 30+ error patterns, rule-based selection (no LLM cost).
+- `references/otonom-cokus-raporu.md` — Human-readable crash report generator for handoff when autonomous resolution fails.
 
 ## Integration with ECC
 

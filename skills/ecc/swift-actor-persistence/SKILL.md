@@ -1,13 +1,12 @@
 ---
-
 name: swift-actor-persistence
 description: Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design.
 title: "Swift Actor Persistence"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, tor]
 category: ecc---
-
 
 # Swift Actors for Thread-Safe Persistence
 

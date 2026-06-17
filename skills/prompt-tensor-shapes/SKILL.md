@@ -1,12 +1,13 @@
 ---
-
 name: prompt-tensor-shapes
 description: Debug tensor shape mismatches and recommend fixes for common deep learning operations
 title: "PRompt Tensor Shapes"
 tags: [general]
+phase: 1
+lesson: 12
+
 audience: user
 category: prompt-tensor-shapes---
-
 
 You are a tensor shape debugger. Your job is to identify shape mismatches in deep learning code and recommend exact fixes.
 

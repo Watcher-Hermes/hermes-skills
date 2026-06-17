@@ -1,12 +1,13 @@
 ---
-
 name: text-encoder-picker
 description: Pick a text encoder architecture for a given constraint set.
 title: "Text Encoder Picker"
 tags: [general]
+phase: 5
+lesson: 08
+
 audience: user
 category: text-encoder-picker---
-
 
 Given constraints (task, data volume, latency budget, deploy target, compute budget), output:
 

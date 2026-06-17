@@ -98,9 +98,9 @@ class TestInjectParams:
         assert any("link" in w.lower() for w in warnings)
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Output download walk
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestDownloadOutputsWalk:
     """Test that download_outputs walks the structure correctly."""
@@ -169,9 +169,9 @@ class TestDownloadOutputsWalk:
         assert len({str(f) for f in files}) == 2
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # ComfyRunner construction
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestRunnerConstruction:
     def test_local_default(self):

@@ -1,13 +1,12 @@
 ---
-
 name: email-ops
 description: Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe follow-up workflow for ECC. Use when the user wants to organize email, draft or send through the real mail surface, or prove what landed in Sent.
 title: "Email Ops"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development, email]
 category: ecc---
-
 
 # Email Ops
 

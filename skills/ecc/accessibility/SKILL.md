@@ -1,13 +1,12 @@
 ---
-
 name: accessibility
 description: Design, implement, and audit inclusive digital products using WCAG 2.2 Level AA
 title: "Accessibility"
+origin: ECC
 
 audience: user
 tags: [ai, automation, development]
-category: ecc---
-standards. Use this skill to generate semantic ARIA for Web and accessibility traits for Web and Native platforms (iOS/Android).
+category: ecc---standards. Use this skill to generate semantic ARIA for Web and accessibility traits for Web and Native platforms (iOS/Android).
 
 
 

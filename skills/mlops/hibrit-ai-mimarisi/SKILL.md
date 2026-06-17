@@ -39,22 +39,39 @@ Sorgu gelir
   └─ Uzak bağlantı koparsa → otomatik Ollama'ya düş
   └─ Aktif model reddederse/red flag → dolphin-llama3'e düş (dolphin-llama3 skill)
 
-## config.yaml Yapılandırması
+## config.yaml Yapılandırması (Mevcut — custom provider ile)
 
 ```yaml
-providers:
-  - name: default
-    api_key: "sk-..."  # DeepSeek API key (REDACTED)
-    base_url: "https://api.deepseek.com/v1"
-    models:
-      - name: "deepseek-chat"
-  - name: ollama
-    base_url: "http://localhost:11434/v1"
-    api_key: "ollama"
-    models:
-      - name: "dolphin-llama3:latest"
-      - name: "llama3.1:8b"
+# ÜST DÜZEY (default model)
+model:
+  default: deepseek-v4-flash
+  provider: custom          # "custom" provider, doğrudan model_aliases'den okur
+  model: deepseek-v4-flash
+  api_key: ''               # API key .env'den okunur
+  base_url: https://api.deepseek.com/v1
+  context_length: 1048576
+
+# Model alias'ları (provider: custom ile çalışır)
+model_aliases:
+  deepseek:
+    model: deepseek-v4-flash
+    provider: custom
+    base_url: https://api.deepseek.com/v1
+    context_length: 1048576
+  dolphin:
+    model: dolphin-llama3:latest
+    provider: custom
+    base_url: http://localhost:11434/v1
+    context_length: 65536
+
+# Provider'lar (custom kullanıldığında boş olabilir)
+providers: {}
+
+# Fallback — BOŞ OLURSA KREDİ BİTİNCE ÇÖKER
+fallback_providers: []
 ```
+
+**NOT:** `custom` provider, API key'i `.env`'den alır (`DEEPSEEK_API_KEY`). `providers:` listesi sadece isimli provider'lar içindir — `custom` kullanıldığında boş olabilir. Fallback eklemek için `fallback_providers` dizisine yeni bir provider eklenmeli.
 
 ## Hatırlatmalar
 - API anahtarları `.env` dosyasında saklanır, asla koda yazılmaz

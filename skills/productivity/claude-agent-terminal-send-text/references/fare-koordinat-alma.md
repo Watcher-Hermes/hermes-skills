@@ -88,7 +88,7 @@ Alternatif cozum: wscript.Shell SendKeys + AppActivate daha guvenilir olabilir
    - Yüksekte, ust panelde
    - Direkt soru/metin yaz + Enter gonder
    - Komut calistirmaz, Claude AI'ya mesaj gonderir
-   
+
 2. VS Code Normal Terminal — bash/PowerShell komut satiri
    - Altta, panelde
    - echo/ls/cd/python gibi shell komutlari calistirir

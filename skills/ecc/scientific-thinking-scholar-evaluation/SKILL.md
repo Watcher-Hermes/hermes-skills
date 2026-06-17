@@ -1,13 +1,12 @@
 ---
-
 name: scholar-evaluation
 description: Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence quality, citation support, and research-writing feedback.
 title: "Scholar Evaluation"
+origin: community
 
 audience: user
 tags: [ai, automation, development]
 category: ecc---
-
 
 # Scholar Evaluation
 

@@ -228,11 +228,11 @@ for p in skills_dir.rglob("SKILL.md"):
     parts = content.split("---", 2)
     if len(parts) < 3:
         continue
-    
+
     fm_text = parts[1]
     if re.search(r'^audience:\s*', fm_text, re.MULTILINE):
         continue  # zaten var
-    
+
     # Skill adı ve kategori
     rel = p.relative_to(skills_dir)
     parts_path = rel.parts
@@ -244,16 +244,16 @@ for p in skills_dir.rglob("SKILL.md"):
         skill_name = parts_path[0]
     else:
         continue
-    
+
     audience = get_audience(skill_name, category)
-    
+
     # category veya tags'dan sonra ekle
     lines = fm_text.split("\n")
     insert_pos = len(lines)
     for i, line in enumerate(lines):
         if line.strip().startswith("category:") or line.strip().startswith("tags:"):
             insert_pos = i + 1
-    
+
     lines.insert(insert_pos, f"audience: {audience}")
     new_fm = "\n".join(lines)
     new_content = f"---{new_fm}---{parts[2]}"

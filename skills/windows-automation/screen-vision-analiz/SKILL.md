@@ -149,7 +149,11 @@ print(resp.json()['choices'][0]['message']['content'])
 9. **Vision_analyze hatasi → direkt OCR'a gec** — DeepSeek V4 Flash `'unknown variant image_url'` hatasi verirse tekrar deneme, direkt OCR'a gec.
 10. **Ollama kaldirildi** — `llava-llama3` mevcut degil. `hermestor.py connect` gibi llava gerektiren komutlar calismaz. Cozum: `hermesapprove.py scan` veya manuel tikla.
 
----
+## Reference Files
+
+| Dosya | Icerik |
+|-------|--------|
+| `references/3-asamali-nisanbulucu.md` | 3 asamali hiyerarsik ekran hedef bulma (DOM → Sablon → OCR) |
 
 ## Verification Checklist
 

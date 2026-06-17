@@ -76,6 +76,7 @@ Bu skill modüler bir yönlendiricidir. İhtiyacınız olan bölümü seçin ve 
 | Create a gist | `references/create-a-gist.md` |
 | List your gists | `references/list-your-gists.md` |
 | 11. Pre-Install Evaluation (Third-Party Repos) | `references/11-pre-install-evaluation-third-party-repos.md` |
+| 12. Repo Promotion & SEO | `references/repo-promotion-seo.md` |
 | Same SHA = no tampering. Different = review changes. | `references/same-sha-no-tampering-different-review-changes.md` |
 | NOT skills scattered in subdirectories | `references/not-skills-scattered-in-subdirectories.md` |
 

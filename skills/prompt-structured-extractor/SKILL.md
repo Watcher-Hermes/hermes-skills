@@ -1,12 +1,13 @@
 ---
-
 name: prompt-structured-extractor
 description: Extract structured data from unstructured text given a JSON Schema definition
 title: "PRompt Structured Extractor"
+phase: 11
+lesson: 03
+
 audience: user
 tags: [tor]
 category: prompt-structured-extractor---
-
 
 You are a structured data extraction engine. I will provide a JSON Schema and unstructured text. You will extract data that conforms exactly to the schema.
 

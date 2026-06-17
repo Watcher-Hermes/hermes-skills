@@ -71,13 +71,13 @@ def fetch_arxiv_metadata(arxiv_id: str) -> dict:
         req = urllib.request.Request(url, headers={"User-Agent": "paper-deep-reader/0.1"})
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = resp.read().decode("utf-8")
-        
+
         ns = {"atom": "http://www.w3.org/2005/Atom"}
         root = ET.fromstring(data)
         entry = root.find("atom:entry", ns)
         if entry is None:
             return {"error": "No entry found", "source": "arxiv"}
-        
+
         title = entry.find("atom:title", ns).text.strip().replace("\n", " ")
         abstract = entry.find("atom:summary", ns).text.strip().replace("\n", " ")
         authors = []
@@ -85,27 +85,27 @@ def fetch_arxiv_metadata(arxiv_id: str) -> dict:
         for author in entry.findall("atom:author", ns):
             name = author.find("atom:name", ns).text.strip()
             authors.append(name)
-        
+
         # Get categories
         categories = []
         for cat in entry.findall("atom:category", ns):
             categories.append(cat.get("term", ""))
-        
+
         # Get DOI if available
         doi = ""
         for link in entry.findall("atom:link", ns):
             pass  # arXiv API doesn't always include DOI
-        
+
         # Check for journal_ref
         journal_ref = ""
         journal_elem = entry.find("atom:journal_ref", ns)
         if journal_elem is not None:
             journal_ref = journal_elem.text.strip()
-        
+
         doi_elem = entry.find("atom:doi", ns)
         if doi_elem is not None:
             doi = doi_elem.text.strip()
-        
+
         return {
             "title": title,
             "authors": ", ".join(authors),
@@ -129,9 +129,9 @@ def fetch_crossref_metadata(doi: str) -> dict:
         })
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-        
+
         work = data.get("message", {})
-        
+
         # Extract authors
         authors = []
         affiliations = []
@@ -146,21 +146,21 @@ def fetch_crossref_metadata(doi: str) -> dict:
             if "affiliation" in author:
                 for aff in author["affiliation"]:
                     affiliations.append(aff.get("name", ""))
-        
+
         # Extract journal info
         journal = work.get("container-title", [""])[0] if work.get("container-title") else ""
         volume = work.get("volume", "")
         issue = work.get("issue", "")
-        
+
         # Extract year
         year = ""
         if "published" in work and "date-parts" in work["published"]:
             parts = work["published"]["date-parts"][0]
             if parts:
                 year = str(parts[0])
-        
+
         title = work.get("title", [""])[0] if work.get("title") else ""
-        
+
         return {
             "title": title,
             "authors": ", ".join(authors),
@@ -186,15 +186,15 @@ def fetch_semantic_scholar(doi: str = None, arxiv_id: str = None, title: str = N
         url = f"https://api.semanticscholar.org/graph/v1/paper/search?query={urllib.parse.quote(title)}&limit=1&fields=citationCount,influentialCitationCount,title,year"
     else:
         return {"error": "No identifier provided", "source": "semantic_scholar"}
-    
+
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "paper-deep-reader/0.1"})
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-        
+
         if "data" in data:  # search result
             data = data["data"][0] if data["data"] else {}
-        
+
         return {
             "citation_count": data.get("citationCount", "N/A"),
             "influential_citations": data.get("influentialCitationCount", "N/A"),
@@ -226,19 +226,19 @@ def main():
     parser.add_argument("--doi", help="Paper DOI")
     parser.add_argument("--output", "-o", default="metadata.json", help="Output JSON file")
     args = parser.parse_args()
-    
+
     print("=== Paper Metadata Extraction ===\n")
-    
+
     # Step 1: PyMuPDF
     print("[1/4] Extracting from PDF (PyMuPDF)...")
     pymupdf_meta = extract_pymupdf_metadata(args.pdf_path)
     print(f"  Title: {pymupdf_meta.get('title', 'N/A')[:60]}")
     print(f"  Author: {pymupdf_meta.get('author', 'N/A')[:60]}")
-    
+
     # Step 2: arXiv or CrossRef
     arxiv_meta = {}
     crossref_meta = {}
-    
+
     if args.arxiv_id:
         print(f"\n[2/4] Fetching from arXiv ({args.arxiv_id})...")
         arxiv_meta = fetch_arxiv_metadata(args.arxiv_id)
@@ -264,7 +264,7 @@ def main():
             crossref_meta = fetch_crossref_metadata(doi_from_pdf)
         else:
             print("\n[2/4] No DOI or arXiv ID provided, skipping external APIs")
-    
+
     # Step 3: Semantic Scholar
     print("\n[3/4] Fetching citation count (Semantic Scholar)...")
     ss_meta = fetch_semantic_scholar(
@@ -273,28 +273,28 @@ def main():
         title=pymupdf_meta.get("title")
     )
     print(f"  Citations: {ss_meta.get('citation_count', 'N/A')}")
-    
+
     # Step 4: Merge
     print("\n[4/4] Merging metadata...")
     final = merge_metadata(crossref_meta, arxiv_meta, pymupdf_meta)
     final["citation_count"] = ss_meta.get("citation_count", "N/A")
     final["influential_citations"] = ss_meta.get("influential_citations", "N/A")
-    
+
     # Remove internal fields
     final.pop("first_page_text", None)
     final.pop("abstract_text", None)
-    
+
     # Add abstract if available
     if arxiv_meta.get("abstract"):
         final["abstract"] = arxiv_meta["abstract"]
     elif pymupdf_meta.get("abstract"):
         final["abstract"] = pymupdf_meta["abstract"]
-    
+
     # Save
     output_path = args.output
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(final, f, ensure_ascii=False, indent=2)
-    
+
     print(f"\n=== Saved to {output_path} ===")
     print(json.dumps(final, ensure_ascii=False, indent=2))
 

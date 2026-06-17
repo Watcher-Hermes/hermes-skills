@@ -44,7 +44,7 @@ Repo `uv.lock` içeriyor → uv ile yönetiliyor. pip kurulu değil.
 # Backend (FastAPI) — port 8080
 .venv/Scripts/python.exe main.py
 
-# WebUI (Streamlit) — port 8501  
+# WebUI (Streamlit) — port 8501
 .venv/Scripts/python.exe -m streamlit run webui/Main.py --server.headless=true
 ```
 

@@ -1,68 +1,98 @@
 ---
-
 name: gece-3-github-yedek
-title: "Gece 3 GitHub Yedek"
-tags: [automation, devops, git, system]
+title: "GitHub Yedekleme"
+tags: [automation, devops, git, system, backup, github, memory]
 description: >-
-  Her gece saat 03:00'te tüm Hermes skill'lerini ve Obsidian vault
-  klasörünü GitHub'a yedekler. Skills reposu yoksa MCP GitHub ile
-  oluşturur, varsa push eder. Obsidian vault zaten GitHub'a bağlıdır.
-  Sonuç Telegram'a bildirilir. Auth sorunları için çoklu strateji
-  kullanır: SSH, HTTPS+PAT, MCP GitHub.
-version: 2.2.0
-author: hermes-agent
+  Hermes Agent yedekleme: memory (MEMORY.md + USER.md), skills, config, state.db
+  GitHub'a yedeklenir. İki yöntem: (1) gh CLI ile basit memory yedek, (2) full
+  backup scripti ile skills+state.db+memory.
+version: 3.0.0
+author: marko
 license: MIT
-metadata:
-  hermes:
-    tags: [yedek, github, nightly, backup, cron, skills, obsidian]
 audience: maintainer
 related_skills:
-      - obsidian-vault-kurallari
-      - tam-sistem-yetkisi
-      - nightly-self-improvement
-      - env-kayit-kurallari
-      - github-auth
+  - github-auth
+  - obsidian-vault-kurallari
+  - tam-sistem-yetkisi
 ---
 
-# Gece 3 Github Yedek
+# GitHub Yedekleme
 
-Bu skill modüler bir yönlendiricidir. İhtiyacınız olan bölümü seçin ve ilgili reference dosyasını yükleyin.
+## Yöntem 1 — Sadece Memory (Basit, Hızlı)
 
-## 📂 Bölümler
+Memory dosyalarını (MEMORY.md + USER.md) GitHub'a yedeklemek için:
 
-| Bölüm | Reference Dosyası |
-|-------|------------------|
-| Amaç | `references/ama.md` |
-| Cron Job | `references/cron-job.md` |
-| ÖN KOŞUL: PAT Scope Doğrulama | `references/n-ko-ul-pat-scope-do-rulama.md` |
-| PAT fine-grained token IÇIN: Repository access → All repositories → Read and Write | `references/pat-fine-grained-token-i-in-repository-access-all-repositori.md` |
-| Auth Stratejileri (öncelik sırasıyla) | `references/auth-stratejileri-ncelik-s-ras-yla.md` |
-| Obsidian vault git config'den PAT'ı ayıkla | `references/obsidian-vault-git-config-den-pat-ay-kla.md` |
-| gh CLI (keyring'de kendi OAuth token'ı var) | `references/gh-cli-keyring-de-kendi-oauth-token-var.md` |
-| MCP GitHub üzerinden doğrudan dosya push | `references/mcp-github-zerinden-do-rudan-dosya-push.md` |
-| Adımlar (cron tarafından otomatik çalıştırılır) | `references/ad-mlar-cron-taraf-ndan-otomatik-al-t-r-l-r.md` |
-| SSH test | `references/ssh-test.md` |
-| PAT test — önce /user ile ana hesap kontrolü | `references/pat-test-nce-user-ile-ana-hesap-kontrol.md` |
-| Izleyici-Hermes kullanıcısı kontrolü (asdafgf yeniden adlandırıldı) | `references/izleyici-hermes-kullan-c-s-kontrol-asdafgf-yeniden-adland-r-.md` |
-| Git credential helper'ı devre dışı bırak (Eymen2016 çakışması önlemi) | `references/git-credential-helper-devre-d-b-rak-eymen2016-ak-mas-nlemi.md` |
-| Backup klasörü oluştur (yoksa) | `references/backup-klas-r-olu-tur-yoksa.md` |
-| Skills'i kopyala | `references/skills-i-kopyala.md` |
-| Git repo oluştur/yönet | `references/git-repo-olu-tur-y-net.md` |
-| Eğer .git yoksa init et | `references/e-er-git-yoksa-init-et.md` |
-| Push dene — SSH önce | `references/push-dene-ssh-nce.md` |
-| SSH başarısızsa HTTPS+PAT dene | `references/ssh-ba-ar-s-zsa-https-pat-dene.md` |
-| Önce JavaNotes submodule'ünü işle | `references/nce-javanotes-submodule-n-i-le.md` |
-| Ana repo | `references/ana-repo.md` |
-| Branch adını belirle | `references/branch-ad-n-belirle.md` |
-| Push dene | `references/push-dene.md` |
-| Başarısızsa PAT dene | `references/ba-ar-s-zsa-pat-dene.md` |
-| Python betiği ile Telegram bildirimi | `references/python-beti-i-ile-telegram-bildirimi.md` |
-| Pitfall'lar | `references/pitfall-lar.md` |
-| Başarı Kriterleri | `references/ba-ar-kriterleri.md` |
-| Referans Dosyaları | `references/referans-dosyalar.md` |
-| Bakım | `references/bak-m.md` |
+```bash
+# 1. Token'ları temizle ve geçici dizine kopyala
+python3 -c "
+import re, shutil, os
+src = r'C:\\Users\\marko\\AppData\\Local\\hermes\\memories'
+dst = r'C:\\Users\\marko\\AppData\\Local\\Temp\\hermes-memory-temp'
+if os.path.exists(dst): shutil.rmtree(dst)
+os.makedirs(dst)
+for fname in ['MEMORY.md', 'USER.md']:
+    with open(os.path.join(src, fname), 'r', encoding='utf-8') as f:
+        content = f.read()
+    content = re.sub(r'ghp_[A-Za-z0-9]+', '[GIZLI-TOKEN]', content)
+    content = re.sub(r'github_pat_[A-Za-z0-9_]+', '[GIZLI-TOKEN]', content)
+    content = re.sub(r'sk-[A-Za-z0-9\-]+', '[GIZLI-TOKEN]', content)
+    with open(os.path.join(dst, fname), 'w', encoding='utf-8') as f:
+        f.write(content)
+"
 
-## Kullanım
+# 2. Repo oluştur ve push et (tek seferde)
+cd /c/Users/marko/AppData/Local/Temp/hermes-memory-temp
+git init
+git add -A
+git commit -m "Memory backup $(date +%Y-%m-%d)"
+gh repo create hermes-memory-backup --private --push --source .
+```
 
-1. İhtiyacın olan bölümü belirle
-2. `skill_view(name="...", file_path="references/...")` ile yükle
+**Not:** `gh` CLI (keyring auth) her zaman HTTPS+PAT'den önce dene. MCP GitHub tool'ları her zaman çalışmayabilir.
+
+## Yöntem 2 — Full Backup (Skills + Memory + state.db)
+
+Script: `scripts/sync_hermes_backup.py`
+
+Kapsam:
+- Skills dizini (`.bundled_manifest`, `__pycache__` hariç)
+- Memory (MEMORY.md + USER.md)
+- state.db (55MB chunk'lara bölünmüş zip)
+
+```bash
+python3 scripts/sync_hermes_backup.py
+```
+
+Cron için `no_agent=true` modu önerilir (LLM harcamaz).
+
+## Auth Stratejileri (Öncelik Sırası)
+
+1. **gh CLI** (keyring OAuth) — en güvenilir, önce dene
+2. **HTTPS + PAT** — `.env`'deki GITHUB_TOKEN ile
+3. **MCP GitHub** — sadece basit dosya işlemleri için, repo oluşturmada başarısız olabilir
+
+### gh CLI Kontrol
+```bash
+gh auth status
+# ✓ Logged in to github.com account asdafgf (keyring)
+```
+
+## Hedef Repolar
+
+| Repo | Açıklama | Oluşturuldu |
+|------|----------|-------------|
+| `Watcher-Hermes/hermes-memory-backup` | Memory yedeği (MEMORY.md + USER.md) | ✅ 14 Haz 2026 |
+| `Watcher-Hermes/hermes-full-backup` | Skills + memory + state.db | Geçmişte oluşturuldu |
+
+## Obsidian Vault Yedekleme
+
+Obsidian vault zaten GitHub'a bağlıdır (kendi git repo'su). Ayrıca yedeklemeye gerek yoktur. Vault içindeki değişiklikler otomatik git history'de kalır.
+
+## Pitfall'lar
+
+1. **Token sızıntısı** — Memory'de GITHUB_TOKEN/PAT varsa, push öncesi `re.sub` ile temizle
+2. **gh CLI yoksa** — `gh` kurulu değilse `GITHUB_TOKEN` ile HTTPS+PAT dene
+3. **state.db kilitli** — Hermes açıkken state.db okunamayabilir; WAL modunda retry gerekebilir
+4. **Eymen2016 çakışması** — Git credential helper'da eski hesap varsa `git config --unset credential.helper` ile temizle
+5. **Large file** — state.db 100MB+ ise GitHub 50MB limitine takılma; chunk'la veya Git LFS kullan
+6. **Repo yoksa** — `gh repo create` ile oluştur, `mcp_github_create_repository` her zaman auth vermeyebilir

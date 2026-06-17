@@ -20,9 +20,9 @@
 %% merlin.mbs  (with options: `ay,nat,pres,ed-au,keyxyr,blkyear,dt-beg,yr-per,note-yr,num-xser,pre-edn,xedn,nfss')
 %% ----------------------------------------
 %% *** Intended for ACL conferences ***
-%% 
+%%
 %% Copyright 1994-2011 Patrick W Daly
- % ***REMOVED-BASE64***
+ % ===============================================================
  % IMPORTANT NOTICE:
  % This bibliographic style (bst) file has been generated from one or
  % more master bibliographic style (mbs) files, listed above.
@@ -31,7 +31,7 @@
  % of the LaTeX Project Public License Distributed from CTAN
  % archives in directory macros/latex/base/lppl.txt; either
  % version 1 of the License, or any later version.
- % ***REMOVED-BASE64***
+ % ===============================================================
  % Name and version information of the main mbs file:
  % \ProvidesFile{merlin.mbs}[2011/11/18 4.33 (PWD, AO, DPC)]
  %   For use with BibTeX version 0.99a or later
@@ -1889,7 +1889,7 @@ FUNCTION {reverse.pass}
   extra.label
   duplicate$ empty$
     'skip$
-    { year field.or.null #-1 #1 substring$ chr.to.int$ #65 < 
+    { year field.or.null #-1 #1 substring$ chr.to.int$ #65 <
       { "{\natexlab{" swap$ * "}}" * }
       { "{(\natexlab{" swap$ * "})}" * }
     if$ }

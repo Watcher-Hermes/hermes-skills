@@ -4,7 +4,7 @@ name: claude-code
 title: "Claude Code"
 tags: [agents, ai]
 description: "Delegate coding to Claude Code CLI (features, PRs)."
-version: 2.2.0
+version: 2.3.0
 author: Hermes Agent + Teknium
 license: MIT
 platforms: [linux, macos, windows]
@@ -75,6 +75,9 @@ Bu skill modüler bir yönlendiricidir. İhtiyacınız olan bölümü seçin ve 
 | Cost & Performance Tips | `references/cost-performance-tips.md` |
 | Pitfalls & Gotchas | `references/pitfalls-gotchas.md` |
 | Rules for Hermes Agents | `references/rules-for-hermes-agents.md` |
+| **Import Chain Debugging** | `references/import-chain-debugging.md` |
+| **Windows Orchestration Bridge** (VS Code GUI pipeline) | `references/windows-orchestration-bridge.md` |
+| **Bash Özel Karakter Workaround** (temp dosya + Python inline) | `references/bash-ozel-karakter-workaround.md` |
 
 ## Kullanım
 

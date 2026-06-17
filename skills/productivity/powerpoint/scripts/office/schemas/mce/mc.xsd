@@ -6,7 +6,7 @@
 
   <!--
     This XSD is a modified version of the one found at:
-    https://github.***REMOVED-BASE64***-compatibility-2006-MINIMAL.xsd
+    https://github.com/plutext/docx4j/blob/master/xsd/mce/markup-compatibility-2006-MINIMAL.xsd
 
     This XSD has 2 objectives:
 

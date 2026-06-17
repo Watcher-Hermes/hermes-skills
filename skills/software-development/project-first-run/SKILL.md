@@ -84,12 +84,39 @@ Without `__init__.py`, subdirectory modules cannot be imported.
 Test that the main entry point imports without errors:
 
 ```bash
-python -c "from main import AIAgentOrchestrator; print('✅ Import OK')"
+python -c "from main import AIAgentOrchestrator; print('OK')"
 ```
 
 This is a low-cost sanity check before any actual execution.
 
-### 6. Service Connectivity
+### 6. Module Integration Wiring (CRITICAL)
+
+Creating files is NOT enough — each new module must be WIRED into the main
+application. Integration means the main loop (main.py), LLM layer (beyin.py),
+execution engine (motor.py), CLI (reyment.py), and gateway all need to know
+about the new module.
+
+**Integration point map for a typical agent project:**
+
+```
+New Module -> motor.py calistir()        -> add if/else or registry entry
+           -> main.py imports            -> add to import chain
+           -> beyin.py config            -> add to provider list
+           -> reyment.py CLI dispatch    -> add subcommand handler
+           -> gateway_runner.py startup  -> add to service list
+```
+
+**Verification:** After wiring, run:
+```bash
+python -c "from main import AIAgentOrchestrator; from motor import Motor; from beyin import Beyin"
+python -c "from tool_registry import ToolRegistry; r=ToolRegistry(); print(r.calistir('KOMUT_CALISTIR', 'echo test'))"
+python test_suite.py
+```
+
+**Critical lesson:** Creating 80 standalone files is wasted effort if none are
+wired into the main application. Always wire first, verify second.
+
+### 7. Service Connectivity
 
 Check external services that the project depends on:
 

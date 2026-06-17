@@ -68,10 +68,19 @@ Her karmaşık görevde (3+ adım) bu kuralları uygula:
   4. **Hâlâ çözüm yoksa** farklı anahtar kelimelerle tekrar dene (max 3 farklı sorgu)
   5. **Hepsi başarısız olursa** Telegram Kurtarma Sinyali'ne geç
 
-## 7. Telegram Kurtarma Sinyali
+## 7. Background Task Delegation (Async Çalışma)
+- Kullanıcı bir görev verdiğinde **HEMEN arkaya at**, bitene kadar bekleme.
+- **Script/komut işiyse:** terminal(background=true, notify_on_complete=true) ile çalıştır.
+- **AI/analiz işiyse:** delegate_task veya cronjob(action='run') ile arkada işlet.
+- Kullanıcıya hemen "Tamam, arkada çalışıyor, bitince haber veririm" cevabını ver.
+- Kullanıcı başka soru yazmaya devam edebilir, iş bitince bildirim düşer.
+- **ASLA** kullanıcıyı iş bitene kadar bekletme — synchronous çalışma şikayet sebebidir.
+- **Batch test isiysa (50+ dosya):** checkpoint sistemi kullan. `checkpoint-onay-sinirlari` skill'ine bak. Her N batch'te bir JSON checkpoint kaydedilir, process restart'ında 0'dan değil checkpoint'ten devam edilir. Onay gerektiren aksiyonlar: process restart, checkpoint silme. Otonom: checkpoint kaydetme/okuma, shim oluşturma, hata analizi.
+
+## 8. Telegram Kurtarma Sinyali
 - Tüm kendi araştırma yöntemleri başarısız olursa **HEMEN** şu dosyayı oluştur:
   ```
-  C:\Users\marko\takildi.txt
+  C:\\Users\\marko\\takildi.txt
   ```
   İçine şu formatı yaz:
   ```
@@ -84,6 +93,23 @@ Her karmaşık görevde (3+ adım) bu kuralları uygula:
 - Çözüm gelince dosya otomatik silinecek ve kaldığın yerden devam edebileceksin.
 - **ÖNEMLİ:** Bu sinyal DOSYA BAZLI çalışır — process sinyali, HTTP veya socket değil. Dosyayı yazmak için `write_file` veya PowerShell `Out-File` kullan.
 - Detaylı akış şeması ve kısıtlar için `references/kurtarma-akisi.md` dosyasına bak.
+
+## 9. Cokus Raporu (Alternatif Kurtarma)
+
+Telegram sinyali yerine veya ek olarak, yapılandırılmış crash raporu da üretilebilir. Özellikle hata geçmişi ve denenen ajanların kaydı önemliyse:
+
+```python
+from cokus_raporlayici import cokus_raporu_uret
+rapor = cokus_raporu_uret(
+    gorev="gorev tanimi",
+    deneme_sayisi=5,
+    hata_gecmisi=hata_listesi,
+    denenen_ajanlar=ajan_listesi
+)
+# Rapor .ReYMeN/cokus_raporlari/ klasorune kaydedilir
+```
+
+Detay: `otonom-cozum-dongusu` skill'indeki "Cokus Raporlayici" bolumu ve `references/yapilandirilmis-gorev-formati.md`.
 
 ## Pitfalls
 - Küçük görevlerde (1-2 adım) bu kuralı uygulama, gereksiz yere yavaşlatır.

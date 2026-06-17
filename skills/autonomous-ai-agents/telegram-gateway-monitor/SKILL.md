@@ -1,12 +1,11 @@
 ---
-
 name: telegram-gateway-monitor
 description: >
-title: "Telegram Gateway Monitor"
   Bağlantı 30 dakikada bir kontrol edilir, test mesajı gönderilir,
   hata alınırsa otomatik onarım adımları uygulanır ve sonuç kaydedilir.
   Hedef listeleme ve gönderme için `hermes send --list` + `hermes send --to <target>` kullanılır.
-version: 1.1.1
+title: "Telegram Gateway Monitor"
+version: 1.2.0
 author: marko
 license: MIT
 metadata:
@@ -27,13 +26,17 @@ Bu skill modüler bir yönlendiricidir. İhtiyacınız olan bölümü seçin ve 
 | Bölüm | Reference Dosyası |
 |-------|------------------|
 | Kural | `references/kural.md` |
+| gateway_state.json Kirlenmesi (test run'ları state'i bozduğunda) | `references/gateway-state-json-corruption.md` |
+| Hermes CLI Invocation (PYTHONPATH fix) | `references/hermes-cli-invocation.md` |
 | Yeni Bot Token'ı ile Tam Sıfırlama Akışı | `references/yeni-bot-token-ile-tam-s-f-rlama-ak.md` |
 | Zorunlu adımlar | `references/zorunlu-ad-mlar.md` |
 | Telegram test mesajı içeriği | `references/telegram-test-mesaj-i-eri-i.md` |
 | Pitfall | `references/pitfall.md` |
 | send_message Tool Token Cache | `references/send_message-tool-token-cache.md` |
 | Kazanımlar / Operasyon Notları (sessiz ve güvenli kullanım için) | `references/kazan-mlar-operasyon-notlar-sessiz-ve-g-venli-kullan-m-i-in.md` |
+| Polling Sağlık Kontrolü — sessiz donma tespiti ve çözümü | `references/polling-saglik-kontrolu.md` |
 | Not | `references/not.md` |
+| Cron Teslimat Davranışı (cron job'da `hermes send` atlanır) | `references/cron-teslimat-davranisi.md` |
 | .env kalıcılığı kuralı | `references/env-kal-c-l-kural.md` |
 | Obsidian kayıt | `references/obsidian-kay-t.md` |
 

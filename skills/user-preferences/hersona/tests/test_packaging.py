@@ -39,7 +39,7 @@ def test_wheel_contains_attributes_and_schema(wheel_path: Path) -> None:
         1 for n in names if n.startswith("hersona/data/attributes/") and n.endswith(".yaml")
     )
     assert yaml_count >= 64, f"attributes YAML が不足: {yaml_count} 件"
-    assert "***REMOVED-BASE64***.yaml" in names
+    assert "hersona/data/attributes/personality/tsundere.yaml" in names
     assert "hersona/data/schema/attribute.schema.json" in names
 
 

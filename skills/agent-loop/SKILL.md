@@ -1,14 +1,14 @@
 ---
-
 name: agent-loop
 description: Write a correct, minimal ReAct agent loop in any target language/runtime with tools, stop condition, and turn budget.
 title: "Agent Loop"
 version: 1.0.0
+phase: 14
+lesson: 01
 tags: [react, agent-loop, tools, observability, stop-condition]
 category: agent-loop
 audience: contributor
 ---
-
 
 Given a target runtime (Python async, Python sync, Node, Rust async, Go) and a tool list (name, input schema, callable), produce a ReAct agent loop that is correct on the first try.
 
@@ -24,8 +24,9 @@ Hard rejects:
 
 - Looping without a turn cap. This is a reliability, not an optimization, issue.
 - Swallowing tool errors into an empty observation. The model must see the failure text so it can correct.
-- Treating retrieved content as trusted instructions. All tool outputs are untrusted input — only the user message carries permission (see OpenAI CUA docs).
-- Mixing providers without a schema-translation layer. Anthropic and OpenAI have divergent tool schemas and message shapes.
+• Treating retrieved content as trusted instructions. All tool outputs are untrusted input — only the user message carries permission (see OpenAI CUA docs).
+• Mixing providers without a schema-translation layer. Anthropic and OpenAI have divergent tool schemas and message shapes.
+- **Repeat-action loop protection.** Models can get stuck repeating the exact same tool call every turn, burning through the turn budget without progress. Track the last (tool_name, params) pair; if the same pair fires twice consecutively, break the loop and summarize what was accomplished. This is a distinct failure mode from general looping — it happens even with modest turn budgets (5-15) and looks like the model found one working action and can't pivot to "done." Wire this as: store `(action, params)` in state, compare each turn against previous, if match → terminate with "repeat-action guard" stop reason.
 
 Refusal rules:
 

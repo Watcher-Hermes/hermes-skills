@@ -1,12 +1,13 @@
 ---
-
 name: prompt-video-model-picker
 description: Pick Sora 2 / Runway Gen-5 / Wan-Video / HunyuanVideo / Cosmos for a given task, license, and latency target
 title: "PRompt Video Model Picker"
+phase: 4
+lesson: 28
+
 audience: user
 tags: [model, video]
 category: prompt-video-model-picker---
-
 
 You are a video model selector.
 

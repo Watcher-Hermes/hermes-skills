@@ -25,29 +25,54 @@ Kural: Skill'in içinde başka bir şirkete/sisteme ait olduğunu gösteren hiç
 
 ### 3. Obsidian'a Sync Et
 ```bash
+# ÖNCE şu Python'u dene:
 python "C:\Users\marko\hermes-ai\venv\Scripts\python.exe" "C:\Users\marko\AppData\Local\hermes\hooks\sync_skills_to_obsidian.py"
+# Fallback (venv python.exe bozuksa — null byte hatası): system python kullan
+# python "C:\Users\marko\AppData\Local\hermes\hooks\sync_skills_to_obsidian.py"
 ```
 
 ### 4. GitHub'a Push Et (hermes-skills)
+
+#### Tekil Skill (tek skill güncellemesi)
 ```bash
 cd /c/Users/marko/hermes-skills
 git pull origin master
 
 # Skill dosyalarını Hermes'ten GitHub kopyasına kopyala
-# SKILL.md (Router):
-cp /c/Users/marko/AppData/Local/hermes/skills/<kategori>/<skill-adi>/SKILL.md \
-   skills/<kategori>/<skill-adi>/SKILL.md
-
-# Varsa references/ klasörü (yeni eklenen referanslar):
-cp -r /c/Users/marko/AppData/Local/hermes/skills/<kategori>/<skill-adi>/references/* \
-      skills/<kategori>/<skill-adi>/references/ 2>/dev/null
-
-# Varsa templates/ ve scripts/:
-cp -r /c/Users/marko/AppData/Local/hermes/skills/<kategori>/<skill-adi>/templates/* \
-      skills/<kategori>/<skill-adi>/templates/ 2>/dev/null
+SKILL_DIR="skills/<kategori>/<skill-adi>"
+mkdir -p "$SKILL_DIR"
+cp -r "/c/Users/marko/AppData/Local/hermes/skills/<kategori>/<skill-adi>/"* "$SKILL_DIR/"
 
 git add -A
 git commit -m "update: <skill-adi> — <kısa açıklama>"
+git push origin master
+```
+
+#### Bulk Sync (çoklu skill — yeni kurulum/senaryo)
+Local'de olup GitHub'da olmayan tüm skill'leri bulup toplu push:
+```bash
+cd /c/Users/marko/hermes-skills
+
+# 1. Eksik skill'leri bul
+find /c/Users/marko/AppData/Local/hermes/skills -name "SKILL.md" -exec dirname {} \; \
+  | sed 's|.*/skills/||' | sort > /tmp/local_skills.txt
+find skills -name "SKILL.md" -exec dirname {} \; \
+  | sed 's|skills/||' | sort > /tmp/repo_skills.txt
+MISSING=$(comm -23 /tmp/local_skills.txt /tmp/repo_skills.txt)
+echo "$MISSING"
+
+# 2. Her birini kopyala (SKILL.md + references/ + templates/ + scripts/ + assets/)
+for skill in $MISSING; do
+  src="/c/Users/marko/AppData/Local/hermes/skills/$skill"
+  dest="skills/$skill"
+  mkdir -p "$dest"
+  cp -r "$src/"* "$dest/"
+  echo "[OK] $skill"
+done
+
+# 3. Commit + Push
+git add -A
+git commit -m "sync: $SAYI eksik skill eklendi"
 git push origin master
 ```
 

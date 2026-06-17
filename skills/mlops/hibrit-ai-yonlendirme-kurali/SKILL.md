@@ -25,13 +25,34 @@ related_skills: [hibrit-ai-mimarisi, dolphin-llama3]
 - Uzun metin (>40 kelime) içeren her sorgu
 - Çok adımlı planlama gerektiren işler
 
-## Fallback Mekanizması
+## Fallback Mekanizması (Gerçek Davranış)
 
 ```
-1. Varsayılan: DeepSeek
-2. API hatası / timeout / bağlantı hatası → Ollama
-3. Ollama da hata verirse → hata raporla, kullanıcıya bildir
+1. Varsayılan: Aktif provider (DeepSeek / nous / custom)
+2. API hatası → api_max_retries (varsayılan: 3) kere tekrar dene
+3. Tüm denemeler başarısız → fallback_providers listesine bak
+4. fallback_providers boşsa → hata ver, session düşer
 ```
+
+**Önemli:** `api_max_retries: 3` + `fallback_providers: []` (boş) birlikte tehlikelidir:
+- Kredi bittiğinde DeepSeek "insufficient_quota" döndürür
+- Hermes her mesajda 3 kere dener, her seferinde hata alır
+- Yedek provider olmadığı için session düşer
+- Kullanıcı "Hermes çalışmıyor / hafızasını unuttu" hisseder
+
+**Doğru yapılandırma:**
+```yaml
+# config.yaml
+fallback_providers:
+  - provider: custom
+    model: dolphin-llama3:latest
+    base_url: http://localhost:11434/v1
+```
+
+**Pitfall — Kredi vs Bağlantı Hatası:**
+- Bağlantı hatası (timeout/DNS): API'ye hiç ulaşılamaz → Ollama'ya düşer
+- Kredi bitti/API key geçersiz: API ulaşılabilir ama 401/402/403 döner → api_max_retries'i doldurur, sonra fallback yoksa çöker
+- Yeni API key alınınca: Hermes hemen çalışmaya başlar, memory/config kaybolmaz — "unuttu" hissi yanıltıcıdır, aslında sadece provider çalışmıyordur
 
 ## Kullanıcı Deneyimi
 

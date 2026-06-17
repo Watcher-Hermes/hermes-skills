@@ -450,10 +450,10 @@ def generate_toc(md_text: str) -> str:
             anchor = re.sub(r'[^\w\u4e00-\u9fff-]', '', text.replace(' ', '-').lower())[:60]
             indent = "  " * (level - 2)
             toc_items.append(f'{indent}<li><a href="#{anchor}">{text}</a></li>')
-    
+
     if not toc_items:
         return ""
-    
+
     return f"""<details class="toc" open>
 <summary>📑 目录 / Table of Contents</summary>
 <ul>

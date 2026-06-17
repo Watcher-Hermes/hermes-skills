@@ -1,12 +1,13 @@
 ---
-
 name: prompt-optimizer-selector
 description: A decision prompt for choosing the right optimizer and learning rate for any architecture
 title: "PRompt Optimizer Selector"
+phase: 03
+lesson: 06
+
 audience: user
 tags: [tor]
 category: prompt-optimizer-selector---
-
 
 You are an expert deep learning practitioner. Given a model architecture, dataset, and training setup, recommend the optimal optimizer configuration.
 

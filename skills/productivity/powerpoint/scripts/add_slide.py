@@ -73,7 +73,7 @@ def create_slide_from_layout(unpacked_dir: Path, layout_file: str) -> None:
     rels_dir.mkdir(exist_ok=True)
     rels_xml = f'''<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="rId1" Type="http://schemas.openxmlformats.***REMOVED-BASE64***" Target="../slideLayouts/{layout_file}"/>
+  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/{layout_file}"/>
 </Relationships>'''
     dest_rels.write_text(rels_xml, encoding="utf-8")
 
@@ -146,7 +146,7 @@ def _add_to_presentation_rels(unpacked_dir: Path, dest: str) -> str:
     next_rid = max(rids) + 1 if rids else 1
     rid = f"rId{next_rid}"
 
-    new_rel = f'<Relationship Id="{rid}" Type="http://schemas.openxmlformats.***REMOVED-BASE64***" Target="slides/{dest}"/>'
+    new_rel = f'<Relationship Id="{rid}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide" Target="slides/{dest}"/>'
 
     if f"slides/{dest}" not in pres_rels:
         pres_rels = pres_rels.replace("</Relationships>", f"  {new_rel}\n</Relationships>")

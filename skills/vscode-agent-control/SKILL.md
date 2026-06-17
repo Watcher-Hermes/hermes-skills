@@ -63,5 +63,5 @@ VS Code Agent terminali için kayıtlı konum:
 
 ## YASAK
 - vision_analyze kullanma
-- Ekran görüntüsü analiz etme  
+- Ekran görüntüsü analiz etme
 - Kullanıcıdan konum koordinatı sorma

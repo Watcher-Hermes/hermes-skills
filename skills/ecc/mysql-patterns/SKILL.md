@@ -1,14 +1,13 @@
 ---
 
-
 name: mysql-patterns
 description: MySQL and MariaDB schema, query, indexing, transaction, replication, and connection-pool patterns for production backends.
 title: "MySQL Patterns"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # Mysql Patterns
 

@@ -1,14 +1,13 @@
 ---
 
-
 name: configure-ecc
 description: Interactive installer for Everything Claude Code — guides users through selecting and installing skills and rules to user-level or project-level directories, verifies paths, and optionally optimizes installed files.
 title: "Configure Ecc"
+origin: ECC
 
 audience: user
 tags: [ai, automation, development]
 category: ecc---
-
 
 # Configure Ecc
 

@@ -1,13 +1,12 @@
 ---
-
 name: postgres-patterns
 description: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.
 title: "PostgreSQL Patterns"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # PostgreSQL Patterns
 

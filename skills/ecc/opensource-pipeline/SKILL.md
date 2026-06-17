@@ -1,13 +1,12 @@
 ---
-
 name: opensource-pipeline
 description: "Open-source pipeline: fork, sanitize, and package private projects for safe public release. Chains 3 agents (forker, sanitizer, packager). Triggers: '/opensource', 'open source this', 'make this public', 'prepare for open source'."
 title: "Opensource Pipeline"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # Open-Source Pipeline Skill
 

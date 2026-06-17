@@ -478,7 +478,7 @@ def test_top_returns_multiple_distinct_candidates() -> None:
         top=3,
     )
     assert 1 <= len(rec.candidates) <= 3
-    # 各候補がカテゴリ 5 つ (***REMOVED-BASE64***) をまたぐ
+    # 各候補がカテゴリ 5 つ (personality/speech/archetype/visual/hobby) をまたぐ
     for cand in rec.candidates:
         cats = {_matrix().attributes[a].category for a in cand if a in _matrix().attributes}
         assert len(cats) >= 2  # 最低 2 カテゴリは欲しい
@@ -815,9 +815,9 @@ def test_v2_quiz_full_9_questions_q1_a_b_route_unique_blend() -> None:
     assert set(rec_a.blend) != set(rec_b.blend)
 
 
-# ***REMOVED-BASE64***
+# ============================================================
 # PR #61 — catchphrases 16 属性追加 / v2 .en.yaml / _interactive_quiz v2
-# ***REMOVED-BASE64***
+# ============================================================
 
 def test_catchphrases_added_to_16_attributes() -> None:
     """16 属性 (archetype 7 + speech 9) に新規 catchphrases が追加されている。"""

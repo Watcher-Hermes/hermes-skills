@@ -1,13 +1,13 @@
 ---
-
 name: data-throughput-accelerator
 description: Use when large data ingestion, backfill, export, ETL, warehouse loading, manifest catch-up, or table synchronization needs to become much faster while preserving data correctness.
 title: "Data Throughput Accelerator"
+origin: ECC
+tools: Read, Write, Edit, Bash, Grep, Glob
 
 audience: contributor
 tags: [ai, automation, development, tor]
 category: ecc---
-
 
 # Data Throughput Accelerator
 

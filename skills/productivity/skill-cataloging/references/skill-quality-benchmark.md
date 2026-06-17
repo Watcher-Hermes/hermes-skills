@@ -65,7 +65,7 @@ from collections import Counter
 
 skills_dir = Path("C:/Users/marko/AppData/Local/hermes/skills")
 
-results = {"total": 0, "has_title": 0, "has_tags": 0, "has_category": 0, 
+results = {"total": 0, "has_title": 0, "has_tags": 0, "has_category": 0,
            "has_audience": 0, "parse_errors": 0, "duplicates": 0}
 
 for p in skills_dir.rglob("SKILL.md"):
@@ -105,7 +105,7 @@ Name'den otomatik türet:
 ```python
 def generate_title(name):
     title = name.replace("-", " ").replace("_", " ").title()
-    abbreviations = {"Ai": "AI", "Api": "API", "Cli": "CLI", 
+    abbreviations = {"Ai": "AI", "Api": "API", "Cli": "CLI",
                      "Vscode": "VS Code", "Github": "GitHub",
                      "Ml": "ML", "Llm": "LLM", "Tdd": "TDD"}
     for old, new in abbreviations.items():

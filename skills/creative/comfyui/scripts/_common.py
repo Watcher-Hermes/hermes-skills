@@ -36,9 +36,9 @@ except ImportError:  # pragma: no cover - exercised via stdlib fallback
     import urllib.request
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Constants & catalogs
-# ***REMOVED-BASE64***
+# =============================================================================
 
 DEFAULT_LOCAL_HOST = "http://127.0.0.1:8188"
 DEFAULT_CLOUD_HOST = "https://cloud.comfy.org"
@@ -324,9 +324,9 @@ EMBEDDING_REGEX = re.compile(
 )
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Cloud detection & endpoint routing
-# ***REMOVED-BASE64***
+# =============================================================================
 
 CLOUD_DOMAIN_SUFFIXES = (".comfy.org",)
 CLOUD_DOMAIN_EXACT = {"cloud.comfy.org"}
@@ -384,9 +384,9 @@ def resolve_url(base: str, path: str, *, is_cloud: bool | None = None) -> str:
     return build_cloud_aware_url(base, path, force_cloud=cloud)
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # API key resolution
-# ***REMOVED-BASE64***
+# =============================================================================
 
 def resolve_api_key(explicit: str | None) -> str | None:
     """Look up API key from CLI flag → env var. Strips whitespace and quotes."""
@@ -397,9 +397,9 @@ def resolve_api_key(explicit: str | None) -> str | None:
     return val or None
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # HTTP transport
-# ***REMOVED-BASE64***
+# =============================================================================
 
 @dataclass
 class HTTPResponse:
@@ -636,9 +636,9 @@ def http_post(url: str, **kwargs: Any) -> HTTPResponse:
     return http_request("POST", url, **kwargs)
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Workflow validation & helpers
-# ***REMOVED-BASE64***
+# =============================================================================
 
 def is_api_format(workflow: Any) -> bool:
     """API format = top-level dict where each value has `class_type`."""
@@ -720,9 +720,9 @@ def iter_embedding_refs(workflow: dict) -> Iterator[tuple[str, str]]:
                 yield node_id, m.group(1)
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Path safety
-# ***REMOVED-BASE64***
+# =============================================================================
 
 def safe_path_join(base: Path, *parts: str) -> Path:
     """Join paths, raising if the result escapes `base`.
@@ -764,9 +764,9 @@ def looks_like_video_workflow(workflow: dict) -> bool:
     return False
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Seed handling
-# ***REMOVED-BASE64***
+# =============================================================================
 
 # ComfyUI's max seed range. Many UIs treat `-1` as "randomize on submit".
 SEED_MAX = 2**63 - 1
@@ -789,9 +789,9 @@ def coerce_seed(value: Any) -> int:
     return int(value)
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Cloud model-list normalization
-# ***REMOVED-BASE64***
+# =============================================================================
 
 def parse_model_list(payload: Any) -> set[str]:
     """Normalize model-list responses from local ComfyUI vs Comfy Cloud.
@@ -812,9 +812,9 @@ def parse_model_list(payload: Any) -> set[str]:
     return out
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Misc utilities
-# ***REMOVED-BASE64***
+# =============================================================================
 
 def new_client_id() -> str:
     return str(uuid.uuid4())

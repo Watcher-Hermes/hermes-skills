@@ -153,11 +153,10 @@ Değişiklikler **yeni session'da** aktif olur (`/reset` veya CLI'ı yeniden ba�
 
 ## Sık Hatalar
 
-1. **"Failed to load model"** — model dosyasi bozuk olabilir, GGUF surumu uyumsuz olabilir, veya RAM yetmiyor olabilir. Önce `--gpu off` ile dene (GPU sorununu ele), sonra `--gpu 0.5` ile.
+1. **"Failed to load model"** — model dosyası bozuk olabilir (29 bytes), GGUF sürümü uyumsuz olabilir, veya RAM yetmiyor olabilir. Önce LM Studio'da manuel Load dene, sonra `lms load --gpu off` ile CPU-only dene.
+2. **Çok yavaş inference** — model büyük, GPU offload yetersiz. Küçük model dene veya `--gpu` oranını artır.
+3. **`content: ""` boş döndü** — reasoning modeli. `max_tokens`'ı yükselt.
+4. **Timeout (curl --max-time)** — 32B+ modellerde normal. 300sn+ dene veya küçük model kullan.
+5. **İki aynı model görünüyor** — LM Studio Hub indirmesi bozuk 29 bytes dosya + gerçek model. Bozuk olanı `rm -rf ~/.lmstudio/models/lmstudio-community/` ile sil.
 
 ## Referanslar
-
-- `references/qwen3-32b-vs-dolphin-8b.md` — model boyutu/RAM/VRAM dengesi ve gerçek test sonuçları
-2. **Cok yavas inference** — model buyuk, GPU offload yetersiz. Kucuk model dene veya `--gpu` oranini artir.
-3. **`content: ""` bos dondu** — reasoning modeli. `max_tokens`'i yukselt.
-4. **Timeout (curl --max-time)** — 32B+ modellerde normal. 300sn+ dene veya kucuk model kullan.

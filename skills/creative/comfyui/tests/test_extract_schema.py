@@ -11,9 +11,9 @@ from extract_schema import (
 )
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Connection tracing
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestConnectionTracing:
     def test_direct_link(self):
@@ -67,9 +67,9 @@ class TestPositiveNegativeDetection:
         assert find_negative_prompt_node(wf) == "6"
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Schema extraction
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestExtractSchema:
     def test_basic_sd15(self, sd15_workflow):

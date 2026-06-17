@@ -2,7 +2,7 @@ Creative Commons CC0 1.0 Universal
 ====================================
 
 CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
-***REMOVED-BASE64***
+==================================================
 
 This is a human-readable summary of the Legal Code (the full text is at
 <https://creativecommons.org/publicdomain/zero/1.0/legalcode>).
@@ -46,11 +46,11 @@ who may enforce the license.
 When using or citing the work, you should not imply endorsement by
 Creative Commons.
 
-***REMOVED-BASE64***
+==================================================
 
 Full Legal Text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
 
-***REMOVED-BASE64***
+==================================================
 
 CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
 LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
@@ -59,7 +59,7 @@ ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE
 USE OF THIS DOCUMENT, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
 ITS USE.
 
-***REMOVED-BASE64***
+==================================================
 
 Purpose in this repository
 --------------------------

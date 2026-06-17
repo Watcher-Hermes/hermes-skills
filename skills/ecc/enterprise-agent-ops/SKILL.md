@@ -1,13 +1,12 @@
 ---
-
 name: enterprise-agent-ops
 description: Operate long-lived agent workloads with observability, security boundaries, and lifecycle management.
 title: "Enterprise Agent Ops"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # Enterprise Agent Ops
 

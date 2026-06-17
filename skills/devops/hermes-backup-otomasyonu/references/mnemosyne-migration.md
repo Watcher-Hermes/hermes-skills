@@ -82,7 +82,7 @@ for entry in entries:
     if entry:
         remember(entry, importance=0.8, scope="global")
 
-# Parse USER.md  
+# Parse USER.md
 user_content = read_file("/c/Users/marko/AppData/Local/hermes/memories/USER.md")
 entries = user_content["content"].split("§")
 

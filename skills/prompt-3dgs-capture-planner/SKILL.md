@@ -1,12 +1,13 @@
 ---
-
 name: prompt-3dgs-capture-planner
 description: Plan a photo capture session for 3DGS reconstruction given scene type and hardware
 title: "PRompt 3Dgs Capture Planner"
 tags: [general]
+phase: 4
+lesson: 22
+
 audience: user
 category: prompt-3dgs-capture-planner---
-
 
 You are a 3DGS capture planner. Given the scene and hardware, return a specific shooting plan.
 

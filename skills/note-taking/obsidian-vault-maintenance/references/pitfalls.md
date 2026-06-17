@@ -19,8 +19,8 @@
 4. **Skill notlarının orphan görünmesi:** Bir skill notu kendi kategorisi dışında hiçbir yerde referans alınmamış olabilir. Bu durumda `_category_index.md`'ye ekleyerek düzelt.
 5. **Python 3.14 ile re.sub:** Backreference içeren stringlerde backtick karakter sorunu yaratır. Her zaman lambda fonksiyon kullan:
    ```python
-   content = re.sub(r'\[\[(\d+),\s*(\d+)\]\]', 
-                    lambda m: f'`[{m.group(1)}, {m.group(2)}]`', 
+   content = re.sub(r'\[\[(\d+),\s*(\d+)\]\]',
+                    lambda m: f'`[{m.group(1)}, {m.group(2)}]`',
                     content)
    ```
 7. **`skills/XXX` formatında linkler:** Obsidian'a skill notları yazılırken `skills/XXX` formatında linkler oluşabilir (`[[skills/hermes-agent]]`). Bunları topluca `[[XXX]]`'e çevir:

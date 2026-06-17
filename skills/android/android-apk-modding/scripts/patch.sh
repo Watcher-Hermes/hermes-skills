@@ -22,8 +22,8 @@ set -euo pipefail
 APK="${1:-}"
 PATCH_TYPE="${2:-full}"
 WORK_DIR="${WORK_DIR:-$(mktemp -d /tmp/apkmod.XXXXXX)}"
-ANDROID_SDK="***REMOVED-BASE64***-tools/35.0.0"
-KEYSTORE="${KEYSTORE:-***REMOVED-BASE64***.keystore}"
+ANDROID_SDK="/c/Users/marko/AppData/Local/Android/Sdk/build-tools/35.0.0"
+KEYSTORE="${KEYSTORE:-/c/Users/marko/Desktop/LiveTranscriber/release.keystore}"
 KEYALIAS="${KEYALIAS:-livetranscriber}"
 KSPASS="${KSPASS:-}"
 

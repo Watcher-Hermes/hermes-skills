@@ -40,6 +40,8 @@ Bu skill modüler bir yönlendiricidir. İhtiyacınız olan bölümü seçin ve 
 | GREEN — verify pass | `references/green-verify-pass.md` |
 | Full suite — verify no regressions | `references/full-suite-verify-no-regressions.md` |
 | Testing Anti-Patterns | `references/testing-anti-patterns.md` |
+| Hermes API Test Patterns | `references/hermes-api-test-patterns.md` |
+| Bulk & Parametric Test Generation | `references/bulk-parametric-test-generation.md` |
 | Final Rule | `references/final-rule.md` |
 
 ## Kullanım

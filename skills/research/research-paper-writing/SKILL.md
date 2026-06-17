@@ -28,7 +28,7 @@ graph TD
     A --> Phase6[Phase 6: Review]
     A --> Phase7[Phase 7: Submission]
     A --> Phase8[Phase 8: Post-Acceptance]
-    
+
     Phase5 -.-> Temp[templates/paper-template.tex]
 ```
 

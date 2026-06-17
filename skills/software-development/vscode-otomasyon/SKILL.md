@@ -14,7 +14,21 @@ audience: contributor
 related_skills: [screen-vision-analiz, gorsel-onaylama, mouse-klavye-ctypes, tor-browser-arama]
 ---
 
-# VS Code Otomasyonu — Kullanıcı Gibi Kod Yaz, Çalıştır, Düzelt
+# VS Code Otomasyonu — Kullanıcı Gibi Kod Yaz, Calistir, Duzelt
+
+## !!! KRITIK KURAL — ASLA IHLAL ETME !!!
+
+**"kopyala", "kopyala ben yapistiririm", "bana gonder", "sana gonder" dendiginde:
+METNI BURADA (HERMES CHAT'TE) GOSTER. ASLA VS CODE'A/CLAUDE CODE'A GONDERME.
+Kullanici "kesin mir culadue gondermeyecegim" diyerek bunu netlestirdi.**
+
+Bu kural 17 Haziran 2026'da 2 KEZ ihlal edildi ve kullanici sinirlendi.
+Tekrar ihlal = kullanici guveni kaybi.
+
+Detay: references/kopyala-uyari.md
+Not: "VS Code'a yaz", "Claude terminaline yaz" -> vscode_yaz.bat (bunlar farkli)
+
+---
 
 ## Overview
 
@@ -38,6 +52,18 @@ Hermes, VS Code'u bir kullanıcı gibi kullanır:
 - "Dene-yanıl-düzelt" gerektiğinde
 
 Don't use for: Sistem komutları, terminal-only işlemler.
+
+## NE ZAMAN VS CODE'A YAZ, NE ZAMAN BURADA GÖSTER
+
+**vscode_yaz.bat kullan (VS Code'a yaz):**
+- "VS Code'a yaz", "Claude terminaline yaz", "agent'a yaz", "imlec getir" gibi AÇIK hedef belirtildiğinde
+- Kullanıcı "vscode_yaz.bat" veya "vscode_ctrl.py" dediğinde
+- Kullanıcı "Culaude yazdır" gibi VS Code/Claude Code işlemi istediğinde
+
+**Burada (Hermes chat) göster:**
+- "kopyala", "gönder", "sana gönder", "bana gönder" → metni burada göster, kullanıcı kopyalasın
+- "kopyala ben yapıştırırım" → aynı, burada göster
+- Hedef belirtilmeyen tüm durumlar → burada göster
 
 ---
 
@@ -183,6 +209,11 @@ filepath = rf"{WORKSPACE}\benim_kodum.py"
 python hermesvsode.py run "benim_kodum.py"
 # → C:\Users\marko\hermes_projects\benim_kodum.py
 ```
+
+## CRITICAL — "kopyala" VS "VS Code'a yaz" KARIŞTIRMA
+
+"kopyala", "kopyala ben yapıştırırım", "bana gönder" → metni burada göster, ASLA VS Code'a gönderme.
+Kullanıcı kontrolü kendinde tutmak istiyor. Detay: references/kopyala-uyari.md
 
 ## Common Pitfalls
 

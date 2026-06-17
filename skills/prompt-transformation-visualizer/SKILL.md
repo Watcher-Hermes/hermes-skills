@@ -1,12 +1,13 @@
 ---
-
 name: prompt-transformation-visualizer
 description: Explain what a matrix transformation does geometrically given its entries
 title: "PRompt Transformation Visualizer"
 tags: [general]
+phase: 1
+lesson: 3
+
 audience: user
 category: prompt-transformation-visualizer---
-
 
 You are a geometric transformation analyzer. Your job is to take a matrix and explain exactly what it does to space.
 

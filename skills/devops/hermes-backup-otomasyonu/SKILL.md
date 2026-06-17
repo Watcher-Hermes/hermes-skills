@@ -109,6 +109,38 @@ Carsamba 00:00/04:00/08:00/12:00/16:00/20:00
     → HAYIR: sessiz cik
 ```
 
+## Kullanıcı Komutlu Full Backup — "sıkıl ve memory guncellensın"
+
+Kullanıcı `"sıkıl ve memory guncellensın"` (veya `"skill ve memory guncelle"`) dediğinde, otomatik cron'lardan bağımsız olarak **manuel 3-repo full backup** tetiklenir.
+
+### Zorunlu Adımlar (Hiçbiri Atlanmaz)
+
+1. **`Watcher-Hermes/hermes-skills`** — Skill güncellemeleri push edilir
+2. **`Watcher-Hermes/hermes-memory-backup`** — MEMORY.md + USER.md (token temizlenmiş) push edilir
+3. **`Watcher-Hermes/hermes-full-backup`** — Skills klasörü **komple silinir**, yeniden kopyalanır, git add + commit + push main yapılır
+
+### hermes-full-backup İçin Özel Adımlar
+
+```bash
+cd /c/Users/marko/hermes-full-backup
+git pull origin main
+rm -rf skills/
+cp -r /c/Users/marko/AppData/Local/hermes/skills/ skills/
+git add -A
+git commit -m "Full backup $(date +%Y-%m-%d_%H:%M)"
+git push origin main
+```
+
+### Neden 3 Repo?
+
+| Repo | İçerik | Amaç |
+|------|--------|------|
+| `hermes-skills` | SKILL.md + references | Canlı skill kütüphanesi (geliştirme) |
+| `hermes-memory-backup` | MEMORY.md + USER.md | Hafıza snapshot (token temiz) |
+| `hermes-full-backup` | skills/ + memory/ + config/ | Tam felaket kurtarma (bare metal restore) |
+
+Bu kural MEMORY'de kayıtlıdır ve her oturumda uygulanır. Atlama yapılırsa kullanıcı uyarır.
+
 ## Kurtarma
 
 Manuel tetikleme:
@@ -124,18 +156,23 @@ echo "%date% %time%" > /c/Users/marko/AppData/Local/hermes/haftalik-bakim.flag
 ## Referans Dosyaları
 
 Bu skill'in şu referans dosyaları vardır:
-- `references/mnemosyne-migration.md` — Mnemosyne memory provider'a geçiş planı (kurulum, aktivasyon, eski hafıza aktarımı, yapılandırma)
-- `references/backup-repo-yapisi.md` — Yeni repo organizasyonu: hermes-mouse (Windows otomasyon), hermes-skills (diğer), obsidian-vault
+- `references/mnemosyne-migration.md` — Mnemosyne memory provider'a geçiş planı
+- `references/backup-repo-yapisi.md` — Yeni repo organizasyonu
+- `references/skill-github-sync-workflow.md` — Skill güncellemesi → GitHub push adımları
+- `references/memory-manual-backup.md` — MEMORY.md + USER.md manuel yedekleme
 
 ## Bilinen Sorunlar
 
-1. **Skills backup remote ölü** (2026-06-14 itibarıyla): `asdafgf/hermes-skills` reposu GitHub'dan silinmiş. `sync_hermes_backup.py` commit atar ama push başarısız olur. no_agent watchdog olduğu için sessiz kalır — kullanıcı fark etmez. Çözüm için `gece-3-github-yedek` skill'indeki pitfall #11'e bak.
+1. **Skills backup remote branch korumasi** (2026-06-16 itibarıyla): `Watcher-Hermes/hermes-skills` reposu **canlı ve erişilebilir** ancak **public repo branch koruma kuralları** nedeniyle doğrudan push reddediliyor:
+   - Hata: `push declined due to repository rule violations`
+   - Sebep: Public repo'da branch koruma aktif (signed commit, PR zorunluluğu, vs.)
+   - Çözüm: Private repo'ya push et, veya `main` branch'ine `master:main` formatında push dene. Branch koruması kaldırılana kadar skills güncellemeleri local'de kalır, GitHub'a itilemez.
 
    **Yeni repo yapısı (14 Haziran 2026 itibarıyla):**
    - `Watcher-Hermes/hermes-mouse` → windows-automation skill'leri
    - `Watcher-Hermes/hermes-skills` → diğer tüm skill'ler
    - `Watcher-Hermes/obsidian-vault` → Obsidian vault yedekleri
-   
+
    `sync_hermes_backup.py` script'i remote URL'i `Watcher-Hermes/hermes-skills` olarak güncellenmeli.
 
 2. **MEMORY.md/USER.md snapshot pattern**: Mnemosyne gibi yeni bir memory provider'a geçişten önce, mevcut MEMORY.md ve USER.md içeriği Obsidian vault `08-Backup/` klasörüne markdown olarak yedeklenmeli. Bu, eski hafızanın kaybolmamasını garanti eder. Örnek: `08-Backup/MEMORY-yedek-2026-06-14.md`

@@ -1,12 +1,13 @@
 ---
-
 name: prompt-tracker-picker
 description: Pick SORT / ByteTrack / BoT-SORT / SAM 2 / SAM 3.1 given scene type, occlusion patterns, and latency budget
 title: "PRompt Tracker Picker"
 tags: [general]
+phase: 4
+lesson: 27
+
 audience: user
 category: prompt-tracker-picker---
-
 
 You are a tracker selector.
 

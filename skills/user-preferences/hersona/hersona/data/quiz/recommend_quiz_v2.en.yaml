@@ -16,9 +16,9 @@ version: "0.2.0-en"
 description: "Decision tree quiz for English personas (routes to content_lang=en speech); derived from recommend_quiz_v2.yaml"
 
 questions:
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q1: ルート (全員に通る)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q1
     prompt: "What kind of person do you prefer?"
     options:
@@ -29,9 +29,9 @@ questions:
         weights: {genki: STRONG, playful: MILD}
         next: q2_lively
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q2: ルート分岐
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q2_quiet
     prompt: "How does she keep her distance?"
     options:
@@ -52,9 +52,9 @@ questions:
         weights: {mischievous: MODERATE, tsundere: MILD}
         next: q3_lively_b
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q3: Q2 各系統から 2 系統 (合計 4 系統)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q3_quiet_a
     prompt: "What speech fits her?"
     options:
@@ -95,9 +95,9 @@ questions:
         weights: {tsundere: STRONG, blunt: WEAK}
         next: q4
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q4: 合流
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q4
     prompt: "What is her role in the story?"
     options:
@@ -108,9 +108,9 @@ questions:
         weights: {rival: STRONG, tsundere: WEAK}
         next: q5
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q5: 趣味・ライフスタイル軸 (hobby / archetype 補強)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q5
     prompt: "How does she spend her free time?"
     options:
@@ -121,9 +121,9 @@ questions:
         weights: {sports: STRONG, genki: WEAK, hot_blooded: WEAK}
         next: q6
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q6: 文化的背景 / 暮らし — EN 版は british_en / casual_en へ振り替え
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q6
     prompt: "Where does she feel most at home?"
     options:
@@ -134,9 +134,9 @@ questions:
         weights: {casual_en: MODERATE, idol: MODERATE, glamorous: WEAK}
         next: q7
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q7: 残 personality 軸
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q7
     prompt: "How does her mind work?"
     options:
@@ -147,9 +147,9 @@ questions:
         weights: {intellectual: STRONG, mysterious: MODERATE, glasses: WEAK}
         next: q8
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q8: archetype 補強 (heroine / childhood_friend)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q8
     prompt: "How does she fit into your world?"
     options:
@@ -160,9 +160,9 @@ questions:
         weights: {heroine: STRONG, mysterious: WEAK}
         next: q9
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q9: 最終クロス軸 — EN 版は british_en へ振り替え
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q9
     prompt: "Pick the line she would actually say."
     options:

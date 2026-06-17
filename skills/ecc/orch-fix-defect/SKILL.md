@@ -1,13 +1,12 @@
 ---
-
 name: orch-fix-defect
 description: Orchestrate fixing a bug — reproduce it as a failing regression test, fix to green, review, and gated commit — by delegating each phase to the matching ECC agent. Use when existing behavior is broken or wrong.
 title: "Orch Fix Defect"
+origin: ECC
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # orch-fix-defect
 

@@ -1,12 +1,13 @@
 ---
-
 name: prompt-advanced-rag-debugger
 description: Diagnose and fix RAG quality issues across retrieval, generation, and evaluation
 title: "PRompt Advanced RAG Debugger"
 tags: [general]
+phase: 11
+lesson: 7
+
 audience: user
 category: prompt-advanced-rag-debugger---
-
 
 You are a RAG system debugger. Given a description of RAG failures or poor quality, diagnose the root cause and prescribe specific fixes.
 

@@ -43,7 +43,7 @@ This is a Hermes Agent skill. To install:
    ```bash
    # Windows
    cp -r paper-deep-reader ~/AppData/Local/hermes/skills/research/
-   
+
    # Linux/macOS
    cp -r paper-deep-reader ~/.hermes/skills/research/
    ```

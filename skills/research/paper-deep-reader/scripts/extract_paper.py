@@ -29,7 +29,7 @@ def read_token(token_file=None):
     if token_file and os.path.exists(token_file):
         with open(token_file) as f:
             return f.read().strip()
-    
+
     # Try default locations
     script_dir = os.path.dirname(os.path.abspath(__file__))
     default_paths = [
@@ -68,7 +68,7 @@ def extract_arxiv_id(text):
 
 def resolve_doi(doi):
     """Resolve DOI via CrossRef API. Returns (pdf_url, metadata_dict).
-    
+
     Uses CrossRef /works endpoint to get:
     - Direct PDF URL from link[] with content-type=application/pdf
     - Metadata: title, authors, journal, year, volume, issue, license
@@ -81,7 +81,7 @@ def resolve_doi(doi):
         resp = urllib.request.urlopen(req, timeout=20)
         data = json.loads(resp.read().decode("utf-8"))
         work = data.get("message", {})
-        
+
         # Extract PDF URL from links
         pdf_url = None
         for link in work.get("link", []):
@@ -93,7 +93,7 @@ def resolve_doi(doi):
             # Also check if URL ends with /pdf (some publishers use 'unspecified' content-type)
             if not pdf_url and url.rstrip("/").endswith("/pdf"):
                 pdf_url = url
-        
+
         # Extract metadata
         authors = []
         affiliations = []
@@ -111,28 +111,28 @@ def resolve_doi(doi):
                     a = aff.get("name", "")
                     if a:
                         affiliations.append(a)
-        
+
         journal = ""
         ct = work.get("container-title", [])
         if ct:
             journal = ct[0]
-        
+
         year = ""
         if "published" in work and "date-parts" in work["published"]:
             parts = work["published"]["date-parts"][0]
             if parts:
                 year = str(parts[0])
-        
+
         title = ""
         t = work.get("title", [])
         if t:
             title = t[0]
-        
+
         license_url = ""
         licenses = work.get("license", [])
         if licenses:
             license_url = licenses[0].get("URL", "")
-        
+
         metadata = {
             "title": title,
             "authors": ", ".join(authors),
@@ -145,9 +145,9 @@ def resolve_doi(doi):
             "license": license_url,
             "source": "crossref"
         }
-        
+
         return pdf_url, metadata
-    
+
     except Exception as e:
         print(f"[CrossRef] Error resolving DOI {doi}: {e}")
         return None, {"error": str(e), "doi": doi, "source": "crossref"}
@@ -163,12 +163,12 @@ def get_pdf_url(input_path):
             return f"https://arxiv.org/pdf/{arxiv_id}.pdf"
         else:
             return input_path
-    
+
     # DOI is handled separately in main() via resolve_doi()
     # This fallback should not normally be reached for DOI inputs
     if is_doi(input_path):
         return f"https://doi.org/{input_path}"
-    
+
     return None
 
 
@@ -179,7 +179,7 @@ def extract_with_mineru_api(pdf_url, token, output_dir, language="en"):
         "Authorization": "Bearer " + token,
         "Content-Type": "application/json"
     }
-    
+
     print(f"[MinerU API] Submitting: {pdf_url}")
     body = json.dumps({
         "url": pdf_url,
@@ -187,29 +187,29 @@ def extract_with_mineru_api(pdf_url, token, output_dir, language="en"):
         "enable_table": True,
         "language": language,
     }).encode()
-    
+
     try:
         req = urllib.request.Request(API + "/extract/task", headers=headers, data=body, method="POST")
         result = json.loads(urllib.request.urlopen(req, timeout=60).read())
-        
+
         if result.get("code") != 0:
             print(f"[MinerU API] Error: {result.get('msg')}")
             return None
-        
+
         task_id = result["data"]["task_id"]
         print(f"[MinerU API] Task ID: {task_id}")
-        
+
         # Poll for result
         for i in range(60):
             time.sleep(5)
             req = urllib.request.Request(API + f"/extract/task/{task_id}", headers=headers)
             status = json.loads(urllib.request.urlopen(req, timeout=30).read())
             state = status.get("data", {}).get("state", "unknown")
-            
+
             if state == "done":
                 zip_url = status["data"]["full_zip_url"]
                 print(f"[MinerU API] Extraction complete, downloading...")
-                
+
                 # Download zip using curl (more reliable than urllib for SSL)
                 zip_path = os.path.join(output_dir, "mineru_result.zip")
                 import subprocess
@@ -220,11 +220,11 @@ def extract_with_mineru_api(pdf_url, token, output_dir, language="en"):
                 if result.returncode != 0:
                     print(f"[MinerU API] Download failed: {result.stderr}")
                     return None
-                
+
                 # Extract
                 with zipfile.ZipFile(zip_path) as z:
                     z.extractall(output_dir)
-                
+
                 # Rename full.md to paper.md for consistency
                 full_md = os.path.join(output_dir, "full.md")
                 paper_md = os.path.join(output_dir, "paper.md")
@@ -232,20 +232,20 @@ def extract_with_mineru_api(pdf_url, token, output_dir, language="en"):
                     if os.path.exists(paper_md):
                         os.remove(paper_md)  # Remove existing file before rename
                     os.rename(full_md, paper_md)
-                
+
                 # Clean up zip
                 os.remove(zip_path)
-                
+
                 print(f"[MinerU API] Extracted to: {output_dir}")
                 return output_dir
-            
+
             elif state == "failed":
                 print(f"[MinerU API] Failed: {status.get('data', {}).get('err_msg', 'unknown')}")
                 return None
-            
+
             if i % 5 == 0:
                 print(f"[MinerU API] Waiting... ({i*5}s)")
-    
+
     except Exception as e:
         print(f"[MinerU API] Error: {e}")
         return None
@@ -254,9 +254,9 @@ def extract_with_mineru_api(pdf_url, token, output_dir, language="en"):
 def extract_with_mineru_local(pdf_path, output_dir, language="en"):
     """Extract paper using MinerU local client (mineru CLI)."""
     import subprocess
-    
+
     print(f"[MinerU Local] Extracting: {pdf_path}")
-    
+
     # Check if mineru is available
     try:
         result = subprocess.run(["mineru", "--version"], capture_output=True, text=True, timeout=10)
@@ -267,7 +267,7 @@ def extract_with_mineru_local(pdf_path, output_dir, language="en"):
     except FileNotFoundError:
         print("[MinerU Local] mineru not found in PATH")
         return None
-    
+
     # Run mineru extraction
     try:
         cmd = [
@@ -280,14 +280,14 @@ def extract_with_mineru_local(pdf_path, output_dir, language="en"):
         ]
         if language == "zh":
             cmd.extend(["-l", "ch"])
-        
+
         print(f"[MinerU Local] Running: {' '.join(cmd)}")
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
-        
+
         if result.returncode != 0:
             print(f"[MinerU Local] Error: {result.stderr[:500]}")
             return None
-        
+
         # MinerU outputs to output_dir/<filename>/auto/<filename>.md
         # Find the generated markdown file
         for root, dirs, files in os.walk(output_dir):
@@ -299,15 +299,15 @@ def extract_with_mineru_local(pdf_path, output_dir, language="en"):
                         os.rename(src, dst)
                     print(f"[MinerU Local] Extracted: {dst}")
                     return output_dir
-        
+
         # Check if paper.md already exists
         if os.path.exists(os.path.join(output_dir, "paper.md")):
             print(f"[MinerU Local] Extracted to: {output_dir}")
             return output_dir
-        
+
         print("[MinerU Local] No output file found")
         return None
-        
+
     except subprocess.TimeoutExpired:
         print("[MinerU Local] Extraction timed out (600s)")
         return None
@@ -324,11 +324,11 @@ def extract_with_pymupdf(pdf_path, output_dir):
     except ImportError:
         print("[PyMuPDF] Not installed. Install with: pip install pymupdf")
         return None
-    
+
     print(f"[PyMuPDF] Extracting: {pdf_path}")
-    
+
     doc = pymupdf.open(pdf_path)
-    
+
     # Extract metadata
     meta = doc.metadata
     metadata = {
@@ -338,22 +338,22 @@ def extract_with_pymupdf(pdf_path, output_dir):
         "keywords": meta.get("keywords", ""),
         "source": "pymupdf"
     }
-    
+
     # Extract text
     full_text = ""
     for page in doc:
         full_text += page.get_text()
-    
+
     # Save as markdown
     paper_md = os.path.join(output_dir, "paper.md")
     with open(paper_md, "w", encoding="utf-8") as f:
         f.write(f"# {metadata.get('title', 'Unknown')}\n\n")
         f.write(full_text)
-    
+
     # Extract images
     images_dir = os.path.join(output_dir, "images")
     os.makedirs(images_dir, exist_ok=True)
-    
+
     img_count = 0
     for page_num, page in enumerate(doc):
         for img_idx, img in enumerate(page.get_images(full=True)):
@@ -365,14 +365,14 @@ def extract_with_pymupdf(pdf_path, output_dir):
                 img_count += 1
             except:
                 pass
-    
+
     doc.close()
-    
+
     # Save metadata
     meta_path = os.path.join(output_dir, "metadata.json")
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)
-    
+
     print(f"[PyMuPDF] Extracted: {len(full_text)} chars, {img_count} images")
     return output_dir
 
@@ -388,13 +388,13 @@ def main():
     parser.add_argument("--method", choices=["auto", "mineru", "local_to_api", "pymupdf"], default="auto",
                        help="Extraction method")
     args = parser.parse_args()
-    
+
     # Create output directory
     os.makedirs(args.output_dir, exist_ok=True)
-    
+
     # Read token
     token = read_token(args.token)
-    
+
     # Detect input type and resolve DOI if needed
     doi_metadata = None
     if is_doi(args.input):
@@ -402,7 +402,7 @@ def main():
         print(f"[DOI] Detected DOI: {doi}")
         print(f"[DOI] Resolving via CrossRef API...")
         pdf_url, doi_metadata = resolve_doi(doi)
-        
+
         if pdf_url:
             print(f"[DOI] Found PDF URL: {pdf_url}")
         else:
@@ -420,7 +420,7 @@ def main():
                         print(f"[DOI] Found via Unpaywall: {pdf_url}")
             except Exception as e:
                 print(f"[DOI] Unpaywall lookup failed: {e}")
-            
+
             # Try Semantic Scholar for PMC/openAccess PDF
             if not pdf_url:
                 try:
@@ -432,7 +432,7 @@ def main():
                     if oa and oa.get("url"):
                         pdf_url = oa["url"]
                         print(f"[DOI] Found via Semantic Scholar OA: {pdf_url}")
-                    
+
                     # Try PMC if PMCID available
                     if not pdf_url:
                         ext_ids = ss.get("externalIds", {})
@@ -442,7 +442,7 @@ def main():
                             print(f"[DOI] Found via PMC: PMCID={pmcid}")
                 except Exception as e:
                     print(f"[DOI] Semantic Scholar lookup failed: {e}")
-            
+
             # Try MDPI direct pattern (for MDPI DOIs: 10.3390/...)
             if not pdf_url and doi.startswith("10.3390/"):
                 try:
@@ -458,14 +458,14 @@ def main():
                         print(f"[DOI] Found via MDPI direct: {pdf_url}")
                 except Exception as e:
                     print(f"[DOI] MDPI direct lookup failed: {e}")
-        
+
         # Save metadata from CrossRef regardless
         if doi_metadata and "error" not in doi_metadata:
             meta_path = os.path.join(args.output_dir, "metadata.json")
             with open(meta_path, "w", encoding="utf-8") as f:
                 json.dump(doi_metadata, f, ensure_ascii=False, indent=2)
             print(f"[DOI] Metadata saved: {doi_metadata.get('title', 'N/A')[:60]}")
-    
+
     # Determine extraction method
     if args.method == "auto":
         if is_doi(args.input):
@@ -485,26 +485,26 @@ def main():
             args.method = "local_to_api"
         else:
             args.method = "pymupdf"
-    
+
     # Extract
     if args.method == "mineru":
         if not token:
             print("[ERROR] MinerU API token not found. Use --token or set up token file.")
             sys.exit(1)
-        
+
         if not is_doi(args.input):
             pdf_url = get_pdf_url(args.input)
-        
+
         if not pdf_url:
             print(f"[ERROR] Cannot convert input to URL: {args.input}")
             sys.exit(1)
-        
+
         result = extract_with_mineru_api(pdf_url, token, args.output_dir, args.language)
         if not result:
             print("[MinerU API] Failed, falling back to PyMuPDF...")
             if os.path.exists(args.input):
                 result = extract_with_pymupdf(args.input, args.output_dir)
-    
+
     elif args.method == "local_to_api":
         # Local PDF: upload directly to MinerU Cloud + extract DOI metadata
         if not os.path.exists(args.input):
@@ -586,13 +586,13 @@ def main():
         if not result:
             print("[Local→API] Falling back to PyMuPDF extraction...")
             result = extract_with_pymupdf(args.input, args.output_dir)
-    
+
     elif args.method == "pymupdf":
         if not os.path.exists(args.input):
             print(f"[ERROR] File not found: {args.input}")
             sys.exit(1)
         result = extract_with_pymupdf(args.input, args.output_dir)
-    
+
     if result:
         print(f"\n=== Extraction Complete ===")
         print(f"Output: {result}")

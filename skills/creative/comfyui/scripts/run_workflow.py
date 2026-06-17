@@ -68,9 +68,9 @@ from _common import (  # noqa: E402
 )
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Runner
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class WorkflowRunError(Exception):
     """Raised when a workflow run fails (validation, execution, timeout)."""
@@ -438,9 +438,9 @@ class ComfyRunner:
         return r.status == 200
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Schema / parameter injection
-# ***REMOVED-BASE64***
+# =============================================================================
 
 def _inline_schema(workflow: dict) -> dict:
     """Generate schema using the sibling extract_schema module."""
@@ -499,9 +499,9 @@ def inject_params(
     return wf, warnings
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Output download helper
-# ***REMOVED-BASE64***
+# =============================================================================
 
 def download_outputs(
     runner: ComfyRunner, outputs: dict, output_dir: Path,
@@ -550,9 +550,9 @@ def download_outputs(
     return downloaded
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # CLI
-# ***REMOVED-BASE64***
+# =============================================================================
 
 def parse_input_image_arg(spec: str) -> tuple[str, Path]:
     """Parse `name=path` (or `path` alone, defaulting to name='image')."""

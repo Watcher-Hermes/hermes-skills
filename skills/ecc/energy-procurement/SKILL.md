@@ -1,6 +1,5 @@
 ---
 
-
 name: energy-procurement
 description: >
 title: "Energy PRocurement"
@@ -13,6 +12,7 @@ title: "Energy PRocurement"
 license: Apache-2.0
 version: 1.0.0
 homepage: https://github.com/affaan-m/everything-claude-code
+origin: ECC
 metadata:
   author: evos
   clawdbot:
@@ -21,7 +21,6 @@ metadata:
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # Energy Procurement
 

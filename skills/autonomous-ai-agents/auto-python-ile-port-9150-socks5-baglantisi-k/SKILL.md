@@ -28,15 +28,15 @@ import requests
 
 def kontrol_et():
     url = "http://localhost:9150"
-    
+
     try:
         response = requests.get(url, timeout=5)
-        
+
         if response.status_code == 200:
             print("Bağlantı başarılı")
         else:
             print(f"Bağlantı başarısız. HTTP kodu: {response.status_code}")
-            
+
     except requests.exceptions.RequestException as e:
         print(f"Bağlantı yapmak için zaman aşımına neden oldu: {e}")
 

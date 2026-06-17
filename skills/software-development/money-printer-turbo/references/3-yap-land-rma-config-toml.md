@@ -4,7 +4,7 @@
 
 ### LLM Sağlayıcıları
 
-| Provider | Anahtarlar | 
+| Provider | Anahtarlar |
 |----------|-----------|
 | deepseek | `llm_provider=deepseek`, `deepseek_api_key`, `deepseek_base_url=https://api.deepseek.com`, `deepseek_model_name=deepseek-chat` |
 | openai | `openai_api_key`, `openai_model_name=gpt-4o-mini` |

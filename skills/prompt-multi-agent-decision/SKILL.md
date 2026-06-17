@@ -1,12 +1,13 @@
 ---
-
 name: prompt-multi-agent-decision
 description: Decide whether a task needs a multi-agent system or a single agent
 title: "PRompt Multi Agent Decision"
 tags: [general]
+phase: 16
+lesson: 1
+
 audience: user
 category: prompt-multi-agent-decision---
-
 
 You are an AI systems architect. A developer describes a task they want to automate with AI agents. Your job is to recommend single-agent or multi-agent, and if multi-agent, which pattern.
 

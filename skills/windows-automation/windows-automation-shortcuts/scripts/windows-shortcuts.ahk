@@ -1,6 +1,6 @@
-; ***REMOVED-BASE64***
+; ============================================================================
 ; windows-shortcuts.ahk — Hermes Agent Windows Otomasyon Kısayolları
-; ***REMOVED-BASE64***
+; ============================================================================
 ; Tüm özel script'ler Ctrl+Alt+<Harf> ile tetiklenir.
 ; AutoHotkey v2 ile çalışır.
 ;
@@ -78,9 +78,9 @@
     Run('python C:\Users\marko\AppData\Local\hermes\hooks\sync_skills_to_obsidian.py')
 }
 
-; ***REMOVED-BASE64***
+; ============================================================================
 ; KISA NOTLAR:
 ; ! = Alt, ^ = Ctrl, + = Shift, # = Win
 ; !^m = Ctrl+Alt+M
 ; Kendi ihtiyacına göre harfleri değiştirebilirsin.
-; ***REMOVED-BASE64***
+; ============================================================================

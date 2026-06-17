@@ -26,9 +26,9 @@ version: "0.2.0"
 description: "Decision tree quiz, 2-choice × 9 questions (full coverage)"
 
 questions:
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q1: ルート (全員に通る)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q1
     prompt: "What kind of person do you prefer?"
     i18n: {ja: {prompt: "どんな人がいい？"}}
@@ -42,9 +42,9 @@ questions:
         weights: {genki: STRONG, playful: MILD}
         next: q2_lively
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q2: ルート分岐
-  # ***REMOVED-BASE64***
+  # ============================================================
   # 静かルート: 距離感のとり方
   - id: q2_quiet
     prompt: "How does she keep her distance?"
@@ -73,9 +73,9 @@ questions:
         weights: {mischievous: MODERATE, tsundere: MILD}
         next: q3_lively_b
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q3: Q2 各系統から 2 系統 (合計 4 系統)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q3_quiet_a
     prompt: "What speech fits her?"
     i18n: {ja: {prompt: "話し方は？"}}
@@ -128,9 +128,9 @@ questions:
         weights: {tsundere: STRONG, blunt: WEAK}
         next: q4
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q4〜Q9: 共通集大成セクション (Q4 合流 → Q5〜Q9 リニア)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q4
     prompt: "What is her role in the story?"
     i18n: {ja: {prompt: "物語での役割は？"}}
@@ -144,9 +144,9 @@ questions:
         weights: {rival: STRONG, tsundere: WEAK}
         next: q5
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q5: 趣味・ライフスタイル軸 (hobby / archetype 補強)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q5
     prompt: "How does she spend her free time?"
     i18n: {ja: {prompt: "余暇の過ごし方は？"}}
@@ -160,9 +160,9 @@ questions:
         weights: {sports: STRONG, genki: WEAK, hot_blooded: WEAK}
         next: q6
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q6: 文化的背景 / 暮らし (cultural + speech 残)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q6
     prompt: "Where does she feel most at home?"
     i18n: {ja: {prompt: "どんな土地柄が似合う？"}}
@@ -176,9 +176,9 @@ questions:
         weights: {kansai_ben: MODERATE, idol: MODERATE, glamorous: WEAK}
         next: q7
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q7: 残 personality 軸 (airhead / intellectual / mysterious 等)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q7
     prompt: "How does her mind work?"
     i18n: {ja: {prompt: "頭の回転は？"}}
@@ -192,9 +192,9 @@ questions:
         weights: {intellectual: STRONG, mysterious: MODERATE, glasses: WEAK}
         next: q8
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q8: archetype 補強 (heroine / childhood_friend)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q8
     prompt: "How does she fit into your world?"
     i18n: {ja: {prompt: "あなたとの距離感は？"}}
@@ -208,9 +208,9 @@ questions:
         weights: {heroine: STRONG, mysterious: WEAK}
         next: q9
 
-  # ***REMOVED-BASE64***
+  # ============================================================
   # Q9: 最終クロス軸 (speech 残: washi / archaic / whispery)
-  # ***REMOVED-BASE64***
+  # ============================================================
   - id: q9
     prompt: "Pick the line she would actually say."
     i18n: {ja: {prompt: "彼女が言いそうな台詞は？"}}

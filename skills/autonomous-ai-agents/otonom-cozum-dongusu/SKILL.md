@@ -65,6 +65,66 @@ The most common failure mode is jumping straight to implementation. If the user 
 - Dolphin fallback: `dolphin-llama3` — reserved for requests the primary model refuses, policy-bounded topics, or autonomous recovery paths that explicitly require the fallback.
 - After a `dolphin-llama3` task finishes, return execution to the primary model automatically.
 
+## Stratejik Ajan Secici (Multi-Persona)
+
+Hata alındığında, LLM çağrısı yapmadan kural tabanlı olarak **milisaniyelerde** en uygun uzman persona'ya geç. Aynı modelin farklı sistem prompt'larla çağrılmasıdır — ek LLM bağlantısı gerekmez, sadece `sistem_talimati` prompt'u değişir.
+
+### 5 Persona
+
+| Persona | Ne Zaman | Hata Desenleri |
+|---------|----------|---------------|
+| `genel_cozucu` | Varsayılan, eşleşme yoksa | — |
+| `kod_uzmani` | Syntax, import, type, attribute hataları | `syntaxerror`, `nameerror`, `typeerror`, `importerror`, `traceback` |
+| `sistem_mimari` | Dosya, bağlantı, zaman aşımı | `filenotfounderror`, `connectionerror`, `timeout`, `econnrefused` |
+| `guvenlik_uzmani` | Yetki, API anahtarı, SSL | `authentication`, `forbidden`, `ssl`, `ratelimit` |
+| `veri_uzmani` | Veritabanı, JSON/YAML, encoding | `database`, `jsondecode`, `encoding`, `sqlite` |
+
+### Kullanim
+
+```python
+from akilli_yonlendirici import stratejik_ajan_sec, ajan_talimatini_getir
+
+yeni_ajan = stratejik_ajan_sec(mevcut_ajan, hata_mesaji)
+if yeni_ajan != mevcut_ajan:
+    yeni_talimat = ajan_talimatini_getir(yeni_ajan)
+    # Yeni talimatla LLM'i tekrar cagir
+```
+
+### Kural
+
+- Saf regex+kural tabanli, milisaniyelerde karar verir, LLM cagrisi yapmaz.
+- Hata eslesmezse mevcut ajani korur.
+- 30+ hata deseni tanir. Detay: `references/persona-detay.md`\nDetayli gorev formati: `references/yapilandirilmis-gorev-formati.md`\nModul entegrasyon patterni: `references/hermes-modul-entegrasyonu.md`\n\n## Cokus Raporlayici (Crash Report)
+
+Otonom cozum sinirlari tukendiginde (max_tur asildi, tum ajanlar basarisiz oldu) insan-okunabilir crash raporu uret ve kullaniciya devret.
+
+### Kullanim
+
+```python
+from cokus_raporlayici import cokus_raporu_uret
+
+rapor = cokus_raporu_uret(
+    gorev="Web'den veri cek",
+    deneme_sayisi=10,
+    hata_gecmisi=["[genel] HTTP 403", "[kod] SyntaxError"],
+    denenen_ajanlar=["genel_cozucu", "kod_uzmani"],
+    tiklanma_nedeni="API rate limit asildi"
+)
+# Rapor .ReYMeN/cokus_raporlari/ klasorune kaydedilir
+```
+
+### Rapor icerigi
+- Kronolojik hata kaydi
+- Denenen tum ajanlar
+- Kok neden analizi
+- Kullaniciya gorev devri protokolu ("su adimlari izle, su bagimliligi duzelt")
+
+### Ne Zaman
+
+- `max_tur` asildi ve hala cozum yok
+- Tum 5 persona denendi ve basarisiz oldu
+- LLM ayni hatayi 3+ kez tekrarladi
+
 ## Autonomous Execution Contract
 
 - Be decisive: run solution candidates, inspect the result, and iterate without asking the user to confirm.

@@ -86,13 +86,13 @@ lines.append("")
 
 for msg in messages:
     role = msg.get("role", "unknown")
-    
+
     # Skip session_meta bookmarks
     if role == "session_meta":
         continue
-    
+
     ts = datetime.fromtimestamp(msg["timestamp"]).strftime("%Y-%m-%d %H:%M:%S")
-    
+
     if role == "user":
         label = "User"
         content = msg.get("content", "")
@@ -113,10 +113,10 @@ for msg in messages:
     else:
         label = role.capitalize()
         content = msg.get("content", "")
-    
+
     if not content.strip() and not msg.get("tool_calls"):
         continue
-    
+
     lines.append(f"## [{ts}] {label}")
     lines.append("")
     lines.append(content)

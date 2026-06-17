@@ -7,7 +7,7 @@ echo "# RunwayML" >> .env
 echo "RUNWAYML_API_KEY=key_xxx" >> .env
 ```
 
-**UYARI:** `.env`'ye yazarken `***` kullanma — f-string ile SyntaxError'a yol açar.  
+**UYARI:** `.env`'ye yazarken `***` kullanma — f-string ile SyntaxError'a yol açar.
 **Güvenlik:** Hermes terminal çıktısında API key'leri otomatik maskeler (`***`), dosyaya doğru yazılır.
 
 Ardından Obsidian notu oluştur ve `env_watcher.py` çalıştır:

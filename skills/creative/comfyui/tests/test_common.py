@@ -25,9 +25,9 @@ from _common import (
 )
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Cloud detection / URL routing
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestCloudDetection:
     def test_cloud_host_exact(self):
@@ -88,9 +88,9 @@ class TestResolveURL:
         assert resolve_url("http://127.0.0.1:8188/", "/prompt") == "http://127.0.0.1:8188/prompt"
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Workflow validation
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestAPIFormatDetection:
     def test_valid_api(self, sd15_workflow):
@@ -146,9 +146,9 @@ class TestIsLink:
         assert is_link([3, 0]) is False  # node_id must be string
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Workflow iterators
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestIterators:
     def test_iter_nodes(self, sd15_workflow):
@@ -175,9 +175,9 @@ class TestIterators:
         assert names["ae.safetensors"] == "vae"
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Embedding extraction
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestEmbeddingRegex:
     def test_basic_embedding(self):
@@ -233,9 +233,9 @@ class TestIterEmbeddingRefs:
         assert refs == []
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Path safety
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestSafePathJoin:
     def test_normal_join(self, tmp_path):
@@ -256,9 +256,9 @@ class TestSafePathJoin:
         assert p.parent.name == "outputs"
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Seed coercion
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestCoerceSeed:
     def test_explicit_int(self):
@@ -289,9 +289,9 @@ class TestCoerceSeed:
         assert 0 <= s2 < 2**63
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Model list normalization (cloud format)
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestParseModelList:
     def test_local_format_strings(self):
@@ -320,9 +320,9 @@ class TestParseModelList:
         assert result == {"string-form.safetensors", "dict-form.safetensors"}
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Folder aliases
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestFolderAliases:
     def test_unet_aliases_diffusion_models(self):
@@ -344,9 +344,9 @@ class TestFolderAliases:
         assert folder_aliases_for("diffusion_models")[0] == "diffusion_models"
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Media-type detection
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestMediaType:
     def test_video_extensions(self):
@@ -368,9 +368,9 @@ class TestMediaType:
         assert media_type_from_filename("scene.gltf") == "3d"
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Cross-host header stripping (security)
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestRedirectHeaderStripping:
     """Verify X-API-Key is dropped when redirect crosses to a different host
@@ -426,9 +426,9 @@ class TestRedirectHeaderStripping:
         assert "Cookie" not in prep.headers
 
 
-# ***REMOVED-BASE64***
+# =============================================================================
 # Video workflow detection
-# ***REMOVED-BASE64***
+# =============================================================================
 
 class TestVideoWorkflow:
     def test_image_workflow(self, sd15_workflow):

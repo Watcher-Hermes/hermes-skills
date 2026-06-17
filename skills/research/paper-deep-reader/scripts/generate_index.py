@@ -26,7 +26,7 @@ import argparse
 
 def parse_sections(text: str) -> list:
     """Parse markdown text into a tree of sections based on heading levels.
-    
+
     Returns a flat list of section dicts, each with:
     - heading, level, line_start, line_end, content (full text of section)
     """
@@ -159,7 +159,7 @@ def analyze_section(section: dict) -> dict:
 
 def generate_summary(section: dict) -> str:
     """Generate a brief summary hint for the section based on content analysis.
-    
+
     This is a heuristic summary (no LLM call). For production use,
     the LLM should generate proper summaries using this as context.
     """

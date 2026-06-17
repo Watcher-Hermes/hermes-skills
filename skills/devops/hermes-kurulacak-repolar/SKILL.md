@@ -129,6 +129,25 @@ hermes-web-ui start               # localhost:8648
 
 - `Watcher-Hermes/hermes-full-backup` repo'su GitHub'da bulunamadi (404). Ya silinmis ya da hic olusturulmamis. Yedekleme icin `C:\Users\marko\hermes-skills-backup\` klasoru lokal yedek olarak kullaniliyor. GitHub'a push icin yeni repo olusturulmasi gerekiyor (PAT fine-grained oldugu icin REST API ile olusturulamadi).
 
+## Skill Güncelleme/Deployment Akışı
+
+Bir dış repodan (örn. hermes-mouse) skill alındığında veya güncellendiğinde **3 adım**:
+
+```
+1. Lokal Hermes skill kütüphanesine yükle/güncelle
+   → C:\Users\marko\AppData\Local\hermes\skills\KATEGORI\SKILL-ADI\
+
+2. hermes-skills reposuna push et
+   → Watcher-Hermes/hermes-skills
+   → cd /c/Users/marko/hermes-skills
+   → git add -A && git commit -m "update: ..." && git push
+
+3. Obsidian'a sync et
+   → python ...\sync_skills_to_obsidian.py
+```
+
+**KRITIK:** Adım 2 atlanmamalı. Lokale yüklemek yetmez — GitHub reposu güncel değilse başka bir cihaza migration'da skill kaybolur.
+
 ## Yeni Repo Ekleme
 
 Yeni bir GitHub reposu Hermes kurulumuna eklendiğinde:

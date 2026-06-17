@@ -1,12 +1,13 @@
 ---
-
 name: prompt-feature-engineer
 description: Systematic prompt for engineering features from raw tabular data
 title: "PRompt Feature Engineer"
 tags: [general]
+phase: 2
+lesson: 8
+
 audience: user
 category: prompt-feature-engineer---
-
 
 # Feature Engineering Prompt
 

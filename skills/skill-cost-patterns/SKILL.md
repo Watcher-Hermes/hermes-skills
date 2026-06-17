@@ -1,14 +1,14 @@
 ---
-
 name: skill-cost-patterns
 description: Decision framework for LLM cost optimization -- caching strategies, rate limiting, model routing, and budget controls
 title: "Skill Cost Patterns"
 version: 1.0.0
+phase: 11
+lesson: 11
 tags: [caching, cost-optimization, rate-limiting, model-routing, budget, llm-ops]
 category: skill-cost-patterns
 audience: maintainer
 ---
-
 
 # LLM Cost Optimization Patterns
 
@@ -185,7 +185,7 @@ Log every API call with these fields:
 ## Pricing reference (as of April 2026)
 
 | Model | Input ($/1M) | Output ($/1M) | Cached Input ($/1M) | Best For |
-|-------|-------------|--------------|--------------------|---------| 
+|-------|-------------|--------------|--------------------|---------|
 | gpt-4.1-nano | $0.10 | $0.40 | $0.025 | High-volume simple tasks |
 | gpt-4o-mini | $0.15 | $0.60 | $0.075 | Simple routing, classification |
 | gemini-2.5-flash | $0.15 | $0.60 | $0.0375 | Budget multimodal |

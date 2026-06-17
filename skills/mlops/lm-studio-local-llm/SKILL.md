@@ -41,18 +41,75 @@ curl -s -X POST http://localhost:1234/api/v1/models/load \
 - `parallel` ve `offload_kv_cache_to_gpu` API'de yok ama gerek yok — varsayılan olarak `n_parallel=4` ve KV cache otomatik yönetilir
 - `echo_load_config: true` eklenirse yanıtta `load_config` altında nihai konfigürasyon görünür
 
+## Bilinen Model Yükleme Sorunları
+
+### Çalışan Modeller
+| Model | API Key | Yükleme | Not |
+|-------|---------|---------|-----|
+| LLaVA 7B | `llava-v1.6-mistral-7b` | ✅ Anında yüklenir, hemen kullanıma hazır | Genel sohbet ve görsel analiz |
+| Nomic Embed | `text-embedding-nomic-embed-text-v1.5` | ✅ | Embedding için |
+
+### Çalışmayan / Sorunlu Modeller
+
+| Model | API Key | Durum | Ne Yapmalı |
+|-------|---------|-------|-----------|
+| Dolphin 8B | `cognitivecomputations.dolphin3.0-llama3.1-8b` | ❌ "Error loading model" | GGUF bozuk olabilir. GUI'den manuel yüklemeyi dene |
+| Qwen3 32B | `qwen3-32b-obliterated-i1` | ⏱ API'den yüklenemez (timeout) | 32B model çok büyük, API timeout'a takılır. **GUI'den manuel yükle:** LM Studio aç → modeli seç → Load butonu |
+
+### API'den Yükleme Stratejisi
+
+1. Önce küçük modelleri dene (7B-8B) — bunlar API ile hızlı yüklenir
+2. 32B+ modeller için GUI kullan — API timeout riski yüksek
+3. Yüklü modeli kontrol et: `curl -s http://localhost:1234/v1/chat/completions` ile test et
+4. Model API key'i `/v1/models` endpoint'indeki `id` alanıdır (GGUF dosya adı değil)
+
 ## Model Key'leri
 
 ```bash
 curl -s http://localhost:1234/api/v1/models/ | python3 -c "import sys,json; [print(m['key']) for m in json.load(sys.stdin)['models']]"
 ```
 
-| Model | Key |
-|-------|-----|
-| Dolphin 8B | `cognitivecomputations.dolphin3.0-llama3.1-8b` |
-| LLaVA 7B | `llava-v1.6-mistral-7b` |
-| Qwen3 32B | `qwen3-32b-obliterated-i1` |
-| Nomic Embed | `text-embedding-nomic-embed-text-v1.5` |
+| Model | Key | Not |
+|-------|-----|-----|
+| Dolphin 8B | `cognitivecomputations.dolphin3.0-llama3.1-8b` | |
+| LLaVA 7B (shadowbeast) | `shadowbeast/llava-v1.6-mistral-7b` | ✅ Çalışan, 4.7 GB |
+| LLaVA 7B (lmstudio-community) | `lmstudio-community/llava-v1.6-mistral-7b` | ❌ Bozuk indirme (29 bytes) |
+| Qwen3 32B | `qwen3-32b-obliterated-i1` | |
+| Nomic Embed | `text-embedding-nomic-embed-text-v1.5` | |
+
+## Runtime Hataları
+
+### "Only user and assistant roles are supported!" (Jinja Template)
+
+**Hata:** LM Studio'dan `400 Bad Request` döner, jinja template hatası:
+```
+Error rendering prompt with jinja template: "Only user and assistant roles are supported!"
+```
+
+**Sebep:** Bazı modeller (özellikle `llava-v1.6-mistral-7b`) prompt template'inde `system` rolünü desteklemez. Sadece `user` ve `assistant` rollerini kabul eder.
+
+**Çözüm:** System mesajını user mesajına çevir, başına `[SISTEM]:` gibi bir prefix ekle:
+
+```python
+# Hatalı (system rolü kullanılır):
+mesajlar = [
+    {"role": "system", "content": "Sen yardımsever bir asistansın."},
+    {"role": "user", "content": "2+2 kaç eder?"}
+]
+
+# Doğru (system → user çevrilir):
+mesajlar = [
+    {"role": "user", "content": "[SISTEM]: Sen yardımsever bir asistansın."},
+    {"role": "user", "content": "2+2 kaç eder?"}
+]
+```
+
+**Hangi modellerde görülür:**
+| Model | Hata | Çözüm |
+|-------|------|-------|
+| `llava-v1.6-mistral-7b` | ✅ Sistem rolü kabul etmez | User'a çevir |
+| `cognitivecomputations.dolphin3.0-llama3.1-8b` | ❌ Sistem rolü çalışır | Normal kullan |
+| `qwen3-32b-obliterated-i1` | ❌ Sistem rolü çalışır | Normal kullan |
 
 ## GPU Durumu
 

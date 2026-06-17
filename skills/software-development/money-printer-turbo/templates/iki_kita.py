@@ -2,10 +2,10 @@
 """Iki Kita, Tek Bir Nefes — Istanbul belgesel video olusturucu.
 Kullanim: .venv/Scripts/python.exe iki_kita.py
 Ornek prompt:
-  "Istanbul Bosphorus waterfront, sunny golden hour, holding simit in left hand 
-   and ayran in right hand, fishing with rod, seagulls flying, Bosphorus bridge 
+  "Istanbul Bosphorus waterfront, sunny golden hour, holding simit in left hand
+   and ayran in right hand, fishing with rod, seagulls flying, Bosphorus bridge
    and historic mosque, cinematic, photorealistic, 4K"
-   
+
 Her sahne icin Pexels API'den en yuksek cozunurluklu videolari bulur,
 1080x1920'ye boyutlandirir, birlestirir. Ses eklemez (sessiz).
 """
@@ -60,7 +60,7 @@ def main():
     for i, (query, dur, desc) in enumerate(SCENES):
         print(f"\n[{i+1}] {desc} ({dur}s)")
         best = search_video(query)
-        if not best: 
+        if not best:
             print("  Bulunamadi"); continue
         print(f"  {best['id']} ({best['h']}p)")
         path = download(best["link"], f"s{i:02d}_{best['id']}.mp4")

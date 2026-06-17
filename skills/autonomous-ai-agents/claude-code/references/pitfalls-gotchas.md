@@ -12,3 +12,6 @@
 10. **Slash commands (like `/commit`) only work in interactive mode** — in `-p` mode, describe the task in natural language instead.
 11. **`--bare` skips OAuth** — requires `ANTHROPIC_API_KEY` env var or an `apiKeyHelper` in settings.
 12. **Context degradation is real** — AI output quality measurably degrades above 70% context window usage. Monitor with `/context` and proactively `/compact`.
+13. **Windows `SetForegroundWindow` is unreliable** — On Windows, `SetForegroundWindow` has a documented race condition. When scripting VS Code focus, fall back to `Alt+Tab` via `WScript.Shell SendKeys` before calling `SetForegroundWindow`. Four-attempt sequence: (1) SetForegroundWindow, (2) Alt+Tab, (3) taskbar click via `postMessage`, (4) window text match loop.
+14. **VS Code Claude Agent input location changes per session** — Do NOT store hardcoded coordinates for the Claude chat input box. Always use Command Palette route (`Ctrl+Shift+P` → "Claude: Focus on Chat Input") instead.
+15. **Clipboard tildes/backticks break PowerShell `Set-Clipboard`** — Single quotes inside PowerShell command strings cause parse failures. For messages with special characters, use Python's `subprocess.run` with `win32clipboard` or write content to a temp file and pipe it.

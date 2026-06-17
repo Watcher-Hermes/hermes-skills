@@ -1,13 +1,13 @@
 ---
-
 name: eval-harness
 description: Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles
 title: "Eval Harness"
+origin: ECC
+tools: Read, Write, Edit, Bash, Grep, Glob
 
 audience: contributor
 tags: [ai, automation, development]
 category: ecc---
-
 
 # Eval Harness Skill
 

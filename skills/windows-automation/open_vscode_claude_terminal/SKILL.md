@@ -24,7 +24,7 @@ VS Code içinde Claude ile konuşmaya hazır hale gel. Oyun ekranı gibi farklı
    powershell -ExecutionPolicy Bypass -File "C:\Users\marko\AppData\Local\hermes\scripts\screenshot.ps1"
    ```
    Çıktı `C:\Users\marko\AppData\Local\hermes\scripts\screen.png` olarak kaydedilir.
-   
+
    Alternatif (sistem Python mss):
    ```powershell
    cmd.exe /c "C:\Users\marko\AppData\Local\Python\PythonCore-3.14-64\python.exe" C:\Users\marko\AppData\Local\hermes\scripts\screenshot_mss.py

@@ -1,14 +1,14 @@
 ---
-
 name: skill-anchor-designer
 description: Given a dataset of ground-truth boxes, run k-means on (w, h) and return anchor sets per FPN level plus coverage statistics
 title: "Skill Anchor Designer"
 version: 1.0.0
+phase: 4
+lesson: 6
 tags: [computer-vision, detection, anchors, kmeans]
 category: skill-anchor-designer
 audience: user
 ---
-
 
 # Anchor Designer
 

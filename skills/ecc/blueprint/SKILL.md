@@ -1,5 +1,4 @@
 ---
-
 name: blueprint
 description: >-
 title: "Blueprint"
@@ -11,11 +10,11 @@ title: "Blueprint"
   complex multi-PR task, or describes work that needs multiple sessions.
   DO NOT TRIGGER when: task is completable in a single PR or fewer
   than 3 tool calls, or user says "just do it".
+origin: community
 
 audience: contributor
 tags: [ai, automation, development]
-category: ecc---
-Turn a one-line objective into a step-by-step construction plan for
+category: ecc---Turn a one-line objective into a step-by-step construction plan for
 
 
 

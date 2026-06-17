@@ -9,6 +9,7 @@ triggers:
   - kullanıcı ".py" dosyası gönderip "kur" dediğinde
   - kullanıcı "şunu yükleyelim" veya "bunu kur" dediğinde
   - yeni bir Python CLI aracı Windows'a kurulacağında
+  - çok modüllü bir Python projesini bootstrape ederken (bkz. references/project-bootstrapping.md)
 ---
 
 # Windows Python CLI Installer
@@ -92,5 +93,6 @@ Kurulum yolu, kullanım komutu, notlar.
 
 ## References
 
+- `references/project-bootstrapping.md` — Çok modüllü Python projelerini Windows'ta çalışır hale getirme (pip install, .env, .bat launcher, filelock, fallback zinciri, ReAct tekrar koruması, multi-service orchestrator)
 - `references/re-hermes-setup.md` — RE-Hermes v2 kurulum detayları
 - `references/apkmirror-download.md` — APKMirror'dan Python ile APK indirme

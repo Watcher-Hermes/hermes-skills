@@ -81,11 +81,52 @@ Repoları değerlendirirken:
 
 Raporda mutlaka belirt: "Bu repo skill-only mi yoksa system-changing mi?"
 
+## MOD 3: Mevcut Hermes Skill'leri ile Repo Karşılaştırması
+
+Repodaki skill'leri yüklemeden ÖNCE mevcut Hermes kütüphanesini kontrol et:
+
+### Adım 1 — skills_list() ile mevcut durumu tara
+```python
+# Önce skills_list() çalıştır, repo'daki skill adlarını mevcutlarla karşılaştır
+# Varsa → güncelleme gerekip gerekmediğini belirle
+# Yoksa → yeni skill oluştur
+```
+
+### Adım 2 — Boyut karşılaştırması YETERLİ DEĞİL, içerik analizi yap
+```python
+# Repo'daki SKILL.md === büyük şişkin dosya (eski format)
+# Hermes'teki SKILL.md === küçük Router (3-4KB) + references/ dosyaları
+#
+# Eğer repo > Hermes ise:
+#   İhtimal A: Repo güncel, Hermes eski → references/ ekle
+#   İhtimal B: Repo ESKİ/şişkin, Hermes Router+Reference'a bölünmüş → güncelleme GEREKMEZ
+#
+# Karar: skill_view() ile Hermes versiyonunun references/ yapısını kontrol et
+# Eğer references/ varsa → Router+Reference yapısı oturmuş, repo eski demektir
+```
+
+### Adım 3 — Güncelleme stratejisi
+```python
+# Repo versiyonu büyük AMA Hermes'te references/ varsa:
+#   → Repo ESKİ şişkin versiyon. Güncelleme gerekmez.
+#   → Kullanıcıya raporla: "Repo versiyonu şişkin/eski, Hermes zaten güncel"
+#
+# Repo versiyonu farklı içerik İÇERİYORSA (Hermes'te olmayan konular):
+#   → Yeni references/ dosyası oluştur (skill_manage write_file ile)
+#   → SKILL.md'ye bir satır yönlendirme ekle
+#   → TÜM repodaki içeriği SKILL.md'ye kopyalama (şişkinlik yasağı!)
+#
+# Repo versiyonu GERÇEKTEN daha güncelse (Hermes references/'siz):
+#   → skill_manage edit ile SKILL.md'yi güncelle
+```
+
 ### Pitfall
 - `npx skills add` repo kökündeki `.claude/skills/` dizinini tarar — eğer skill'ler `phases/` içinde gömülüyse BULAMAZ
 - `--type all` ile hem skill hem prompt hem agent dosyaları yüklenir
 - `--force` ile çakışmaları otomatik aş (çakışma varsa uyarı basar, ilkini korur)
 - Repo büyükse (2000+ dosya) `--depth 1` ile clone'la
+- **Repo versiyonu büyük diye güncel sanma** — Hermes Router+Reference yapısına bölmüş olabilir. Önce `skill_view()` ile references/ varlığını kontrol et.
+- **"Hepsi yüklü" raporu yeterli değil** — Kullanıcı "yükle" dediyse, zaten varsa bile raporla ve fark varsa güncelle. Boş rapor kullanıcıyı tatmin etmez.
 
 ## MOD 1: Skill + Vault Copy (varsayılan)
 1. Repoyu `C:\\Users\\marko\\Desktop\\` altına klonla: `git clone <url>`

@@ -7,13 +7,13 @@
 </p>
 
 <p align="center">
-  <b>1,038</b> modüler skill · <b>4,476</b> reference dosyası · <b>0</b> şişkin
+  <b>1,039</b> modüler skill · <b>4,476</b> reference dosyası · <b>0</b> şişkin
   <br>
   <sub>Router+Reference mimarisi · Her skill ≤ 4 KB</sub>
 </p>
 
 <p align="center">
-  <a href="#-i̇statistikler"><img src="https://img.shields.io/badge/skills-1,038-6366f1?style=flat-square&labelColor=1e1b4b" alt="skills"></a>
+  <a href="#-i̇statistikler"><img src="https://img.shields.io/badge/skills-1,039-6366f1?style=flat-square&labelColor=1e1b4b" alt="skills"></a>
   <a href="#-kategori-yapısı"><img src="https://img.shields.io/badge/references-4,476-8b5cf6?style=flat-square&labelColor=1e1b4b" alt="references"></a>
   <a href="#-kategori-yapısı"><img src="https://img.shields.io/badge/categories-530-a855f7?style=flat-square&labelColor=1e1b4b" alt="categories"></a>
   <a href="#-hızlı-başlangıç"><img src="https://img.shields.io/badge/bloat-0-success?style=flat-square&labelColor=1e1b4b" alt="bloat"></a>
@@ -25,11 +25,11 @@
 
 | Metrik | Değer |
 |--------|------:|
-| **SKILL.md** | **1,038** |
+| **SKILL.md** | **1,039** |
 | **Reference dosyası** | **4,476** |
 | **Kategori** | **530** |
 | **Şişkin skill (10KB+)** | **0** |
-| Audience: `user` | 695 |
+| Audience: `user` | 696 |
 | Audience: `contributor` | 288 |
 | Audience: `maintainer` | 51 |
 
@@ -129,4 +129,3 @@ skills_list(category='windows-automation')
 **Unlicense (Public Domain)** — Herkes ne isterse onu yapabilir. Kullan, çoğalt, değiştir, sat, fork'la, kendi projene koy. Hiçbir şart, hiçbir kısıtlama yok.
 
 **Garanti YOK.** "OLDUĞU GİBİ" sunulur. Hiçbir sorundan yazarlar sorumlu tutulamaz. Detay: [LICENSE](LICENSE)
-
